@@ -48,7 +48,7 @@ export const Successfulverify = () => {
             <h1>Successful</h1>
             <p>OTP Is verified successfully</p>
             <button className="success_otp_btn">
-              <Link to={""} className="Link">
+              <Link to={"/dhamanagement"} className="Link">
                 Continue
               </Link>
             </button>
