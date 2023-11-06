@@ -1,4 +1,4 @@
-.container {
+.verify_container {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -109,11 +109,11 @@
     padding-top: 10px;
 }
 
-.otp h2 {
-    margin-bottom: -10px;
+.otp_header {
+    margin-bottom: -2px;
 }
 
-.otp p {
+.otp_para {
     padding-bottom: 15px;
 }
 
@@ -127,6 +127,7 @@
 .input_text_otp input {
     width: 60px;
     height: 40px;
+    border-radius: 8px;
 }
 
 .otp-btn {

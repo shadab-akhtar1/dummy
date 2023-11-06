@@ -1,0 +1,90 @@
+.adddha_success_block {
+    width: 550px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 150px;
+    left: 28%;
+    border-radius: 16px;
+}
+
+.hero {
+    background-image: url('../Assets/image 219.jpg');
+    height: 100vh;
+    background-size: contain;
+    width: 100%;
+}
+
+.adddha_success_box_block {
+    width: 425px;
+}
+
+.adddha_success_box_logo_block {
+    width: 120px;
+    height: 120px;
+    margin-left: 150px;
+}
+
+.adddha_success_box_logo_block img {
+    width: 117px;
+    height: 112px;
+}
+
+.adddha_success_box_para_block {
+    width: 380px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.adddha_success_box_head_block {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1A1C1F;
+}
+
+.adddha_success_box_pi_block {
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1A1C1F;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+.blockdha_btn_div_block {
+    width: 440px;
+    height: 44px;
+    margin-top: 30px;
+}
+
+.blockdha_btn_1_block {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 44px;
+    border: none;
+    background: #DCDCDC;
+    border-radius: 8px;
+    color: #939191;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+
+.blockdha_btn_2_block {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 44px;
+    border: none;
+    background: #EA1414;
+    border-radius: 8px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Montserrat;
+}

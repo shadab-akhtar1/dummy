@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export const Successfulverify = () => {
   return (
-    <div className='container'>
+    <div className='success_container'>
         <div className='left_side'>
             <div className="logo">
                 <p>DOOPER</p>
@@ -45,8 +45,8 @@ export const Successfulverify = () => {
         <div className=" successfull">
           <form className="success_form">
             <img src={Done} alt="logo" />
-            <h1>Successful</h1>
-            <p>OTP Is verified successfully</p>
+            <h1 className='successfull_head'>Successful</h1>
+            <p className='successfull_graph'>OTP Is verified successfully</p>
             <button className="success_otp_btn">
               <Link to={"/dhamanagement"} className="Link">
                 Continue

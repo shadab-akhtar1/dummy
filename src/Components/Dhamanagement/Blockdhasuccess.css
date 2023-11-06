@@ -1,0 +1,68 @@
+.adddha_success_2 {
+    width: 550px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 150px;
+    left: 28%;
+    border-radius: 16px;
+}
+
+.hero {
+    background-image: url('../Assets/image 219.jpg');
+    height: 100vh;
+    background-size: contain;
+    width: 100%;
+}
+
+.adddha_success_box_2 {
+    width: 425px;
+}
+
+.adddha_success_box_logo_2 {
+    width: 120px;
+    height: 120px;
+    margin-left: 150px;
+}
+
+.adddha_success_box_logo_2 img {
+    width: 117px;
+    height: 112px;
+}
+
+.adddha_success_box_para_2 {
+    width: 380px;
+    height: 60px;
+}
+
+.adddha_success_box_head_2 {
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1A1C1F;
+}
+
+.adddha_success_box_pi_2 {
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1A1C1F;
+    margin-left: 90px;
+    margin-top: -20px;
+}
+
+.adddha_success_box_btn_2 {
+    background: #FCE6EC;
+    width: 410px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: #E40443;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Montserrat;
+    margin-top: 20px;
+}

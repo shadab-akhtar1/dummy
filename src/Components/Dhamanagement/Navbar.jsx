@@ -1,6 +1,8 @@
 import React from 'react';
 import './Navbar.css';
 import Weblogo from "../Assets/Dooper Logo 1500x1500 2.svg";
+import {FaBell} from 'react-icons/fa';
+import {FaCaretDown} from 'react-icons/fa';
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 export const Navbar = () => {
@@ -13,13 +15,13 @@ export const Navbar = () => {
 
         <ul className='nav_links'>
             <li className='list_item'>Dooper At Home</li>
-            <li className='list_item'>Lab Tesst</li>
-            <li className='list_item'>Our Network <i class="fas fa-caret-down"></i></li>
+            <li className='list_item'>Lab Tesst </li>
+            <li className='list_item'>Our Network < FaCaretDown/></li>
             <li className='list_item'>About Us</li>
             <li className='list_item'>Contact Us</li>
-            <li className='list_item'>Join Us With</li>
-            <li className='list_item'>Hospital Name</li>
-            <li className='list_item'>Logo</li>
+            <li className='list_item'>Join Us With <FaCaretDown/></li>
+            <li className='list_item_1'>Hospital Name <FaCaretDown/></li>
+            <li className='list_item_1'><FaBell className='icons_bell'/></li>
         </ul>
 
     </nav>

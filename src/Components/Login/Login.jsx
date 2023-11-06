@@ -8,24 +8,24 @@ import { Link } from "react-router-dom";
 export const Login = () => {
   return (
     <div>
-    <div className='container'>
+    <div className='login_container'>
         <div className='left_side'>
             <div className="logo">
-                <p>DOOPER</p>
+                <p className='logo_para'>DOOPER</p>
             </div>
             <div className="heading_box">
-                <h1>Start your journey with us</h1>
-                <p>Discover the world’s best community of doctors and DHAs</p>
+                <h1 className='heading_box_head'>Start your journey with us</h1>
+                <p className='heading_box_para'>Discover the world’s best community of doctors and DHAs</p>
             </div>
-            <div className="box1">
-          <div className="box2">
-            <p>
+            <div className="login_box1">
+          <div className="login_box2">
+            <p className='login_box2_para'>
               Simply unbelievable! I am really satisfied with the doctor who
               treated me. This is absolutely wonderful! Timson K
             </p>
             <div className="user_box">
-              <img src={UserLogo} alt="" />
-              <div className="username">
+              <img src={UserLogo} alt="" className='user_box_img' />
+              <div className="username_prof">
                 <p>Timson K</p>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -44,8 +44,8 @@ export const Login = () => {
         </div>
 
         <div className="login_form_container">
-          <h1>Welcome</h1>
-          <p>
+          <h1 className='login_form_container_header'>Welcome</h1>
+          <p className='login_form_container_par'>
             Welcome to <span>DOOPER</span>, please enter your details
           </p>
 

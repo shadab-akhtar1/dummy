@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export const Verification = () => {
   return (
-    <div className='container'>
+    <div className='verify_container'>
         <div className='left_side'>
             <div className="logo">
                 <p>DOOPER</p>
@@ -43,8 +43,8 @@ export const Verification = () => {
 
         <div className="otp_container">
           <form className="otp">
-            <h2>Verify</h2>
-            <p>Enter OTP which we sent to you</p>
+            <h2 className='otp_header'>Verify</h2>
+            <p className='otp_para'>Enter OTP which we sent to you</p>
             <div className="input_text_otp">
               <input type="number" placeholder="-" />
               <input type="number" placeholder="-" />

@@ -1,27 +1,38 @@
-.management {
+.management_manage {
     width: 100%;
 }
 
-.middle_section {
+.middle_section_manage {
     background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     width: 100%;
 }
+
+
+/*##################### HEADER DHA MANAGEMENT ####################*/
 
 .heading {
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 60px;
 }
 
 .heading_content {
     width: 800px;
     margin-right: 120px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.btn_1 {
+.left_logo {
+    padding-right: 10px;
+}
+
+.management_btn_1 {
     height: 36px;
     width: 137px;
-    margin-top: 20px;
+    margin-top: 10px;
     background: #FCE6EC;
     border-radius: 8px;
     border: none;
@@ -32,10 +43,10 @@
     font-size: 14px;
 }
 
-.btn_2 {
+.management_btn_2 {
     height: 36px;
     width: 137px;
-    margin-top: 20px;
+    margin-top: 10px;
     background: #FCE6EC;
     border-radius: 8px;
     border: none;
@@ -46,52 +57,55 @@
     font-size: 14px;
 }
 
-.table {
-    background: linear-gradient(0deg, #E3E6E8, #E3E6E8), linear-gradient(0deg, #FFFFFF, #FFFFFF);
-    border: 1px solid #E3E6E8;
-    border-radius: 12px;
-    border: 1px;
-    margin-left: 60px;
-    margin-right: 40px;
+
+/*######################### TABLE #######################*/
+
+.dha_table {
+    border-collapse: collapse;
+    margin-left: 80px;
     width: 90%;
+    font-size: 0.9em;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: -1px;
 }
 
-.table_heading_row {
+.dha_table thead tr {
     width: 250px;
-    height: 14px;
     background: linear-gradient(0deg, #E3E6E8, #E3E6E8), linear-gradient(0deg, #F5F6F7, #F5F6F7);
-    border-bottom: 1px solid #E3E6E8;
-    border: 0px 0px 1px 0px;
-}
-
-.table_heading_data {
+    text-align: left;
     font-weight: 600;
-    font-size: 12px;
     color: #5B6572;
+    border-bottom: 1px solid #E3E6E8;
 }
 
-.table_body {
-    width: 250px;
-    height: 14px;
-    margin: 20px;
+.dha_table th,
+.dha_table td {
+    padding: 10px 12px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Montserrat;
 }
 
-.table_row {
-    padding: 8px, 20px, 8px, 20px;
-    border: 0px, 0px, 1px, 0px;
-    gap: 20px;
-    background: #E3E6E8;
-    border-bottom: 2px solid whitesmoke;
+.dha_table tbody tr {
+    border-bottom: 1px solid #E3E6E8;
+    background-color: white;
 }
 
-.table_data {
-    padding: 10px;
-    text-align: center;
-    font-weight: 400;
-    font-size: 16px;
+.user_prof {
+    margin-right: 10px;
+    width: 19px;
+    height: 19px;
+    background: #D9D9D9;
 }
 
-.table_btn_1 {
+.data_user_prof {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dha_table_btn_1 {
     border-radius: 24px;
     background: #FFE9E6;
     border: none;
@@ -101,7 +115,7 @@
     text-align: center;
 }
 
-.table_btn_2 {
+.dha_table_btn_2 {
     border-radius: 24px;
     background: #D1EDD6;
     border: none;
@@ -111,29 +125,51 @@
     text-align: center;
 }
 
-.pagination {
+
+/*################# Pagination ################# */
+
+.pagination_manage {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 12px;
+    margin-bottom: 2px;
+    padding-top: 5px;
     padding-bottom: 30px;
 }
 
-.pagination a {
-    color: black;
+.pagination_manage a {
+    background-color: white;
+    color: linear-gradient(0deg, #F1F1F1, #F1F1F1), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     text-decoration: none;
-    padding: 8px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
     display: inline-block;
+    border-radius: 50px;
+    border: 1px solid white;
+    font-size: 18px;
+    font-weight: 600;
+    color: #8D98A4;
+    height: 30px;
+    width: 30px;
+    text-align: center;
 }
 
-.pagination a.active {
+.pagination_manage a.anchi_active {
     background-color: #E40443;
     font-weight: 400;
-    border-radius: 50px;
-}
-
-.footer_dha {
-    margin-top: -20px;
 }
 
 .Link {
     color: #E40443;
+}
+
+.less {
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+
+/* ############## FOOTER ############ */
+
+.footer_dha_manage {
+    margin-top: -19px;
 }
