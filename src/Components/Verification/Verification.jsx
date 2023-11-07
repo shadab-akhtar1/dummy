@@ -7,23 +7,23 @@ import { Link } from "react-router-dom";
 export const Verification = () => {
   return (
     <div className='verify_container'>
-        <div className='left_side'>
-            <div className="logo">
-                <p>DOOPER</p>
+        <div className='left_side_verify'>
+            <div className="logo_verify">
+                <p className='logo_verify_para'>DOOPER</p>
             </div>
-            <div className="heading_box">
-                <h1>Start your journey with us</h1>
-                <p>Discover the world’s best community of doctors and DHAs</p>
+            <div className="heading_box_verify">
+                <h1 className='heading_box_verify_head'>Start your journey with us</h1>
+                <p className='heading_box_verify_pa'>Discover the world’s best community of doctors and DHAs</p>
             </div>
-            <div className="box1">
-          <div className="box2">
-            <p>
+            <div className="box1_verify">
+          <div className="box2_verify">
+            <p className='box2_verify_pi'>
               Simply unbelievable! I am really satisfied with the doctor who
-              treated me. This is absolutely wonderful! Timson K
+              treated me. This is absolutely wonderful!
             </p>
-            <div className="user_box">
+            <div className="user_box_verify">
               <img src={UserLogo} alt="" />
-              <div className="username">
+              <div className="username_verify">
                 <p>Timson K</p>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -56,7 +56,7 @@ export const Verification = () => {
             </Link>
           </form>
         </div>
-        <div className="paragraph">
+        <div className="paragraph_verify">
           <p>
             Join the community of smart and experienced doctors. Login to access
             your personalized dashboard, track your record or process and get

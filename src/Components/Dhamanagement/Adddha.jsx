@@ -8,43 +8,43 @@ import { Link } from "react-router-dom";
 export const Adddha = () => {
   return (
     <div className='hero'>
-        <div className='adddha'>
-            <div className='adddha_header'>
-                <div className='adddha_header_bar'>
-                    <span className='adddha_header_bar_1'>1</span>
-                    <span className='adddha_header_bar_2'>2</span>
-                    <span className='adddha_header_bar_3'>3</span>
+        <div className='adddha_add'>
+            <div className='adddha_header_add'>
+                <div className='adddha_header_bar_add'>
+                    <span className='adddha_header_bar_1_add'>1</span>
+                    <span className='adddha_header_bar_2_add'>2</span>
+                    <span className='adddha_header_bar_3_add'>3</span>
                 </div>
 
             </div>
-            <div className='adddha_mid'>
+            <div className='adddha_mid_add'>
                 <div> <h2>Basic Details</h2></div>
-            <form action="" className='adddha_form'>
-                <div className='adddha_form_fill'>
-                    <label className='adddha_form_fill_labi'>Name</label>
-                    <input  type="text" className='adddha_form_fill_inp'/>
+            <form action="" className='adddha_form_add'>
+                <div className='adddha_form_fill_add'>
+                    <label className='adddha_form_fill_labi_add'>Name</label>
+                    <input  type="text" className='adddha_form_fill_inp_add'/>
                 </div>
-                <div className='adddha_form_fill'>
-                    <label className='adddha_form_fill_labi'>Gender</label>
-                    <input type="text" className='adddha_form_fill_inp'/>
+                <div className='adddha_form_fill_add'>
+                    <label className='adddha_form_fill_labi_add'>Gender</label>
+                    <input type="text" className='adddha_form_fill_inp_add'/>
                 </div>
-                <div className='adddha_form_fill'>
-                    <label className='adddha_form_fill_labi'>Mobile</label>
-                    <input type="text" className='adddha_form_fill_inp' />
+                <div className='adddha_form_fill_add'>
+                    <label className='adddha_form_fill_labi_add'>Mobile</label>
+                    <input type="text" className='adddha_form_fill_inp_add' />
                 </div>
-                <div className='adddha_form_fill'>
-                    <label className='adddha_form_fill_labi'>Address</label>
-                    <input type="text" className='adddha_form_fill_inp'/><br />
-                    <input type="text" className='adddha_form_fill_inp'/><br />
-                    <input type="text" className='adddha_form_fill_inp'/><br />
-                    <input type="text" className='adddha_form_fill_inp'/>
+                <div className='adddha_form_fill_add'>
+                    <label className='adddha_form_fill_labi_add'>Address</label>
+                    <input type="text" className='adddha_form_fill_inp_add'/><br />
+                    <input type="text" className='adddha_form_fill_inp_add'/><br />
+                    <input type="text" className='adddha_form_fill_inp_add'/><br />
+                    <input type="text" className='adddha_form_fill_inp_add'/>
                 </div>
-                <div className='adddha_form_fill'>
-                    <label className='adddha_form_fill_labi'>Qualification</label>
-                    <input type="text" className='adddha_form_fill_inp'/>
+                <div className='adddha_form_fill_add'>
+                    <label className='adddha_form_fill_labi_add'>Qualification</label>
+                    <input type="text" className='adddha_form_fill_inp_add'/>
                 </div>
                 <Link to={"/adddhaupload"} className='adddhaupload_link'> 
-                <button className='adddha_btn'>Next Step</button>
+                <button className='adddha_btn_add'>Next Step</button>
                 </Link>
             </form>
             </div>

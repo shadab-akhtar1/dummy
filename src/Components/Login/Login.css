@@ -6,10 +6,11 @@
     overflow: hidden;
 }
 
-.left_side {
+.left_side_login {
     background-color: #B60336;
     border-radius: 16px;
     height: 684px;
+    width: 450px;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -18,33 +19,40 @@
     padding-left: 2px;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 20px;
 }
 
-.logo {
+.logo_login {
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
-.logo_para {
+.logo_para_login {
     font-size: 16px;
     font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
     font-size: small;
     cursor: pointer;
 }
 
-.heading_box {
-    margin-top: 10px;
-    margin-left: 40px;
+.heading_box_login {
+    margin-top: -30px;
+    margin-left: 30px;
 }
 
 .heading_box_head {
     width: 280px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
 }
 
 .heading_box_para {
     width: 357px;
-    padding-top: 10px;
-    font-size: 28px;
+    padding-top: 5px;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -52,36 +60,39 @@
 
 .login_box1 {
     margin-bottom: 40px;
-    margin-left: 31px;
+    margin-left: 27px;
 }
 
 .login_box2 {
-    margin-top: 6px;
+    margin-top: 3px;
     background-color: #fff;
     width: 400px;
-    height: 220px;
+    height: 200px;
     border-radius: 16px;
-    padding: 20px 20px;
+    padding: 10px 20px;
 }
 
 .login_box2_para {
     color: #1A1C1F;
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
 }
 
-.user_box {
+.user_box_login {
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding-top: 40px;
+    gap: 10px;
+    padding-top: 10px;
 }
 
-.username_prof {
+.login_username_prof {
     color: #1A1C1F;
     font-weight: bold;
 }
 
-.username i {
+.login_username_prof i {
     color: gold;
     padding-top: 5px;
 }
@@ -101,26 +112,30 @@
 
 .right_side_logo {
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     padding-bottom: 20px;
 }
 
 .login_form_container_header {
     padding-bottom: 10px;
     font-size: 32px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: -10px;
     margin-top: 50px;
 }
 
 .login_form_container_par {
     font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     color: #1A1C1F;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
 .login_form_container p span {
-    color: #B60336;
+    color: #E40443;
 }
 
 .loginform {
@@ -134,6 +149,7 @@
     color: #8D98A4;
     font-size: 12px;
     padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .loginform input {
@@ -144,34 +160,40 @@
     outline: none;
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.Link {
+.login_Link {
     text-decoration: none;
     color: #fff;
 }
 
-.loginform .otp-btn:hover .Link {
-    color: #E40443;
-}
 
-.loginform .otp-btn {
+/*.loginform .otp-btn:hover .Link {
+    color: #E40443;
+}*/
+
+.loginform .otp_btn_login {
     height: 40px;
     width: 440px;
     cursor: pointer;
     border-radius: 8px;
     background-color: #E40443;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     border: 1px solid transparent;
     margin-top: 10px;
 }
 
-.loginform .otp-btn:hover {
+
+/*.loginform .otp-btn:hover {
     border: 1px solid #E40443;
     background-color: #ffff;
     color: #E40443;
-}
+}*/
 
 .check_box {
     margin-top: 70px;
@@ -194,6 +216,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .check_text label span {
@@ -206,17 +231,19 @@
     margin-left: -6px;
 }
 
-.paragraph {
+.paragraph_login {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 68%;
-    margin-top: 30px;
+    width: 75%;
+    margin-top: 60px;
 }
 
-.paragraph p {
+.paragraph_login p {
     font-size: 15px;
     color: #5B6572;
     padding-bottom: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }

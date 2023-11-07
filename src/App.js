@@ -15,6 +15,16 @@ import Blockdha from './Components/Dhamanagement/Blockdha.jsx';
 import Blockdhasuccess from './Components/Dhamanagement/Blockdhasuccess.jsx';
 import Dhadocumentedit from './Components/Dhamanagement/Dhadocumentedit.jsx';
 import Dhabankinfoedit from './Components/Dhamanagement/Dhabankinfoedit.jsx';
+import Doctormanagement from './Components/Doctormanagement/Doctormanagement.jsx';
+import Doctorrequests from './Components/Doctormanagement/Doctorrequests.jsx';
+import Doctordetails from './Components/Doctormanagement/Doctordetails.jsx';
+import Doctordetailsbasic from './Components/Doctormanagement/Doctordetailsbasic.jsx';
+import Doctordocument from './Components/Doctormanagement/Doctordocument.jsx';
+import Doctorbank from './Components/Doctormanagement/Doctorbank.jsx';
+import Adddoctor from './Components/Doctormanagement/Adddoctor.jsx';
+import Adddoctorupload from './Components/Doctormanagement/Adddoctorupload.jsx';
+import Adddoctorbank from './Components/Doctormanagement/Adddoctorbank.jsx';
+import Adddoctorsuccess from './Components/Doctormanagement/Adddoctorsuccess.jsx';
 
 
 
@@ -37,6 +47,16 @@ function App() {
        <Route path='/blockdhasuccess' element={<Blockdhasuccess/>} />
        <Route path='/dhadocumentedit' element={<Dhadocumentedit/>} />
        <Route path='/dhabankinfoedit' element={<Dhabankinfoedit/>} />
+       <Route path='/doctormanagement' element={<Doctormanagement/>}/>
+        <Route path='/doctorrequests' element={<Doctorrequests/>}/>
+        <Route path='/doctordetails' element={<Doctordetails/>}/>
+        <Route path='/doctordetailsbasic' element={<Doctordetailsbasic/>}/>
+         <Route path='/doctordocument' element={<Doctordocument/>}/>
+         <Route path='/doctorbank' element={<Doctorbank/>}/>
+         <Route path='/adddoctor' element={<Adddoctor/>}/>
+         <Route path='/adddoctorupload' element={<Adddoctorupload/>}/>
+         <Route path='/adddoctorbank' element={<Adddoctorbank/>}/>
+         <Route path='/adddoctorsuccess' element={<Adddoctorsuccess/>}/>
       </Routes>
 
     </BrowserRouter>

@@ -1,8 +1,8 @@
-.management_manage {
+.doctor_management {
     width: 100%;
 }
 
-.middle_section_manage {
+.middle_section_doctor {
     background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     width: 100%;
 }
@@ -10,33 +10,26 @@
 
 /*##################### HEADER DHA MANAGEMENT ####################*/
 
-.heading {
+.heading_doctor {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 60px;
 }
 
-.heading_content {
+.heading_content_doctor {
     width: 800px;
     margin-right: 120px;
     margin-left: 20px;
     display: flex;
     justify-content: space-between;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
 }
 
-.heading_content h2 {
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.left_logo {
+.left_logo_doctor {
     padding-right: 10px;
 }
 
-.management_btn_1 {
+.doctor_btn_1 {
     height: 36px;
     width: 137px;
     margin-top: 10px;
@@ -48,10 +41,9 @@
     color: #E40443;
     font-weight: 600;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
 }
 
-.management_btn_2 {
+.doctor_btn_2 {
     height: 36px;
     width: 137px;
     margin-top: 10px;
@@ -63,13 +55,12 @@
     color: #E40443;
     font-weight: 600;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 
 /*######################### TABLE #######################*/
 
-.dha_table {
+.dha_doctor_table {
     border-collapse: collapse;
     margin-left: 80px;
     width: 90%;
@@ -80,71 +71,64 @@
     margin-top: -1px;
 }
 
-.dha_table thead tr {
+.dha_doctor_table thead tr {
     width: 250px;
     background: linear-gradient(0deg, #E3E6E8, #E3E6E8), linear-gradient(0deg, #F5F6F7, #F5F6F7);
     text-align: left;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
     color: #5B6572;
     border-bottom: 1px solid #E3E6E8;
 }
 
-.dha_table th,
-.dha_table td {
+.dha_doctor_table th,
+.dha_doctor_table td {
     padding: 10px 12px;
     font-size: 15px;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-family: Montserrat;
 }
 
-.dha_table tbody tr {
+.dha_doctor_table tbody tr {
     border-bottom: 1px solid #E3E6E8;
     background-color: white;
-    font-family: 'Montserrat', sans-serif;
 }
 
-.user_prof {
+.doctor_user_prof {
     margin-right: 10px;
     width: 19px;
     height: 19px;
     background: #D9D9D9;
 }
 
-.data_user_prof {
+.doctor_data_user_prof {
     display: flex;
     justify-content: flex-start;
 }
 
-.dha_table_btn_1 {
+.dha_doctor_table_btn_1 {
     border-radius: 24px;
     background: #FFE9E6;
     border: none;
-    height: 16px;
     color: #F1614B;
     font-weight: 500;
     font-size: 10px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
 }
 
-.dha_table_btn_2 {
+.dha_doctor_table_btn_2 {
     border-radius: 24px;
     background: #D1EDD6;
     border: none;
-    height: 16px;
     color: #3EB655;
     font-weight: 500;
     font-size: 10px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
 }
 
 
 /*################# Pagination ################# */
 
-.pagination_manage {
+.pagination_doctor {
     text-align: center;
     margin-top: 12px;
     margin-bottom: 2px;
@@ -152,7 +136,7 @@
     padding-bottom: 30px;
 }
 
-.pagination_manage a {
+.pagination_doctor a {
     background-color: white;
     color: linear-gradient(0deg, #F1F1F1, #F1F1F1), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     text-decoration: none;
@@ -169,7 +153,7 @@
     text-align: center;
 }
 
-.pagination_manage a.anchi_active {
+.pagination_doctor a.anch_active {
     background-color: #E40443;
     font-weight: 400;
 }
@@ -178,14 +162,11 @@
     color: #E40443;
 }
 
-.less {
+.less_doctor {
     margin-right: 3px;
     margin-left: 3px;
 }
 
-
-/* ############## FOOTER ############ */
-
-.footer_dha_manage {
+.footer_dha_doctor {
     margin-top: -19px;
 }

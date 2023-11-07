@@ -26,15 +26,18 @@
 
 .footer_foot_col_head {
     font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     color: white;
     padding-left: 20px;
 }
 
 .footer_foot_col ul li a {
     font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 500;
     display: block;
     list-style: none;
 }
@@ -42,6 +45,7 @@
 .footer_foot p {
     font-size: 8px;
     font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: -1px;
     margin-top: -1px;
     text-align: center;

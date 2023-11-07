@@ -6,81 +6,93 @@
     overflow: hidden;
 }
 
-.left_side {
+.left_side_verify {
     background-color: #B60336;
     border-radius: 16px;
     height: 684px;
+    width: 450px;
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-right: 44px;
-    padding-left: 8px;
-    margin: 10px;
+    padding-left: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
 }
 
-.logo {
+.logo_verify {
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
-.logo p {
+.logo_verify_para {
     font-size: 16px;
     font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
     font-size: small;
     cursor: pointer;
 }
 
-.heading_box {
-    margin-top: 10px;
-    margin-left: 40px;
+.heading_box_verify {
+    margin-top: -30px;
+    margin-left: 30px;
 }
 
-.heading_box h1 {
+.heading_box_verify_head {
     width: 280px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
 }
 
-.heading_box p {
+.heading_box_verify_pa {
     width: 357px;
-    padding-top: 10px;
-    font-size: 28px;
+    padding-top: 5px;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 
 /* userbox */
 
-.box1 {
+.box1_verify {
     margin-bottom: 40px;
-    margin-left: 31px;
+    margin-left: 27px;
 }
 
-.box2 {
-    margin-top: 6px;
+.box2_verify {
+    margin-top: 3px;
     background-color: #fff;
     width: 400px;
-    height: 220px;
+    height: 200px;
     border-radius: 16px;
-    padding: 20px 20px;
+    padding: 10px 20px;
 }
 
-.box2 p {
+.box2_verify_pi {
     color: #1A1C1F;
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
 }
 
-.user_box {
+.user_box_verify {
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding-top: 40px;
+    gap: 10px;
+    padding-top: 10px;
 }
 
-.username {
+.username_verify {
     color: #1A1C1F;
     font-weight: bold;
 }
 
-.username i {
+.username_verify i {
     color: gold;
     padding-top: 5px;
 }
@@ -110,11 +122,17 @@
 }
 
 .otp_header {
-    margin-bottom: -2px;
+    margin-bottom: -4px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .otp_para {
     padding-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .input_text_otp {
@@ -122,12 +140,15 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-top: 20px;
 }
 
 .input_text_otp input {
-    width: 60px;
-    height: 40px;
+    width: 62px;
+    height: 44px;
     border-radius: 8px;
+    border: 1px solid #E3E6E8;
+    color: linear-gradient(0deg, #E3E6E8, #E3E6E8), linear-gradient(0deg, #FFFFFF, #FFFFFF);
 }
 
 .otp-btn {
@@ -140,30 +161,36 @@
     font-size: 16px;
     border: 1px solid transparent;
     margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
-.otp-btn:hover {
+
+/*.otp-btn:hover {
     border: 1px solid #E40443;
     background-color: #ffff;
     color: #E40443;
-}
+}*/
 
 .Link {
     text-decoration: none;
     color: white;
 }
 
-.paragraph {
+.paragraph_verify {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 68%;
-    margin-top: 30px;
+    width: 75%;
+    margin-top: 60px;
 }
 
-.paragraph p {
+.paragraph_verify p {
     font-size: 15px;
     color: #5B6572;
     padding-bottom: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }

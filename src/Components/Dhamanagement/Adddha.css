@@ -5,7 +5,7 @@
     width: 100%;
 }
 
-.adddha {
+.adddha_add {
     background: #FFFFFF;
     width: 550px;
     position: absolute;
@@ -14,20 +14,20 @@
     border-radius: 16px;
 }
 
-.adddha-header {
+.adddha-header_add {
     width: 496px;
     height: 50px;
     margin-top: 10px;
 }
 
-.adddha_header_bar {
+.adddha_header_bar_add {
     width: 40px;
     height: 50px;
     margin-top: 30px;
     margin-left: 20px;
 }
 
-.adddha_header_bar_1 {
+.adddha_header_bar_1_add {
     width: 32px;
     height: 32px;
     border-radius: 200px;
@@ -40,7 +40,7 @@
     margin-right: 30px;
 }
 
-.adddha_header_bar_2 {
+.adddha_header_bar_2_add {
     width: 32px;
     height: 32px;
     border-radius: 200px;
@@ -53,7 +53,7 @@
     margin-right: 50px;
 }
 
-.adddha_header_bar_3 {
+.adddha_header_bar_3_add {
     width: 32px;
     height: 32px;
     border-radius: 200px;
@@ -66,13 +66,13 @@
     margin-right: 30px;
 }
 
-.adddha_mid {
+.adddha_mid_add {
     width: 500px;
     margin-left: 20px;
     margin-top: -10px;
 }
 
-.adddha_mid h2 {
+.adddha_mid_add h2 {
     text-align: center;
     font-size: 25px;
     font-weight: 600;
@@ -80,13 +80,13 @@
     font-family: Montserrat;
 }
 
-.adddha_form_fill {
+.adddha_form_fill_add {
     width: 500px;
     align-items: center;
     margin-top: -5px;
 }
 
-.adddha_form_fill_labi {
+.adddha_form_fill_labi_add {
     width: 500px;
     height: 14px;
     padding: 0px, 3px, 0px, 3px;
@@ -95,7 +95,7 @@
     font-weight: 500;
 }
 
-.adddha_form_fill_inp {
+.adddha_form_fill_inp_add {
     width: 500px;
     height: 40px;
     border-radius: 8px;
@@ -104,7 +104,7 @@
     margin-bottom: 2px;
 }
 
-.adddha_btn {
+.adddha_btn_add {
     width: 500px;
     height: 40px;
     border-radius: 8px;

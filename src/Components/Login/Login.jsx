@@ -9,11 +9,11 @@ export const Login = () => {
   return (
     <div>
     <div className='login_container'>
-        <div className='left_side'>
-            <div className="logo">
-                <p className='logo_para'>DOOPER</p>
+        <div className='left_side_login'>
+            <div className="logo_login">
+                <p className='logo_para_login'>DOOPER</p>
             </div>
-            <div className="heading_box">
+            <div className="heading_box_login">
                 <h1 className='heading_box_head'>Start your journey with us</h1>
                 <p className='heading_box_para'>Discover the world’s best community of doctors and DHAs</p>
             </div>
@@ -21,11 +21,11 @@ export const Login = () => {
           <div className="login_box2">
             <p className='login_box2_para'>
               Simply unbelievable! I am really satisfied with the doctor who
-              treated me. This is absolutely wonderful! Timson K
+              treated me. This is absolutely wonderful! 
             </p>
-            <div className="user_box">
+            <div className="user_box_login">
               <img src={UserLogo} alt="" className='user_box_img' />
-              <div className="username_prof">
+              <div className="login_username_prof">
                 <p>Timson K</p>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -52,8 +52,8 @@ export const Login = () => {
           <form className="loginform">
             <label for="number">Phone Number</label>
             <input type="number" placeholder="Enter your phone number" />
-            <Link to={"/verification"} className="Link">
-              <button className="otp-btn">Send OTP</button>
+            <Link to={"/verification"} className="login_Link">
+              <button className="otp_btn_login">Send OTP</button>
             </Link>
 
             
@@ -75,7 +75,7 @@ export const Login = () => {
           </div>
         </div>
 
-        <div className="paragraph">
+        <div className="paragraph_login">
           <p>
             Join the community of smart and experienced doctors. Login to access
             your personalized dashboard, track your record or process and get
