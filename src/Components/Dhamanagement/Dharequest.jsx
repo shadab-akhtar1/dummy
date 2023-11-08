@@ -23,7 +23,7 @@ export const Dharequest = () => {
         <div className='middle_section'>
             <div className='heading_box1'>
                 <div className='heading_content_box'>
-                <h2> <BiArrowBack className="left_logo"/>DHA Requests</h2>
+                <h2> <Link to={"/dhamanagement"}><BiArrowBack className="left_logo"/></Link>DHA Requests</h2>
                 </div>
                 
             </div>

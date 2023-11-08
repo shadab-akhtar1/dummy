@@ -147,6 +147,7 @@
     width: 62px;
     height: 44px;
     border-radius: 8px;
+    text-decoration: none;
     border: 1px solid #E3E6E8;
     color: linear-gradient(0deg, #E3E6E8, #E3E6E8), linear-gradient(0deg, #FFFFFF, #FFFFFF);
 }

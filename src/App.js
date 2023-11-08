@@ -25,6 +25,7 @@ import Adddoctor from './Components/Doctormanagement/Adddoctor.jsx';
 import Adddoctorupload from './Components/Doctormanagement/Adddoctorupload.jsx';
 import Adddoctorbank from './Components/Doctormanagement/Adddoctorbank.jsx';
 import Adddoctorsuccess from './Components/Doctormanagement/Adddoctorsuccess.jsx';
+import Doctorcasedetail from './Components/Doctormanagement/Doctorcasedetail.jsx';
 
 
 
@@ -57,6 +58,7 @@ function App() {
          <Route path='/adddoctorupload' element={<Adddoctorupload/>}/>
          <Route path='/adddoctorbank' element={<Adddoctorbank/>}/>
          <Route path='/adddoctorsuccess' element={<Adddoctorsuccess/>}/>
+         <Route path='/doctorcasedetail' element={<Doctorcasedetail/>}/>
       </Routes>
 
     </BrowserRouter>

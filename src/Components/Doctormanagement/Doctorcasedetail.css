@@ -1,0 +1,115 @@
+/*############## Navbar Start ##################*/
+
+.navbar_doctorcase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 40px, 120px, 40px, 120px;
+    border: 0px, 0px, 1px, 0px;
+    gap: 8px;
+    background-color: white;
+    border-bottom: 1px solid #E3E6E8;
+}
+
+.nav_links_doctorcase {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 10px;
+    margin-right: 50px;
+}
+
+.list_item_doctorcase {
+    margin-left: 10px;
+    padding-right: 30px;
+    margin-top: 5px;
+    text-decoration: none;
+    list-style: none;
+    color: #8D98A4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.list_item_1_doctorcase {
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 5px;
+    text-decoration: none;
+    list-style: none;
+    background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(0deg, #F5F6F7, #F5F6F7);
+    border: 1px solid #F5F6F7;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar_logo_doctorcase {
+    margin-left: 70px;
+    margin-bottom: 20px;
+    height: 25px;
+    width: 100px;
+}
+
+.icons_bell_doctorcase {
+    color: #8D98A4;
+}
+
+
+/*################## Navbar End ###################*/
+
+
+/*################## Mid Section Start###############*/
+
+.middle_container_doctor_case_details {
+    background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    width: 100%;
+    margin-top: -7px;
+}
+
+.middle_container_heading_doctor_case_details {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.middle_container_heading_1_doctor_case_details {
+    width: 800px;
+    margin-right: 450px;
+}
+
+.middle_container_heading_doctor_case_details h2 {}
+
+.third_container_doctor_case_details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third_container_left_doctor_case_details {
+    background-color: white;
+    margin-left: 80px;
+    width: 790px;
+    height: 2074px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.third_container_right_doctor_case_details {
+    background-color: white;
+    margin-right: 70px;
+    width: 380px;
+    height: 2074px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.doctor_case_details_userprofile {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}

@@ -25,14 +25,14 @@ export const Dhamanagement = () => {
             <div className='heading'>
                 <div className='heading_content'>
                 
-                <h2><BiArrowBack className="left_logo"/>DHA Management</h2>
+                <h2><Link to={"/successfulverify"}><BiArrowBack className="left_logo"/></Link>DHA Management</h2>
                 </div>
                 <button className='management_btn_1'>
                 <Link to={"/dharequest"} className="Link">
                 DHA Request
               </Link></button>
                 <button className='management_btn_2'>
-                <Link to={"/dhadetailsview"} className="Link">
+                <Link to={"/adddha"} className="Link">
                 Add DHA
               </Link></button>
             </div>

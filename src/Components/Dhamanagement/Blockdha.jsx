@@ -22,7 +22,9 @@ export const Adddhaupload = () => {
 
                 </div>
                 <div className='blockdha_btn_div_block'>
+                    <Link to={"/dhadetailsview"}>
                 <button className='blockdha_btn_1_block'>Cancel</button>
+                </Link>
                 <Link to={"/blockdhasuccess"} className='blockdhasuccess_link'>
                 <button className='blockdha_btn_2_block'>Block</button>
                 </Link>

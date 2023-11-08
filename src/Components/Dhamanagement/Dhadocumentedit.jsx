@@ -4,19 +4,20 @@ import {Navbar} from './Navbar';
 import userprofile from '../Assets/Avatar.svg';
 import{Link} from 'react-router-dom';
 import {GrAttachment} from 'react-icons/gr';
+import {BiArrowBack} from 'react-icons/bi';
 
 export const Dhadocumentedit = () => {
   return (
     <div>
     <div className='management_navbar_document'><Navbar/></div>
     <div className='middle_document'>
-        <div className='middle_document_heading'>Edit Pofile</div>
+        <div className='middle_document_heading'><Link to={"/dhadetailsedit"} className='document_link_head'><BiArrowBack className='arrow_document'/></Link>Edit Pofile</div>
         <div className='middle_document_heading2'>
-            <Link to={"/dhadetailsedit"}>
+            <Link to={"/dhadetailsedit"} className='basicdetails_link'>
             <div className='middle_document_heading2_basic'>Basic Details</div>
             </Link>
             <div className='middle_document_heading2_document'>Documents</div>
-            <Link to={"/dhabankinfoedit"}>
+            <Link to={"/dhabankinfoedit"} className='basicdetails_link'>
             <div className='middle_document_heading2_info'>Bank Info</div>
             </Link>
         </div>

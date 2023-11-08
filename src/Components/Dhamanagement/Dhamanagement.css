@@ -19,8 +19,8 @@
 
 .heading_content {
     width: 800px;
-    margin-right: 120px;
-    margin-left: 20px;
+    margin-right: 140px;
+    margin-left: 10px;
     display: flex;
     justify-content: space-between;
     font-weight: 700;
@@ -30,10 +30,12 @@
 .heading_content h2 {
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
+    color: #1A1C1F;
 }
 
 .left_logo {
-    padding-right: 10px;
+    padding-right: 12px;
+    color: #1A1C1F;
 }
 
 .management_btn_1 {
@@ -71,13 +73,12 @@
 
 .dha_table {
     border-collapse: collapse;
-    margin-left: 80px;
+    margin-left: 70px;
     width: 90%;
     font-size: 0.9em;
     background-color: whitesmoke;
     border-radius: 10px;
     overflow: hidden;
-    margin-top: -1px;
 }
 
 .dha_table thead tr {

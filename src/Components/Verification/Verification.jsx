@@ -46,10 +46,10 @@ export const Verification = () => {
             <h2 className='otp_header'>Verify</h2>
             <p className='otp_para'>Enter OTP which we sent to you</p>
             <div className="input_text_otp">
-              <input type="number" placeholder="-" />
-              <input type="number" placeholder="-" />
-              <input type="number" placeholder="-" />
-              <input type="number" placeholder="-" />
+              <input type="text" placeholder="-" />
+              <input type="text" placeholder="-" />
+              <input type="text" placeholder="-" />
+              <input type="text" placeholder="-" />
             </div>
             <Link to={"/successfulverify"} className="Link">
               <button className="otp-btn"> Verify OTP</button>
