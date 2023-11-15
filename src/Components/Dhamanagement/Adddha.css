@@ -1,7 +1,9 @@
-.hero {
+.hero_adddha_main {
     background-image: url('../Assets/image 219.jpg');
     height: 100vh;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%;
 }
 
@@ -14,56 +16,71 @@
     border-radius: 16px;
 }
 
-.adddha-header_add {
+.adddha_header_add {
     width: 496px;
-    height: 50px;
-    margin-top: 10px;
+    margin-left: 25px;
 }
 
 .adddha_header_bar_add {
-    width: 40px;
-    height: 50px;
-    margin-top: 30px;
-    margin-left: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
 }
 
 .adddha_header_bar_1_add {
     width: 32px;
     height: 32px;
-    border-radius: 200px;
+    border-radius: 50%;
     background: #E40443;
-    padding: 10px;
     color: white;
     font-size: 10px;
     font-weight: 600;
-    margin-left: 30px;
-    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress {
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #EEF0F3;
+}
+
+.indicator {
+    position: absolute;
+    height: 100%;
+    width: 13%;
+    background-color: #E40443;
 }
 
 .adddha_header_bar_2_add {
     width: 32px;
     height: 32px;
-    border-radius: 200px;
-    background: #E40443;
-    padding: 10px;
-    color: white;
+    border-radius: 50%;
+    background: #EEF0F3;
+    color: black;
     font-size: 10px;
     font-weight: 600;
-    margin-left: 140px;
-    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .adddha_header_bar_3_add {
     width: 32px;
     height: 32px;
-    border-radius: 200px;
-    background: #E40443;
-    padding: 10px;
-    color: white;
+    border-radius: 50%;
+    background: #EEF0F3;
+    color: black;
     font-size: 10px;
     font-weight: 600;
-    margin-left: 140px;
-    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .adddha_mid_add {
@@ -77,13 +94,17 @@
     font-size: 25px;
     font-weight: 600;
     color: #1A1C1F;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.adddha_form_add {
+    margin-top: -15px;
 }
 
 .adddha_form_fill_add {
     width: 500px;
     align-items: center;
-    margin-top: -5px;
+    margin-bottom: 5px;
 }
 
 .adddha_form_fill_labi_add {
@@ -93,6 +114,7 @@
     color: #8D98A4;
     font-size: 12px;
     font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .adddha_form_fill_inp_add {
@@ -112,7 +134,7 @@
     color: white;
     font-size: 12px;
     font-weight: 600;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
     margin-bottom: 20px;
     border: none;

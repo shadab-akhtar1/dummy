@@ -16,6 +16,9 @@ export const Adddhabank = () => {
                     <span className='adddha_header_bar_1_bank'>1</span>
                     <span className='adddha_header_bar_2_bank'>2</span>
                     <span className='adddha_header_bar_3_bank'>3</span>
+                    <div className='progress_bar_bank'>
+                        <span className='indicator_bar_bank'></span>
+                    </div>
                 </div>
 
             </div>

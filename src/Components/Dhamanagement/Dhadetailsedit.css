@@ -10,22 +10,30 @@
 
 .middle_edit_heading {
     width: 1200px;
-    padding-left: 80px;
-    padding-top: 20px;
+    padding-left: 70px;
+    padding-top: 1px;
+}
+
+.middle_edit_heading h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .middle_edit_heading2 {
     display: flex;
     justify-content: flex-start;
     padding-left: 80px;
-    margin-top: -10px;
+    margin-top: -20px;
     border-bottom: 1px solid #E1E5E8;
 }
 
 .arrow_edit {
-    padding-right: 5px;
+    color: #1A1C1F;
+    text-align: center;
+    padding-top: 3px;
+    padding-right: 10px;
 }
 
 .middle_edit_heading2_basic {
@@ -69,13 +77,14 @@
     width: 1200px;
     padding-left: 70px;
     padding-top: 1px;
+    margin-top: 10px;
 }
 
 .middle_userprofile_box {
     background: #FFFFFF;
     width: 450px;
     border-radius: 16px;
-    padding: 32px;
+    padding: 32px
 }
 
 .middle_userprofile_box_2 {
@@ -86,7 +95,6 @@
 .middle_userprofile_box_2_userprofile {
     width: 413px;
     display: flex;
-    margin-top: -10px;
 }
 
 .middle_userprofile_box_2_userprofile img {
@@ -132,10 +140,10 @@
 }
 
 .listed_line {
-    color: linear-gradient(0deg, #4B465C, #4B465C), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     font-size: 12px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+    color: #A8AAAE;
 }
 
 .userprofile_form {
@@ -148,7 +156,7 @@
     color: linear-gradient(0deg, #EEF0F3, #EEF0F3), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     border: 1px solid #EEF0F3;
     border-radius: 6px;
-    height: 22px;
+    height: 40px;
     margin-bottom: 3px;
     font-family: 'Montserrat', sans-serif;
 }

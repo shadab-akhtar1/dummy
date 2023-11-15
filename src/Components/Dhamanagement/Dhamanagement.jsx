@@ -3,12 +3,15 @@ import {Navbar} from './Navbar';
 import Footermanage from './Footer';
 import './Dhamanagement.css';
 import { Link } from "react-router-dom";
-import FaLeft from 'react-icons/fa';
-import {BiArrowBack} from 'react-icons/bi';
+import {PiArrowLeftFill} from 'react-icons/pi';
+import {IoIosAdd} from 'react-icons/io';
+import {IoMdAdd} from 'react-icons/io';
 import {FaLessThan} from 'react-icons/fa6';
 import {PiCaretDoubleLeftBold} from 'react-icons/pi';
 import {PiCaretDoubleRightBold} from 'react-icons/pi';
 import {FaGreaterThan} from 'react-icons/fa6';
+import { PiCaretRightBold } from "react-icons/pi";
+import { PiCaretLeftBold } from "react-icons/pi";
 import prof from '../Assets/Ellipse 187.jpg';
 import prof2 from '../Assets/Ellipse 187 (1).jpg';
 import prof3 from '../Assets/Ellipse 187 (2).jpg';
@@ -25,7 +28,7 @@ export const Dhamanagement = () => {
             <div className='heading'>
                 <div className='heading_content'>
                 
-                <h2><Link to={"/successfulverify"}><BiArrowBack className="left_logo"/></Link>DHA Management</h2>
+                <h2><Link to={"/successfulverify"}><PiArrowLeftFill className="left_logo"/></Link>DHA Management</h2>
                 </div>
                 <button className='management_btn_1'>
                 <Link to={"/dharequest"} className="Link">
@@ -33,6 +36,7 @@ export const Dhamanagement = () => {
               </Link></button>
                 <button className='management_btn_2'>
                 <Link to={"/adddha"} className="Link">
+                    <IoMdAdd className='add_btn'/>
                 Add DHA
               </Link></button>
             </div>
@@ -50,7 +54,7 @@ export const Dhamanagement = () => {
                     </thead>
                     <tbody >
                         <tr >
-                            <td className='data_user_prof'><img src={prof} alt="" className='user_prof'/>Jacob Jones</td>
+                            <td ><div className='data_user_prof'><img src={prof} alt="" className='user_prof'/>Jacob Jones</div></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             <td>12</td>
@@ -58,7 +62,7 @@ export const Dhamanagement = () => {
                             <td ><button className='dha_table_btn_1'>offline</button></td>
                         </tr>
                         <tr>
-                            <td className='data_user_prof'><img src={prof2} alt="" className='user_prof'/>Darrell Steward</td>
+                            <td ><div className='data_user_prof'><img src={prof2} alt="" className='user_prof'/>Darrell Steward</div></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             <td>12</td>
@@ -66,7 +70,7 @@ export const Dhamanagement = () => {
                             <td ><button className='dha_table_btn_2'>online</button></td>
                         </tr>
                         <tr>
-                            <td className='data_user_prof'><img src={prof3} alt="" className='user_prof'/>Esther Howard</td>
+                            <td ><div className='data_user_prof'><img src={prof3} alt="" className='user_prof'/>Esther Howard</div></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             <td>12</td>
@@ -74,7 +78,7 @@ export const Dhamanagement = () => {
                             <td><button className='dha_table_btn_1'>offline</button></td>
                         </tr>
                         <tr className='table_row'>
-                            <td className='data_user_prof'><img src={prof4} alt="" className='user_prof'/>Arlene McCoy</td>
+                            <td ><div className='data_user_prof'><img src={prof4} alt="" className='user_prof'/>Arlene McCoy </div></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             <td>12</td>
@@ -82,7 +86,7 @@ export const Dhamanagement = () => {
                             <td><button className='dha_table_btn_2'>online</button></td>
                         </tr>
                         <tr className='table_row'>
-                            <td className='data_user_prof'><img src={prof5} alt="" className='user_prof'/>jane Cooper</td>
+                            <td ><div className='data_user_prof'><img src={prof5} alt="" className='user_prof'/>jane Cooper </div></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             <td>12</td>
@@ -90,7 +94,7 @@ export const Dhamanagement = () => {
                             <td><button className='dha_table_btn_2'>Online</button></td>
                         </tr>
                         <tr>
-                            <td className='data_user_prof'><img src={prof6} alt="" className='user_prof'/>Ralph Edwards</td>
+                            <td ><div className='data_user_prof'><img src={prof6} alt="" className='user_prof'/>Ralph Edwards</div></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             <td>12</td>
@@ -102,14 +106,15 @@ export const Dhamanagement = () => {
 
                 <div className='pagination_manage'>
                     <a href='' className='anchi'><PiCaretDoubleLeftBold className='less_1'/></a>
-                    <a href='' className='anchi'><FaLessThan className='less'/></a>
+                    <a href='' className='anchi'><PiCaretLeftBold className='less'/></a>
                     <a href=''className='anchi_active'>1</a>
                     <a href='' className='anchi'>2</a>
                     <a href='' className='anchi'>3</a>
                     <a href='' className='anchi'>...</a>
                     <a href='' className='anchi'>10</a>
-                    <a href='' className='anchi'><FaGreaterThan className='less'/></a>
+                    <a href='' className='anchi'><PiCaretRightBold className='less'/></a>
                     <a href='' className='anchi'><PiCaretDoubleRightBold className='less'/></a>
+                    
 
                 </div>
             </div>

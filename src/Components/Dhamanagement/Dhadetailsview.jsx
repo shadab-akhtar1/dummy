@@ -2,13 +2,14 @@ import React from 'react';
 import './Dhadetailsview.css';
 import {Navbar} from './Navbar';
 import profile_logo from '../Assets/Ellipse 2.svg';
+
+import {FaGreaterThan} from 'react-icons/fa6';
+import {PiArrowLeftFill} from 'react-icons/pi';
+import {BiChevronDown} from 'react-icons/bi';
+import {IoCallOutline} from 'react-icons/io5';
 import {FaLessThan} from 'react-icons/fa6';
 import {PiCaretDoubleLeftBold} from 'react-icons/pi';
 import {PiCaretDoubleRightBold} from 'react-icons/pi';
-import {FaGreaterThan} from 'react-icons/fa6';
-import {BiArrowBack} from 'react-icons/bi';
-import {BiChevronDown} from 'react-icons/bi';
-import {IoCallOutline} from 'react-icons/io5';
 import {Link} from 'react-router-dom';
 
 export const Dhadetailsview = () => {
@@ -18,7 +19,7 @@ export const Dhadetailsview = () => {
     <div className='middle_container'>
       <div className='middle_container_heading'>
         <div className='middle_container_heading_box'>
-          <h2> <Link to={"/dharequest"} className='detailsview_link'>< BiArrowBack className='details_arrow'/></Link>DHA Details</h2>
+          <h2> <Link to={"/dharequest"} className='detailsview_link'>< PiArrowLeftFill className='details_arrow'/></Link>DHA Details</h2>
         </div>
         <Link to={"/dhadetailsedit"}>
         <button className='middle_container_btn'>Edit</button>
@@ -38,7 +39,7 @@ export const Dhadetailsview = () => {
         <div className='middle2_box'>Rs 5000 <p>Total Earnings</p></div>
         <div className='middle2_boxes'>Rs 3000 <p>This Months Earnings</p></div>
         <div className='middle2_boxer'>Rs 2000 <p>Total Reedemeed</p></div>
-        <div className='middle2_boxex'>< IoCallOutline className='calling'/>Call DHA</div>
+        <div className='middle2_boxex'><div className='calling'>< IoCallOutline /></div>Call DHA</div>
       </div>
       <div className='middle3'>
       <div className='Container'>
@@ -252,7 +253,9 @@ export const Dhadetailsview = () => {
               </ul>
               <ul>
                 <li><button>Completed</button></li>
+                <Link to={"/dhacasedetail"}>
                 <div className='view_details'>View Details</div>
+                </Link>
               </ul>
             </div>
             <div className='last_one_last_1'>
@@ -292,15 +295,15 @@ export const Dhadetailsview = () => {
             
             <div>
             <div className='pagination_pag'>
-                    <a href=''>< PiCaretDoubleLeftBold className='arr'/></a>
-                    <a href=''><FaLessThan className='arr'/></a>
-                    <a href=''className='active'>1</a>
+                    <a href=''>< PiCaretDoubleLeftBold className='less_pag-1'/></a>
+                    <a href=''><FaLessThan className='less_pag'/></a>
+                    <a href=''className='anchi_pag_active'>1</a>
                     <a href=''>2</a>
                     <a href=''>3</a>
                     <a href='' >...</a>
                     <a href='' >10</a>
-                    <a href=''>< FaGreaterThan className='arr'/></a>
-                    <a href=''>< PiCaretDoubleRightBold className='arr'/></a>
+                    <a href=''>< FaGreaterThan className='less_pag'/></a>
+                    <a href=''>< PiCaretDoubleRightBold className='les_pag'/></a>
 
                 </div>
                 </div>
@@ -386,15 +389,15 @@ export const Dhadetailsview = () => {
 
             <div>
             <div className='pagination_pag'>
-            <a href=''>< PiCaretDoubleLeftBold className='arr'/></a>
-                    <a href=''><FaLessThan className='arr'/></a>
-                    <a href=''className='active'>1</a>
-                    <a href=''>2</a>
-                    <a href=''>3</a>
-                    <a href='' >...</a>
-                    <a href='' >10</a>
-                    <a href=''>< FaGreaterThan className='arr'/></a>
-                    <a href=''>< PiCaretDoubleRightBold className='arr'/></a>
+                    <a href='' className='anchi_pag'><PiCaretDoubleLeftBold className='less_1_pag'/></a>
+                    <a href='' className='anchi_pag'><FaLessThan className='less_pag'/></a>
+                    <a href=''className='anchi_pag_active'>1</a>
+                    <a href='' className='anchi_pag'>2</a>
+                    <a href='' className='anchi_pag'>3</a>
+                    <a href='' className='anchi_pag'>...</a>
+                    <a href='' className='anchi_pag'>10</a>
+                    <a href='' className='anchi_pag'><FaGreaterThan className='less_pag'/></a>
+                    <a href='' className='anchi_pag'><PiCaretDoubleRightBold className='less_pag'/></a>
 
                 </div>
                 </div>

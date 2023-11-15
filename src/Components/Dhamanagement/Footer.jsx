@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from "../Assets/Dooper Logo 1500x1500 2.svg";
+import logo from "../Assets/Logo.png";
 import {FiPhoneCall} from 'react-icons/fi';
 import {FiMail} from 'react-icons/fi';
 import {AiFillInstagram } from 'react-icons/ai';
@@ -32,9 +32,9 @@ export const Footer = () => {
                             <FiMail className='icon_phone'/></div></a>
                 
                             <div className='icon_div_para'>
-                            <a href='#' >
+                            <a href='#' className='icon_div_para_ancor'>
                             Mail</a>
-                            <p className='icon_para'>info@dopper.com</p>
+                            <p className='icon_para_2'>info@dopper.com</p>
                             </div></li>
                             
                         </ul>

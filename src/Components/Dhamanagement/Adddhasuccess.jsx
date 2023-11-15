@@ -10,7 +10,9 @@ import Done from "../Assets/Done.svg";
 export const Adddhaupload = () => {
   return (
     <div className='hero'>
+         
         <div className='adddha_success_1'>
+       
             <div className='adddha_success_box_1'>
                 <div className='adddha_success_box_logo_1'>
                     <img src={Done} alt="" />

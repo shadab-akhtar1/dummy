@@ -47,11 +47,13 @@ export const Successfulverify = () => {
             <img src={Done} alt="logo" />
             <h1 className='successfull_head'>Successful</h1>
             <p className='successfull_graph'>OTP Is verified successfully</p>
+            <Link to={"/dhamanagement"} className="Link">
             <button className="success_otp_btn">
-              <Link to={"/dhamanagement"} className="Link">
+              
                 Continue
-              </Link>
+              
             </button>
+            </Link>
           </form>
         </div>
         

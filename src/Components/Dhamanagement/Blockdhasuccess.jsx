@@ -22,7 +22,7 @@ export const Adddhaupload = () => {
 
                 </div>
 
-                <button className='adddha_success_box_btn_2'>Continue</button>
+                <button className='adddha_success_box_btn_2'>Done</button>
 
             </div>
             

@@ -3,8 +3,8 @@ import './Dhabankinfoedit.css';
 import {Navbar} from './Navbar';
 import userprofile from '../Assets/Avatar.svg';
 import {Link} from 'react-router-dom';
-import {GrAttachment} from 'react-icons/gr';
-import {BiArrowBack} from 'react-icons/bi';
+import { FaRegPenToSquare } from "react-icons/fa6";
+import {PiArrowLeftFill} from 'react-icons/pi';
 
 
 export const Dhabankinfoedit = () => {
@@ -12,7 +12,7 @@ export const Dhabankinfoedit = () => {
     <div>
     <div className='management_navbar_bankinfo'><Navbar/></div>
     <div className='middle_edit_bankinfo'>
-        <div className='middle_edit_bankinfo_heading'><Link to={"/dhadocumentedit"} className='bankinfo_link_head'><BiArrowBack className='arrow_bankinfo'/></Link>Edit Profile</div>
+        <div className='middle_edit_bankinfo_heading'><h2><Link to={"/dhadocumentedit"} className='bankinfo_link_head'><PiArrowLeftFill className='arrow_bankinfo'/></Link>Edit Profile</h2></div>
         <div className='middle_edit_bankinfo_heading2'>
             <div className='middle_edit_bankinfo_heading2_basic'>Basic Details</div>
             <Link to={"/dhadocumentedit"} className='bankinfo_document'>
@@ -40,10 +40,10 @@ export const Dhabankinfoedit = () => {
                         </div>
                         <div className='userprofile_form_input'>
         
-                            <label className='document_form_label'>Upload bank statement/cancel cheque</label> <br />
+                            <label className='document_form_label'>Upload bank statement/cancel cheque</label> <br /> <br />
                             <input type="file" id='document_form' className='document_bankinfo_form_1'/>
                             <label for="document_form" className='document_bankinfo_form_2'>
-                            <i className='bankinfo_attach_file'><GrAttachment/></i>
+                            <i className='bankinfo_attach_file'><FaRegPenToSquare/></i>
                             </label>
                         </div>
                         

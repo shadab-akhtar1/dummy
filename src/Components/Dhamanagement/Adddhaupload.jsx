@@ -16,6 +16,9 @@ export const Adddhaupload = () => {
                     <span className='adddha_header_bar_1'>1</span>
                     <span className='adddha_header_bar_2'>2</span>
                     <span className='adddha_header_bar_3'>3</span>
+                    <div className='progress_bar'>
+                        <span className='indicator_bar'></span>
+                    </div>
                 </div>
 
             </div>
@@ -39,7 +42,7 @@ export const Adddhaupload = () => {
                     <label for="adddha_file" className='adddha_file_up'><i><RiUploadCloudLine/></i>Upload File</label>
                 </div>
                
-                <Link to={"/adddhabank"} className='adddhabank_link'> 
+                <Link to={"/adddhabank"} className='adddhabank_link'>
                 <button className='adddha_btn'>Next Step</button>
                 </Link>
             </form>

@@ -9,7 +9,7 @@ import warning from "../Assets/image 228.png";
 
 export const Adddhaupload = () => {
   return (
-    <div className='hero'>
+    <div className='hero_block'>
         <div className='adddha_success_block'>
             <div className='adddha_success_box_block'>
                 <div className='adddha_success_box_logo_block'>

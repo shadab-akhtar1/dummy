@@ -1,12 +1,12 @@
 .adddha_success_2 {
     width: 550px;
-    height: 400px;
+    height: 340px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    margin-top: 150px;
+    margin-top: 170px;
     left: 28%;
     border-radius: 16px;
 }
@@ -14,7 +14,8 @@
 .hero {
     background-image: url('../Assets/image 219.jpg');
     height: 100vh;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
 }
 
@@ -42,6 +43,7 @@
     margin-left: 80px;
     font-size: 20px;
     font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     color: #1A1C1F;
 }
 
@@ -52,6 +54,7 @@
     color: #1A1C1F;
     margin-left: 90px;
     margin-top: -20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .adddha_success_box_btn_2 {
@@ -63,6 +66,7 @@
     color: #E40443;
     font-size: 12px;
     font-weight: 600;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
+    margin-left: 10px;
 }

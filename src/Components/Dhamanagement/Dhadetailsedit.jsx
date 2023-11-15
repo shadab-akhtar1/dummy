@@ -4,6 +4,7 @@ import {Navbar} from './Navbar';
 import userprofile from '../Assets/Avatar.svg';
 import {Link} from 'react-router-dom';
 import {BiArrowBack} from 'react-icons/bi';
+import {PiArrowLeftFill} from 'react-icons/pi';
 
 export const Dhadetailsedit = () => {
   return (
@@ -11,7 +12,7 @@ export const Dhadetailsedit = () => {
     <div className='management_navbar_edit'><Navbar/></div>
     <div className='middle_edit'>
         
-        <div className='middle_edit_heading'><Link to={"/dhadetailsview"} className='link_detailsedit_head'><BiArrowBack className='arrow_edit'/></Link>Edit DHA Details</div>
+        <div className='middle_edit_heading'><h2><Link to={"/dhadetailsview"} className='link_detailsedit_head'><PiArrowLeftFill className='arrow_edit'/></Link>Edit DHA Details</h2></div>
         
         <div className='middle_edit_heading2'>
             <div className='middle_edit_heading2_basic'>Basic Details</div>

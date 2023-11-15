@@ -7,14 +7,19 @@ import { Link } from "react-router-dom";
 
 export const Adddha = () => {
   return (
-    <div className='hero'>
+    <div className='hero_adddha_main'>
         <div className='adddha_add'>
             <div className='adddha_header_add'>
                 <div className='adddha_header_bar_add'>
+                
                     <span className='adddha_header_bar_1_add'>1</span>
                     <span className='adddha_header_bar_2_add'>2</span>
                     <span className='adddha_header_bar_3_add'>3</span>
+                    <div className='progress'>
+                        <span className='indicator'></span>
+                    </div>
                 </div>
+                
 
             </div>
             <div className='adddha_mid_add'>
