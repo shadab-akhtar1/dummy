@@ -77,7 +77,7 @@ export const Footer = () => {
                     
             </div>
             <hr />
-            <p>Copyright © 2023 | All rights reserved by dooper</p>
+            <p className='footer_para'>Copyright © 2023 | All rights reserved by dooper</p>
         </div>
         
     

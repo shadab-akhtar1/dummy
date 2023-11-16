@@ -28,15 +28,15 @@ export const Dhabankinfoedit = () => {
                     <form action="" className='bankinfo_userprofile_form'>
                         <div className='userprofile_form_input'>
                             <label className='bankinfo_form_label'>Bank Name</label><br />
-                            <input type="text" className='bankinfo_form_data'/>
+                            <input type="text" className='bankinfo_form_data' placeholder='Central Bank'/>
                         </div>
                         <div className='userprofile_form_input'>
                             <label className='bankinfo_form_label' >Account Number</label><br />
-                            <input type="text" className='bankinfo_form_data'/>
+                            <input type="text" className='bankinfo_form_data' placeholder='1234567890'/>
                         </div>
                         <div className='userprofile_form_input'>
                             <label className='bankinfo_form_label'>IFSC Code</label><br />
-                            <input type="text" className='bankinfo_form_data'/>
+                            <input type="text" className='bankinfo_form_data' placeholder='CBINO4545'/>
                         </div>
                         <div className='userprofile_form_input'>
         

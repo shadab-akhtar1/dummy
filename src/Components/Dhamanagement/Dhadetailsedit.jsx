@@ -40,26 +40,27 @@ export const Dhadetailsedit = () => {
                     <form action="" className='userprofile_form'>
                         <div className='userprofile_form_input'>
                             <label className='form_label'>Full Name</label><br />
-                            <input type="text" className='form_data'/>
+                            <input type="text" className='form_data' placeholder='Jaydip Sakhiya'/>
+                        
                         </div>
                         <div className='userprofile_form_input'>
                             <label className='form_label' >Mobile No.</label><br />
-                            <input type="text" className='form_data'/>
+                            <input type="text" className='form_data' placeholder='+91 | 9876543210'/>
                         </div>
                         <div className='userprofile_form_input'>
                             <label className='form_label'>Gender</label><br />
-                            <input type="text" className='form_data'/>
+                            <input type="text" className='form_data' placeholder='Male'/>
                         </div>
                         <div className='userprofile_form_input'>
                             <label className='form_label'>Qualification</label><br />
-                            <input type="text" className='form_data'/>
+                            <input type="text" className='form_data' placeholder='MBBS'/>
                         </div>
                         <div className='userprofile_form_input'>
                             <label className='form_label'>Pharmacy Address</label><br />
-                            <input type="text" className='form_data'/>
-                            <input type="text" className='form_data'/>
-                            <input type="text" className='form_data'/>
-                            <input type="text" className='form_data'/>
+                            <input type="text" className='form_data'placeholder='121'/>
+                            <input type="text" className='form_data' placeholder='Some Society, nr. Some School'/>
+                            <input type="text" className='form_data' placeholder='Surat'/>
+                            <input type="text" className='form_data'placeholder='Gujarat'/>
                         </div>
                     </form>
                     

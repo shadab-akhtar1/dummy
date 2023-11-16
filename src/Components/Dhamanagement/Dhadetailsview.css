@@ -51,6 +51,13 @@
     font-weight: 600;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle_container_btn_icon1 {
+    padding-right: 10px;
+    align-items: center;
 }
 
 .middle_container_btn1 {
@@ -66,6 +73,13 @@
     font-weight: 600;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle_container_btn_icon {
+    padding-right: 10px;
+    align-items: center;
 }
 
 .middle2 {
@@ -276,6 +290,32 @@
     color: #8D98A4;
     font-weight: 500;
     margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs_data_view {
+    color: #E40443;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 120px;
+}
+
+.inputs_data_letter {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #1A1C1F;
+}
+
+.inputs_data_view_letter {
+    color: #E40443;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
     font-family: 'Montserrat', sans-serif;
 }
 

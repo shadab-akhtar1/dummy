@@ -22,6 +22,7 @@ export const Adddha = () => {
                 
 
             </div>
+            
             <div className='adddha_mid_add'>
                 <div> <h2>Basic Details</h2></div>
             <form action="" className='adddha_form_add'>

@@ -11,6 +11,11 @@ import {FaLessThan} from 'react-icons/fa6';
 import {PiCaretDoubleLeftBold} from 'react-icons/pi';
 import {PiCaretDoubleRightBold} from 'react-icons/pi';
 import {Link} from 'react-router-dom';
+import { AiOutlineEdit } from "react-icons/ai";
+import { MdBlockFlipped } from "react-icons/md";
+import { PiCaretRightBold } from "react-icons/pi";
+import { PiCaretLeftBold } from "react-icons/pi";
+
 
 export const Dhadetailsview = () => {
   return (
@@ -22,10 +27,10 @@ export const Dhadetailsview = () => {
           <h2> <Link to={"/dharequest"} className='detailsview_link'>< PiArrowLeftFill className='details_arrow'/></Link>DHA Details</h2>
         </div>
         <Link to={"/dhadetailsedit"}>
-        <button className='middle_container_btn'>Edit</button>
+        <button className='middle_container_btn'><AiOutlineEdit className='middle_container_btn_icon1'/>Edit</button>
         </Link>
         <Link to={"/blockdha"}>
-        <button className='middle_container_btn1'>Block</button>
+        <button className='middle_container_btn1'><MdBlockFlipped className='middle_container_btn_icon'/>Block</button>
         </Link>
 
       </div>
@@ -47,91 +52,52 @@ export const Dhadetailsview = () => {
                 <form className='container_input'>
               <div className='inputs_data'>
               <label >Full Name :</label>
-                <input 
-                  type="name"
-              
-                  name="name"
-                  autoComplete="off"
-                  required
-                />
+              <input type="text" placeholder='Jaydip Sakhiya' className='inputs_data_letter' />
+                
+                
                 
                 </div>
 
                 <div className='inputs_data'>
                 <label >Gender :</label>
-                <input 
-                  type="name"
-              
-                  name="name"
-                  autoComplete="off"
-                  required
-                />
+                <input type="text" placeholder='Male' className='inputs_data_letter' />
+                
                 
                 </div>
                 <div className='inputs_data'>
                 <label >Mobile No. :</label>
-                <input 
-                  type="name"
-              
-                  name="name"
-                  autoComplete="off"
-                  required
-                />
+                <input type="text" placeholder='+910987654321' className='inputs_data_letter' />
+                
                 
                 </div>
                 <div className='inputs_data'>
                 <label >Address :</label>
-                <input 
-                  type="name"
-              
-                  name="name"
-                  autoComplete="off"
-                  required
-                />
+                <input type="text" placeholder='2800 Oakwood Avenue, New York, NY 10018' className='inputs_data_letter' />
+                
                 
                 </div>
                 <div className='inputs_data'>
                 <label >City :</label>
-                <input 
-                  type="name"
-              
-                  name="name"
-                  autoComplete="off"
-                  required
-                />
+                <input type="text" placeholder='Surat' className='inputs_data_letter' />
+                
                 
                 </div>
                 <div className='inputs_data'>
                 <label >State :</label>
-                <input 
-                  type="name"
-              
-                  name="name"
-                  autoComplete="off"
-                  required
-                />
+                <input type="text" placeholder='Gujarat' className='inputs_data_letter'/>
+                
                 
                 </div>
                 <div className='inputs_data'>
                 <label >Qualification :</label>
-                <input 
-                  type="name"
-              
-                  name="name"
-                  autoComplete="off"
-                  required
-                />
+                <input type="text" placeholder='MBBS' className='inputs_data_letter'/>
+                
                 
                 </div>
                 <div className='inputs_data'>
                 <label >Speciality :</label>
-                <input 
-                  type="name"
-              
-                  name="name"
-                  autoComplete="off"
-                  required
-                />
+                <input type="text" placeholder='DHA' className='inputs_data_letter'/>
+                
                 
                 </div>
                 </form>
@@ -141,37 +107,22 @@ export const Dhadetailsview = () => {
         <h4>Documents</h4>
                 <form className='container_input'>
               <div className='inputs_data'>
-              <label >Aadhar Card :</label>
-                <input 
-                  type="name"
+              <label >Aadhar Card :
               
-                  name="name"
-                  autoComplete="off"
-                  required
-                />
+              </label>
+              
+              <div className='inputs_data_view'>View</div>
                 
                 </div>
 
                 <div className='inputs_data'>
                 <label >Pan card :</label>
-                <input 
-                  type="name"
-              
-                  name="name"
-                  autoComplete="off"
-                  required
-                />
+                <div className='inputs_data_view'>View</div>
                 
                 </div>
                 <div className='inputs_data'>
                 <label >Medical Council Certificate :</label>
-                <input 
-                  type="name"
-              
-                  name="name"
-                  autoComplete="off"
-                  required
-                />
+                <div className='inputs_data_view'>View</div>
                 
                 </div>
             
@@ -184,47 +135,26 @@ export const Dhadetailsview = () => {
                 <form className='container_input'>
               <div className='inputs_data'>
               <label >Bank Name :</label>
-                <input 
-                  type="name"
-              
-                  name="name"
-                  autoComplete="off"
-                  required
-                />
+                <input type="text" placeholder='Bank Name' className='inputs_data_letter' />
                
                 </div>
 
                 <div className='inputs_data'>
                 <label >Acc No. :</label>
-                <input 
-                  type="name"
-              
-                  name="name"
-                  autoComplete="off"
-                  required
-                />
+                <input type="text" placeholder='1234567890' className='inputs_data_letter'/>
+                
                 
                 </div>
                 <div className='inputs_data'>
                 <label >IFSC :</label>
-                <input 
-                  type="name"
-              
-                  name="name"
-                  autoComplete="off"
-                  required
-                />
+                <input type="text" placeholder='ABCDEF' className='inputs_data_letter'/>
+                
                
                 </div>
                 <div className='inputs_data'>
                 <label >Cancel checque :</label>
-                <input 
-                  type="name"
-              
-                  name="name"
-                  autoComplete="off"
-                  required
-                />
+                <div className='inputs_data_view_letter'>View</div>
+                
                 
         
                 </div>
@@ -296,13 +226,13 @@ export const Dhadetailsview = () => {
             <div>
             <div className='pagination_pag'>
                     <a href=''>< PiCaretDoubleLeftBold className='less_pag-1'/></a>
-                    <a href=''><FaLessThan className='less_pag'/></a>
+                    <a href=''><PiCaretLeftBold className='less_pag'/></a>
                     <a href=''className='anchi_pag_active'>1</a>
                     <a href=''>2</a>
                     <a href=''>3</a>
                     <a href='' >...</a>
                     <a href='' >10</a>
-                    <a href=''>< FaGreaterThan className='less_pag'/></a>
+                    <a href=''>< PiCaretRightBold className='less_pag'/></a>
                     <a href=''>< PiCaretDoubleRightBold className='les_pag'/></a>
 
                 </div>
@@ -390,13 +320,13 @@ export const Dhadetailsview = () => {
             <div>
             <div className='pagination_pag'>
                     <a href='' className='anchi_pag'><PiCaretDoubleLeftBold className='less_1_pag'/></a>
-                    <a href='' className='anchi_pag'><FaLessThan className='less_pag'/></a>
+                    <a href='' className='anchi_pag'><PiCaretLeftBold className='less_pag'/></a>
                     <a href=''className='anchi_pag_active'>1</a>
                     <a href='' className='anchi_pag'>2</a>
                     <a href='' className='anchi_pag'>3</a>
                     <a href='' className='anchi_pag'>...</a>
                     <a href='' className='anchi_pag'>10</a>
-                    <a href='' className='anchi_pag'><FaGreaterThan className='less_pag'/></a>
+                    <a href='' className='anchi_pag'><PiCaretRightBold className='less_pag'/></a>
                     <a href='' className='anchi_pag'><PiCaretDoubleRightBold className='less_pag'/></a>
 
                 </div>

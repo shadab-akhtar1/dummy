@@ -159,6 +159,17 @@
     height: 40px;
     margin-bottom: 3px;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form_data_text {
+    color: #5B6572;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
 }
 
 .save_btn {

@@ -29,7 +29,7 @@ export const Dhadocumentedit = () => {
 
                     <div className='document_userprofile_form_input'>
                             <label className='document_form_label'>Aadhar Card</label> <br /><br />
-                            <input type="file" id='document_form' className='document_form_1'/>
+                            <input type="file" id='document_form' className='document_form_1'placeholder='aadhar.jpg'/>
                             <label for="document_form" className='document_form_2'>
                             <i className='attach_file'><FaRegPenToSquare/></i>
                             </label>
