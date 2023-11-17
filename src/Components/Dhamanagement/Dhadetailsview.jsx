@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './Dhadetailsview.css';
 import {Navbar} from './Navbar';
 import profile_logo from '../Assets/Ellipse 2.svg';
@@ -7,7 +7,7 @@ import {FaGreaterThan} from 'react-icons/fa6';
 import {PiArrowLeftFill} from 'react-icons/pi';
 import {BiChevronDown} from 'react-icons/bi';
 import {IoCallOutline} from 'react-icons/io5';
-import {FaLessThan} from 'react-icons/fa6';
+import aadhar from '../Assets/aadhaar-card-dummy.png';
 import {PiCaretDoubleLeftBold} from 'react-icons/pi';
 import {PiCaretDoubleRightBold} from 'react-icons/pi';
 import {Link} from 'react-router-dom';
@@ -15,9 +15,59 @@ import { AiOutlineEdit } from "react-icons/ai";
 import { MdBlockFlipped } from "react-icons/md";
 import { PiCaretRightBold } from "react-icons/pi";
 import { PiCaretLeftBold } from "react-icons/pi";
-
+import pan from '../Assets/pan dummy.png';
+import medical from '../Assets/medical dummy.png';
+import cheque from '../Assets/cancelled-cheque-1.png';
 
 export const Dhadetailsview = () => {
+  const [modal, setModal] = useState(false);
+
+  const toggleModal = () => {
+    setModal(!modal);
+  };
+
+  if(modal) {
+    document.body.classList.add('active-modal')
+  } else {
+    document.body.classList.remove('active-modal')
+  }
+
+  const [popup,setPopup] = useState(false);
+
+  const togglePopup = () =>{
+    setPopup(!popup);
+  };
+
+  if(popup){
+    document.body.classList.add('active-modal')
+  }else{
+    document.body.classList.remove('active-modal')
+  }
+
+  const [popmed,setPopmed] = useState(false);
+
+  const togglePopmed = () =>{
+    setPopmed(!popup);
+  };
+
+  if(popmed){
+    document.body.classList.add('active-modal')
+  }else{
+    document.body.classList.remove('active-modal')
+  }
+
+  const [popcancel,setPopcancel] = useState(false);
+
+  const togglePopcancel = () =>{
+    setPopcancel(!popup);
+  };
+
+  if(popcancel){
+    document.body.classList.add('active-modal')
+  }else{
+    document.body.classList.remove('active-modal')
+  }
+
   return (
     <div>
     <div className='management_navbar'><Navbar/></div>
@@ -111,19 +161,53 @@ export const Dhadetailsview = () => {
               
               </label>
               
-              <div className='inputs_data_view'>View</div>
-                
+              <div onClick={toggleModal} className='inputs_data_view'>View</div>
+              {modal && (
+        <div className="modal">
+          <div onClick={toggleModal} className="overlay"></div>
+          <div className="modal-content">
+        
+            <img src={aadhar} alt="" className='aadhar_img'/>
+            <button className="close-modal" onClick={toggleModal}>
+              CLOSE
+            </button>
+          </div>
+        </div>
+      )}
                 </div>
 
                 <div className='inputs_data'>
                 <label >Pan card :</label>
-                <div className='inputs_data_view'>View</div>
+                <div onClick={togglePopup} className='inputs_data_view'>View</div>
+                {popup && (
+        <div className="modal">
+          <div onClick={togglePopup} className="overlay"></div>
+          <div className="modal-content">
+            <h2>Hello Modal</h2>
+            <img src={pan} alt="" />
+            <button className="close-modal" onClick={togglePopup}>
+              CLOSE
+            </button>
+          </div>
+        </div>
+      )}
                 
                 </div>
                 <div className='inputs_data'>
                 <label >Medical Council Certificate :</label>
-                <div className='inputs_data_view'>View</div>
-                
+                <div onClick={togglePopmed} className='inputs_data_view'>View</div>
+                {popmed && (
+        <div className="modal">
+          <div onClick={togglePopmed} className="overlay"></div>
+          <div className="modal-content">
+        
+            <img src={medical} alt="" className='med_img'/>
+            <button className="close-modal" onClick={togglePopmed}>
+              CLOSE
+            </button>
+          </div>
+        </div>
+      )}
                 </div>
             
                 </form>
@@ -153,8 +237,19 @@ export const Dhadetailsview = () => {
                 </div>
                 <div className='inputs_data'>
                 <label >Cancel checque :</label>
-                <div className='inputs_data_view_letter'>View</div>
-                
+                <div onClick={togglePopcancel} className='inputs_data_view_letter'>View</div>
+                {popcancel && (
+        <div className="modal">
+          <div onClick={togglePopcancel} className="overlay"></div>
+          <div className="modal-content">
+        
+            <img src={cheque} alt="" className='med_img'/>
+            <button className="close-modal" onClick={togglePopcancel}>
+              CLOSE
+            </button>
+          </div>
+        </div>
+      )}
                 
         
                 </div>
