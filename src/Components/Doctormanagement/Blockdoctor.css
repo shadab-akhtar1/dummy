@@ -1,0 +1,93 @@
+.adddha_success_doctorblock {
+    width: 550px;
+    height: 340px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 170px;
+    left: 28%;
+    border-radius: 16px;
+}
+
+.hero_doctorblock {
+    background-image: url('../Assets/image 219.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.adddha_success_box_doctorblock {
+    width: 425px;
+    display: inline;
+    align-items: center;
+}
+
+.adddha_success_box_logo_doctorblock {
+    width: 120px;
+    height: 120px;
+    margin-left: 150px;
+}
+
+.adddha_success_box_logo_doctorblock img {
+    width: 117px;
+    height: 112px;
+}
+
+.adddha_success_box_para_doctorblock {
+    width: 380px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.adddha_success_box_head_doctorblock {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1A1C1F;
+}
+
+.adddha_success_box_pi_doctorblock {
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1A1C1F;
+    margin-left: 110px;
+    margin-top: -20px;
+}
+
+.blockdha_btn_div_doctorblock {
+    width: 440px;
+    height: 44px;
+    margin-top: 30px;
+}
+
+.blockdha_btn_1_doctorblock {
+    margin-left: 1px;
+    margin-right: 10px;
+    width: 200px;
+    height: 44px;
+    border: none;
+    background: #DCDCDC;
+    border-radius: 8px;
+    color: #939191;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+
+.blockdha_btn_2_doctorblock {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 44px;
+    border: none;
+    background: #EA1414;
+    border-radius: 8px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Montserrat;
+}

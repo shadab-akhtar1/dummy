@@ -1,71 +1,72 @@
-.adddoctor_success_1 {
+.adddha_doctorsuccess_2 {
     width: 550px;
-    height: 400px;
+    height: 340px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 170px;
+    left: 28%;
     border-radius: 16px;
 }
 
-.hero_1 {
+.hero_doctor_success {
     background-image: url('../Assets/image 219.jpg');
     height: 100vh;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
 }
 
-.adddoctor_success_box_1 {}
-
-.adddoctor_success_box_logo_1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.adddha_doctorsuccess_box_2 {
+    width: 425px;
 }
 
-.adddoctor_success_box_logo_1 img {
+.adddha_doctorsuccess_box_logo_2 {
+    width: 120px;
+    height: 120px;
+    margin-left: 150px;
+}
+
+.adddha_doctorsuccess_box_logo_2 img {
     width: 117px;
     height: 112px;
 }
 
-.adddoctor_success_box_para_1 {
-    display: grid;
-    justify-content: center;
-    align-items: center;
+.adddha_doctorsuccess_box_para_2 {
+    width: 380px;
+    height: 60px;
 }
 
-.adddoctor_success_box_head {
+.adddha_doctorsuccess_box_head_2 {
+    margin-left: 80px;
     font-size: 20px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     color: #1A1C1F;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.adddoctor_success_box_pi {
+.adddha_doctorsuccess_box_pi_2 {
     align-items: center;
     font-size: 14px;
     font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
     color: #1A1C1F;
+    margin-left: 90px;
     margin-top: -20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.adddoctor_success_box_btn_1 {
+.adddha_doctorsuccess_box_btn_2 {
     background: #FCE6EC;
     width: 410px;
     height: 40px;
     border-radius: 8px;
     border: none;
     color: #E40443;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
-    margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-left: 10px;
 }

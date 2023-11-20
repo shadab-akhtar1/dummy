@@ -8,11 +8,14 @@ import prof3 from '../Assets/Ellipse 187 (2).jpg';
 import prof4 from '../Assets/Ellipse 187 (3).jpg';
 import prof5 from '../Assets/Ellipse 187 (4).jpg';
 import prof6 from '../Assets/Ellipse 187 (5).jpg';
+import { PiCaretRightBold } from "react-icons/pi";
+import { PiCaretLeftBold } from "react-icons/pi";
+import {IoMdAdd} from 'react-icons/io';
+import {PiArrowLeftFill} from 'react-icons/pi';
 import {FaLessThan} from 'react-icons/fa6';
 import {PiCaretDoubleLeftBold} from 'react-icons/pi';
 import {PiCaretDoubleRightBold} from 'react-icons/pi';
 import {FaGreaterThan} from 'react-icons/fa6';
-import {BiArrowBack} from 'react-icons/bi';
 import { Link } from "react-router-dom";
 
 export const Doctorrequests = () => {
@@ -22,7 +25,7 @@ export const Doctorrequests = () => {
         <div className='middle_section_doctor_requests'>
             <div className='heading_box1_requests'>
                 <div className='heading_content_box_requests'>
-                <h2> <BiArrowBack className="left_logo"/>Doctor Requests</h2>
+                <h2> <Link to={"/doctormanagement"}><PiArrowLeftFill className="left_logo"/></Link>Doctor Requests</h2>
                 </div>
                 
             </div>
@@ -37,7 +40,7 @@ export const Doctorrequests = () => {
                         </tr>
                     </thead>
                     <tbody>
-                        <tr> <Link to={"/dhadetailsview"}>
+                        <tr> <Link to={"/doctordetails"}>
                             <td className='requests_data_user_prof_2'><img src={prof} alt="" className='requests_user_prof_2'/>Jacob Jones</td>
                             </Link>
                             <td>Psychologist</td>
@@ -79,13 +82,13 @@ export const Doctorrequests = () => {
 
                 <div className='pag_requests'>
                     <a href=''>< PiCaretDoubleLeftBold className='left_arrow'/></a>
-                    <a href=''><FaLessThan className='left_1_arrow'/></a>
+                    <a href=''><PiCaretLeftBold className='left_1_arrow'/></a>
                     <a href=''className='active'>1</a>
                     <a href=''>2</a>
                     <a href=''>3</a>
                     <a href=''>...</a>
                     <a href=''>10</a>
-                    <a href=''><FaGreaterThan className='left_1_arrow'/></a>
+                    <a href=''><PiCaretRightBold className='left_1_arrow'/></a>
                     <a href=''><PiCaretDoubleRightBold className='left_arrow'/></a>
 
 

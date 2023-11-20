@@ -1,4 +1,160 @@
-.add_doctor_bank {
-    width: 100%;
+.hero_doctorbank {
+    background-image: url('../Assets/image 219.jpg');
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.adddoctorbank_bank {
+    background: #FFFFFF;
+    width: 550px;
+    height: 80vh;
+    position: absolute;
+    margin-top: 20px;
+    left: 28%;
+    border-radius: 16px;
+}
+
+.adddoctorbank_header_bank {
+    width: 496px;
+    margin-left: 25px;
+}
+
+.adddoctorbank_header_bar_bank {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+}
+
+.progress_bar_doctorbank {
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #EEF0F3;
+}
+
+.indicator_bar_doctorbank {
+    position: absolute;
+    height: 100%;
+    width: 62%;
+    background-color: #E40443;
+}
+
+.adddoctorbank_header_bar_1_bank {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #E40443;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adddoctorbank_header_bar_2_bank {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #E40443;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adddoctorbank_header_bar_3_bank {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #E40443;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adddoctorbank_mid_bank {
+    width: 500px;
+    margin-left: 20px;
+}
+
+.adddoctorbank_mid_bank h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #1A1C1F;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.adddoctorbank_form_fill_bank {
+    width: 500px;
+    align-items: center;
+}
+
+.adddoctorbank_form_fill_labi_bank {
+    width: 500px;
+    height: 14px;
+    padding: 0px, 3px, 0px, 3px;
+    color: #8D98A4;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.adddoctorbank_form_fill_inp_bank {
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    color: linear-gradient(0deg, #EEF0F3, #EEF0F3), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #EEF0F3;
+    margin-bottom: 2px;
+}
+
+.adddoctorbank_btn_bank {
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    background: #E40443;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.adddoctorbank_form_fill_inp_bank_3 {
+    display: none;
+}
+
+.adddoctorbank_file_up_bank {
+    height: 88px;
+    width: 500px;
+    border-radius: 8px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+    position: relative;
+    border: 1px solid #EEF0F3;
+    color: #5B6572;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.adddoctorbank_form_fill_bank_div {
+    margin-bottom: 5px;
 }

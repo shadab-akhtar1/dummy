@@ -3,11 +3,12 @@ import './Doctormanagement.css';
 import { Link } from "react-router-dom";
 import {Navbar} from '../Dhamanagement/Navbar';
 import {Footer} from '../Dhamanagement/Footer';
-import {BiArrowBack} from 'react-icons/bi';
-import {FaLessThan} from 'react-icons/fa6';
+import {PiArrowLeftFill} from 'react-icons/pi';
 import {PiCaretDoubleLeftBold} from 'react-icons/pi';
 import {PiCaretDoubleRightBold} from 'react-icons/pi';
-import {FaGreaterThan} from 'react-icons/fa6';
+import { PiCaretRightBold } from "react-icons/pi";
+import { PiCaretLeftBold } from "react-icons/pi";
+import {IoMdAdd} from 'react-icons/io';
 import prof from '../Assets/Ellipse 187.jpg';
 import prof2 from '../Assets/Ellipse 187 (1).jpg';
 import prof3 from '../Assets/Ellipse 187 (2).jpg';
@@ -24,16 +25,19 @@ export const Doctormanagement = () => {
             <div className='heading_doctor'>
                 <div className='heading_content_doctor'>
                 
-                <h2><BiArrowBack className="left_logo_doctor"/>Doctor Management</h2>
+                <h2><PiArrowLeftFill className="left_logo_doctor"/>Doctor Management</h2>
                 </div>
+                <div className='heading_content_doctor_2'>
                 <button className='doctor_btn_1'>
-                <Link to={"/dharequest"} className="Link">
+                <Link to={"/doctorrequests"} className="Link">
                 View Requests
               </Link></button>
                 <button className='doctor_btn_2'>
-                <Link to={"/dhadetailsview"} className="Link">
+                <Link to={"/adddoctor"} className="Link">
+                <IoMdAdd className='add_doctor_btn'/>
                 Add Doctor
               </Link></button>
+              </div>
             </div>
             <div className='option_doctor'>
                 <table className='dha_doctor_table'>
@@ -101,13 +105,13 @@ export const Doctormanagement = () => {
 
                 <div className='pagination_doctor'>
                     <a href='' className='anchi'><PiCaretDoubleLeftBold className='less_1'/></a>
-                    <a href='' className='anchi'><FaLessThan className='less_doctor'/></a>
+                    <a href='' className='anchi'><PiCaretLeftBold className='less_doctor'/></a>
                     <a href=''className='anch_active'>1</a>
                     <a href='' className='anchi'>2</a>
                     <a href='' className='anchi'>3</a>
                     <a href='' className='anchi'>...</a>
                     <a href='' className='anchi'>10</a>
-                    <a href='' className='anchi'><FaGreaterThan className='less_doctor'/></a>
+                    <a href='' className='anchi'><PiCaretRightBold className='less_doctor'/></a>
                     <a href='' className='anchi'><PiCaretDoubleRightBold className='less_doctor'/></a>
 
                 </div>

@@ -2,10 +2,12 @@
     width: 100%;
 }
 
+
+/*############################## MIDDLE 1st SECTION START ##########################*/
+
 .middle_container_doctor_details {
     background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     width: 100%;
-    margin-top: -7px;
 }
 
 .middle_container_heading_doctor_details {
@@ -16,11 +18,25 @@
 
 .middle_container_heading_1_doctor_details {
     width: 800px;
-    margin-right: 110px;
+    margin-left: 20px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.middle_container_heading_doctor_details h2 {
-    margin-left: 20px;
+.middle_container_heading_1_doctor_details h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
+    color: #1A1C1F;
+}
+
+.doctor_details_arrow {
+    color: #1A1C1F;
+    text-align: center;
+    padding-top: 3px;
+    padding-right: 10px;
 }
 
 .middle_container_btn_doctor_details {
@@ -35,6 +51,14 @@
     color: white;
     font-weight: 600;
     font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle_container_btn_doctor_icon1 {
+    padding-right: 10px;
+    align-items: center;
 }
 
 .middle_container_btn1_doctor_details {
@@ -49,7 +73,21 @@
     color: white;
     font-weight: 600;
     font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
 }
+
+.middle_container_btn_doctor_icon {
+    padding-right: 10px;
+    align-items: center;
+}
+
+
+/*############################## MIDDLE 1st SECTION END ###########################*/
+
+
+/*############################### MIDDLE 2nd SECTION START ##########################*/
 
 .middle2_doctor_details {
     display: flex;
@@ -73,12 +111,14 @@
     padding-left: 10px;
     font-size: 16px;
     font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .middle2_doctor_details_profile_name span {
     color: #E40443;
     font-weight: 500;
     font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .middle2_doctor_details_profile_status {
@@ -93,6 +133,7 @@
     height: 60px;
     color: #1A1C1F;
     padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .middle2_doctor_details_profile_status p {
@@ -101,6 +142,8 @@
     font-weight: 500;
     text-align: center;
     padding-right: 2px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 8px;
 }
 
 .middle2_box_doctor_details {
@@ -108,17 +151,21 @@
     border-radius: 8px;
     border: 1px solid #EEF0F3;
     height: 60px;
-    text-align: center;
+    text-align: left;
     color: #E40443;
     font-size: 18px;
     font-weight: 600;
     padding-top: 10px;
+    padding-left: 12px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .middle2_box_doctor_details p {
     color: #5B6572;
     font-weight: 500;
     font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 8px;
 }
 
 .middle2_boxes_doctor_details {
@@ -126,17 +173,21 @@
     border-radius: 8px;
     border: 1px solid #EEF0F3;
     height: 60px;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     font-weight: 600;
     color: #1A1C1F;
     padding-top: 10px;
+    padding-left: 12px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .middle2_boxes_doctor_details p {
     color: #5B6572;
     font-weight: 500;
     font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 8px;
 }
 
 .middle2_boxer_doctor_details {
@@ -144,17 +195,21 @@
     border-radius: 8px;
     border: 1px solid #EEF0F3;
     height: 60px;
-    text-align: center;
+    text-align: left;
     color: #1A1C1F;
     font-size: 18px;
     font-weight: 600;
     padding-top: 10px;
+    padding-left: 12px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .middle2_boxer_doctor_details p {
     color: #5B6572;
     font-weight: 500;
     font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 8px;
 }
 
 .middle2_boxex_doctor_details {
@@ -167,9 +222,10 @@
     color: #1A1C1F;
     font-size: 18px;
     font-weight: 600;
-    padding-top: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .calling_doctor_details {
@@ -179,7 +235,13 @@
     width: 30px;
     border-radius: 8px;
     margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+/*################################ MIDDLE 2nd SECTION END #############################*/
 
 .middle3_doctor_details {
     display: grid;
@@ -198,13 +260,19 @@
     margin-left: 15px;
 }
 
+.Container_doctor_details h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
 .container_doctor_details_input {
     width: 300px;
 }
 
 .Container_doctor_details .inputs_data {
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: flex-start;
     border-bottom: 1px solid #E3E6E8
@@ -217,17 +285,45 @@
     font-size: 12px;
     transition: 0.3s;
     margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .Container_doctor_details .inputs_data label {
     left: 0;
     width: 140px;
     pointer-events: none;
-    font-size: 15px;
+    font-size: 12px;
     transition: 0.3s;
     color: #8D98A4;
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs_doctor_letter {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #1A1C1F;
+}
+
+.inputs_doctor_view {
+    color: #E40443;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 120px;
+}
+
+.inputs_doctor_view_letter {
+    color: #E40443;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -262,7 +358,8 @@
 .last_one_left_doctor_details {
     width: 240px;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     color: #1A1C1F;
 }
 
@@ -280,6 +377,7 @@
     font-size: 12px;
     font-weight: 500;
     margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .last_two_right_1_doctor_details {
@@ -307,15 +405,17 @@
     font-size: 12px;
     font-weight: 500;
     margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.deta {
+.deta_doctor {
     display: flex;
     justify-content: flex-end;
     color: #E40443;
     font-size: 14px;
     font-weight: 500;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .last_one_last_doctor_details {
@@ -339,9 +439,11 @@
 .last_one_last_1_doctor_details ul li {
     list-style: none;
     margin-right: 30px;
+    padding-top: 5px;
     font-size: 12px;
     font-weight: 500;
     color: #1A1C1F;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .view_details_doctor {
@@ -350,6 +452,9 @@
     font-size: 12px;
     font-weight: 400;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 
 .last_one_last_1_doctor_details ul li button {
@@ -359,6 +464,7 @@
     color: #41B079;
     font-size: 12px;
     font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -366,33 +472,41 @@
 
 .pagination_pag_doctor {
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 5px;
-    padding-top: 1px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .pagination_pag_doctor a {
     background-color: white;
     text-decoration: none;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
     display: inline-block;
-    border-radius: 50px;
+    border-radius: 32px;
     border: 1px solid #F1F1F1;
-    font-size: 19px;
+    font-size: 13px;
     font-weight: 600;
-    color: grey;
+    color: #8D98A4;
     height: 30px;
     width: 30px;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    margin-top: 10px;
+    align-items: center;
 }
 
 .pagination_pag_doctor a.active {
     background-color: #E40443;
     font-weight: 400;
+    color: white;
 }
 
 .arr_doctor {
-    padding-top: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    color: black;
 }

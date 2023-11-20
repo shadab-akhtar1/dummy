@@ -27,6 +27,8 @@ import Adddoctorbank from './Components/Doctormanagement/Adddoctorbank.jsx';
 import Adddoctorsuccess from './Components/Doctormanagement/Adddoctorsuccess.jsx';
 import Doctorcasedetail from './Components/Doctormanagement/Doctorcasedetail.jsx';
 import Dhacasedetail from './Components/Dhamanagement/Dhacasedetail.jsx';
+import Blockdoctor from './Components/Doctormanagement/Blockdoctor.jsx';
+import Blockdoctorsuccess from './Components/Doctormanagement/Blockdoctorsuccess.jsx';
 
 
 
@@ -61,6 +63,8 @@ function App() {
          <Route path='/adddoctorsuccess' element={<Adddoctorsuccess/>}/>
          <Route path='/doctorcasedetail' element={<Doctorcasedetail/>}/>
          <Route path='/dhacasedetail' element={<Dhacasedetail/>}/>
+         <Route path='/blockdoctor' element={<Blockdoctor/>}/>
+         <Route path='/blockdoctorsuccess' element={<Blockdoctorsuccess/>}/>
 
       </Routes>
 

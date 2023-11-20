@@ -47,6 +47,8 @@
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
+    list-style: none;
+    color: #38404A;
 }
 
 .navbar_logo {

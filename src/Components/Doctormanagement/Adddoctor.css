@@ -1,4 +1,142 @@
-.adddoctor {
-    width: 100%;
+.hero_adddoctor_main {
+    background-image: url('../Assets/image 219.jpg');
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.adddoctor_add {
+    background: #FFFFFF;
+    width: 550px;
+    position: absolute;
+    margin-top: 20px;
+    left: 28%;
+    border-radius: 16px;
+}
+
+.adddoctor_header_add {
+    width: 496px;
+    margin-left: 25px;
+}
+
+.adddoctor_header_bar_add {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+}
+
+.adddoctor_header_bar_1_add {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #E40443;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress_doctor {
+    position: absolute;
+    height: 4px;
+    border-radius: 6px;
+    width: 100%;
+    background: #EEF0F3;
+}
+
+.indicator_doctor {
+    position: absolute;
+    height: 100%;
+    width: 13%;
+    background-color: #E40443;
+}
+
+.adddoctor_header_bar_2_add {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #EEF0F3;
+    color: black;
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adddoctor_header_bar_3_add {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #EEF0F3;
+    color: black;
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adddoctor_mid_add {
+    width: 500px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.adddoctor_mid_add h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #1A1C1F;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.adddoctor_form_add {
+    margin-top: -15px;
+}
+
+.adddoctor_form_fill_add {
+    width: 500px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.adddoctor_form_fill_labi_add {
+    width: 500px;
+    height: 14px;
+    padding: 0px, 3px, 0px, 3px;
+    color: #8D98A4;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.adddoctor_form_fill_inp_add {
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    color: linear-gradient(0deg, #EEF0F3, #EEF0F3), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #EEF0F3;
+    margin-bottom: 2px;
+}
+
+.adddoctor_btn_add {
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    background: #E40443;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
 }

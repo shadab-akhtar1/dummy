@@ -10,15 +10,30 @@
 
 .middle_edit_heading_basic {
     width: 1200px;
-    padding-left: 100px;
-    padding-top: 10px;
+    padding-left: 70px;
+    padding-top: 1px;
+}
+
+.middle_edit_heading_basic h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .middle_edit_heading2_basic_base {
     display: flex;
     justify-content: flex-start;
-    padding-left: 100px;
-    margin-top: -10px;
+    padding-left: 80px;
+    margin-top: -20px;
+    border-bottom: 1px solid #E1E5E8;
+}
+
+.arrow_edit_basic {
+    color: #1A1C1F;
+    text-align: center;
+    padding-top: 3px;
+    padding-right: 10px;
 }
 
 .middle_edit_heading2_basic_2 {
@@ -28,6 +43,7 @@
     color: #1A1C1F;
     font-size: 16px;
     font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .middle_edit_heading2_document_basic {
@@ -37,6 +53,7 @@
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .middle_edit_heading2_info_basic {
@@ -45,17 +62,27 @@
     color: #8D98A4;
     font-size: 16px;
     font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link_details_edit_basic {
+    color: #1A1C1F;
+}
+
+.detailsedit_document_basic {
+    text-decoration: none;
 }
 
 .middle_userprofile_basic {
     width: 1200px;
-    padding-left: 100px;
+    padding-left: 70px;
     padding-top: 1px;
+    margin-top: 10px;
 }
 
 .middle_userprofile_box_basic {
     background: #FFFFFF;
-    width: 500px;
+    width: 450px;
     border-radius: 16px;
     padding: 32px;
 }
@@ -68,7 +95,6 @@
 .middle_userprofile_box_2_userprofile_basic {
     width: 413px;
     display: flex;
-    margin-top: -20px;
 }
 
 .middle_userprofile_box_2_userprofile_basic img {
@@ -98,6 +124,7 @@
     font-size: 15px;
     font-weight: 500;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .reset_btn_basic {
@@ -109,16 +136,18 @@
     color: #A8AAAE;
     font-size: 15px;
     font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .listed_line_basic {
-    color: linear-gradient(0deg, #4B465C, #4B465C), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     font-size: 12px;
     font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #A8AAAE;
 }
 
 .userprofile_form_basic {
-    margin-top: 3px;
+    margin-top: 5px;
     width: 430px;
 }
 
@@ -127,8 +156,12 @@
     color: linear-gradient(0deg, #EEF0F3, #EEF0F3), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     border: 1px solid #EEF0F3;
     border-radius: 6px;
-    height: 22px;
-    margin-bottom: 2px;
+    height: 40px;
+    margin-bottom: 3px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .save_btn_basic {
@@ -136,14 +169,16 @@
     border-radius: 8px;
     border: none;
     width: 130px;
-    height: 30px;
-    margin-top: 10px;
-    margin-bottom: -25px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 0px 20px 0px 20px;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .form_label_basic {
     font-size: 12px;
     font-weight: 500;
     color: #8D98A4;
+    font-family: 'Montserrat', sans-serif;
 }

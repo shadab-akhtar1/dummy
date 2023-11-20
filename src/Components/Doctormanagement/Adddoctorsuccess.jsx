@@ -1,6 +1,7 @@
 import React from 'react';
 import './Adddoctorsuccess.css';
 import Done from "../Assets/Done.svg";
+import { Link } from "react-router-dom";
 
 
 export const Adddoctorsuccess = () => {
@@ -18,8 +19,9 @@ export const Adddoctorsuccess = () => {
                     <p className='adddoctor_success_box_pi'>Your account is created successfully.</p>
 
                 </div>
-
+                <Link to={"/doctormanagement"}>
                 <button className='adddoctor_success_box_btn_1'>Continue</button>
+                </Link>
 
             </div>
             

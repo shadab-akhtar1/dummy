@@ -2,6 +2,9 @@
     width: 100%;
 }
 
+
+/*############################### MIDDLE 1st SECTION Start ##############################*/
+
 .middle_container {
     background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     width: 100%;
@@ -79,6 +82,12 @@
     padding-right: 10px;
     align-items: center;
 }
+
+
+/*################################## MIDDLE 1st SECTION END ################################*/
+
+
+/*################################## MIDDLE 2nd SECTION START ##############################*/
 
 .middle2 {
     display: flex;
@@ -229,6 +238,9 @@
     justify-content: center;
     align-items: center;
 }
+
+
+/*######################### MIDDLE 2nd SECTION END ##############################*/
 
 
 /*######################### Form Started ########################*/
@@ -505,6 +517,9 @@
     margin-left: 3px;
     color: black;
 }
+
+
+/*##################### Popup Modal ######################*/
 
 .modal,
 .overlay {
