@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 80px;
+    height: 120px;
     padding: 40px, 120px, 40px, 120px;
     border: 0px, 0px, 1px, 0px;
     gap: 8px;
@@ -21,20 +21,20 @@
 }
 
 .list_item_doctorcase {
-    margin-left: 10px;
-    padding-right: 30px;
-    margin-top: 5px;
+    margin-left: 5px;
+    padding-right: 20px;
+    margin-top: 10px;
     text-decoration: none;
     list-style: none;
     color: #8D98A4;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .list_item_1_doctorcase {
-    margin-left: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
     padding: 5px;
     text-decoration: none;
     list-style: none;
@@ -58,6 +58,36 @@
 
 .icons_bell_doctorcase {
     color: #8D98A4;
+    width: 20px;
+    height: 20px;
+}
+
+.phone_icon_doctorcase {
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.list_item_1_doctorcase_2 {
+    background-color: #E40443;
+    border-radius: 8px;
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid #F5F6F7;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jaydoctor_profile {
+    padding-right: 3px;
 }
 
 
@@ -69,7 +99,7 @@
 .middle_container_doctor_case_details {
     background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     width: 100%;
-    margin-top: -7px;
+    padding-top: 30px;
 }
 
 .middle_container_heading_doctor_case_details {
@@ -79,22 +109,40 @@
 }
 
 .middle_container_heading_1_doctor_case_details {
-    width: 800px;
-    margin-right: 450px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 80px;
 }
 
-.middle_container_heading_doctor_case_details h2 {}
+.middle_container_heading_1_doctor_case_details h2 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.arrdoctor_div {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.details_arrow_case_doctor {
+    height: 24px;
+    width: 24px;
+    color: #1A1C1F;
+}
 
 .third_container_doctor_case_details {
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
 }
 
 .third_container_left_doctor_case_details {
     background-color: white;
     margin-left: 80px;
     width: 790px;
-    height: 2074px;
     border-radius: 16px;
     margin-bottom: 20px;
 }
@@ -103,13 +151,761 @@
     background-color: white;
     margin-right: 70px;
     width: 380px;
-    height: 2074px;
     border-radius: 16px;
     margin-bottom: 20px;
 }
 
 .doctor_case_details_userprofile {
     width: 100%;
+    height: 112px;
     display: flex;
     justify-content: flex-start;
+    border-bottom: 1px solid #EEF0F3
+}
+
+.doctor_case_details_userprofile_profile {
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.doctor_case_details_userprofile_info ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.doctor_li_1_case {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #1A1C1F;
+    margin-top: 5px;
+}
+
+.doctor_li_2_case {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5B6572;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+}
+
+.doctor_li_3_case {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: #5B6572;
+    margin-top: 4px;
+}
+
+.doctor_li_4_case {
+    color: #5B6572;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.doctor_case_detail_complet {
+    border-bottom: 1px solid #EEF0F3;
+    height: 70px;
+    width: 100%;
+}
+
+.doctor_case_detail_completion p {
+    color: #41B079;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+}
+
+.doctor_case_detail_time {
+    display: flex;
+    margin-top: -20px;
+}
+
+.doctor_case_detail_time_1 {
+    margin-left: 20px;
+    width: 361px;
+    display: flex;
+}
+
+.calen_doctor {
+    text-align: center;
+    padding-top: 3px;
+}
+
+.doctor_case_detail_time_2 {
+    text-align: left;
+    display: flex;
+}
+
+.doctor_case_detail_clock {
+    text-align: center;
+    padding-top: 3px;
+    padding-right: 5px;
+}
+
+.doctor_case_detail_symptom {
+    border-bottom: 1px solid #EEF0F3
+}
+
+.doctor_case_deatil_symptom_1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.doctor_case_detail_symptom_left {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.doctor_case_detail_symptom_left_1 {
+    border: 1px solid #DBDDDF;
+    border-radius: 8px;
+    width: 95px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #040404;
+    text-align: center;
+    padding-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.doctor_case_detail_symptom_right button {
+    background: #E40443;
+    border-radius: 8px;
+    width: 131px;
+    height: 30px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    margin-top: 10px;
+}
+
+.doctor_case_detail_service_type {
+    display: flex;
+    justify-content: flex-start;
+    height: 48px;
+    width: 100%;
+    border-bottom: 1px solid #EEF0F3
+}
+
+.doctor_case_detail_service_name {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.doctor_case_detail_service_name h3 {
+    color: #1A1C1F;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.doctor_case_detail_service_name p {
+    color: #5B6572;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40px;
+}
+
+.doctor_case_detail_para {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.doctor_case_detail_container_1 {
+    width: 10px;
+    height: 10px;
+    background: #E40443;
+    border-radius: 40px;
+    padding: 12px;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.doctor_case_detail_container_2 {
+    width: 10px;
+    height: 10px;
+    background: #E40443;
+    border-radius: 40px;
+    padding: 12px;
+    gap: 8px;
+    margin-top: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctor_check_mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.doctor_case_detail_container_3 {
+    width: 10px;
+    height: 10px;
+    background: #E40443;
+    border-radius: 40px;
+    padding: 12px;
+    gap: 8px;
+    margin-top: 125px;
+}
+
+.doctor_case_detail_container_4 {
+    width: 10px;
+    height: 10px;
+    background: #E40443;
+    border-radius: 40px;
+    padding: 12px;
+    gap: 8px;
+    margin-top: 60px;
+}
+
+.doctor_case_detail_container_5 {
+    width: 10px;
+    height: 10px;
+    background: #E40443;
+    border-radius: 40px;
+    padding: 12px;
+    gap: 8px;
+    margin-top: 220px;
+}
+
+.doctor_case_detail_container_6 {
+    width: 10px;
+    height: 10px;
+    background: #E40443;
+    border-radius: 40px;
+    padding: 12px;
+    gap: 8px;
+    margin-top: 120px;
+}
+
+.doctor_case_detail_container_7 {
+    width: 10px;
+    height: 10px;
+    background: #E40443;
+    border-radius: 40px;
+    padding: 12px;
+    gap: 8px;
+    margin-top: 250px;
+}
+
+.doctor_case_detail_container_8 {
+    width: 10px;
+    height: 10px;
+    background: #E40443;
+    border-radius: 40px;
+    padding: 12px;
+    gap: 8px;
+    margin-top: 120px;
+}
+
+.doctor_case_detail_container_9 {
+    width: 10px;
+    height: 10px;
+    background: #E40443;
+    border-radius: 40px;
+    padding: 12px;
+    gap: 8px;
+    margin-top: 130px;
+}
+
+.doctor_case_detail_para_right {}
+
+.doctor_case_detail_para_right_1 {
+    border-bottom: 1px solid #E3E6E8;
+    width: 685px;
+    height: 297px;
+    margin-left: 30px;
+    border: 0px, 0px, 1px, 0px;
+    gap: 20px;
+}
+
+.doctor_case_detail_para_right_1_up {
+    width: 685px;
+    height: 42px;
+    gap: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctor_case_detail_para_content {
+    display: grid;
+    justify-content: flex-start;
+    width: 650px;
+}
+
+.doctor_case_detail_para_content h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1A1C1F;
+}
+
+.doctor_case_detail_para_content p {
+    margin-top: -20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5B6572;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.doctor_case_detail_para_icon {
+    display: flex;
+    justify-content: flex-end;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    border-radius: 24px;
+    background: #1A1C1F;
+    margin-left: 20px;
+}
+
+.doctor_case_detail_para_right_1_down {
+    height: 215px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.doctor_case_detail_para_main_left {
+    width: 365px;
+    height: 184px;
+    margin-top: 20px;
+}
+
+.doctor_case_detail_para_main_right {
+    width: 274px;
+    height: 215px;
+}
+
+.doctor_case_detail_para_main_left h4 {
+    color: #1A1C1F;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100px;
+    height: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.doctor_case_detail_para_main_left p {
+    color: #5B6572;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.doctor_case_detail_para_main_right h4 {
+    width: 107px;
+    height: 16px;
+    color: #1A1C1F;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.doctor_case_detail_para_right_2 {
+    border-bottom: 1px solid #E3E6E8;
+    width: 685px;
+    margin-left: 30px;
+}
+
+.doctor_case_detail_para_main_left_2_left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.doctor_case_detail_para_main_left_1_left ul li {
+    list-style: none;
+    margin-left: -20px;
+}
+
+.doctor_case_detail_para_right_2_down {
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.doctor_case_detail_para_main_left_2_left img {
+    height: 44px;
+    width: 44px;
+}
+
+.doctor_case_detail_para_main_left_right {
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+}
+
+.doctor_case_detail_para_main_left_right ul li {
+    text-decoration: none;
+    list-style: none;
+    color: #8D98A4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: right;
+    margin-left: 20px;
+}
+
+.doctor_case_detail_para_content_2 {
+    display: grid;
+    justify-content: flex-start;
+    width: 650px;
+}
+
+.doctor_case_detail_para_content_2 h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1A1C1F;
+}
+
+.doctor_case_detail_para_content_2 p {
+    color: #5B6572;
+    margin-top: -20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.doctor_case_detail_para_right_2_up {
+    width: 685px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctor_case_detail_para_right_3 {
+    border-bottom: 1px solid #E3E6E8;
+    width: 685px;
+    margin-left: 30px;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.doctor_case_detail_para_right_4 {
+    border-bottom: 1px solid #E3E6E8;
+    width: 685px;
+    margin-left: 30px;
+}
+
+.doctor_case_detail_para_bottom_head {
+    margin-left: 20px;
+}
+
+.doctor_case_detail_para_bottom_head h3 {
+    color: #1A1C1F;
+    font-size: 14px;
+    font-weight: 500;
+    height: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.doctor_case_detail_para_bottom_mid {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.doctor_case_detail_para_bottom_mid_left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.doctor_case_detail_para_bottom_mid_right {
+    color: #5B6572;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+.doctor_case_detail_call {
+    padding-top: 3px;
+    text-align: center;
+    padding-right: 5px;
+    color: #1A1C1F;
+}
+
+.doctor_case_detail_para_bottom_mid_left_list ul li {
+    list-style: none;
+    margin-left: -20px;
+}
+
+.doctor_case_deatil_list {
+    color: #1A1C1F;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.doctor_case_detail_list_item {
+    color: #E40443;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.doctor_case_detail_para_bottom_bot button {
+    background: #E40443;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    height: 35px;
+    width: 213px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.doctor_case_detail_para_bottom_mid_left img {
+    width: 36px;
+    height: 36px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.doctor_case_detail_para_right_5 {
+    border-bottom: 1px solid #E3E6E8;
+    width: 685px;
+    margin-left: 30px;
+}
+
+.doctor_case_detail_para_right_6 {
+    border-bottom: 1px solid #E3E6E8;
+    width: 685px;
+    margin-left: 30px;
+}
+
+.doctor_case_detail_para_right_6_down_down ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1A1C1F;
+    margin-top: 10px;
+}
+
+.doctor_case_detail_para_right_6_down_down {
+    padding-bottom: 30px;
+}
+
+.doctor_case_detail_para_right_6_down p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    height: 14px;
+}
+
+.doctor_case_detail_para_right_6_down {
+    margin-top: 40px;
+}
+
+.doctor_case_detail_para_right_7 {
+    border-bottom: 1px solid #E3E6E8;
+    width: 685px;
+    margin-left: 30px;
+}
+
+.doctor_case_detail_para_main_left_right_7 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.doctor_case_detail_para_main_left_right_7 ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.doctor_case_detail_para_main_left_right_7 ul li {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.doctor_case_detail_para_main_left_right_7_button {
+    width: 88px;
+    height: 36px;
+    border-radius: 8px;
+    background: #FCE6EC;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    color: #E40443;
+}
+
+.doctor_case_detail_para_right_8 {
+    border-bottom: 1px solid #E3E6E8;
+    width: 685px;
+    margin-left: 30px;
+}
+
+.doctor_case_detail_para_right_9 {
+    width: 685px;
+    margin-left: 30px;
+    height: 48px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.doctor_case_detail_para_right_3_up {
+    width: 685px;
+    height: 42px;
+    gap: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctor_case_detail_para_right_6_up {
+    width: 685px;
+    height: 42px;
+    gap: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.vertical_line {}
+
+.doctor_case_detail_para_left {
+    width: 40px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*################################ Right Side #############################*/
+
+.third_container_right_doctorcase_details_first {
+    border-radius: 16px;
+    background-color: white;
+}
+
+.third_container_right_doctorcase_details_first_1 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.third_container_right_doctorcase_details_first_1 h2 {
+    color: #1A1C1F;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    height: 16px;
+}
+
+.third_container_right_doctorcase_details_first_2 ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.third_container_right_doctorcase_details_first_list {
+    list-style: none;
+    color: #8D98A4;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: -20px;
+}
+
+.third_container_right_doctorcase_details_first_item {
+    list-style: none;
+    color: #1A1C1F;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.third_container_right_doctorcase_details_first_3 ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.third_container_right_doctorcase_details_first_4 ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    border-bottom: 2px solid #E3E6E8;
+}
+
+.third_container_right_doctorcase_details_first_5 ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.third_container_right_doctorcase_details_first_6 ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    border-bottom: 2px solid #E3E6E8;
+}
+
+.third_container_right_doctorcase_details_first_7 ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
 }
