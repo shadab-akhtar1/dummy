@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './Doctorcasedetail.css';
 import Weblogo from "../Assets/Dooper Logo 1500x1500 2.svg";
 import {FaBell} from 'react-icons/fa';
@@ -17,8 +17,33 @@ import elipse from "../Assets/Ellipse 2.jpg";
 import { MdCall } from "react-icons/md";
 import { SlCloudDownload } from "react-icons/sl";
 import { IoCheckmark } from "react-icons/io5";
+import aadhar from '../Assets/aadhaar-card-dummy.png';
+import medpic from '../Assets/image 201.png';
 
 export const Doctorcasedetail = () => {
+    const [med, setMed] = useState(false);
+
+  const toggleMed = () => {
+    setMed(!med);
+  };
+
+  if(med) {
+    document.body.classList.add('active-modal')
+  } else {
+    document.body.classList.remove('active-modal')
+  }
+
+  const [form, setForm] = useState(false);
+
+  const toggleForm = () => {
+    setForm(!form);
+  };
+
+  if(form) {
+    document.body.classList.add('active-modal')
+  } else {
+    document.body.classList.remove('active-modal')
+  }
   return (
     <>
 
@@ -307,7 +332,19 @@ export const Doctorcasedetail = () => {
                                     </div>
                                     <div className='doctor_case_detail_para_main_left_right_7'>
                                         <ul>
-                                            <li><button className='doctor_case_detail_para_main_left_right_7_button'>View</button></li>
+                                            <li><button onClick={toggleMed} className='doctor_case_detail_para_main_left_right_7_button'>View</button></li>
+                                            {med && (
+                                                <div className="modal_doctor">
+                                                        <div onClick={toggleMed} className="overlay_doctor"></div>
+                                                        <div className="modal_content_doctor">
+        
+                                                            <img src={medpic} alt="" className='med_img_doc'/>
+                                                            <button className="close_modal_doctor" onClick={toggleMed}>
+                                                                CLOSE
+                                                            </button>
+                                                        </div>
+                                                </div>
+                                                )}
                                             <li><SlCloudDownload className='doctor_case_detail_para_main_left_right_7_icon'/></li>
                                         </ul>
 
@@ -336,7 +373,98 @@ export const Doctorcasedetail = () => {
                                     </div>
                                     <div className='doctor_case_detail_para_main_left_right_7'>
                                         <ul>
-                                            <li><button className='doctor_case_detail_para_main_left_right_7_button'>View</button></li>
+                                            <li><button onClick={toggleForm} className='doctor_case_detail_para_main_left_right_7_button'>View</button></li>
+                                            {form && (
+                                                <div className="modal_doctor">
+                                                        <div onClick={toggleForm} className="overlay_doctor"></div>
+                                                        <div className="modal_content_doctor_test">
+        
+                                                        
+                                                                <div className='lab_test_heading'>
+                                                                    <h3>Lab Test</h3>
+                                                                </div>
+                                                                <div className='lab_test_main'>
+                                                                    <div className='lab_test_main_container'>
+                                                                            <div className='lab_test_main_container_1'>
+                                                                                <p>Prescribed by</p>
+                                                                                <div className='lab_test_main_container_1_2'>
+                                                                                    <img src={elipse2} alt="" />
+                                                                                        <div className='lab_test_main_contains'>
+                                                                                            <ul>
+                                                                                                <li className='lab_test_main_contains_item'>Doctor Name</li>
+                                                                                                <li className='lab_test_main_contains_item_list'>Degree</li>
+                                                                                            </ul>
+                                                                                        </div>
+
+                                                                                </div>
+                                                                                
+                                                                            
+                                                                            </div>
+                                                                            <div className='lab_test_main_container_1'>
+                                                                                <p>Performed by</p>
+                                                                                <div className='lab_test_main_container_1_2'>
+                                                                                    <img src={elipse2} alt="" />
+                                                                                        <div className='lab_test_main_contains'>
+                                                                                            <ul>
+                                                                                                <li className='lab_test_main_contains_item'>Lab Name</li>
+                                                                                                <li className='lab_test_main_contains_item_list'>Location</li>
+                                                                                            </ul>
+                                                                                        </div>
+
+                                                                                </div>
+                                                                                
+                                                                            
+                                                                            </div>
+                                                                            <div className='lab_test_main_container_3'>
+                                                                                <label className='last_test_main_container_3_label'>Select Date</label><br />
+                                                                                <input type="date" className='lab_test_main_container_3_date'/>
+
+                                                                            </div>
+                                                                            <div className='lab_test_main_container_4'>
+                                                                                <label className='lab_test_main_container_4_labe'>Lab Test</label><br />
+                                                                                <input type="text" placeholder='Test 1' className='lab_test_main_container_4_inp'/><br />
+                                                                                <input type="text" placeholder='Test 2' className='lab_test_main_container_4_input'/>
+
+                                                                            </div>
+                                                                    </div>
+                                                                    <div className='lab_test_main_container'>
+                                                                        <div className='lab_test_main_container_right_1'>
+                                                                            <ul>
+                                                                                <li>Lab Test 1</li>
+                                                                                <li>300</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div className='lab_test_main_container_right_2'>
+                                                                            <ul>
+                                                                                <li>Lab test 2</li>
+                                                                                <li>300</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div className='lab_test_main_container_right_3'>
+                                                                            <ul>
+                                                                                <li>taxes</li>
+                                                                                <li>100</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div className='lab_test_main_container_right_4'>
+                                                                            <ul>
+                                                                                <li>Total</li>
+                                                                                <li>600</li>
+                                                                            </ul>
+
+                                                                        </div>
+
+                                                                    </div>
+
+                                                            
+
+                                                                </div>
+                                                            <button className="close_modal_doctor" onClick={toggleForm}>
+                                                                CLOSE
+                                                            </button>
+                                                        </div>
+                                                </div>
+                                                )}
                                             <li><SlCloudDownload className='doctor_case_detail_para_main_left_right_7_icon'/></li>
                                         </ul>
 

@@ -29,7 +29,12 @@ import Doctorcasedetail from './Components/Doctormanagement/Doctorcasedetail.jsx
 import Dhacasedetail from './Components/Dhamanagement/Dhacasedetail.jsx';
 import Blockdoctor from './Components/Doctormanagement/Blockdoctor.jsx';
 import Blockdoctorsuccess from './Components/Doctormanagement/Blockdoctorsuccess.jsx';
-
+import Doctorpending from './Components/Doctormanagement/Doctorpending.jsx';
+import Pharmacymanagement from './Components/Pharmacy/Pharmacymanagement.jsx';
+import Pharmamedicine from './Components/Pharmacy/Pharmamedicine.jsx';
+import Pharmabasicedit from './Components/Pharmacy/Pharmabasicedit.jsx';
+import Pharmadocument from './Components/Pharmacy/Pharmadocument.jsx';
+import Pharmabankinfo from './Components/Pharmacy/Pharmabankinfo.jsx';
 
 
 function App() {
@@ -65,6 +70,12 @@ function App() {
          <Route path='/dhacasedetail' element={<Dhacasedetail/>}/>
          <Route path='/blockdoctor' element={<Blockdoctor/>}/>
          <Route path='/blockdoctorsuccess' element={<Blockdoctorsuccess/>}/>
+         <Route path='/doctorpending' element={<Doctorpending/>}/>
+        <Route path='/pharmacymanagement' element={<Pharmacymanagement/>}/>
+        <Route path='/pharmamedicine' element={<Pharmamedicine/>}/>
+        <Route path='/pharmabasicedit' element={<Pharmabasicedit/>}/>
+        <Route path='/pharmadocument' element={<Pharmadocument/>}/>
+        <Route path='/pharmabankinfo' element={<Pharmabankinfo/>}/>
 
       </Routes>
 

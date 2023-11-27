@@ -12,31 +12,34 @@
 
 .middle_container_heading_doctor_details {
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-between;
 }
 
 .middle_container_heading_1_doctor_details {
-    width: 800px;
-    margin-left: 20px;
-    margin-right: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-left: 80px;
 }
 
 .middle_container_heading_1_doctor_details h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
     color: #1A1C1F;
 }
 
 .doctor_details_arrow {
     color: #1A1C1F;
-    text-align: center;
-    padding-top: 3px;
     padding-right: 10px;
+    padding-top: 5px;
+}
+
+.middle_container_doctor_detail_button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
 }
 
 .middle_container_btn_doctor_details {
@@ -46,7 +49,7 @@
     background: #E40443;
     border-radius: 8px;
     border: none;
-    margin-left: 130px;
+    margin-left: 30px;
     margin-right: 5px;
     color: white;
     font-weight: 600;

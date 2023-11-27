@@ -25,12 +25,14 @@ export const Doctordetails = () => {
         <div className='middle_container_heading_1_doctor_details'>
           <h2><Link to={"/doctorrequests"}>< PiArrowLeftFill className='doctor_details_arrow'/></Link>Doctor Details</h2>
         </div>
+        <div className='middle_container_doctor_detail_button'>
         <Link to={"/doctordetailsbasic"}>
         <button className='middle_container_btn_doctor_details'><AiOutlineEdit className='middle_container_btn_doctor_icon1'/>Edit</button>
         </Link>
         <Link to={"/blockdoctor"}>
         <button className='middle_container_btn1_doctor_details'><AiOutlineEdit className='middle_container_btn_doctor_icon'/>Block</button>
         </Link>
+        </div>
 
       </div>
 
@@ -189,7 +191,9 @@ export const Doctordetails = () => {
               </ul>
               <ul>
                 <li><button>Completed</button></li>
+                <Link to={"/doctorcasedetail"}>
                 <div className='view_details_doctor'>View Details</div>
+                </Link>
               </ul>
             </div>
             <div className='last_one_last_1_doctor_details'>

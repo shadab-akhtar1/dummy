@@ -1,0 +1,168 @@
+.pharma_navbar_edit {
+    width: 100%;
+}
+
+.pharma_edit_basic {
+    width: 100%;
+    margin-top: -10px;
+    background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+}
+
+.pharma_edit_heading_basic {
+    width: 1200px;
+    padding-left: 70px;
+    padding-top: 1px;
+}
+
+.pharma_edit_heading_basic h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pharma_edit_heading2_basic_base {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 80px;
+    margin-top: -20px;
+    border-bottom: 1px solid #E1E5E8;
+}
+
+.pharma_arrow_edit_basic {
+    color: #1A1C1F;
+    text-align: center;
+    padding-top: 3px;
+    padding-right: 10px;
+}
+
+.pharma_edit_heading2_basic_2 {
+    margin-top: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid #E40443;
+    color: #1A1C1F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pharma_edit_heading2_document_basic {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #8D98A4;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pharma_edit_heading2_info_basic {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #8D98A4;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link_pharma_details_edit_basic {
+    color: #1A1C1F;
+}
+
+.pharma_edit_document_basic {
+    text-decoration: none;
+}
+
+.pharma_userprofile_basic {
+    width: 1200px;
+    padding-left: 70px;
+    padding-top: 1px;
+    margin-top: 10px;
+}
+
+.pharma_userprofile_box_basic {
+    background: #FFFFFF;
+    width: 450px;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.pharma_userprofile_box_2_basic {
+    width: 430px;
+    gap: 24px;
+}
+
+.pharma_userprofile_box_2_userprofile_basic {
+    width: 413px;
+    display: flex;
+}
+
+.pharma_form_basic {
+    margin-top: 5px;
+    width: 430px;
+}
+
+.pharma_form_input {
+    margin-top: 10px;
+}
+
+.pharma_form_data_basic {
+    width: 100%;
+    color: linear-gradient(0deg, #EEF0F3, #EEF0F3), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #EEF0F3;
+    border-radius: 6px;
+    height: 40px;
+    margin-bottom: 3px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pharma_save_btn_basic {
+    background: #41B079;
+    border-radius: 8px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 0px 20px 0px 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pharma_form_label_basic {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #8D98A4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pharma_edit_document_form_label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #8D98A4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pharma_edit_document_form_1 {
+    display: none;
+    width: 430px;
+}
+
+.pharma_edit_document_form_2 {
+    width: 430px;
+    color: linear-gradient(0deg, #EEF0F3, #EEF0F3), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #EEF0F3;
+    border-radius: 6px;
+    height: 22px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    align-items: end;
+}
+
+.pharma_edit_attach_file {
+    padding-left: 400px;
+    padding-right: 20px;
+}
