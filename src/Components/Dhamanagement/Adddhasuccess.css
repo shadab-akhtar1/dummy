@@ -15,7 +15,9 @@
 .hero {
     background-image: url('../Assets/image 219.jpg');
     height: 100vh;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%;
 }
 

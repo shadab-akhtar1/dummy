@@ -51,7 +51,7 @@ export const Pharmamedicine = () => {
                     <div className='pharmacy_medicine_container_3_1_down_right'>
                         <div className='pharmacy_medicine_container_3_1_down_right_up'>
                             <div className='pharmacy_medicine_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='pharmacy_medicine_container_3_1_down_right_up_btn'><button className='pharma_btn_med'>Accepted</button></div>
+                            <div className='pharmacy_medicine_container_3_1_down_right_up_btn'><Link to={"/pharmadetail"}><button className='pharma_btn_med'>Accepted</button></Link></div>
                         </div>
                         <div className='pharmacy_medicine_container_3_1_down_right_down'>
                         XYZ, street name, City

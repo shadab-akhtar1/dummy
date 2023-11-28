@@ -10,7 +10,7 @@ export const pharmabasicedit = () => {
     <>
     <div className='pharma_navbar_edit'><Navbar/></div>
     <div className='pharma_edit_basic'>
-        <div className='pharma_edit_heading_basic'><h2><Link to={"/doctordetails"} className='link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='pharma_arrow_edit_basic'/></Link>Edit Profile</h2></div>
+        <div className='pharma_edit_heading_basic'><h2><Link to={"/pharmadetail"} className='link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='pharma_arrow_edit_basic'/></Link>Edit Profile</h2></div>
         <div className='pharma_edit_heading2_basic_base'>
             <div className='pharma_edit_heading2_basic_2'>Basic Details</div>
             <Link to={"/pharmadocument" } className='pharma_edit_document_basic'>

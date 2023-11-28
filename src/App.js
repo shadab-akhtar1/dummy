@@ -35,6 +35,13 @@ import Pharmamedicine from './Components/Pharmacy/Pharmamedicine.jsx';
 import Pharmabasicedit from './Components/Pharmacy/Pharmabasicedit.jsx';
 import Pharmadocument from './Components/Pharmacy/Pharmadocument.jsx';
 import Pharmabankinfo from './Components/Pharmacy/Pharmabankinfo.jsx';
+import Pharmadetail from './Components/Pharmacy/Pharmadetail.jsx';
+import Addpharma from './Components/Pharmacy/Addpharma.jsx';
+import Addpharmaupload from './Components/Pharmacy/Addpharmaupload.jsx';
+import Addpharmabank from './Components/Pharmacy/Addpharmabank.jsx';
+import Addpharmasuccess from './Components/Pharmacy/Addpharmasuccess.jsx';
+import Blockpharma from './Components/Pharmacy/Blockpharma.jsx';
+import Blockpharmasuccess from './Components/Pharmacy/Blockpharmasuccess.jsx';
 
 
 function App() {
@@ -76,6 +83,13 @@ function App() {
         <Route path='/pharmabasicedit' element={<Pharmabasicedit/>}/>
         <Route path='/pharmadocument' element={<Pharmadocument/>}/>
         <Route path='/pharmabankinfo' element={<Pharmabankinfo/>}/>
+        <Route path='/pharmadetail' element={<Pharmadetail/>}/>
+        <Route path='/addpharma' element={<Addpharma/>}/>
+        <Route path='/addpharmaupload' element={<Addpharmaupload/>}/>
+        <Route path='/addpharmabank' element={<Addpharmabank/>}/>
+        <Route path='/addpharmasuccess' element={<Addpharmasuccess/>}/>
+        <Route path='/blockpharma' element={<Blockpharma/>}/>
+        <Route path='/blockpharmasuccess' element={<Blockpharmasuccess/>}/>
 
       </Routes>
 

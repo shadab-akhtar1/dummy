@@ -1,4 +1,4 @@
-.adddha_success_2 {
+.blockpharma_adddha_success_block {
     width: 550px;
     height: 340px;
     background-color: white;
@@ -12,7 +12,7 @@
     border-radius: 16px;
 }
 
-.hero {
+.blockpharma_hero_block {
     background-image: url('../Assets/image 219.jpg');
     height: 100vh;
     background-size: cover;
@@ -20,25 +20,26 @@
     width: 100%;
 }
 
-.adddha_success_box_2 {}
+.adddha_success_box_block {}
 
-.adddha_success_box_logo_2 {
+.blockpharma_adddha_success_box_logo_block {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.adddha_success_box_logo_2 img {
+.blockpharma_adddha_success_box_logo_block img {
     width: 117px;
     height: 112px;
 }
 
-.adddha_success_box_para_2 {
-    width: 380px;
-    height: 60px;
+.blockpharma_adddha_success_box_para_block {
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
-.adddha_success_box_head_2 {
+.blockpharma_adddha_success_box_head_block {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,30 +49,49 @@
     color: #1A1C1F;
 }
 
-.adddha_success_box_pi_2 {
+.blockpharma_adddha_success_box_pi_block {
     align-items: center;
     font-size: 14px;
     font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
     color: #1A1C1F;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -20px;
-    font-family: 'Montserrat', sans-serif;
 }
 
-.adddha_success_box_btn_2 {
-    background: #FCE6EC;
-    width: 410px;
-    height: 40px;
-    border-radius: 8px;
-    border: none;
-    color: #E40443;
-    font-size: 12px;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 20px;
+.blockpharma_blockdha_btn_div_block {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.blockpharma_blockdha_btn_1_block {
+    margin-left: 1px;
+    margin-right: 10px;
+    width: 200px;
+    height: 44px;
+    border: none;
+    background: #DCDCDC;
+    border-radius: 8px;
+    color: #939191;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blockpharma_blockdha_btn_2_block {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 44px;
+    border: none;
+    background: #EA1414;
+    border-radius: 8px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
 }
