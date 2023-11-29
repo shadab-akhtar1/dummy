@@ -1,97 +1,128 @@
-.pharmacy_medicine {
+.lab_managemenet {
     width: 100%;
 }
 
-.pharmacy_medicine_container {
+.lab_managemenet_container {
     background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     width: 100%;
 }
 
-.pharmacy_medicine_container_1 {
+.lab_management_container_1 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.pharmacy_medicine_heading_box_1 {
+.lab_management_heading_box_1 {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     margin-left: 70px;
 }
 
-.pharmacy_medicine_heading_box_1 h2 {
+.lab_management_left_arrow {
+    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lab_management_heading_box_1 h2 {
     color: #1A1C1F;
     font-weight: 700;
     font-size: 22px;
     font-family: 'Montserrat', sans-serif;
-}
-
-.pharmacy_medicine_heading_box_2 {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 80px;
+    justify-content: center;
     align-items: center;
 }
 
-.pharmacy_medicine_heading_box_2 p {
+.lab_management_heading_box_2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+
+.lab_management_heading_box_2 button {
+    background: #E40443;
+    width: 168px;
+    height: 38px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lab_management_heading_box_2 p {
     color: #1A1C1F;
     font-size: 14px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 10px;
 }
 
-.pharmacy_medicine_container_2 {
+.lab_management_container_2 {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin-left: 70px;
     margin-right: 70px;
     border-bottom: 1px solid #E1E5E8;
+    margin-top: 20px;
 }
 
-.pharmacy_medicine_add_pharmacy_btn {
-    background: #FCE6EC;
-    height: 36px;
-    border: none;
-    border-radius: 8px;
+.lab_management_container_2_up {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lab_management_container_2_down {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.lab_management_container_2_p_1 {
     color: #E40443;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    margin-right: 10px;
+    border-bottom: 2px solid #E40443;
 }
 
-.pharmacy_medicine_container_2_p_1 {
+.lab_management_container_2_p_2 {
+    margin-left: 10px;
     color: #8D98A4;
     font-size: 16px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: 1px solid #E40443;
 }
 
-.pharmacy_medicine_container_2_p_2 {
-    margin-left: 10px;
-    color: #1A1C1F;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.pharmacy_medicine_container_3 {
+.lab_management_container_3 {
     margin-left: 70px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-right: 70px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.pharmacy_medicine_container_3_1 {
+.lab_management_container_3_all {
+    font-family: 'Montserrat', sans-serif;
+    color: #1A1C1F;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.lab_management_container_3_1 {
     border: 1px solid #D3D3D3;
     border-radius: 12px;
     background-color: white;
     width: 380px;
 }
 
-.pharmacy_medicine_container_3_2 {
+.lab_management_container_3_2 {
     border: 1px solid #D3D3D3;
     border-radius: 12px;
     background-color: white;
@@ -99,7 +130,7 @@
     margin-left: 40px;
 }
 
-.pharmacy_medicine_container_3_3 {
+.lab_management_container_3_3 {
     border: 1px solid #D3D3D3;
     border-radius: 12px;
     background-color: white;
@@ -107,7 +138,7 @@
     margin-left: 40px;
 }
 
-.pharmacy_medicine_container_3_4 {
+.lab_management_container_3_4 {
     border: 1px solid #D3D3D3;
     border-radius: 12px;
     background-color: white;
@@ -115,18 +146,44 @@
     margin-top: 30px;
 }
 
-.pharmacy_medicine_container_3_1_up {
+.lab_management_container_3_5 {
+    border: 1px solid #D3D3D3;
+    border-radius: 12px;
+    background-color: white;
+    width: 380px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.lab_management_container_3_6 {
+    border: 1px solid #D3D3D3;
+    border-radius: 12px;
+    background-color: white;
+    width: 380px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.lab_management_container_3_7 {
+    border: 1px solid #D3D3D3;
+    border-radius: 12px;
+    background-color: white;
+    width: 380px;
+    margin-top: 30px;
+}
+
+.lab_management_container_3_1_up {
     border-bottom: 1px solid #E4E4E4;
 }
 
-.pharmacy_medicine_container_3_1_up_box {
+.lab_management_container_3_1_up_box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
 }
 
-.pharmacy_medicine_container_3_1_up_box_left {
+.lab_management_container_3_1_up_box_left {
     display: flex;
     justify-content: flex-start;
     color: #E40443;
@@ -136,13 +193,13 @@
     margin-left: 10px;
 }
 
-.pharmacy_medicine_container_3_1_up_box_right {
+.lab_management_container_3_1_up_box_right {
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
 }
 
-.pharmacy_medicine_container_3_1_up_box_right_1 {
+.lab_management_container_3_1_up_box_right_1 {
     margin-right: 5px;
     color: #5B6572;
     font-size: 12px;
@@ -150,14 +207,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.pharmacy_medicine_container_3_1_up_box_right_2 {
+.lab_management_container_3_1_up_box_right_2 {
     color: #5B6572;
     font-size: 12px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
 
-.pharmacy_medicine_container_3_1_up_box2 {
+.lab_management_container_3_1_up_box2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -165,17 +222,17 @@
     margin-bottom: 10px;
 }
 
-.pharmacy_medicine_container_3_1_up_box2_left {
+.lab_management_container_3_1_up_box2_left {
     display: flex;
     justify-content: flex-start;
     margin-left: 10px;
 }
 
-.pharmacy_medicine_container_3_1_up_box2_left_1 {
+.lab_management_container_3_1_up_box2_left_1 {
     border-right: 2px solid #E40443;
 }
 
-.phar_med_1 {
+.lab_vaac_1 {
     color: #E40443;
     font-size: 12px;
     font-weight: 600;
@@ -183,7 +240,7 @@
     margin-right: 5px;
 }
 
-.phar_med_2 {
+.lab_vaac_2 {
     color: #E40443;
     font-size: 12px;
     font-weight: 600;
@@ -191,23 +248,23 @@
     margin-right: 5px;
 }
 
-.phar_med_3 {
+.lab_vaac_3 {
     color: #E40443;
     font-size: 12px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
 
-.pharmacy_medicine_container_3_1_up_box2_left_2 {
+.lab_management_container_3_1_up_box2_left_2 {
     border-right: 2px solid #E40443;
     margin-left: 5px;
 }
 
-.pharmacy_medicine_container_3_1_up_box2_left_3 {
+.lab_management_container_3_1_up_box2_left_3 {
     margin-left: 5px;
 }
 
-.pharmacy_medicine_container_3_1_up_box2_right {
+.lab_management_container_3_1_up_box2_right {
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
@@ -217,12 +274,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.pharmacy_medicine_container_3_1_down {
+.lab_management_container_3_1_down {
     display: flex;
     align-items: center;
 }
 
-.pharmacy_medicine_container_3_1_down_left {
+.lab_management_container_3_1_down_left {
     margin-left: 10px;
     display: flex;
     justify-content: flex-start;
@@ -230,25 +287,25 @@
     margin-bottom: 10px;
 }
 
-.pharmacy_medicine_container_3_1_down_left img {
+.lab_management_container_3_1_down_left img {
     width: 48px;
     height: 48px;
 }
 
-.pharmacy_medicine_container_3_1_down_right {
+.lab_management_container_3_1_down_right {
     width: 284px;
     margin-top: 10px;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.pharmacy_medicine_container_3_1_down_right_up {
+.lab_management_container_3_1_down_right_up {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.pharmacy_medicine_container_3_1_down_right_up_text {
+.lab_management_container_3_1_down_right_up_text {
     display: flex;
     justify-content: flex-start;
     color: #1A1C1F;
@@ -257,25 +314,54 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.pharma_btn_med {
+.lab_btn {
     border-radius: 24px;
     border: none;
     height: 22px;
     width: 73px;
-    background-color: linear-gradient(0deg, #7C67FB, #7C67FB), linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
-    color: #7C67FB;
+    background: #FDF0CC;
+    color: #1A1C1F;
     font-size: 10px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
 
-.pharmacy_medicine_container_3_1_down_right_up_btn {
+.lab_btn_2 {
+    border-radius: 24px;
+    border: none;
+    height: 22px;
+    width: 80px;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #41B079;
+}
+
+.lab_management_container_3_1_down_right_up_btn {
     display: flex;
     justify-content: flex-end;
     margin-left: 20px;
 }
 
-.pharmacy_medicine_container_3_1_down_right_down {
+.lab_management_container_3_1_down_right_down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.lab_management_container_3_1_down_right_down_left {
+    color: #5B6572;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.lab_management_3_1_down_right_down_right {
+    display: flex;
+    justify-content: flex-end;
     color: #5B6572;
     font-size: 12px;
     font-weight: 500;
@@ -285,7 +371,7 @@
 
 /*#################################### PAGINATION ##################################### */
 
-.pharmacy_med_pagination {
+.lab_pagination {
     text-align: center;
     margin-top: 10px;
     padding-top: 5px;
@@ -294,7 +380,7 @@
     justify-content: center;
 }
 
-.pharmacy_med_pagination a {
+.lab_pagination a {
     background-color: white;
     color: linear-gradient(0deg, #F1F1F1, #F1F1F1), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     text-decoration: none;
@@ -314,7 +400,7 @@
     align-items: center;
 }
 
-.pharmacy_med_pagination a.anch_active {
+.lab_pagination a.lab_anch_active {
     background-color: #E40443;
     font-weight: 400;
     color: white;
@@ -324,8 +410,12 @@
     color: #E40443;
 }
 
-.pharma_med_less_doctor {
+.lab_less_doctor {
     margin-right: 3px;
     margin-left: 3px;
     color: black;
+}
+
+.lab_footer {
+    width: 100%;
 }

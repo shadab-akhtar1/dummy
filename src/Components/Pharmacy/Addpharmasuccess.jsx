@@ -20,8 +20,9 @@ export const Addpharmasuccess = () => {
                      <p className='pharmasuccess_adddha_success_box_pi'>DHA (Dooper Health Assistance) is Added successfully.</p>
  
                  </div>
- 
+                    <Link to={"/pharmamedicine"}>
                  <button className='pharmasuccess_adddha_success_box_btn_1'>Continue</button>
+                 </Link>
  
              </div>
              

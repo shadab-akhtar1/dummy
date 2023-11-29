@@ -42,6 +42,11 @@ import Addpharmabank from './Components/Pharmacy/Addpharmabank.jsx';
 import Addpharmasuccess from './Components/Pharmacy/Addpharmasuccess.jsx';
 import Blockpharma from './Components/Pharmacy/Blockpharma.jsx';
 import Blockpharmasuccess from './Components/Pharmacy/Blockpharmasuccess.jsx';
+import Pharmabooking from './Components/Pharmacy/Pharmabooking.jsx';
+import Pharmabookingdone from './Components/Pharmacy/Pharmabookingdone.jsx';
+import Labmanagement from './Components/Labsmanagement/Labmanagement.jsx';
+import Labdetails from './Components/Labsmanagement/Labdetails.jsx';
+import Labdetailedit from './Components/Labsmanagement/Labdetailedit.jsx';
 
 
 function App() {
@@ -90,6 +95,11 @@ function App() {
         <Route path='/addpharmasuccess' element={<Addpharmasuccess/>}/>
         <Route path='/blockpharma' element={<Blockpharma/>}/>
         <Route path='/blockpharmasuccess' element={<Blockpharmasuccess/>}/>
+        <Route path='/pharmabooking' element={<Pharmabooking/>}/>
+        <Route path='/pharmabookingdone' element={<Pharmabookingdone/>}/>
+        <Route path='/labmanagement' element={<Labmanagement/>}/>
+        <Route path='/labdetails' element={<Labdetails/>}/>
+        <Route path='/labdetailedit' element={<Labdetailedit/>}/>
 
       </Routes>
 

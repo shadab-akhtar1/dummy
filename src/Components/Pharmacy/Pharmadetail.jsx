@@ -287,7 +287,7 @@ export const Pharmadetail = () => {
               </ul>
               <ul>
                 <li><button>Completed</button></li>
-                <Link to={"/dhacasedetail"}>
+                <Link to={"/pharmabooking"}>
                 <div className='pharma_detail3_view_details'>View Details</div>
                 </Link>
               </ul>
@@ -300,7 +300,9 @@ export const Pharmadetail = () => {
               </ul>
               <ul>
                 <li><button>Completed</button></li>
+                <Link to={"/pharmabookingdone"}>
                 <div className='pharma_detail3_view_details'>View Details</div>
+                </Link>
               </ul>
             </div>
             <div className='pharma_detail3_last_one_last_1'>

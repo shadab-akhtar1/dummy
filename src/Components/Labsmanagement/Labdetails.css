@@ -1,0 +1,571 @@
+.labdetails_pharma_detail_navbar {
+    width: 100%;
+}
+
+
+/*############################### MIDDLE 1st SECTION Start ##############################*/
+
+.labdetails_pharma_detail_container {
+    background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    width: 100%;
+}
+
+.labdetails_pharma_detail_container_heading {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.labdetails_pharma_detail_container_heading_box {
+    width: 800px;
+    margin-left: 20px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.labdetails_pharma_detail_container_heading_box h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
+    color: #1A1C1F;
+}
+
+.labdetails_pharma_detail_details_arrow {
+    color: #1A1C1F;
+    text-align: center;
+    padding-top: 3px;
+    padding-right: 10px;
+}
+
+.labdetails_pharma_detail_container_btn {
+    height: 36px;
+    width: 100px;
+    margin-top: 20px;
+    background: #E40443;
+    border-radius: 8px;
+    border: none;
+    margin-left: 130px;
+    margin-right: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.labdetails_pharma_detail_container_btn_icon1 {
+    padding-right: 10px;
+    align-items: center;
+}
+
+.labdetails_pharma_detail_container_btn1 {
+    height: 36px;
+    width: 100px;
+    margin-top: 20px;
+    background: #E40443;
+    border-radius: 8px;
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.labdetails_pharma_detail_container_btn_icon {
+    padding-right: 10px;
+    align-items: center;
+}
+
+
+/*################################## MIDDLE 1st SECTION END ################################*/
+
+
+/*################################## MIDDLE 2nd SECTION START ##############################*/
+
+.labdetails_pharma_detail2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 1240px;
+    margin-left: 80px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.labdetails_pharma_detail2_profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    padding: 10px;
+}
+
+.labdetails_pharma_detail2_profile_name {
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    width: 180px;
+    margin-top: 20px;
+}
+
+.labdetails_pharma_detail2_profile_name p {
+    color: #E40443;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -2px;
+}
+
+.labdetails_pharma_detail2_profile_status {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+    border: 1px solid #EEF0F3;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    color: #1A1C1F;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.labdetails_pharma_detail2_profile_status p {
+    color: #5B6572;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    padding-right: 2px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 8px;
+}
+
+.labdetails_pharma_detail2_box {
+    width: 150px;
+    border-radius: 8px;
+    border: 1px solid #EEF0F3;
+    height: 60px;
+    text-align: left;
+    color: #E40443;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.labdetails_pharma_detail2_box p {
+    color: #5B6572;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 8px;
+}
+
+.labdetails_pharma_detail2_boxes {
+    width: 150px;
+    border-radius: 8px;
+    border: 1px solid #EEF0F3;
+    height: 60px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1A1C1F;
+    padding-top: 10px;
+    padding-left: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.labdetails_pharma_detail2_boxes p {
+    color: #5B6572;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 8px;
+}
+
+.labdetails_pharma_detail2_boxer {
+    width: 150px;
+    border-radius: 8px;
+    border: 1px solid #EEF0F3;
+    height: 60px;
+    text-align: left;
+    color: #1A1C1F;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.labdetails_pharma_detail2_boxer p {
+    color: #5B6572;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 8px;
+}
+
+.labdetails_pharma_detail2_boxex {
+    width: 150px;
+    border-radius: 8px;
+    border: 1px solid #EEF0F3;
+    height: 60px;
+    text-align: center;
+    margin-right: 20px;
+    color: #1A1C1F;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.labdetails_pharma_detail2_calling {
+    background: #3EB655;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*######################### MIDDLE 2nd SECTION END ##############################*/
+
+
+/*######################### Form Started ########################*/
+
+.labdetails_pharma_detail3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    background-color: white;
+    width: 1240px;
+    margin-left: 80px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.labdetails_pharma_detail3_Container {
+    margin-top: 1px;
+    justify-content: left;
+    margin-left: 15px;
+}
+
+.labdetails_pharma_detail3_Container h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.labdetails_pharma_detail3_container_input {
+    width: 300px;
+}
+
+.labdetails_pharma_detail3_Container .labdetails_pharma_detail3_inputs_data {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #E3E6E8
+}
+
+.labdetails_pharma_detail3_Container .labdetails_pharma_detail3_inputs_data input {
+    width: 212px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    transition: 0.3s;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.labdetails_pharma_detail3_Container .labdetails_pharma_detail3_inputs_data label {
+    left: 0;
+    width: 140px;
+    pointer-events: none;
+    font-size: 12px;
+    transition: 0.3s;
+    color: #8D98A4;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.labdetails_pharma_detail3_inputs_data_view {
+    color: #E40443;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 120px;
+}
+
+.labdetails_pharma_detail3_inputs_data_letter {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #1A1C1F;
+}
+
+.labdetails_pharma_detail3_inputs_data_view_letter {
+    color: #E40443;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ######################## LAST (3RD LAYER) #####################*/
+
+.labdetails_pharma_detail3_last {
+    display: flex;
+    justify-content: space-between;
+    width: 1240px;
+    margin-left: 80px;
+    margin-right: 40px;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 10px;
+    background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+}
+
+.labdetails_pharma_detail3_last_last {
+    width: 500px;
+}
+
+.labdetails_pharma_detail3_last_last_last {
+    margin-bottom: 20px;
+}
+
+.labdetails_pharma_detail3_last_one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.labdetails_pharma_detail3_last_one_left {
+    width: 240px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #1A1C1F;
+}
+
+.labdetails_pharma_detail3_last_two_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    list-style: none;
+}
+
+.labdetails_pharma_detail3_last_two_right_page {
+    color: #333333;
+    width: 37px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.labdetails_pharma_detail3_last_two_right_1 {
+    background: white;
+    border: 1px solid #DDDDDD;
+    border: 1px;
+    border-radius: 8px;
+    width: 50px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.labdetails_pharma_detail3_drip {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.labdetails_pharma_detail3_last_two_right_low {
+    color: #333333;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.labdetails_pharma_detail3_deta {
+    display: flex;
+    justify-content: flex-end;
+    color: #E40443;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.labdetails_pharma_detail3_last_one_last {
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.labdetails_pharma_detail3_last_one_last_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #E3E6E8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.labdetails_pharma_detail3_last_one_last_1 ul li {
+    list-style: none;
+    margin-right: 30px;
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #1A1C1F;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.labdetails_pharma_detail3_view_details {
+    color: #E40443;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.labdetails_pharma_detail3_last_one_last_1 ul li button {
+    background: #E5FFF2;
+    border-radius: 40px;
+    border: none;
+    color: #41B079;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ################### PAGINATION ############### */
+
+.labdetails_pharma_detail3_pagination_pag {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.labdetails_pharma_detail3_pagination_pag a {
+    background-color: white;
+    color: linear-gradient(0deg, #F1F1F1, #F1F1F1), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    text-decoration: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: inline-block;
+    border-radius: 32px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #8D98A4;
+    border: 1px solid #F1F1F1;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.labdetails_pharma_detail3_pagination_pag a.pharma_detail3_anchi_pag_active {
+    background-color: #E40443;
+    font-weight: 400;
+    color: white;
+}
+
+.labdetails_pharma_detail3_arr {
+    padding-top: 3px;
+}
+
+.labdetails_pharma_detail3_less_pag {
+    margin-right: 3px;
+    margin-left: 3px;
+    color: black;
+}
+
+
+/*##################### Popup Modal ######################*/
+
+.labdetails_modal,
+.labdetails_overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.labdetails_overlay {
+    background: rgba(49, 49, 49, 0.8);
+}
+
+.labdetails_modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.labdetails_close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+
+.labdetails_aadhar_img {
+    height: 300px;
+    width: 500px;
+}
+
+.labdetails_med_img {
+    margin-top: 20px;
+    height: 300px;
+    width: 500px;
+}

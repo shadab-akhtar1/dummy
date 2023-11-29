@@ -16,13 +16,22 @@ export const Pharmamedicine = () => {
     <div className='pharmacy_medicine_container'>
         <div className='pharmacy_medicine_container_1'>
             <div className='pharmacy_medicine_heading_box_1'><h2>Dashboard</h2></div>
-            <div className='pharmacy_medicine_heading_box_2'><p>Availability</p></div>
+            <div className='pharmacy_medicine_heading_box_2'>
+                <Link to={"/addpharma"}>
+            <button className='pharmacy_medicine_add_pharmacy_btn'>Add Pharmacy</button>
+                </Link>
+                
+                <p>Availability</p>
+            
+            </div>
+
         </div>
         <div className='pharmacy_medicine_container_2'>
             <div className='pharmacy_medicine_container_2_p_1'>Medicines</div>
             <Link to={"/pharmacymanagement"}>
             <div className='pharmacy_medicine_container_2_p_2'>Vacination</div>
             </Link>
+            
         </div>
 
         <div className='pharmacy_medicine_container_3'>
