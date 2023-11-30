@@ -19,7 +19,7 @@ export const Pharmacymanagement = () => {
             <div className='pharmacy_management_heading_box_2'><p>Availability</p></div>
         </div>
         <div className='pharmacy_management_container_2'>
-            <Link to={"/pharmamedicine"}>
+            <Link to={"/pharmamedicine"} className='medicine_link'>
             <div className='pharmacy_management_container_2_p_1'>Medicines</div>
             </Link>
             <div className='pharmacy_management_container_2_p_2'>Vacination</div>

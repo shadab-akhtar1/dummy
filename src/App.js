@@ -47,6 +47,8 @@ import Pharmabookingdone from './Components/Pharmacy/Pharmabookingdone.jsx';
 import Labmanagement from './Components/Labsmanagement/Labmanagement.jsx';
 import Labdetails from './Components/Labsmanagement/Labdetails.jsx';
 import Labdetailedit from './Components/Labsmanagement/Labdetailedit.jsx';
+import Labdetaildocument from './Components/Labsmanagement/Labdetaildocument.jsx';
+import Labdetailbank from './Components/Labsmanagement/Labdetailbank.jsx';
 
 
 function App() {
@@ -100,6 +102,8 @@ function App() {
         <Route path='/labmanagement' element={<Labmanagement/>}/>
         <Route path='/labdetails' element={<Labdetails/>}/>
         <Route path='/labdetailedit' element={<Labdetailedit/>}/>
+        <Route path='/labdetaildocument' element={<Labdetaildocument/>}/>
+        <Route path='/labdetailbank' element={<Labdetailbank/>}/>
 
       </Routes>
 

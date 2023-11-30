@@ -19,7 +19,7 @@ export const Blockpharma = () => {
 
                 </div>
                 <div className='blockpharma_blockdha_btn_div_block'>
-                    <Link to={"/dhadetailsview"}>
+                    <Link to={"/pharmadetail"}>
                 <button className='blockpharma_blockdha_btn_1_block'>Cancel</button>
                 </Link>
                 <Link to={"/blockpharmasuccess"} className='blockpharma_blockdhasuccess_link'>

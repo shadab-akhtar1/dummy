@@ -319,3 +319,8 @@
 .footer_pharmacy {
     width: 100%;
 }
+
+.medicine_link {
+    text-decoration: none;
+    list-style: none;
+}
