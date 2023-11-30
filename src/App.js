@@ -49,6 +49,14 @@ import Labdetails from './Components/Labsmanagement/Labdetails.jsx';
 import Labdetailedit from './Components/Labsmanagement/Labdetailedit.jsx';
 import Labdetaildocument from './Components/Labsmanagement/Labdetaildocument.jsx';
 import Labdetailbank from './Components/Labsmanagement/Labdetailbank.jsx';
+import Addlab from './Components/Labsmanagement/Addlab.jsx';
+import Addlabupload from './Components/Labsmanagement/Addlabupload.jsx';
+import Addlabbank from './Components/Labsmanagement/Addlabbank.jsx';
+import Addlabsuccess from './Components/Labsmanagement/Addlabsuccess.jsx';
+import Blocklab from './Components/Labsmanagement/Blocklab.jsx';
+import Blocklabsuccess from './Components/Labsmanagement/Blocklabsuccess.jsx';
+import Labbooking from './Components/Labsmanagement/Labbooking.jsx';
+import Labbookingstarted from './Components/Labsmanagement/Labbookingstarted.jsx';
 
 
 function App() {
@@ -104,6 +112,14 @@ function App() {
         <Route path='/labdetailedit' element={<Labdetailedit/>}/>
         <Route path='/labdetaildocument' element={<Labdetaildocument/>}/>
         <Route path='/labdetailbank' element={<Labdetailbank/>}/>
+        <Route path='/addlab' element={<Addlab/>}/>
+        <Route path='/addlabupload' element={<Addlabupload/>}/>
+        <Route path='/addlabbank' element={<Addlabbank/>}/>
+        <Route path='/addlabsuccess' element={<Addlabsuccess/>}/>
+        <Route path='/blocklab' element={<Blocklab/>}/>
+        <Route path='/blocklabsuccess' element={<Blocklabsuccess/>}/>
+        <Route path='/labbooking' element={<Labbooking/>}/>
+        <Route path='/labbookingstarted' element={<Labbookingstarted/>}/>
 
       </Routes>
 
