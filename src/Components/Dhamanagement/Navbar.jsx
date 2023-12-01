@@ -39,6 +39,9 @@ export const Navbar = () => {
                 <Link to="/pharmacymanagement">
                 <div className='dropdown_item'>Pharmacy Management</div>
                 </Link>
+                <Link to="/labmanagement">
+                <div className='dropdown_item'>Lab Management</div>
+                </Link>
 
               </div>
               )}
