@@ -39,7 +39,7 @@ export const Addlabupload = () => {
                     <label for="labupload_pharmaupload_adddha_file" className='labupload_pharmaupload_adddha_file_up'><i><RiUploadCloudLine/></i>Upload File</label>
                 </div>
                
-                <Link to={"/addpharmabank"} className='labupload_pharmaupload_adddhabank_link'>
+                <Link to={"/addlabbank"} className='labupload_pharmaupload_adddhabank_link'>
                 <button className='labupload_pharmaupload_adddha_btn'>Next Step</button>
                 </Link>
             </form>

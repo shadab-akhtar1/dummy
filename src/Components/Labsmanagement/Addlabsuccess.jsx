@@ -20,7 +20,7 @@ export const Addlabsuccess = () => {
                      <p className='labsuccess_pharmasuccess_adddha_success_box_pi'>DHA (Dooper Health Assistance) is Added successfully.</p>
  
                  </div>
-                    <Link to={"/pharmamedicine"}>
+                    <Link to={"/labmanagement"}>
                  <button className='labsuccess_pharmasuccess_adddha_success_box_btn_1'>Continue</button>
                  </Link>
  

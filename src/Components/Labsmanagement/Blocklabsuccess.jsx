@@ -19,7 +19,7 @@ export const Blocklabsuccess = () => {
 
                 </div>
                 
-                <Link to={"/pharmadetail"} className='blocklab_success_link'>
+                <Link to={"/labdetails"} className='blocklab_success_link'>
                 <button className='blocklab_success_adddha_success_box_btn_2'>Done</button>
                 </Link>
                 

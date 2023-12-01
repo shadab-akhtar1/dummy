@@ -47,7 +47,7 @@ export const Addlab = () => {
                     <label className='addlab_addpharma_form_fill_labi_add'>Qualification</label>
                     <input type="text" className='addlab_addpharma_form_fill_inp_add'/>
                 </div>
-                <Link to={"/addpharmaupload"} className='addlab_addpharmaupload_link'> 
+                <Link to={"/addlabupload"} className='addlab_addpharmaupload_link'> 
                 <button className='addlab_addpharma_btn_add'>Next Step</button>
                 </Link>
             </form>

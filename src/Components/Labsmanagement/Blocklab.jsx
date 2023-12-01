@@ -18,10 +18,10 @@ export const Blocklab = () => {
 
                 </div>
                 <div className='blocklab_blockdha_btn_div_block'>
-                    <Link to={"/dhadetailsview"}>
+                    <Link to={"/labdetails"}>
                 <button className='blocklab_blockdha_btn_1_block'>Cancel</button>
                 </Link>
-                <Link to={"/blockpharmasuccess"} className='blocklab_blockdhasuccess_link'>
+                <Link to={"/blocklabsuccess"} className='blocklab_blockdhasuccess_link'>
                 <button className='blocklab_blockdha_btn_2_block'>Block</button>
                 </Link>
                 </div>

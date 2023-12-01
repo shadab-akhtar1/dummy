@@ -10,10 +10,10 @@ export const Labdetailedit = () => {
     <>
     <div className='labdetailedit_pharma_navbar_edit'><Navbar/></div>
     <div className='labdetailedit_pharma_edit_basic'>
-        <div className='labdetailedit_pharma_edit_heading_basic'><h2><Link to={"/pharmadetail"} className='labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='pharma_arrow_edit_basic'/></Link>Edit Lab Details</h2></div>
+        <div className='labdetailedit_pharma_edit_heading_basic'><h2><Link to={"/labdetails"} className='labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='pharma_arrow_edit_basic'/></Link>Edit Lab Details</h2></div>
         <div className='labdetailedit_pharma_edit_heading2_basic_base'>
             <div className='labdetailedit_pharma_edit_heading2_basic_2'>Basic Details</div>
-            <Link to={"/pharmadocument" } className='labdetailedit_pharma_edit_document_basic'>
+            <Link to={"/labdetaildocument" } className='labdetailedit_pharma_edit_document_basic'>
             <div className='labdetailedit_pharma_edit_heading2_document_basic'>Documents</div>
             </Link>
             <div className='labdetailedit_pharma_edit_heading2_info_basic'>Bank Info</div>
@@ -58,7 +58,7 @@ export const Labdetailedit = () => {
                     </form>
                     
                 </div>
-                <Link to={"/pharmadocument"}>
+                <Link to={"/labdetaildocument"}>
                 <button className='labdetailedit_pharma_save_btn_basic'>Save Details</button>
                 </Link>
             </div>

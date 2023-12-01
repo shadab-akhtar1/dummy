@@ -18,15 +18,21 @@ export const Labmanagement = () => {
     <div className='lab_management_container'>
         <div className='lab_management_container_1'>
             <div className='lab_management_heading_box_1'><h2><PiArrowLeftFill className='lab_management_left_arrow'/>Lab Management</h2></div>
-            <div className='lab_management_heading_box_2'><button>View Lab Details</button></div>
+            <div className='lab_management_header_box'>
+            <div className='lab_management_heading_box_2_1'><Link to={"/labdetails"}><button>View Lab Details</button></Link></div>
+            <div className='lab_management_heading_box_2'><Link to={"/addlab"}><button>Add Lab</button></Link></div>
+            </div>
         </div>
         <div className='lab_management_container_2'>
             <div className='lab_management_container_2_up'>
         
             <div className='lab_management_container_2_p_1'>Urgent</div>
-        
+            <Link to={"/labnonurgent"} className='lab_non_urgent_link'>
             <div className='lab_management_container_2_p_2'>Non-urgent</div>
+            </Link>
+            <Link to={"/labstandalone"} className='lab_non_urgent_link'>
             <div className='lab_management_container_2_p_2'>Standalone</div>
+            </Link>
             </div>
             <div className='lab_management_container_2_down'>
                 <div className='lab_management_all'>All <FaCaretDown/></div>

@@ -73,12 +73,12 @@ export const Labdetails = () => {
     <div className='labdetails_pharma_detail_container'>
       <div className='labdetails_pharma_detail_container_heading'>
         <div className='labdetails_pharma_detail_container_heading_box'>
-          <h2> <Link to={"/pharmamedicine"} className='labdetails_pharma_detail_detailsview_link'>< PiArrowLeftFill className='labdetails_pharma_detail_details_arrow'/></Link>Lab Details</h2>
+          <h2> <Link to={"/labmanagement"} className='labdetails_pharma_detail_detailsview_link'>< PiArrowLeftFill className='labdetails_pharma_detail_details_arrow'/></Link>Lab Details</h2>
         </div>
-        <Link to={"/pharmabasicedit"}>
+        <Link to={"/labdetailedit"}>
         <button className='labdetails_pharma_detail_container_btn'><AiOutlineEdit className='labdetails_pharma_detail_container_btn_icon1'/>Edit</button>
         </Link>
-        <Link to={"/blockpharma"}>
+        <Link to={"/blocklab"}>
         <button className='labdetails_pharma_detail_container_btn1'><MdBlockFlipped className='labdetails_pharma_detail_container_btn_icon'/>Block</button>
         </Link>
 
@@ -288,7 +288,7 @@ export const Labdetails = () => {
               </ul>
               <ul>
                 <li><button>Completed</button></li>
-                <Link to={"/pharmabooking"}>
+                <Link to={"/labbooking"}>
                 <div className='labdetails_pharma_detail3_view_details'>View Details</div>
                 </Link>
               </ul>
@@ -301,7 +301,7 @@ export const Labdetails = () => {
               </ul>
               <ul>
                 <li><button>Completed</button></li>
-                <Link to={"/pharmabookingdone"}>
+                <Link to={""}>
                 <div className='labdetails_pharma_detail3_view_details'>View Details</div>
                 </Link>
               </ul>

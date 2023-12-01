@@ -10,13 +10,13 @@ export const Labdetaildocument = () => {
     <>
     <div className='labdocument_pharma_navbar_document'><Navbar/></div>
     <div className='labdocument_pharma_document'>
-        <div className='labdocument_pharma_document_heading'><h2><Link to={"/pharmabasicedit"} className='labdocument_pharma_document_link_head'><PiArrowLeftFill className='pharma_arrow_document'/></Link>Edit Profile</h2></div>
+        <div className='labdocument_pharma_document_heading'><h2><Link to={"/labdetailedit"} className='labdocument_pharma_document_link_head'><PiArrowLeftFill className='pharma_arrow_document'/></Link>Edit Profile</h2></div>
         <div className='labdocument_pharma_document_heading2'>
-            <Link to={"/pharmabasicedit"} className='labdocument_pharma_basicdetails_link'>
+            <Link to={"/labdetailedit"} className='labdocument_pharma_basicdetails_link'>
             <div className='labdocument_pharma_document_heading2_basic'>Basic Details</div>
             </Link>
             <div className='labdocument_pharma_document_heading2_document'>Documents</div>
-            <Link to={"/pharmabankinfo"} className='labdocument_pharma_basicdetails_link'>
+            <Link to={"/labdetailbank"} className='labdocument_pharma_basicdetails_link'>
             <div className='labdocument_pharma_document_heading2_info'>Bank Info</div>
             </Link>
         </div>
@@ -64,7 +64,7 @@ export const Labdetaildocument = () => {
                     </form>
                     
                 </div>
-                <Link to={"/pharmabankinfo"}>
+                <Link to={"/labdetailbank"}>
                 <button className='labdocument_pharma_document_save_btn'>Save Details</button>
                 </Link>
                 

@@ -1,32 +1,34 @@
-.lab_managemenet {
+.labstandalone_managemenet {
     width: 100%;
 }
 
-.lab_managemenet_container {
+.labstandalone_managemenet_container {
     background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     width: 100%;
 }
 
-.lab_management_container_1 {
+.labstandalone_management_container_1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.lab_management_heading_box_1 {
+.labstandalone_management_heading_box_1 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-left: 70px;
 }
 
-.lab_management_left_arrow {
+.labstandalone_management_left_arrow {
     padding-right: 10px;
+    display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
 }
 
-.lab_management_heading_box_1 h2 {
+.labstandalone_management_heading_box_1 h2 {
     color: #1A1C1F;
     font-weight: 700;
     font-size: 22px;
@@ -36,18 +38,13 @@
     align-items: center;
 }
 
-.lab_management_header_box {
+.labstandalone_management_heading_box_2 {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
     margin-right: 70px;
 }
 
-.lab_management_heading_box_2_1 {
-    margin-right: 10px;
-}
-
-.lab_management_heading_box_2_1 button {
+.labstandalone_management_heading_box_2 button {
     background: #E40443;
     width: 168px;
     height: 38px;
@@ -59,26 +56,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.lab_management_heading_box_2 button {
-    background: #E40443;
-    width: 168px;
-    height: 38px;
-    border: none;
-    border-radius: 6px;
-    color: white;
-    font-size: 15px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.lab_management_heading_box_2 p {
+.labstandalone_management_heading_box_2 p {
     color: #1A1C1F;
     font-size: 14px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
 
-.lab_management_container_2 {
+.labstandalone_management_container_2 {
     display: flex;
     justify-content: space-between;
     margin-left: 70px;
@@ -87,27 +72,26 @@
     margin-top: 20px;
 }
 
-.lab_management_container_2_up {
+.labstandalone_management_container_2_up {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.lab_management_container_2_down {
+.labstandalone_management_container_2_down {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.lab_management_container_2_p_1 {
-    color: #E40443;
+.labstandalone_management_container_2_p_1 {
+    color: #8D98A4;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: 2px solid #E40443;
 }
 
-.lab_management_container_2_p_2 {
+.labstandalone_management_container_2_p_2 {
     margin-left: 10px;
     color: #8D98A4;
     font-size: 16px;
@@ -115,7 +99,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.lab_management_container_3 {
+.labstandalone_management_container_2_p_3 {
+    margin-left: 10px;
+    color: #E40443;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid #E40443;
+}
+
+.labstandalone_management_container_3 {
     margin-left: 70px;
     margin-top: 10px;
     margin-right: 70px;
@@ -123,7 +116,7 @@
     flex-wrap: wrap;
 }
 
-.lab_management_container_3_all {
+.labstandalone_management_container_3_all {
     font-family: 'Montserrat', sans-serif;
     color: #1A1C1F;
     font-size: 16px;
@@ -132,22 +125,14 @@
     margin-top: 30px;
 }
 
-.lab_management_container_3_1 {
+.labstandalone_management_container_3_1 {
     border: 1px solid #D3D3D3;
     border-radius: 12px;
     background-color: white;
     width: 380px;
 }
 
-.lab_management_container_3_2 {
-    border: 1px solid #D3D3D3;
-    border-radius: 12px;
-    background-color: white;
-    width: 380px;
-    margin-left: 40px;
-}
-
-.lab_management_container_3_3 {
+.labstandalone_management_container_3_2 {
     border: 1px solid #D3D3D3;
     border-radius: 12px;
     background-color: white;
@@ -155,7 +140,15 @@
     margin-left: 40px;
 }
 
-.lab_management_container_3_4 {
+.labstandalone_management_container_3_3 {
+    border: 1px solid #D3D3D3;
+    border-radius: 12px;
+    background-color: white;
+    width: 380px;
+    margin-left: 40px;
+}
+
+.labstandalone_management_container_3_4 {
     border: 1px solid #D3D3D3;
     border-radius: 12px;
     background-color: white;
@@ -163,16 +156,7 @@
     margin-top: 30px;
 }
 
-.lab_management_container_3_5 {
-    border: 1px solid #D3D3D3;
-    border-radius: 12px;
-    background-color: white;
-    width: 380px;
-    margin-top: 30px;
-    margin-left: 40px;
-}
-
-.lab_management_container_3_6 {
+.labstandalone_management_container_3_5 {
     border: 1px solid #D3D3D3;
     border-radius: 12px;
     background-color: white;
@@ -181,7 +165,16 @@
     margin-left: 40px;
 }
 
-.lab_management_container_3_7 {
+.labstandalone_management_container_3_6 {
+    border: 1px solid #D3D3D3;
+    border-radius: 12px;
+    background-color: white;
+    width: 380px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.labstandalone_management_container_3_7 {
     border: 1px solid #D3D3D3;
     border-radius: 12px;
     background-color: white;
@@ -189,18 +182,18 @@
     margin-top: 30px;
 }
 
-.lab_management_container_3_1_up {
+.labstandalone_management_container_3_1_up {
     border-bottom: 1px solid #E4E4E4;
 }
 
-.lab_management_container_3_1_up_box {
+.labstandalone_management_container_3_1_up_box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
 }
 
-.lab_management_container_3_1_up_box_left {
+.labstandalone_management_container_3_1_up_box_left {
     display: flex;
     justify-content: flex-start;
     color: #E40443;
@@ -210,13 +203,13 @@
     margin-left: 10px;
 }
 
-.lab_management_container_3_1_up_box_right {
+.labstandalone_management_container_3_1_up_box_right {
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
 }
 
-.lab_management_container_3_1_up_box_right_1 {
+.labstandalone_management_container_3_1_up_box_right_1 {
     margin-right: 5px;
     color: #5B6572;
     font-size: 12px;
@@ -224,14 +217,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.lab_management_container_3_1_up_box_right_2 {
+.labstandalone_management_container_3_1_up_box_right_2 {
     color: #5B6572;
     font-size: 12px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
 
-.lab_management_container_3_1_up_box2 {
+.labstandalone_management_container_3_1_up_box2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -239,17 +232,17 @@
     margin-bottom: 10px;
 }
 
-.lab_management_container_3_1_up_box2_left {
+.labstandalone_management_container_3_1_up_box2_left {
     display: flex;
     justify-content: flex-start;
     margin-left: 10px;
 }
 
-.lab_management_container_3_1_up_box2_left_1 {
+.labstandalone_management_container_3_1_up_box2_left_1 {
     border-right: 2px solid #E40443;
 }
 
-.lab_vaac_1 {
+.labstandalone_vaac_1 {
     color: #E40443;
     font-size: 12px;
     font-weight: 600;
@@ -257,7 +250,7 @@
     margin-right: 5px;
 }
 
-.lab_vaac_2 {
+.labstandalone_vaac_2 {
     color: #E40443;
     font-size: 12px;
     font-weight: 600;
@@ -265,23 +258,23 @@
     margin-right: 5px;
 }
 
-.lab_vaac_3 {
+.labstandalone_vaac_3 {
     color: #E40443;
     font-size: 12px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
 
-.lab_management_container_3_1_up_box2_left_2 {
+.labstandalone_management_container_3_1_up_box2_left_2 {
     border-right: 2px solid #E40443;
     margin-left: 5px;
 }
 
-.lab_management_container_3_1_up_box2_left_3 {
+.labstandalone_management_container_3_1_up_box2_left_3 {
     margin-left: 5px;
 }
 
-.lab_management_container_3_1_up_box2_right {
+.labstandalone_management_container_3_1_up_box2_right {
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
@@ -291,12 +284,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.lab_management_container_3_1_down {
+.labstandalone_management_container_3_1_down {
     display: flex;
     align-items: center;
 }
 
-.lab_management_container_3_1_down_left {
+.labstandalone_management_container_3_1_down_left {
     margin-left: 10px;
     display: flex;
     justify-content: flex-start;
@@ -304,25 +297,25 @@
     margin-bottom: 10px;
 }
 
-.lab_management_container_3_1_down_left img {
+.labstandalone_management_container_3_1_down_left img {
     width: 48px;
     height: 48px;
 }
 
-.lab_management_container_3_1_down_right {
+.labstandalone_management_container_3_1_down_right {
     width: 284px;
     margin-top: 10px;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.lab_management_container_3_1_down_right_up {
+.labstandalone_management_container_3_1_down_right_up {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.lab_management_container_3_1_down_right_up_text {
+.labstandalone_management_container_3_1_down_right_up_text {
     display: flex;
     justify-content: flex-start;
     color: #1A1C1F;
@@ -331,7 +324,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.lab_btn {
+.labstandalone_btn {
     border-radius: 24px;
     border: none;
     height: 22px;
@@ -343,7 +336,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.lab_btn_2 {
+.labstandalone_btn_2 {
     border-radius: 24px;
     border: none;
     height: 22px;
@@ -354,20 +347,20 @@
     color: #41B079;
 }
 
-.lab_management_container_3_1_down_right_up_btn {
+.labstandalone_management_container_3_1_down_right_up_btn {
     display: flex;
     justify-content: flex-end;
     margin-left: 20px;
 }
 
-.lab_management_container_3_1_down_right_down {
+.labstandalone_management_container_3_1_down_right_down {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 5px;
 }
 
-.lab_management_container_3_1_down_right_down_left {
+.labstandalone_management_container_3_1_down_right_down_left {
     color: #5B6572;
     font-size: 12px;
     font-weight: 500;
@@ -376,7 +369,7 @@
     justify-content: flex-start;
 }
 
-.lab_management_3_1_down_right_down_right {
+.labstandalone_management_3_1_down_right_down_right {
     display: flex;
     justify-content: flex-end;
     color: #5B6572;
@@ -388,7 +381,7 @@
 
 /*#################################### PAGINATION ##################################### */
 
-.lab_pagination {
+.labstandalone_pagination {
     text-align: center;
     margin-top: 10px;
     padding-top: 5px;
@@ -397,7 +390,7 @@
     justify-content: center;
 }
 
-.lab_pagination a {
+.labstandalone_pagination a {
     background-color: white;
     color: linear-gradient(0deg, #F1F1F1, #F1F1F1), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     text-decoration: none;
@@ -417,7 +410,7 @@
     align-items: center;
 }
 
-.lab_pagination a.lab_anch_active {
+.labstandalone_pagination a.labstandalone_anch_active {
     background-color: #E40443;
     font-weight: 400;
     color: white;
@@ -427,17 +420,17 @@
     color: #E40443;
 }
 
-.lab_less_doctor {
+.labstandalone_less_doctor {
     margin-right: 3px;
     margin-left: 3px;
     color: black;
 }
 
-.lab_footer {
+.labstandalone_footer {
     width: 100%;
 }
 
-.lab_non_urgent_link {
+.standalone_link {
     text-decoration: none;
     list-style: none;
 }

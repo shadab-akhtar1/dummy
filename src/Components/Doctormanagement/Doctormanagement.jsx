@@ -53,50 +53,50 @@ export const Doctormanagement = () => {
                     </thead>
                     <tbody >
                         <tr >
-                            <td className='doctor_data_user_prof'><img src={prof} alt="" className='doctor_user_prof'/>Jacob Jones</td>
+                            <td> <div className='doctor_data_user_prof'><img src={prof} alt="" className='doctor_user_prof'/>Jacob Jones</div></td>
                             <td>Psychologist</td>
                             <td>+91 123 456 7890</td>
-                            <td>12</td>
+                            <td> <div className='doctor_td_4'><span className='doctor_td_4_span'>12</span><span className='doctor_td_4_span_1'>view</span></div></td>
                             <td>Rs. 5000</td>
                             <td ><button className='dha_doctor_table_btn_2'>online</button></td>
                         </tr>
                         <tr>
-                            <td className='doctor_data_user_prof'><img src={prof2} alt="" className='doctor_user_prof'/>Darrell Steward</td>
+                            <td><div className='doctor_data_user_prof'><img src={prof2} alt="" className='doctor_user_prof'/>Darrell Steward</div></td>
                             <td>Nose specialist</td>
                             <td>+91 123 456 7890</td>
-                            <td>12</td>
+                            <td><div className='doctor_td_4'><span className='doctor_td_4_span'>12</span><span className='doctor_td_4_span_1'>view</span></div></td>
                             <td >Rs. 5000</td>
                             <td ><button className='dha_doctor_table_btn_2'>online</button></td>
                         </tr>
                         <tr>
-                            <td className='doctor_data_user_prof'><img src={prof3} alt="" className='doctor_user_prof'/>Esther Howard</td>
+                            <td> <div className='doctor_data_user_prof'><img src={prof3} alt="" className='doctor_user_prof'/>Esther Howard</div></td>
                             <td>Heart specialist</td>
                             <td>+91 123 456 7890</td>
-                            <td>12</td>
+                            <td><div className='doctor_td_4'><span className='doctor_td_4_span'>12</span><span className='doctor_td_4_span_1'>view</span></div></td>
                             <td>Rs. 5000</td>
                             <td><button className='dha_doctor_table_btn_1'>offline</button></td>
                         </tr>
                         <tr className='table_row'>
-                            <td className='doctor_data_user_prof'><img src={prof4} alt="" className='doctor_user_prof'/>Arlene McCoy</td>
+                            <td> <div className='doctor_data_user_prof'><img src={prof4} alt="" className='doctor_user_prof'/>Arlene McCoy</div></td>
                             <td>Hepatologist</td>
                             <td>+91 123 456 7890</td>
-                            <td>12</td>
+                            <td><div className='doctor_td_4'><span className='doctor_td_4_span'>12</span><span className='doctor_td_4_span_1'>view</span></div></td>
                             <td>Rs. 5000</td>
                             <td><button className='dha_doctor_table_btn_2'>online</button></td>
                         </tr>
                         <tr className='table_row'>
-                            <td className='doctor_data_user_prof'><img src={prof5} alt="" className='doctor_user_prof'/>jane Cooper</td>
+                            <td> <div className='doctor_data_user_prof'><img src={prof5} alt="" className='doctor_user_prof'/>jane Cooper</div></td>
                             <td>Ophthalmologist</td>
                             <td>+91 123 456 7890</td>
-                            <td>12</td>
+                            <td><div className='doctor_td_4'><span className='doctor_td_4_span'>12</span><span className='doctor_td_4_span_1'>view</span></div></td>
                             <td>Rs. 5000</td>
                             <td><button className='dha_doctor_table_btn_2'>Online</button></td>
                         </tr>
                         <tr>
-                            <td className='doctor_data_user_prof'><img src={prof6} alt="" className='doctor_user_prof'/>Ralph Edwards</td>
+                            <td> <div className='doctor_data_user_prof'><img src={prof6} alt="" className='doctor_user_prof'/>Ralph Edwards</div></td>
                             <td>Psychologist</td>
                             <td>+91 123 456 7890</td>
-                            <td>12</td>
+                            <td><div className='doctor_td_4'><span className='doctor_td_4_span'>12</span><span className='doctor_td_4_span_1'>view</span></div></td>
                             <td>Rs. 5000</td>
                             <td><button className='dha_doctor_table_btn_1'>Offline</button></td>
                         </tr>
