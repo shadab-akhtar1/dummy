@@ -1,6 +1,7 @@
 import React from 'react';
 import './Addlab.css';
 import { Link } from "react-router-dom";
+import {RiUploadCloudLine} from "react-icons/ri";
 
 export const Addlab = () => {
   return (
@@ -25,28 +26,29 @@ export const Addlab = () => {
                 <div> <h2>Basic Details</h2></div>
             <form action="" className='addlab_addpharma_form_add'>
                 <div className='addlab_addpharma_form_fill_add'>
-                    <label className='addlab_addpharma_form_fill_labi_add'>Name</label>
+                    <label className='addlab_addpharma_form_fill_labi_add'> Full Name</label>
                     <input  type="text" className='addlab_addpharma_form_fill_inp_add'/>
                 </div>
+
+                <div className='addlab_labupload_pharmaupload_adddha_form_fill'>
+                    <div className='addlab_labupload_pharmaupload_adddha_form_fill_div'><label className='addlab_labupload_pharmaupload_adddha_form_fill_labi'>Lab Photo</label></div><br />
+                    <input type="file" id="addlab_labupload_pharmaupload_adddha_file"className='addlab_labupload_pharmaupload_adddha_form_fill_inp_3' />
+                    <label for="addlab_labupload_pharmaupload_adddha_file" className='addlab_labupload_pharmaupload_adddha_file_up'><i><RiUploadCloudLine/></i>Upload File</label>
+                </div>
+
                 <div className='addlab_addpharma_form_fill_add'>
-                    <label className='addlab_addpharma_form_fill_labi_add'>Gender</label>
+                    <label className='addlab_addpharma_form_fill_labi_add'>Lab Name</label>
                     <input type="text" className='addlab_addpharma_form_fill_inp_add'/>
                 </div>
+                
                 <div className='addlab_addpharma_form_fill_add'>
-                    <label className='addlab_addpharma_form_fill_labi_add'>Mobile</label>
-                    <input type="text" className='addlab_addpharma_form_fill_inp_add' />
-                </div>
-                <div className='addlab_addpharma_form_fill_add'>
-                    <label className='addlab_addpharma_form_fill_labi_add'>Address</label>
+                    <label className='addlab_addpharma_form_fill_labi_add'>Lab Address</label>
                     <input type="text" className='addlab_addpharma_form_fill_inp_add'/><br />
                     <input type="text" className='addlab_addpharma_form_fill_inp_add'/><br />
                     <input type="text" className='addlab_addpharma_form_fill_inp_add'/><br />
                     <input type="text" className='addlab_addpharma_form_fill_inp_add'/>
                 </div>
-                <div className='addlab_addpharma_form_fill_add'>
-                    <label className='addlab_addpharma_form_fill_labi_add'>Qualification</label>
-                    <input type="text" className='addlab_addpharma_form_fill_inp_add'/>
-                </div>
+                
                 <Link to={"/addlabupload"} className='addlab_addpharmaupload_link'> 
                 <button className='addlab_addpharma_btn_add'>Next Step</button>
                 </Link>

@@ -51,6 +51,7 @@ import Labdetaildocument from './Components/Labsmanagement/Labdetaildocument.jsx
 import Labdetailbank from './Components/Labsmanagement/Labdetailbank.jsx';
 import Addlab from './Components/Labsmanagement/Addlab.jsx';
 import Addlabupload from './Components/Labsmanagement/Addlabupload.jsx';
+import Addlabuploads from './Components/Labsmanagement/Addlabuploads.jsx';
 import Addlabbank from './Components/Labsmanagement/Addlabbank.jsx';
 import Addlabsuccess from './Components/Labsmanagement/Addlabsuccess.jsx';
 import Blocklab from './Components/Labsmanagement/Blocklab.jsx';
@@ -61,7 +62,17 @@ import Labbookingcompleted from './Components/Labsmanagement/Labbookingcompleted
 import Labnonurgent from './Components/Labsmanagement/Labnonurgent.jsx';
 import Labstandalone from './Components/Labsmanagement/Labstandalone.jsx';
 import Rolemanagement from './Components/Rolemanagement/Rolemanagement.jsx';
-
+import Addrole from './Components/Rolemanagement/Addrole.jsx';
+import Managerole from './Components/Rolemanagement/Managerole.jsx';
+import Addsubadmin from './Components/Rolemanagement/Addsubadmin.jsx';
+import Addsubadmincomplete from './Components/Rolemanagement/Addsubadmincomplete.jsx';
+import Editpermision from './Components/Rolemanagement/Editpermision.jsx';
+import Notification from './Components/Notification/Notification.jsx';
+import Notificationcomplete from './Components/Notification/Notificationcomplete.jsx';
+import Profile from './Components/Profile/Profile.jsx';
+import Profilebasic from './Components/Profile/Profilebasic.jsx';
+import Profiledocument from './Components/Profile/Profiledocument.jsx';
+import Profilebank from './Components/Profile/Profilebank.jsx';
 
 function App() {
   return (
@@ -118,6 +129,7 @@ function App() {
         <Route path='/labdetailbank' element={<Labdetailbank/>}/>
         <Route path='/addlab' element={<Addlab/>}/>
         <Route path='/addlabupload' element={<Addlabupload/>}/>
+        <Route path='/addlabuploads' element={<Addlabuploads/>}/>
         <Route path='/addlabbank' element={<Addlabbank/>}/>
         <Route path='/addlabsuccess' element={<Addlabsuccess/>}/>
         <Route path='/blocklab' element={<Blocklab/>}/>
@@ -128,6 +140,17 @@ function App() {
         <Route path='/labnonurgent' element={<Labnonurgent/>}/>
         <Route path='/labstandalone' element={<Labstandalone/>}/>
         <Route path='/rolemanagement' element={<Rolemanagement/>}/>
+        <Route path='/addrole' element={<Addrole/>}/>
+        <Route path='/managerole' element={<Managerole/>}/>
+        <Route path='/addsubadmin' element={<Addsubadmin/>}/>
+        <Route path='/addsubadmincomplete' element={<Addsubadmincomplete/>}/>
+        <Route path='/editpermision' element={<Editpermision/>}/>
+        <Route path='/notification' element={<Notification/>}/>
+        <Route path='/notificationcomplete' element={<Notificationcomplete/>}/>
+        <Route path='/profile' element={<Profile/>}/>
+        <Route path='/profilebasic' element={<Profilebasic/>}/>
+        <Route path='/profiledocument' element={<Profiledocument/>}/>
+        <Route path='/profilebank' element={<Profilebank/>}/>
 
       </Routes>
 

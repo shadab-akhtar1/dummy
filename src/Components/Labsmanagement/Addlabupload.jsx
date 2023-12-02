@@ -34,12 +34,17 @@ export const Addlabupload = () => {
                     <label for="labupload_pharmaupload_adddha_file" className='labupload_pharmaupload_adddha_file_up'><i><RiUploadCloudLine/></i>Upload File</label>
                 </div>
                 <div className='labupload_pharmaupload_adddha_form_fill'>
-                    <div className='labupload_pharmaupload_adddha_form_fill_div'><label className='labupload_pharmaupload_adddha_form_fill_labi'>Lab RMC Medical Counsel Certificate</label></div><br />
+                    <div className='labupload_pharmaupload_adddha_form_fill_div'><label className='labupload_pharmaupload_adddha_form_fill_labi'>Lab License File</label></div><br />
+                    <input type="file" id="labupload_pharmaupload_adddha_file"className='labupload_pharmaupload_adddha_form_fill_inp_3' />
+                    <label for="labupload_pharmaupload_adddha_file" className='labupload_pharmaupload_adddha_file_up'><i><RiUploadCloudLine/></i>Upload File</label>
+                </div>
+                <div className='labupload_pharmaupload_adddha_form_fill'>
+                    <div className='labupload_pharmaupload_adddha_form_fill_div'><label className='labupload_pharmaupload_adddha_form_fill_labi'>Lab Established License</label></div><br />
                     <input type="file" id="labupload_pharmaupload_adddha_file"className='labupload_pharmaupload_adddha_form_fill_inp_3' />
                     <label for="labupload_pharmaupload_adddha_file" className='labupload_pharmaupload_adddha_file_up'><i><RiUploadCloudLine/></i>Upload File</label>
                 </div>
                
-                <Link to={"/addlabbank"} className='labupload_pharmaupload_adddhabank_link'>
+                <Link to={"/addlabuploads"} className='labupload_pharmaupload_adddhabank_link'>
                 <button className='labupload_pharmaupload_adddha_btn'>Next Step</button>
                 </Link>
             </form>

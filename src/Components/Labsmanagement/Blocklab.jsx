@@ -13,8 +13,8 @@ export const Blocklab = () => {
 
                 </div>
                 <div className='bloclab_adddha_success_box_para_block'>
-                    <h4 className='blocklab_adddha_success_box_head_block'>Are You Sure You Want To Block DHA?</h4>
-                    <p className='blocklab_adddha_success_box_pi_block'>DHA Account will be Blocked</p>
+                    <h4 className='blocklab_adddha_success_box_head_block'>Are You Sure You Want To Block Lab?</h4>
+                    <p className='blocklab_adddha_success_box_pi_block'>Lab Account will be Blocked</p>
 
                 </div>
                 <div className='blocklab_blockdha_btn_div_block'>

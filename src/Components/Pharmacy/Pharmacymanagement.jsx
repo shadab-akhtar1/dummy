@@ -24,8 +24,9 @@ export const Pharmacymanagement = () => {
             </Link>
             <div className='pharmacy_management_container_2_p_2'>Vacination</div>
         </div>
-
+        
         <div className='pharmacy_management_container_3'>
+            <Link to={"/pharmabooking"} className='pahrma_boking_link'>
             <div className='pharmacy_management_container_3_1'>
                 <div className='pharmacy_management_container_3_1_up'>
                     <div className='pharmacy_management_container_3_1_up_box'>
@@ -61,7 +62,8 @@ export const Pharmacymanagement = () => {
                 </div>
 
             </div>
-
+            </Link>
+            <Link to={"/pharmabooking"} className='pahrma_boking_link'>
             <div className='pharmacy_management_container_3_2'>
                 <div className='pharmacy_management_container_3_1_up'>
                     <div className='pharmacy_management_container_3_1_up_box'>
@@ -87,7 +89,7 @@ export const Pharmacymanagement = () => {
                     <div className='pharmacy_management_container_3_1_down_right'>
                         <div className='pharmacy_management_container_3_1_down_right_up'>
                             <div className='pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='pharmacy_management_container_3_1_down_right_up_btn'><button className='pharma_btn'>Accepted</button></div>
+                            <div className='pharmacy_management_container_3_1_down_right_up_btn'><button className='pharma_btn_1'>Quotation Requested</button></div>
                         </div>
                         <div className='pharmacy_management_container_3_1_down_right_down'>
                         XYZ, street name, City
@@ -97,7 +99,8 @@ export const Pharmacymanagement = () => {
                 </div>
 
             </div>
-
+            </Link>
+            <Link to={"/pharmabooking"} className='pahrma_boking_link'>
             <div className='pharmacy_management_container_3_3'>
                 <div className='pharmacy_management_container_3_1_up'>
                     <div className='pharmacy_management_container_3_1_up_box'>
@@ -133,7 +136,8 @@ export const Pharmacymanagement = () => {
                 </div>
 
             </div>
-
+            </Link>
+            <Link to={"/pharmabooking"} className='pahrma_boking_link'>
             <div className='pharmacy_management_container_3_4'>
                 <div className='pharmacy_management_container_3_1_up'>
                     <div className='pharmacy_management_container_3_1_up_box'>
@@ -159,7 +163,7 @@ export const Pharmacymanagement = () => {
                     <div className='pharmacy_management_container_3_1_down_right'>
                         <div className='pharmacy_management_container_3_1_down_right_up'>
                             <div className='pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='pharmacy_management_container_3_1_down_right_up_btn'><button className='pharma_btn'>Accepted</button></div>
+                            <div className='pharmacy_management_container_3_1_down_right_up_btn'><button className='pharma_btn_1'>Quotation Requested</button></div>
                         </div>
                         <div className='pharmacy_management_container_3_1_down_right_down'>
                         XYZ, street name, City
@@ -169,8 +173,10 @@ export const Pharmacymanagement = () => {
                 </div>
 
             </div>
+            </Link>
 
         </div>
+
 
         <div className='pharmacy_pagination'>
                     <a href='' className='anchi'><PiCaretDoubleLeftBold className='pharma_less_1'/></a>

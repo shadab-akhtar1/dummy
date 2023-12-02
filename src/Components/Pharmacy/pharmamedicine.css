@@ -334,3 +334,39 @@
     text-decoration: none;
     list-style: none;
 }
+
+.pahrma_booking_done_link {
+    text-decoration: none;
+}
+
+.toggle {
+    background: #DCFAEB;
+    height: 10px;
+    width: 28px;
+    border-radius: 30px;
+    display: flex;
+    position: absolute;
+}
+
+.toggle_left {
+    height: 15px;
+    width: 15px;
+    background: #41B079;
+    border-radius: 20px;
+    position: relative;
+    bottom: 3px;
+}
+
+.toggle_right {
+    height: 15px;
+    width: 15px;
+    background: #41B079;
+    border-radius: 20px;
+    position: relative;
+    bottom: 3px;
+    margin-left: 15px;
+}
+
+.pharma_medicine_p_tag {
+    margin-right: 10px;
+}

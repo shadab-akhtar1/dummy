@@ -12,8 +12,9 @@
     width: 550px;
     height: 95vh;
     position: absolute;
-    margin-top: 20px;
-    left: 28%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 16px;
 }
 
@@ -100,7 +101,7 @@
 .labupload_pharmaupload_adddha_form_fill {
     width: 500px;
     align-items: center;
-    height: 150px;
+    height: 110px;
 }
 
 .labupload_pharmaupload_adddha_form_fill_labi {
@@ -131,8 +132,8 @@
     font-size: 12px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 20px;
     border: none;
+    margin-top: 10px;
 }
 
 .labupload_pharmaupload_adddha_form_fill_inp_3 {

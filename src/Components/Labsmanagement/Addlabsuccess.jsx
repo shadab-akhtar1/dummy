@@ -17,7 +17,9 @@ export const Addlabsuccess = () => {
                  </div>
                  <div className='labsuccess_pharmasuccess_adddha_success_box_para_1'>
                      <h4 className='labsuccess_pharmasuccess_adddha_success_box_head'>Successful</h4>
-                     <p className='labsuccess_pharmasuccess_adddha_success_box_pi'>DHA (Dooper Health Assistance) is Added successfully.</p>
+                     <p className='labsuccess_pharmasuccess_adddha_success_box_pi'>Your account is created successfully.
+Your profile is under review, We will inform you once your account is approved</p>
+                     
  
                  </div>
                     <Link to={"/labmanagement"}>

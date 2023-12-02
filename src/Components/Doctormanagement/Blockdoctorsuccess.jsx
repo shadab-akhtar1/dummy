@@ -17,7 +17,7 @@ export const Blockdoctorsuccess = () => {
                     <p className='adddha_doctorsuccess_box_pi_2'>Doctor name is Blocked Successfully.</p>
 
                 </div>
-                <Link to={"/doctordetails"}>
+                <Link to={"/doctordetails"} className='block_doctor_success_link'>
                 <button className='adddha_doctorsuccess_box_btn_2'>Done</button>
                 </Link>
 

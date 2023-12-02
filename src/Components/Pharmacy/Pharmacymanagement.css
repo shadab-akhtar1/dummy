@@ -255,6 +255,22 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.pharma_btn_1 {
+    border-radius: 24px;
+    border: none;
+    height: 22px;
+    width: 134px;
+    background-color: linear-gradient(0deg, #7C67FB, #7C67FB), linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+    color: #7C67FB;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pahrma_boking_link {
+    text-decoration: none;
+}
+
 .pharmacy_management_container_3_1_down_right_up_btn {
     display: flex;
     justify-content: flex-end;

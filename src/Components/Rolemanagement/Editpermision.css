@@ -1,0 +1,131 @@
+.editpermision {
+    background-image: url('../Assets/image\ 217.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.editpermision_container {
+    background: #FFFFFF;
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.editpermision_container_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 536px;
+}
+
+.editpermision_container_1_left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #1A1C1F;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.editpermision_container_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 536px;
+    margin-top: 20px;
+}
+
+.editpermision_container_2_1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.editpermision_container_2_1_image img {
+    width: 40px;
+    height: 40px;
+}
+
+.editpermision_container_2_1_para {
+    margin-left: 20px;
+    color: #1A1C1F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.editpermision_container_2_2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #EEF0F3;
+}
+
+.addsubadmincompleted_editpermision_form_3 {
+    width: 540px;
+    margin-top: 20px;
+    align-items: center;
+    border: 1px solid #E1E5E8;
+    border-radius: 12px;
+}
+
+.addsubadmincompleted_editpermision_form_3_1 {
+    border-bottom: 1px solid #E1E5E8;
+    background: linear-gradient(0deg, #E1E5E8, #E1E5E8), linear-gradient(0deg, #ECEFF3, #ECEFF3);
+    height: 46px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #1A1C1F;
+    font-size: 16px;
+    font-weight: 500;
+    border-top: none;
+}
+
+.addsubadmincompleted_editpermision_form_3_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E1E5E8;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #5B6572;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.addsubadmincompleted_editpermision_btn {
+    background: #E40443;
+    height: 44px;
+    width: 162px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 190px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
