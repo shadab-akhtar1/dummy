@@ -73,6 +73,9 @@ import Profile from './Components/Profile/Profile.jsx';
 import Profilebasic from './Components/Profile/Profilebasic.jsx';
 import Profiledocument from './Components/Profile/Profiledocument.jsx';
 import Profilebank from './Components/Profile/Profilebank.jsx';
+import Earning from './Components/Earnings/Earning.jsx';
+import Earninghistory from './Components/Earnings/Earninghistory.jsx';
+import Bookingrequestdha from './Components/Bookingrequests/Bookingrequestdha.jsx';
 
 function App() {
   return (
@@ -151,6 +154,9 @@ function App() {
         <Route path='/profilebasic' element={<Profilebasic/>}/>
         <Route path='/profiledocument' element={<Profiledocument/>}/>
         <Route path='/profilebank' element={<Profilebank/>}/>
+        <Route path='/earning' element={<Earning/>}/>
+        <Route path='/earninghistory' element={<Earninghistory/>}/>
+        <Route path='/bookingrequestdha' element={<Bookingrequestdha/>}/>
 
       </Routes>
 
