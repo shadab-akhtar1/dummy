@@ -76,6 +76,12 @@ import Profilebank from './Components/Profile/Profilebank.jsx';
 import Earning from './Components/Earnings/Earning.jsx';
 import Earninghistory from './Components/Earnings/Earninghistory.jsx';
 import Bookingrequestdha from './Components/Bookingrequests/Bookingrequestdha.jsx';
+import Bookingdhaassign from './Components/Bookingrequests/Bookingdhaassign.jsx';
+import Bookingdhadoctorassign from './Components/Bookingrequests/Bookingdhadoctorassign.jsx';
+import Bookingdhaassigndoctor from './Components/Bookingrequests/Bookingdhaassigndoctor.jsx';
+import Bookingdhadhaassign from './Components/Bookingrequests/Bookingdhadhaassign.jsx';
+import Bookingdhahospital from './Components/Bookingrequests/Bookingdhahospital.jsx';
+import Bookingdhacase from './Components/Bookingrequests/Bookingdhacase.jsx';
 
 function App() {
   return (
@@ -157,6 +163,12 @@ function App() {
         <Route path='/earning' element={<Earning/>}/>
         <Route path='/earninghistory' element={<Earninghistory/>}/>
         <Route path='/bookingrequestdha' element={<Bookingrequestdha/>}/>
+        <Route path='/bookingdhaassign' element={<Bookingdhaassign/>}/>
+        <Route path='/bookingdhadoctorassign' element={<Bookingdhadoctorassign/>}/>
+        <Route path='/bookingdhaassigndoctor' element={<Bookingdhaassigndoctor/>}/>
+        <Route path='/bookingdhadhaassign' element={<Bookingdhadhaassign/>}/>
+        <Route path='/bookingdhahospital' element={<Bookingdhahospital/>}/>
+        <Route path='/bookingdhacase' element={<Bookingdhacase/>}/>
 
       </Routes>
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './Bookingrequestdha.css';
 import Weblogo from "../Assets/Dooper Logo 1500x1500 2.svg";
 import {FaBell} from 'react-icons/fa';
@@ -16,6 +16,10 @@ import {Footer} from '../Dhamanagement/Footer';
 
 
 export const Bookingrequestdha = () => {
+    const[toggleButton,setToggleButton]=useState(false);
+    const handleClick=()=>{
+        setToggleButton(!toggleButton)
+    }
   return (
     <>
     <nav className='bookingrequests_pharmabooking_navbar_doctorcase'>
@@ -40,15 +44,34 @@ export const Bookingrequestdha = () => {
     <div className='bookingrequest_pharmacy_management_container'>
         <div className='bookingrequest_pharmacy_management_container_1'>
             <div className='bookingrequest_pharmacy_management_heading_box_1'><h2>Dashboard</h2></div>
-            <div className='bookingrequest_pharmacy_management_heading_box_2'><p>Availability</p></div>
+            <div className='bookingrequest_pharmacy_management_heading_box_3'>
+                <div className='bookingrequest_pharmacy_management_heading_box_2'><p>Availability</p>
+            
+                </div>
+                <div className='toggle_booking_div'>
+                    <div  className='toggle_booking'></div>
+                    {toggleButton?<div onClick={handleClick} className='toggle_booking_left'></div>:
+                    <div onClick={handleClick}className='toggle_booking_right'></div>}
+                
+                </div>
+            </div>
         </div>
         <div className='bookingrequest_pharmacy_management_container_2'>
+            <div className='bookingrequest_pharmacy_management_container_2_1'>
             <Link to={"/pharmamedicine"} className='bookingrequest_medicine_link'>
             <div className='bookingrequest_pharmacy_management_container_2_p_1'>DHA</div>
             </Link>
             <div className='bookingrequest_pharmacy_management_container_2_p_2'>Doctor</div>
             <div className='bookingrequest_pharmacy_management_container_2_p_2'>Pharmacy</div>
             <div className='bookingrequest_pharmacy_management_container_2_p_2'>Lab</div>
+            </div>
+            <div className='bookingrequest_pharmacy_management_container_2_2'>
+                Sort by <FaCaretDown className='bookingrequest_pharmacy_management_icon'/>
+            </div>
+        </div>
+        <div className='bookingrequest_pharmacy_management_container_4'>
+            <div className='bookingrequest_pharmacy_management_container_4_urgent'>Urgent Case <FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>
+
         </div>
         
         <div className='bookingrequest_pharmacy_management_container_3'>
@@ -64,11 +87,11 @@ export const Bookingrequestdha = () => {
                     </div>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Vaccine 1</div></div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Vaccine 2 </div></div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Vaccine 3</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Symptom 1</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Symptom 2 </div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Symptom 3</div></div>
                         </div>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_right'>Quotation: 560</div>
+                        
                     </div>
                 </div>
                 <div className='bookingrequest_pharmacy_management_container_3_1_down'>
@@ -78,12 +101,26 @@ export const Bookingrequestdha = () => {
                     <div className='bookingrequest_pharmacy_management_container_3_1_down_right'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up'>
                             <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_btn'><button className='bookingrequest_pharma_btn'>Accepted</button></div>
+                            
                         </div>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_down'>
-                        XYZ, street name, City
+                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_down_1'>
+                        Age : 32 | Gender: Male | Blood Group: O+
+                        </div>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_down_2'>
+                        Height : 6” 3 inches | Weight : 76
+                        </div>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_down_3'>
+                        Earning : 4400
                         </div>
 
+                    </div>
+                </div>
+                <div className='bookingrequest_pharmacy_management_container_3_1_down_down'>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_down_left'>
+                        <button>Accept</button>
+                    </div>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_down_right'>
+                        <button>Reject</button>
                     </div>
                 </div>
 
@@ -105,7 +142,7 @@ export const Bookingrequestdha = () => {
                             <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Vaccine 2 </div></div>
                             <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Vaccine 3</div></div>
                         </div>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_right'>Quotation: 560</div>
+                        
                     </div>
                 </div>
                 <div className='bookingrequest_pharmacy_management_container_3_1_down'>
@@ -115,12 +152,26 @@ export const Bookingrequestdha = () => {
                     <div className='bookingrequest_pharmacy_management_container_3_1_down_right'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up'>
                             <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_btn'><button className='bookingrequest_pharma_btn_1'>Quotation Requested</button></div>
+                            
                         </div>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_down'>
-                        XYZ, street name, City
+                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_down_1'>
+                        Age : 32 | Gender: Male | Blood Group: O+
+                        </div>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_down_2'>
+                        Height : 6” 3 inches | Weight : 76
+                        </div>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_down_3'>
+                        Earning : 4400
                         </div>
 
+                    </div>
+                </div>
+                <div className='bookingrequest_pharmacy_management_container_3_1_down_down'>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_down_left'>
+                        <button>Accept</button>
+                    </div>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_down_right'>
+                        <button>Reject</button>
                     </div>
                 </div>
 
@@ -142,7 +193,7 @@ export const Bookingrequestdha = () => {
                             <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Vaccine 2 </div></div>
                             <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Vaccine 3</div></div>
                         </div>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_right'>Quotation: 560</div>
+                        
                     </div>
                 </div>
                 <div className='bookingrequest_pharmacy_management_container_3_1_down'>
@@ -152,12 +203,26 @@ export const Bookingrequestdha = () => {
                     <div className='bookingrequest_pharmacy_management_container_3_1_down_right'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up'>
                             <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_btn'><button className='bookingrequest_pharma_btn'>Accepted</button></div>
+                            
                         </div>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_down'>
-                        XYZ, street name, City
+                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_down_1'>
+                        Age : 32 | Gender: Male | Blood Group: O+
+                        </div>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_down_2'>
+                        Height : 6” 3 inches | Weight : 76
+                        </div>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_down_3'>
+                        Earning : 4400
                         </div>
 
+                    </div>
+                </div>
+                <div className='bookingrequest_pharmacy_management_container_3_1_down_down'>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_down_left'>
+                        <button>Accept</button>
+                    </div>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_down_right'>
+                        <button>Reject</button>
                     </div>
                 </div>
 
@@ -179,7 +244,7 @@ export const Bookingrequestdha = () => {
                             <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Vaccine 2 </div></div>
                             <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Vaccine 3</div></div>
                         </div>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_right'>Quotation: 560</div>
+                        
                     </div>
                 </div>
                 <div className='bookingrequest_pharmacy_management_container_3_1_down'>
@@ -189,12 +254,26 @@ export const Bookingrequestdha = () => {
                     <div className='bookingrequest_pharmacy_management_container_3_1_down_right'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up'>
                             <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_btn'><button className='bookingrequest_pharma_btn_1'>Quotation Requested</button></div>
+                            
                         </div>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_down'>
-                        XYZ, street name, City
+                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_down_1'>
+                        Age : 32 | Gender: Male | Blood Group: O+
+                        </div>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_down_2'>
+                        Height : 6” 3 inches | Weight : 76
+                        </div>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_down_3'>
+                        Earning : 4400
                         </div>
 
+                    </div>
+                </div>
+                <div className='bookingrequest_pharmacy_management_container_3_1_down_down'>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_down_left'>
+                        <button>Accept</button>
+                    </div>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_down_right'>
+                        <button>Reject</button>
                     </div>
                 </div>
 

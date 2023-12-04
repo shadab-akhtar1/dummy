@@ -117,6 +117,7 @@
 .bookingrequest_pharmacy_management_container_1 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .bookingrequest_pharmacy_management_heading_box_1 {
@@ -134,7 +135,14 @@
 
 .bookingrequest_pharmacy_management_heading_box_2 {
     display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.bookingrequest_pharmacy_management_heading_box_3 {
+    display: flex;
     justify-content: flex-end;
+    align-items: center;
     margin-right: 70px;
 }
 
@@ -143,30 +151,48 @@
     font-size: 14px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
+    margin-right: 10px;
 }
 
 .bookingrequest_pharmacy_management_container_2 {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
     margin-left: 70px;
     margin-right: 70px;
     border-bottom: 1px solid #E1E5E8;
 }
 
+.bookingrequest_pharmacy_management_container_2_1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bookingrequest_pharmacy_management_container_2_2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bookingrequest_pharmacy_management_icon {
+    margin-left: 10px;
+}
+
 .bookingrequest_pharmacy_management_container_2_p_1 {
-    color: #8D98A4;
     font-size: 16px;
+    color: #1A1C1F;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #E40443;
 }
 
 .bookingrequest_pharmacy_management_container_2_p_2 {
     margin-left: 10px;
-    color: #1A1C1F;
+    color: #8D98A4;
     font-size: 16px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: 1px solid #E40443;
 }
 
 .bookingrequest_pharmacy_management_container_3 {
@@ -175,6 +201,7 @@
     margin-right: 70px;
     display: flex;
     flex-wrap: wrap;
+    gap: 38px;
 }
 
 .bookingrequest_pharmacy_management_container_3_1 {
@@ -189,7 +216,6 @@
     border-radius: 12px;
     background-color: white;
     width: 380px;
-    margin-left: 40px;
 }
 
 .bookingrequest_pharmacy_management_container_3_3 {
@@ -197,7 +223,6 @@
     border-radius: 12px;
     background-color: white;
     width: 380px;
-    margin-left: 40px;
 }
 
 .bookingrequest_pharmacy_management_container_3_4 {
@@ -205,7 +230,6 @@
     border-radius: 12px;
     background-color: white;
     width: 380px;
-    margin-top: 30px;
 }
 
 .bookingrequest_pharmacy_management_container_3_1_up {
@@ -313,6 +337,7 @@
 .bookingrequest_pharmacy_management_container_3_1_down {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #E4E4E4;
 }
 
 .bookingrequest_pharmacy_management_container_3_1_down_left {
@@ -384,11 +409,110 @@
     margin-left: 20px;
 }
 
-.bookingrequest_pharmacy_management_container_3_1_down_right_down {
+.bookingrequest_pharmacy_management_container_3_1_down_right_down_1 {
     color: #5B6572;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+.bookingrequest_pharmacy_management_container_3_1_down_right_down_2 {
+    color: #5B6572;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+}
+
+.bookingrequest_pharmacy_management_container_3_1_down_right_down_3 {
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #E40443;
+    margin-top: 5px;
+}
+
+.bookingrequest_pharmacy_management_container_3_1_down_down {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 56px;
+}
+
+.bookingrequest_pharmacy_management_container_3_1_down_down_left button {
+    background: #E40443;
+    border: none;
+    border-radius: 8px;
+    width: 153px;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookingrequest_pharmacy_management_container_3_1_down_down_right button {
+    border: 1px solid #898989;
+    border-radius: 8px;
+    width: 153px;
+    height: 30px;
+    background: white;
+    color: #898989;
+}
+
+.toggle_booking {
+    background: #DCFAEB;
+    height: 10px;
+    width: 28px;
+    border-radius: 30px;
+    display: flex;
+    position: absolute;
+}
+
+.toggle_booking_left {
+    height: 15px;
+    width: 15px;
+    background: #41B079;
+    border-radius: 20px;
+    position: relative;
+    bottom: 3px;
+}
+
+.toggle_booking_right {
+    height: 15px;
+    width: 15px;
+    background: #41B079;
+    border-radius: 20px;
+    position: relative;
+    bottom: 3px;
+    margin-left: 15px;
+}
+
+.bookingrequest_pharmacy_management_container_4 {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.bookingrequest_pharmacy_management_container_4_urgent {
+    border: 1px solid #B3B3B3;
+    border-radius: 3px;
+    height: 28px;
+    width: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #B3B3B3;
+    color: #1A1C1F;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bookingrequest_pharmacy_management_container_4_icon {
+    margin-left: 20px;
+    align-items: center;
+    color: #8D98A4;
 }
 
 
