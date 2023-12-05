@@ -221,6 +221,16 @@
     align-items: center;
 }
 
+.assigndoctor_dhaassign_container_2_2_first_1 {
+    height: 344px;
+    width: 276px;
+    border: 1px solid #E3E6E8;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #3EB655;
+}
+
 .dhaassign_container_2_2_fifth {
     height: 344px;
     width: 276px;
@@ -236,6 +246,33 @@
     align-items: center;
     margin-left: 20px;
     margin-bottom: 10px;
+}
+
+.assigndoctor_dhaassign_container_2_2_first_down_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.assigndoctor_dhaassign_container_2_2_first_down_1_left {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.assigndoctor_dhaassign_container_2_2_first_down_1_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #41B079;
+    width: 24px;
+    height: 24px;
+    border-radius: 40px;
+    border: none;
+    color: white;
 }
 
 .dhaassign_container_2_2_first_down_1 {

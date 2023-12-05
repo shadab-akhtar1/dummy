@@ -1,6 +1,6 @@
 /*############## Navbar Start ##################*/
 
-.bookingcase_dhaassign_bookingrequests_pharmabooking_navbar_doctorcase {
+.bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_navbar_doctorcase {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,14 +13,14 @@
     border-bottom: 1px solid #E3E6E8;
 }
 
-.bookingcase_dhaassign_bookingrequests_pharmabooking_nav_links_doctorcase {
+.bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_nav_links_doctorcase {
     display: flex;
     justify-content: flex-end;
     padding-left: 10px;
     margin-right: 50px;
 }
 
-.bookingcase_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase {
+.bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase {
     margin-left: 5px;
     padding-right: 20px;
     margin-top: 10px;
@@ -33,7 +33,7 @@
     cursor: pointer;
 }
 
-.bookingcase_dhaassign_bookingrequests_pharmabooking_list_item_1_doctorcase {
+.bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_list_item_1_doctorcase {
     margin-right: 10px;
     padding: 5px;
     text-decoration: none;
@@ -49,26 +49,26 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingcase_dhaassign_bookingrequests_pharmabooking_navbar_logo_doctorcase {
+.bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_navbar_logo_doctorcase {
     margin-left: 70px;
     margin-bottom: 20px;
     height: 25px;
     width: 100px;
 }
 
-.bookingcase_dhaassign_bookingrequests_pharmabooking_icons_bell_doctorcase {
+.bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_icons_bell_doctorcase {
     color: #8D98A4;
     width: 20px;
     height: 20px;
 }
 
-.bookingcase_dhaassign_bookingrequests_pharmabooking_phone_icon_doctorcase {
+.bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_phone_icon_doctorcase {
     color: white;
     width: 20px;
     height: 20px;
 }
 
-.bookingcase_dhaassign_bookingrequests_pharmabooking_list_item_1_dhacase {
+.bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_list_item_1_dhacase {
     margin-right: 10px;
     padding: 5px;
     text-decoration: none;
@@ -84,7 +84,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingcase_dhaassign_bookingrequests_pharmabooking_list_item_1_doctorcase_2 {
+.bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_list_item_1_doctorcase_2 {
     background-color: #E40443;
     border-radius: 8px;
     margin-right: 15px;
@@ -102,35 +102,34 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingcase_dhaassign_bookingrequests_pharmabooking_jaydoctor_profile {
+.bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_jaydoctor_profile {
     padding-right: 3px;
 }
 
 
 /*############################### NAVBAR END ##############################*/
 
-.booking_dha_case {
+.bookingdoctor_dha_case {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 20px;
 }
 
-.booking_dha_case_1 {
+.bookingdoctor_dha_case_1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.booking_dha_case_2 {
+.bookingdoctor_dha_case_2 {
     display: flex;
     justify-self: center;
     align-items: center;
-    margin-left: 20px;
 }
 
-.booking_dha_case_2 button {
+.bookingdoctor_dha_case_2 button {
     background: #E40443;
     height: 35px;
     width: 215px;
@@ -142,7 +141,7 @@
     border-radius: 8px;
 }
 
-.booking_dha_case_1 button {
+.bookingdoctor_dha_case_1 button {
     background: #E40443;
     height: 35px;
     width: 215px;
@@ -154,19 +153,19 @@
     border-radius: 8px;
 }
 
-.bookingcase_middle_container_dha_case_details {
+.bookingdoctorcase_middle_container_dha_case_details {
     background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     width: 100%;
     padding-top: 30px;
 }
 
-.bookingcase_middle_container_heading_dha_case_details {
+.bookingdoctorcase_middle_container_heading_dha_case_details {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-.bookingcase_middle_container_heading_1_dha_case_details {
+.bookingdoctorcase_middle_container_heading_1_dha_case_details {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -174,48 +173,48 @@
     margin-left: 80px;
 }
 
-.bookingcase_middle_container_heading_1_dha_case_details h2 {
+.bookingdoctorcase_middle_container_heading_1_dha_case_details h2 {
     font-size: 22px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingcase_arr_div {
+.bookingdoctorcase_arr_div {
     margin-top: 20px;
     margin-right: 10px;
 }
 
-.bookingcase_details_arrow_case_dha {
+.bookingdoctorcase_details_arrow_case_dha {
     height: 24px;
     width: 24px;
     color: #1A1C1F;
 }
 
-.bookingcase_third_container_dha_case_details {
+.bookingdoctorcase_third_container_dha_case_details {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
 }
 
-.bookingcase_third_container_left_dha_case_details {
+.bookingdoctorcase_third_container_left_dha_case_details {
     background-color: white;
     margin-left: 80px;
     width: 790px;
-    height: 600px;
+    height: 800px;
     border-radius: 16px;
     margin-bottom: 20px;
 }
 
-.bookingcase_third_container_right_dha_case_details {
+.bookingdoctorcase_third_container_right_dha_case_details {
     background-color: white;
     margin-right: 70px;
     width: 380px;
-    height: 600px;
+    height: 800px;
     border-radius: 16px;
     margin-bottom: 20px;
 }
 
-.bookingcase_dha_case_details_userprofile {
+.bookingdoctorcase_dha_case_details_userprofile {
     width: 100%;
     height: 112px;
     display: flex;
@@ -223,13 +222,13 @@
     border-bottom: 1px solid #EEF0F3
 }
 
-.bookingcase_dha_case_details_userprofile_left {
+.bookingdoctorcase_dha_case_details_userprofile_left {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.bookingcase_dha_case_details_userprofile_profile {
+.bookingdoctorcase_dha_case_details_userprofile_profile {
     height: 80px;
     width: 80px;
     margin-top: 15px;
@@ -239,19 +238,19 @@
     align-items: center;
 }
 
-.bookingcase_dha_case_details_userprofile_info ul li {
+.bookingdoctorcase_dha_case_details_userprofile_info ul li {
     list-style: none;
     text-decoration: none;
 }
 
-.bookingcase_dha_case_details_userprofile_info_2 {
+.bookingdoctorcase_dha_case_details_userprofile_info_2 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-right: 20px;
 }
 
-.bookingcase_dha_case_details_userprofile_info_2_1 {
+.bookingdoctorcase_dha_case_details_userprofile_info_2_1 {
     width: 36px;
     height: 36px;
     padding: 0px, 24px, 0px, 24px;
@@ -264,7 +263,7 @@
     margin-right: 10px;
 }
 
-.bookingcase_dha_case_details_userprofile_info_2_2 {
+.bookingdoctorcase_dha_case_details_userprofile_info_2_2 {
     width: 36px;
     height: 36px;
     padding: 0px, 24px, 0px, 24px;
@@ -276,15 +275,15 @@
     align-items: center;
 }
 
-.bookingcase_dha_case_details_userprofile_info_2_1_icon {
+.bookingdoctorcase_dha_case_details_userprofile_info_2_1_icon {
     color: #E40443;
 }
 
-.bookingcase_dha_case_details_userprofile_info_2_1_icon1 {
+.bookingdoctorcase_dha_case_details_userprofile_info_2_1_icon1 {
     color: #E40443;
 }
 
-.bookingcase_dha_li_1_case {
+.bookingdoctorcase_dha_li_1_case {
     font-size: 16px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
@@ -292,7 +291,7 @@
     margin-top: 5px;
 }
 
-.bookingcase_dha_li_2_case {
+.bookingdoctorcase_dha_li_2_case {
     font-size: 16px;
     font-weight: 500;
     color: #5B6572;
@@ -300,7 +299,7 @@
     margin-top: 5px;
 }
 
-.bookingcase_dha_li_3_case {
+.bookingdoctorcase_dha_li_3_case {
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     font-weight: 500;
@@ -308,7 +307,7 @@
     margin-top: 4px;
 }
 
-.bookingcase_dha_li_4_case {
+.bookingdoctorcase_dha_li_4_case {
     color: #5B6572;
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
@@ -316,7 +315,7 @@
     margin-top: 4px;
 }
 
-.bookingcase_dha_case_detail_service_type {
+.bookingdoctorcase_dha_case_detail_service_type {
     display: flex;
     justify-content: flex-start;
     height: 48px;
@@ -324,20 +323,20 @@
     border-bottom: 1px solid #EEF0F3
 }
 
-.bookingcase_dha_case_detail_service_name {
+.bookingdoctorcase_dha_case_detail_service_name {
     display: flex;
     justify-content: space-around;
     margin-left: 20px;
 }
 
-.bookingcase_dha_case_detail_service_name h3 {
+.bookingdoctorcase_dha_case_detail_service_name h3 {
     color: #1A1C1F;
     font-size: 14px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingcase_dha_case_detail_service_name p {
+.bookingdoctorcase_dha_case_detail_service_name p {
     color: #5B6572;
     font-size: 14px;
     font-weight: 500;
@@ -345,24 +344,24 @@
     margin-left: 40px;
 }
 
-.bookingcase_dha_case_detail_symptom {
+.bookingdoctorcase_dha_case_detail_symptom {
     border-bottom: 1px solid #EEF0F3
 }
 
-.bookingcase_dha_case_deatil_symptom_1 {
+.bookingdoctorcase_dha_case_deatil_symptom_1 {
     display: flex;
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.bookingcase_dha_case_detail_symptom_left {
+.bookingdoctorcase_dha_case_detail_symptom_left {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
 
-.bookingcase_dha_case_detail_symptom_left_1 {
+.bookingdoctorcase_dha_case_detail_symptom_left_1 {
     border: 1px solid #DBDDDF;
     border-radius: 8px;
     width: 95px;
@@ -378,7 +377,7 @@
     margin-top: 10px;
 }
 
-.bookingcase_dha_case_detail_symptom_right button {
+.bookingdoctorcase_dha_case_detail_symptom_right button {
     background: #E40443;
     border-radius: 8px;
     width: 131px;
@@ -391,13 +390,13 @@
     margin-top: 10px;
 }
 
-.bookingcase_dha_case_detail_complet {
+.bookingdoctorcase_dha_case_detail_complet {
     border-bottom: 1px solid #EEF0F3;
     height: 70px;
     width: 100%;
 }
 
-.bookingcase_dha_case_detail_completion p {
+.bookingdoctorcase_dha_case_detail_completion p {
     color: #41B079;
     font-size: 16px;
     font-weight: 500;
@@ -405,39 +404,39 @@
     margin-left: 20px;
 }
 
-.bookingcase_dha_case_detail_time {
+.bookingdoctorcase_dha_case_detail_time {
     display: flex;
     margin-top: -20px;
 }
 
-.bookingcase_dha_case_detail_time_1 {
+.bookingdoctorcase_dha_case_detail_time_1 {
     margin-left: 20px;
     width: 361px;
     display: flex;
 }
 
-.bookingcase_calen {
+.bookingdoctorcase_calen {
     text-align: center;
     padding-top: 3px;
 }
 
-.bookingcase_dha_case_detail_time_2 {
+.bookingdoctorcase_dha_case_detail_time_2 {
     text-align: left;
     display: flex;
 }
 
-.bookingcase_dha_case_detail_clock {
+.bookingdoctorcase_dha_case_detail_clock {
     text-align: center;
     padding-top: 3px;
     padding-right: 5px;
 }
 
-.bookingcase_dha_case_detail_para {
+.bookingdoctorcase_dha_case_detail_para {
     border-radius: 12px;
     width: 100%;
 }
 
-.bookingcase_dha_case_detail_para_main {
+.bookingdoctorcase_dha_case_detail_para_main {
     height: 220px;
     display: flex;
     justify-content: space-between;
@@ -445,17 +444,17 @@
     margin-right: 20px;
 }
 
-.bookingcase_dha_case_detail_para_main_left {
+.bookingdoctorcase_dha_case_detail_para_main_left {
     width: 365px;
     height: 184px;
 }
 
-.bookingcase_dha_case_detail_para_main_right {
+.bookingdoctorcase_dha_case_detail_para_main_right {
     width: 274px;
     height: 215px;
 }
 
-.bookingcase_dha_case_detail_para_main_left h4 {
+.bookingdoctorcase_dha_case_detail_para_main_left h4 {
     color: #1A1C1F;
     font-size: 14px;
     font-weight: 500;
@@ -464,7 +463,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingcase_dha_case_detail_para_main_left p {
+.bookingdoctorcase_dha_case_detail_para_main_left p {
     color: #5B6572;
     font-size: 12px;
     font-weight: 400;
@@ -472,7 +471,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingcase_dha_case_detail_para_main_right h4 {
+.bookingdoctorcase_dha_case_detail_para_main_right h4 {
     width: 107px;
     height: 16px;
     color: #1A1C1F;
@@ -481,11 +480,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingcase_dha_case_detail_para_bottom_head {
+.bookingdoctorcase_dha_case_detail_para_bottom_head {
     margin-left: 20px;
+    margin-top: 20px;
 }
 
-.bookingcase_dha_case_detail_para_bottom_head h3 {
+.bookingdoctorcase_dha_case_detail_para_bottom_head h3 {
     color: #1A1C1F;
     font-size: 14px;
     font-weight: 500;
@@ -493,19 +493,19 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingcase_dha_case_detail_para_bottom_mid {
+.bookingdoctorcase_dha_case_detail_para_bottom_mid {
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
     justify-content: space-between;
 }
 
-.bookingcase_dha_case_detail_para_bottom_mid_left {
+.bookingdoctorcase_dha_case_detail_para_bottom_mid_left {
     display: flex;
     justify-content: flex-start;
 }
 
-.bookingcase_dha_case_detail_para_bottom_mid_right {
+.bookingdoctorcase_dha_case_detail_para_bottom_mid_right {
     color: #5B6572;
     font-size: 14px;
     font-weight: 500;
@@ -513,33 +513,33 @@
     display: flex;
 }
 
-.bookingcase_dha_case_detail_call {
+.bookingdoctorcase_dha_case_detail_call {
     padding-top: 3px;
     text-align: center;
     padding-right: 5px;
     color: #1A1C1F;
 }
 
-.bookingcase_dha_case_detail_para_bottom_mid_left_list ul li {
+.bookingdoctorcase_dha_case_detail_para_bottom_mid_left_list ul li {
     list-style: none;
     margin-left: -20px;
 }
 
-.bookingcase_dha_case_deatil_list {
+.bookingdoctorcase_dha_case_deatil_list {
     color: #1A1C1F;
     font-size: 14px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingcase_dha_case_detail_list_item {
+.bookingdoctorcase_dha_case_detail_list_item {
     color: #E40443;
     font-size: 12px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingcase_dha_case_detail_para_bottom_bot button {
+.bookingdoctorcase_dha_case_detail_para_bottom_bot button {
     background: #E40443;
     color: white;
     font-size: 14px;
@@ -552,36 +552,36 @@
     margin-left: 30px;
 }
 
-.bookingcase_dha_case_detail_para_bottom_mid_left img {
+.bookingdoctorcase_dha_case_detail_para_bottom_mid_left img {
     width: 36px;
     height: 36px;
     margin-top: 15px;
     margin-left: 10px;
 }
 
-.bookingcase_dha_case_detail_lower {
+.bookingdoctorcase_dha_case_detail_lower {
     margin-top: 30px;
 }
 
-.bookingcase_dha_case_detail_lower_1 {
+.bookingdoctorcase_dha_case_detail_lower_1 {
     height: 18px;
     margin-left: 20px;
 }
 
-.bookingcase_dha_case_detail_lower_1 h2 {
+.bookingdoctorcase_dha_case_detail_lower_1 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: #1A1C1F;
 }
 
-.bookingcase_dha_case_detail_lower_2 {
+.bookingdoctorcase_dha_case_detail_lower_2 {
     display: flex;
     justify-content: flex-start;
     margin-top: 10px;
 }
 
-.bookingcase_dha_case_detail_lower_2_image {
+.bookingdoctorcase_dha_case_detail_lower_2_image {
     width: 48px;
     height: 48px;
     border-radius: 8px;
@@ -590,12 +590,12 @@
     margin-top: 10px;
 }
 
-.bookingcase_dha_case_detail_lower_2_low ul li {
+.bookingdoctorcase_dha_case_detail_lower_2_low ul li {
     list-style: none;
     margin-left: -20px;
 }
 
-.bookingcase_dha_case_detail_lower_2_low_list {
+.bookingdoctorcase_dha_case_detail_lower_2_low_list {
     height: 16px;
     color: #1A1C1F;
     font-size: 14px;
@@ -603,7 +603,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingcase_dha_case_detail_lower_2_low_list_item {
+.bookingdoctorcase_dha_case_detail_lower_2_low_list_item {
     height: 14px;
     color: #5B6572;
     font-size: 12px;
@@ -615,17 +615,17 @@
 
 /*################ Right Side Container ############### */
 
-.bookingcase_third_container_right_case_details_first {
+.bookingdoctorcase_third_container_right_case_details_first {
     border-radius: 16px;
     background-color: white;
 }
 
-.bookingcase_third_container_right_case_details_first_1 {
+.bookingdoctorcase_third_container_right_case_details_first_1 {
     margin-left: 20px;
     margin-top: 20px;
 }
 
-.bookingcase_third_container_right_case_details_first_1 h2 {
+.bookingdoctorcase_third_container_right_case_details_first_1 h2 {
     color: #1A1C1F;
     font-size: 14px;
     font-weight: 600;
@@ -633,13 +633,13 @@
     height: 16px;
 }
 
-.bookingcase_third_container_right_case_details_first_2 ul {
+.bookingdoctorcase_third_container_right_case_details_first_2 ul {
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
 }
 
-.bookingcase_third_container_right_case_details_first_list {
+.bookingdoctorcase_third_container_right_case_details_first_list {
     list-style: none;
     color: #8D98A4;
     font-size: 14px;
@@ -648,7 +648,7 @@
     margin-left: -20px;
 }
 
-.bookingcase_third_container_right_case_details_first_item {
+.bookingdoctorcase_third_container_right_case_details_first_item {
     list-style: none;
     color: #1A1C1F;
     font-size: 14px;
@@ -656,33 +656,33 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingcase_third_container_right_case_details_first_3 ul {
+.bookingdoctorcase_third_container_right_case_details_first_3 ul {
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
 }
 
-.bookingcase_third_container_right_case_details_first_4 ul {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 20px;
-    border-bottom: 2px solid #E3E6E8;
-}
-
-.bookingcase_third_container_right_case_details_first_5 ul {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 20px;
-}
-
-.bookingcase_third_container_right_case_details_first_6 ul {
+.bookingdoctorcase_third_container_right_case_details_first_4 ul {
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
     border-bottom: 2px solid #E3E6E8;
 }
 
-.bookingcase_third_container_right_case_details_first_7 ul {
+.bookingdoctorcase_third_container_right_case_details_first_5 ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.bookingdoctorcase_third_container_right_case_details_first_6 ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    border-bottom: 2px solid #E3E6E8;
+}
+
+.bookingdoctorcase_third_container_right_case_details_first_7 ul {
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
@@ -723,7 +723,7 @@
 }
 */
 
-.bookingcase_dha_list_item_case {
+.bookingdoctorcase_dha_list_item_case {
     list-style: none;
     color: #1A1C1F;
     font-size: 16px;
@@ -731,7 +731,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingcase_dha_list_item_case2 {
+.bookingdoctorcase_dha_list_item_case2 {
     list-style: none;
     color: #5B6572;
     font-size: 12px;
@@ -739,7 +739,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingcase_dha_case_detail_container {
+.bookingdoctorcase_dha_case_detail_container {
     width: 10px;
     height: 10px;
     background: #E40443;
@@ -749,7 +749,7 @@
     margin-top: 15px;
 }
 
-.bookingcase_dha_case_detail_box {
+.bookingdoctorcase_dha_case_detail_box {
     display: flex;
     justify-content: flex-start;
     margin-left: 20px;

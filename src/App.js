@@ -82,6 +82,30 @@ import Bookingdhaassigndoctor from './Components/Bookingrequests/Bookingdhaassig
 import Bookingdhadhaassign from './Components/Bookingrequests/Bookingdhadhaassign.jsx';
 import Bookingdhahospital from './Components/Bookingrequests/Bookingdhahospital.jsx';
 import Bookingdhacase from './Components/Bookingrequests/Bookingdhacase.jsx';
+import Bookingrequestdoctor from './Components/Bookingrequests/Bookingrequestdoctor.jsx';
+import Bookingdoctorcase from './Components/Bookingrequests/Bookingdoctorcase.jsx';
+import Bookingdoctorassigndoctor from './Components/Bookingrequests/Bookingdoctorassigndoctor.jsx';
+import Bookingdoctordoctorassign from './Components/Bookingrequests/Bookingdoctordoctorassign.jsx';
+import Bookingdoctorhospital from './Components/Bookingrequests/Bookingdoctorhospital.jsx';
+import Bookingrequestpharmacy from './Components/Bookingrequests/Bookingrequestpharmacy.jsx';
+import Bookingrequestlab from './Components/Bookingrequests/Bookingrequestlab.jsx';
+import Bookingrequestlabdetail from './Components/Bookingrequests/Bookingrequestlabdetail.jsx';
+import Bookingpendingdha from './Components/Bookingpending/Bookingpendingdha.jsx';
+import Bookingdhastandalone from './Components/Bookingpending/Bookingdhastandalone.jsx';
+import Pendingdhaassigndoctor from './Components/Bookingpending/Pendingdhaassigndoctor.jsx';
+import Pendingdhadoctorassign from './Components/Bookingpending/Pendingdhadoctorassign.jsx';
+import Pendingdhadhaassign from './Components/Bookingpending/Pendingdhadhaassign.jsx';
+import Pendingdhaassigndha from './Components/Bookingpending/Pendingdhaassigndha.jsx';
+import Pendingdhaurgentcase from './Components/Bookingpending/Pendingdhaurgentcase.jsx';
+import Pendingdoctor from './Components/Bookingpending/Pendingdoctor.jsx';
+import Pendingdoctorhospital from './Components/Bookingpending/Pendingdoctorhospital.jsx';
+import Pendingdoctornonurgentcase from './Components/Bookingpending/Pendingdoctornonurgentcase.jsx';
+import Pendingdoctorassigndoctor from './Components/Bookingpending/Pendingdoctorassigndoctor.jsx';
+import Pendingdoctordoctorassign from './Components/Bookingpending/Pendingdoctordoctorassign.jsx';
+import Pendingcasecompleted from './Components/Bookingpending/Pendingcasecompleted.jsx';
+import Pendingpharmacy from './Components/Bookingpending/Pendingpharmacy.jsx';
+import Pendingpharmacycase1 from './Components/Bookingpending/Pendingpharmacycase1.jsx';
+import Pendingaddquotation2 from './Components/Bookingpending/Pendingaddquotation2.jsx';
 
 function App() {
   return (
@@ -169,6 +193,30 @@ function App() {
         <Route path='/bookingdhadhaassign' element={<Bookingdhadhaassign/>}/>
         <Route path='/bookingdhahospital' element={<Bookingdhahospital/>}/>
         <Route path='/bookingdhacase' element={<Bookingdhacase/>}/>
+        <Route path='/bookingrequestdoctor' element={<Bookingrequestdoctor/>}/>
+        <Route path='/bookingdoctorcase' element={<Bookingdoctorcase/>}/>
+        <Route path='/bookingdoctorassigndoctor' element={<Bookingdoctorassigndoctor/>}/>
+        <Route path='/bookingdoctordoctorassign' element={<Bookingdoctordoctorassign/>}/>
+        <Route path='/bookingdoctorhospital' element={<Bookingdoctorhospital/>}/>
+        <Route path='/bookingrequestpharmacy' element={<Bookingrequestpharmacy/>}/>
+        <Route path='/bookingrequestlab' element={<Bookingrequestlab/>}/>
+        <Route path='/bookingrequestlabdetail' element={<Bookingrequestlabdetail/>}/>
+        <Route path='/bookingpendingdha' element={<Bookingpendingdha/>}/>
+        <Route path='/bookingdhastandalone' element={<Bookingdhastandalone/>}/>
+        <Route path='/pendingdhaassigndoctor' element={<Pendingdhaassigndoctor/>}/>
+        <Route path='/pendingdhadoctorassign' element={<Pendingdhadoctorassign/>}/>
+        <Route path='/pendingdhadhaassign' element={<Pendingdhadhaassign/>}/>
+        <Route path='/pendingdhaassigndha' element={<Pendingdhaassigndha/>}/>
+        <Route path='/pendingdhaurgentcase' element={<Pendingdhaurgentcase/>}/>
+        <Route path='/pendingdoctor' element={<Pendingdoctor/>}/>
+        <Route path='/pendingdoctorhospital' element={<Pendingdoctorhospital/>}/>
+        <Route path='/pendingdoctornonurgentcase' element={<Pendingdoctornonurgentcase/>}/>
+        <Route path='/pendingdoctorassigndoctor' element={<Pendingdoctorassigndoctor/>}/>
+        <Route path='/pendingdoctordoctorassign' element={<Pendingdoctordoctorassign/>}/>
+        <Route path='/pendingcasecompleted' element={<Pendingcasecompleted/>}/>
+        <Route path='/pendingpharmacy' element={<Pendingpharmacy/>}/>
+        <Route path='/pendingpharmacycase1' element={<Pendingpharmacycase1/>}/>
+        <Route path='/pendingaddquotation2' element={<Pendingaddquotation2/>}/>
 
       </Routes>
 

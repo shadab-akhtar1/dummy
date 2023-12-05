@@ -1,6 +1,6 @@
 /*############## Navbar Start ##################*/
 
-.bookingdhahospital_bookingrequests_pharmabooking_navbar_doctorcase {
+.bookingrequestsdoctor_pharmabooking_navbar_doctorcase {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,14 +13,14 @@
     border-bottom: 1px solid #E3E6E8;
 }
 
-.bookingdhahospital_bookingrequests_pharmabooking_nav_links_doctorcase {
+.bookingrequestsdoctor_pharmabooking_nav_links_doctorcase {
     display: flex;
     justify-content: flex-end;
     padding-left: 10px;
     margin-right: 50px;
 }
 
-.bookingdhahospital_bookingrequests_pharmabooking_list_item_doctorcase {
+.bookingrequestsdoctor_pharmabooking_list_item_doctorcase {
     margin-left: 5px;
     padding-right: 20px;
     margin-top: 10px;
@@ -33,7 +33,7 @@
     cursor: pointer;
 }
 
-.bookingdhahospital_bookingrequests_pharmabooking_list_item_1_doctorcase {
+.bookingrequestsdoctor_pharmabooking_list_item_1_doctorcase {
     margin-right: 10px;
     padding: 5px;
     text-decoration: none;
@@ -49,26 +49,26 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingdhahospital_bookingrequests_pharmabooking_navbar_logo_doctorcase {
+.bookingrequestsdoctor_pharmabooking_navbar_logo_doctorcase {
     margin-left: 70px;
     margin-bottom: 20px;
     height: 25px;
     width: 100px;
 }
 
-.bookingdhahospital_bookingrequests_pharmabooking_icons_bell_doctorcase {
+.bookingrequestsdoctor_pharmabooking_icons_bell_doctorcase {
     color: #8D98A4;
     width: 20px;
     height: 20px;
 }
 
-.bookingdhahospital_bookingrequests_pharmabooking_phone_icon_doctorcase {
+.bookingrequestsdoctor_pharmabooking_phone_icon_doctorcase {
     color: white;
     width: 20px;
     height: 20px;
 }
 
-.bookingdhahospital_bookingrequests_pharmabooking_list_item_1_dhacase {
+.bookingrequestsdoctor_pharmabooking_list_item_1_dhacase {
     margin-right: 10px;
     padding: 5px;
     text-decoration: none;
@@ -84,7 +84,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingdhahospital_bookingrequests_pharmabooking_list_item_1_doctorcase_2 {
+.bookingrequestsdoctor_pharmabooking_list_item_1_doctorcase_2 {
     background-color: #E40443;
     border-radius: 8px;
     margin-right: 15px;
@@ -102,51 +102,51 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingdhahospital_bookingrequests_pharmabooking_jaydoctor_profile {
+.bookingrequestsdoctor_pharmabooking_jaydoctor_profile {
     padding-right: 3px;
 }
 
 
 /*############################### NAVBAR END ##############################*/
 
-.bookingdhahospital_bookingrequest_pharmacy_managemenet_container {
+.bookingrequestdoctor_pharmacy_managemenet_container {
     background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     width: 100%;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_1 {
+.bookingrequestdoctor_pharmacy_management_container_1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_heading_box_1 {
+.bookingrequestdoctor_pharmacy_management_heading_box_1 {
     display: flex;
     justify-content: flex-start;
     margin-left: 70px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_heading_box_1 h2 {
+.bookingrequestdoctor_pharmacy_management_heading_box_1 h2 {
     color: #1A1C1F;
     font-weight: 700;
     font-size: 22px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_heading_box_2 {
+.bookingrequestdoctor_pharmacy_management_heading_box_2 {
     display: flex;
     align-items: center;
     margin-right: 10px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_heading_box_3 {
+.bookingrequestdoctor_pharmacy_management_heading_box_3 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-right: 70px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_heading_box_2 p {
+.bookingrequestdoctor_pharmacy_management_heading_box_2 p {
     color: #1A1C1F;
     font-size: 14px;
     font-weight: 600;
@@ -154,7 +154,7 @@
     margin-right: 10px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_2 {
+.bookingrequestdoctor_pharmacy_management_container_2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -163,31 +163,30 @@
     border-bottom: 1px solid #E1E5E8;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_2_1 {
+.bookingrequestdoctor_pharmacy_management_container_2_1 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_2_2 {
+.bookingrequestdoctor_pharmacy_management_container_2_2 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_icon {
+.bookingrequestdoctor_pharmacy_management_icon {
     margin-left: 10px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_2_p_1 {
+.bookingrequestdoctor_pharmacy_management_container_2_p_1 {
     font-size: 16px;
-    color: #1A1C1F;
+    color: #8D98A4;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: 1px solid #E40443;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_2_p_2 {
+.bookingrequestdoctor_pharmacy_management_container_2_p_2 {
     margin-left: 10px;
     color: #8D98A4;
     font-size: 16px;
@@ -195,7 +194,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3 {
+.bookingrequestdoctor_pharmacy_management_container_2_p_3 {
+    margin-left: 10px;
+    color: #1A1C1F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #E40443;
+}
+
+.bookingrequestdoctor_pharmacy_management_container_3 {
     margin-left: 70px;
     margin-top: 30px;
     margin-right: 70px;
@@ -204,46 +212,46 @@
     gap: 38px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1 {
+.bookingrequestdoctor_pharmacy_management_container_3_1 {
     border: 1px solid #D3D3D3;
     border-radius: 12px;
     background-color: white;
     width: 380px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_2 {
+.bookingrequestdoctor_pharmacy_management_container_3_2 {
     border: 1px solid #D3D3D3;
     border-radius: 12px;
     background-color: white;
     width: 380px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_3 {
+.bookingrequestdoctor_pharmacy_management_container_3_3 {
     border: 1px solid #D3D3D3;
     border-radius: 12px;
     background-color: white;
     width: 380px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_4 {
+.bookingrequestdoctor_pharmacy_management_container_3_4 {
     border: 1px solid #D3D3D3;
     border-radius: 12px;
     background-color: white;
     width: 380px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up {
+.bookingrequestdoctor_pharmacy_management_container_3_1_up {
     border-bottom: 1px solid #E4E4E4;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up_box {
+.bookingrequestdoctor_pharmacy_management_container_3_1_up_box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up_box_left {
+.bookingrequestdoctor_pharmacy_management_container_3_1_up_box_left {
     display: flex;
     justify-content: flex-start;
     color: #E40443;
@@ -253,13 +261,13 @@
     margin-left: 10px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up_box_right {
+.bookingrequestdoctor_pharmacy_management_container_3_1_up_box_right {
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up_box_right_1 {
+.bookingrequestdoctor_pharmacy_management_container_3_1_up_box_right_1 {
     margin-right: 5px;
     color: #5B6572;
     font-size: 12px;
@@ -267,14 +275,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up_box_right_2 {
+.bookingrequestdoctor_pharmacy_management_container_3_1_up_box_right_2 {
     color: #5B6572;
     font-size: 12px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up_box2 {
+.bookingrequestdoctor_pharmacy_management_container_3_1_up_box2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -282,17 +290,17 @@
     margin-bottom: 10px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up_box2_left {
+.bookingrequestdoctor_pharmacy_management_container_3_1_up_box2_left {
     display: flex;
     justify-content: flex-start;
     margin-left: 10px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up_box2_left_1 {
+.bookingrequestdoctor_pharmacy_management_container_3_1_up_box2_left_1 {
     border-right: 2px solid #E40443;
 }
 
-.bookingdhahospital_bookingrequest_phar_vaac_1 {
+.bookingrequestdoctor_phar_vaac_1 {
     color: #E40443;
     font-size: 12px;
     font-weight: 600;
@@ -300,7 +308,7 @@
     margin-right: 5px;
 }
 
-.bookingdhahospital_bookingrequest_phar_vaac_2 {
+.bookingrequestdoctor_phar_vaac_2 {
     color: #E40443;
     font-size: 12px;
     font-weight: 600;
@@ -308,23 +316,23 @@
     margin-right: 5px;
 }
 
-.bookingdhahospital_bookingrequest_phar_vaac_3 {
+.bookingrequestdoctor_phar_vaac_3 {
     color: #E40443;
     font-size: 12px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up_box2_left_2 {
+.bookingrequestdoctor_pharmacy_management_container_3_1_up_box2_left_2 {
     border-right: 2px solid #E40443;
     margin-left: 5px;
 }
 
-.bookingrequest_pharmacy_management_container_3_1_up_box2_left_3 {
+.bookingrequestdoctor_pharmacy_management_container_3_1_up_box2_left_3 {
     margin-left: 5px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up_box2_right {
+.bookingrequestdoctor_pharmacy_management_container_3_1_up_box2_right {
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
@@ -334,13 +342,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_down {
+.bookingrequestdoctor_pharmacy_management_container_3_1_down {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #E4E4E4;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_down_left {
+.bookingrequestdoctor_pharmacy_management_container_3_1_down_left {
     margin-left: 10px;
     display: flex;
     justify-content: flex-start;
@@ -348,25 +356,25 @@
     margin-bottom: 10px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_down_left img {
+.bookingrequestdoctor_pharmacy_management_container_3_1_down_left img {
     width: 48px;
     height: 48px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_down_right {
+.bookingrequestdoctor_pharmacy_management_container_3_1_down_right {
     width: 284px;
     margin-top: 10px;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_down_right_up {
+.bookingrequestdoctor_pharmacy_management_container_3_1_down_right_up {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_down_right_up_text {
+.bookingrequestdoctor_pharmacy_management_container_3_1_down_right_up_text {
     display: flex;
     justify-content: flex-start;
     color: #1A1C1F;
@@ -375,7 +383,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingdhahospital_bookingrequest_pharma_btn {
+.bookingrequestdoctor_pharma_btn {
     border-radius: 24px;
     border: none;
     height: 22px;
@@ -387,7 +395,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingdhahospital_bookingrequest_pharma_btn_1 {
+.bookingrequestdoctor_pharma_btn_1 {
     border-radius: 24px;
     border: none;
     height: 22px;
@@ -399,17 +407,17 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingdhahospital_bookingrequest_pahrma_boking_link {
+.bookingrequestdoctor_pahrma_boking_link {
     text-decoration: none;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_down_right_up_btn {
+.bookingrequestdoctor_pharmacy_management_container_3_1_down_right_up_btn {
     display: flex;
     justify-content: flex-end;
     margin-left: 20px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_down_right_down_1 {
+.bookingrequestdoctor_pharmacy_management_container_3_1_down_right_down_1 {
     color: #5B6572;
     font-size: 10px;
     font-weight: 500;
@@ -417,7 +425,7 @@
     margin-top: 10px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_down_right_down_2 {
+.bookingrequestdoctor_pharmacy_management_container_3_1_down_right_down_2 {
     color: #5B6572;
     font-size: 10px;
     font-weight: 500;
@@ -425,7 +433,7 @@
     margin-top: 5px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_down_right_down_3 {
+.bookingrequestdoctor_pharmacy_management_container_3_1_down_right_down_3 {
     font-size: 10px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
@@ -433,14 +441,14 @@
     margin-top: 5px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_down_down {
+.bookingrequestdoctor_pharmacy_management_container_3_1_down_down {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 56px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_down_down_left button {
+.bookingrequestdoctor_pharmacy_management_container_3_1_down_down_left button {
     background: #E40443;
     border: none;
     border-radius: 8px;
@@ -452,7 +460,7 @@
     align-items: center;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_down_down_right button {
+.bookingrequestdoctor_pharmacy_management_container_3_1_down_down_right button {
     border: 1px solid #898989;
     border-radius: 8px;
     width: 153px;
@@ -461,7 +469,7 @@
     color: #898989;
 }
 
-.bookingdhahospital_toggle_booking {
+.doctortoggle_booking {
     background: #DCFAEB;
     height: 10px;
     width: 28px;
@@ -470,7 +478,7 @@
     position: absolute;
 }
 
-.bookingdhahospital_toggle_booking_left {
+.doctortoggle_booking_left {
     height: 15px;
     width: 15px;
     background: #41B079;
@@ -479,7 +487,7 @@
     bottom: 3px;
 }
 
-.bookingdhahospital_toggle_booking_right {
+.doctortoggle_booking_right {
     height: 15px;
     width: 15px;
     background: #41B079;
@@ -489,12 +497,12 @@
     margin-left: 15px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_4 {
+.bookingrequestdoctor_pharmacy_management_container_4 {
     margin-left: 90px;
     margin-top: 20px;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_4_urgent {
+.bookingrequestdoctor_pharmacy_management_container_4_urgent {
     border: 1px solid #B3B3B3;
     border-radius: 3px;
     height: 28px;
@@ -509,7 +517,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_management_container_4_icon {
+.bookingrequestdoctor_pharmacy_management_container_4_icon {
     margin-left: 20px;
     align-items: center;
     color: #8D98A4;
@@ -518,7 +526,7 @@
 
 /*#################################### PAGINATION ##################################### */
 
-.bookingdhahospital_bookingrequest_pharmacy_pagination {
+.bookingrequestdoctor_pharmacy_pagination {
     text-align: center;
     margin-top: 10px;
     padding-top: 5px;
@@ -527,7 +535,7 @@
     justify-content: center;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_pagination a {
+.bookingrequestdoctor_pharmacy_pagination a {
     background-color: white;
     color: linear-gradient(0deg, #F1F1F1, #F1F1F1), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     text-decoration: none;
@@ -547,27 +555,27 @@
     align-items: center;
 }
 
-.bookingdhahospital_bookingrequest_pharmacy_pagination a.bookingdhahospital_bookingrequest_anch_active {
+.bookingrequestdoctor_pharmacy_pagination a.bookingrequestdoctor_anch_active {
     background-color: #E40443;
     font-weight: 400;
     color: white;
 }
 
-.bookingdhahospital_bookingrequest_Link {
+.bookingrequestdoctor_Link {
     color: #E40443;
 }
 
-.bookingdhahospital_bookingrequest_pharma_less_doctor {
+.bookingrequestdoctor_pharma_less_doctor {
     margin-right: 3px;
     margin-left: 3px;
     color: black;
 }
 
-.bookingdhahospital_bookingrequest_footer_pharmacy {
+.bookingrequestdoctor_footer_pharmacy {
     width: 100%;
 }
 
-.bookingdhahospital_bookingrequest_medicine_link {
+.bookingrequestdoctor_medicine_link {
     text-decoration: none;
     list-style: none;
 }

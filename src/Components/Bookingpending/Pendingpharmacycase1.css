@@ -1,0 +1,460 @@
+/* ######################## CSS in Bookingrequestlabdetail.css in Bookingrequest folder ############# */
+
+.pharmacycase1bookingcase_middle_container_dha_case_details {
+    background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    width: 100%;
+    padding-top: 30px;
+}
+
+.pharmacycase1bookingcase_middle_container_heading_dha_case_details {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pharmacycase1bookingcase_middle_container_heading_1_dha_case_details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 80px;
+}
+
+.pharmacycase1bookingcase_middle_container_heading_1_dha_case_details h2 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pharmacycase1bookingcase_arr_div {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.pharmacycase1bookingcase_details_arrow_case_dha {
+    height: 24px;
+    width: 24px;
+    color: #1A1C1F;
+}
+
+.pharmacycase1bookingcase_third_container_dha_case_details {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.pharmacycase1bookingcase_third_container_left_dha_case_details {
+    background-color: white;
+    margin-left: 80px;
+    width: 790px;
+    height: 350px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.pharmacycase1bookingcase_third_container_right_dha_case_details {
+    background-color: white;
+    margin-right: 70px;
+    width: 380px;
+    height: 600px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.pharmacycase1bookingcase_dha_case_details_userprofile {
+    width: 100%;
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EEF0F3
+}
+
+.pharmacycase1bookingcase_dha_case_details_userprofile_left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pharmacycase1bookingcase_dha_case_details_userprofile_profile {
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pharmacycase1bookingcase_dha_case_details_userprofile_info ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.pharmacycase1bookingcase_dha_case_details_userprofile_info_2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.pharmacycase1bookingcase_dha_case_details_userprofile_info_2_1 {
+    width: 36px;
+    height: 36px;
+    padding: 0px, 24px, 0px, 24px;
+    border-radius: 8px;
+    gap: 12px;
+    background: #FCE6EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.pharmacycase1bookingcase_dha_case_details_userprofile_info_2_2 {
+    width: 36px;
+    height: 36px;
+    padding: 0px, 24px, 0px, 24px;
+    border-radius: 8px;
+    gap: 12px;
+    background: #FCE6EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pharmacycase1bookingcase_dha_case_details_userprofile_info_2_1_icon {
+    color: #E40443;
+}
+
+.pharmacycase1bookingcase_dha_case_details_userprofile_info_2_1_icon1 {
+    color: #E40443;
+}
+
+.pharmacycase1bookingcase_dha_li_1_case {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #1A1C1F;
+    margin-top: 5px;
+}
+
+.pharmacycase1bookingcase_dha_li_2_case {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5B6572;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+}
+
+.pharmacycase1bookingcase_dha_li_3_case {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: #5B6572;
+    margin-top: 4px;
+}
+
+.pharmacycase1bookingcase_dha_li_4_case {
+    color: #5B6572;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.pharmacycase1bookingcase_dha_case_detail_service_type {
+    display: flex;
+    justify-content: flex-start;
+    height: 48px;
+    width: 100%;
+    border-bottom: 1px solid #EEF0F3
+}
+
+.pharmacycase1bookingcase_dha_case_detail_service_name {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.pharmacycase1bookingcase_dha_case_detail_service_name h3 {
+    color: #1A1C1F;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pharmacycase1bookingcase_dha_case_detail_service_name p {
+    color: #5B6572;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40px;
+}
+
+.pharmacycase1bookingcase_dha_case_detail_symptom {
+    border-bottom: 1px solid #EEF0F3
+}
+
+.pharmacycase1bookingcase_dha_case_deatil_symptom_1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pharmacycase1bookingcase_dha_case_detail_symptom_left {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.pharmacycase1bookingcase_dha_case_detail_symptom_left_1 {
+    border: 1px solid #DBDDDF;
+    border-radius: 8px;
+    width: 95px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #040404;
+    text-align: center;
+    padding-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pharmacycase1bookingcase_dha_case_detail_symptom_right button {
+    background: #E40443;
+    border-radius: 8px;
+    width: 131px;
+    height: 30px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    margin-top: 10px;
+}
+
+.pharmacycase1bookingcase_dha_case_detail_complet {
+    border-bottom: 1px solid #EEF0F3;
+    height: 70px;
+    width: 100%;
+}
+
+.pharmacycase1bookingcase_dha_case_detail_completion p {
+    color: #41B079;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+}
+
+.pharmacycase1bookingcase_dha_case_detail_time {
+    display: flex;
+    margin-top: -20px;
+}
+
+.pharmacycase1bookingcase_dha_case_detail_time_1 {
+    margin-left: 20px;
+    width: 361px;
+    display: flex;
+}
+
+.pharmacycase1bookingcase_calen {
+    text-align: center;
+    padding-top: 3px;
+}
+
+.pharmacycase1bookingcase_dha_case_detail_time_2 {
+    text-align: left;
+    display: flex;
+}
+
+.pharmacycase1bookingcase_dha_case_detail_clock {
+    text-align: center;
+    padding-top: 3px;
+    padding-right: 5px;
+}
+
+.pharmacycase1bookingcase_dha_case_detail_para {
+    border-radius: 12px;
+    width: 100%;
+}
+
+.pendingpharmacycase1_last_div_btn {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 76px;
+}
+
+.pendingpharmacycase1_last_div_btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #41B079;
+    border-radius: 8px;
+    height: 36px;
+    width: 155px;
+    color: white;
+    border: none;
+}
+
+
+/* ################## POPUP ###################*/
+
+.pharmacy_modal_doctor,
+.pharmacy_overlay_doctor {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.pharmacy_overlay_doctor {
+    background: rgba(49, 49, 49, 0.8);
+}
+
+.pharmacy_modal_content_doctor_test {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 16px;
+    width: 800px;
+    min-width: 300px;
+}
+
+.pharmacy_close_modal_doctor {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+
+.pharmacy_med_img_doc {
+    height: 650px;
+    width: 550px;
+}
+
+.pharmacy_modal_content_doctor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 14px 28px;
+    border-radius: 16px;
+    max-width: 536px;
+    min-width: 300px;
+    background: white;
+    height: 560px;
+}
+
+.pharmacy_case_addlab_labupload_pharmaupload_adddha_form_fill {
+    width: 500px;
+    align-items: center;
+    height: 110px;
+}
+
+.pharmacy_case_addlab_labupload_pharmaupload_adddha_form_fill_labi {
+    width: 500px;
+    height: 14px;
+    padding: 0px, 3px, 0px, 3px;
+    color: #8D98A4;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pharmacy_case_addlab_labupload_pharmaupload_adddha_form_fill_inp {
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    color: linear-gradient(0deg, #EEF0F3, #EEF0F3), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #EEF0F3;
+    margin-bottom: 2px;
+}
+
+.pharmacy_case_addlab_labupload_pharmaupload_adddha_form_fill_inp_3 {
+    display: none;
+}
+
+.pharmacy_case_addlab_labupload_pharmaupload_adddha_file_up {
+    height: 88px;
+    width: 500px;
+    border-radius: 8px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+    position: relative;
+    border: 1px solid #EEF0F3;
+    color: #5B6572;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pharmacy_case_addlab_labupload_pharmaupload_adddha_form_fill_div {
+    margin-bottom: 5px;
+}
+
+.popup_pharma_div {
+    margin-top: 30px;
+}
+
+.popup_pharma_div_1 {
+    display: grid;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.popup_pharma_div_1_label {
+    color: #8D98A4;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    width: 500px;
+}
+
+.popup_pharma_div_1_input {
+    margin-top: 5px;
+    border: 1px solid #EEF0F3;
+    height: 44px;
+    border-radius: 8px;
+    color: #8D98A4;
+    gap: 12px;
+    width: 490px;
+}
+
+.popup_pharma_div_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1A1C1F;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.popup_pharma_div_1 button {
+    background: #E40443;
+    width: 500px;
+    height: 44px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+}

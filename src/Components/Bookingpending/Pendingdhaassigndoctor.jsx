@@ -1,5 +1,6 @@
 import React from 'react';
-import './Bookingdhaassigndoctor.css';
+import './Pendingdhaassigndoctor.css';
+import {Navbars} from '../Dhamanagement/Navbars';
 import Weblogo from "../Assets/Dooper Logo 1500x1500 2.svg";
 import {FaBell} from 'react-icons/fa';
 import {FaCaretDown} from 'react-icons/fa';
@@ -12,28 +13,11 @@ import doctorsimage from '../Assets/image-Ow_nE8fdA-transformed.png';
 import doctoresimage from '../Assets/image-RMOC43HSxZ-transformed.png';
 import {Footer} from '../Dhamanagement/Footer';
 
-export const Bookingdhaassigndoctor = () => {
+export const pendingdhaassigndoctor = () => {
   return (
     <>
-    <nav className='assigndoctor_dhaassign_bookingrequests_pharmabooking_navbar_doctorcase'>
-        <div className='assigndoctor_dhaassign_bookingrequests_pharmabooking_navbar_logo_doctorcase'>
-        <img src={Weblogo} alt="logo_doctorcase" />
-        </div>
-
-        <ul className='assigndoctor_dhaassign_bookingrequests_pharmabooking_nav_links_doctorcase'>
-            <li className='assigndoctor_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>Dooper At Home</li>
-            <li className='assigndoctor_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>Lab Tesst </li>
-            <li className='assigndoctor_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>Our Network < FaCaretDown/></li>
-            <li className='assigndoctor_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>About Us</li>
-            <li className='assigndoctor_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>Contact Us</li>
-            <li className='assigndoctor_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>Join Us With <FaCaretDown/></li>
-            <li className='assigndoctor_dhaassign_bookingrequests_pharmabooking_list_item_1_dhacase'><img src={profile} alt="" className='assigndoctor_dhaassign_bookingrequests_pharmabooking_jaydoctor_profile'/>Jaydeep Sakhiya <FaCaretDown/></li>
-            <li className='assigndoctor_dhaassign_bookingrequests_pharmabooking_list_item_1_doctorcase'><FaBell className='assigndoctor_dhaassign_bookingrequests_pharmabooking_icons_bell_doctorcase'/></li>
-            <li className='assigndoctor_dhaassign_bookingrequests_pharmabooking_list_item_1_doctorcase_2'>< BsTelephone className='assigndoctor_dhaassign_bookingrequests_pharmabooking_phone_icon_doctorcase'/></li>
-        </ul>
-
-    </nav>
-    <div className='assigndoctor_dhaassign_container_2'>
+    <div><Navbars/></div>
+     <div className='assigndoctor_dhaassign_container_2'>
         <div className='assigndoctor_dhaassign_container_2_1'>
         
             <div className='assigndoctor_dhaassign_profile_documnet_labdetailedit_pharma_edit_heading_basic'>
@@ -135,4 +119,4 @@ export const Bookingdhaassigndoctor = () => {
     </>
   )
 }
-export default Bookingdhaassigndoctor
+export default pendingdhaassigndoctor

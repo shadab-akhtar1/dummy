@@ -1,0 +1,30 @@
+/* ######################### CSS IN PAGE OF Bookingrequestdha.css file ####################### */
+
+
+/* ################# Card 2nd Portion CSS here ###################*/
+
+.bookingrequest_lab_card_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookingrequest_lab_card_2_left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #5B6572;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bookingrequest_lab_card_2_right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #5B6572;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
