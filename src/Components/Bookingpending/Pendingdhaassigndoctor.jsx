@@ -21,7 +21,7 @@ export const pendingdhaassigndoctor = () => {
         <div className='assigndoctor_dhaassign_container_2_1'>
         
             <div className='assigndoctor_dhaassign_profile_documnet_labdetailedit_pharma_edit_heading_basic'>
-                <h2><Link to={"/profile"} className='assigndoctor_dhaassign_profile_documnet_labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='assigndoctor_dhaassign_profile_documnet_labdetailedit_pharma_arrow_edit_basic'/></Link>Choose Doctor</h2>
+                <h2><Link to={"/pendingdhaurgentcase"} className='assigndoctor_dhaassign_profile_documnet_labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='assigndoctor_dhaassign_profile_documnet_labdetailedit_pharma_arrow_edit_basic'/></Link>Choose Doctor</h2>
             </div>
             <div className='assigndoctor_dhaassign_container_2_1_second'>
                 <div className='assigndoctor_dhaassign_container_2_1_second_1'>search</div>
@@ -29,7 +29,9 @@ export const pendingdhaassigndoctor = () => {
                     <div className='assigndoctor_dhaassign_container_2_1_second_2_up'>Speciality :</div>
                     <div className='assigndoctor_dhaassign_container_2_1_second_2_down'>Physiotherapist <FaCaretDown className='assigndoctor_dhaassign_container_2_1_second_2_down_icon'/></div>
                 </div>
+                <Link to={"/pendingdhadoctorassign"} className='pendingdha_assigndoctor_link_btn'>
                 <div className='assigndoctor_dhaassign_container_2_1_second_3'><button>Assign</button></div>
+                </Link>
 
             </div>
         </div>

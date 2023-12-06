@@ -1,0 +1,25 @@
+.addquotation3 {
+    background-image: url('../Assets/content\ \(1\).png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.addquotation3_container {
+    width: 560px;
+    height: 650px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.addquotation3_container img {
+    height: 600px;
+    width: 550px;
+}

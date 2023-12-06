@@ -106,6 +106,25 @@ import Pendingcasecompleted from './Components/Bookingpending/Pendingcasecomplet
 import Pendingpharmacy from './Components/Bookingpending/Pendingpharmacy.jsx';
 import Pendingpharmacycase1 from './Components/Bookingpending/Pendingpharmacycase1.jsx';
 import Pendingaddquotation2 from './Components/Bookingpending/Pendingaddquotation2.jsx';
+import Pendingaddquotation3 from './Components/Bookingpending/Pendingaddquotation3.jsx';
+import Pendingaddquotation4 from './Components/Bookingpending/Pendingaddquotation4.jsx';
+import Pendinglab from './Components/Bookingpending/Pendinglab.jsx';
+import Pendinglabdetail from './Components/Bookingpending/Pendinglabdetail.jsx';
+import Dhahospital from './Components/Bookingcompleted/Dhahospital.jsx';
+import Dhahospital1 from './Components/Bookingcompleted/Dhahospital1.jsx';
+import Doctorhospital from './Components/Bookingcompleted/Doctorhospital.jsx';
+import Doctorhospital1 from './Components/Bookingcompleted/Doctorhospital1.jsx';
+import Pharmacyhospital from './Components/Bookingcompleted/Pharmacyhospital.jsx';
+import Labhospital from './Components/Bookingcompleted/Labhospital.jsx';
+import Completedaddquotation from './Components/Bookingcompleted/Completedaddquotation.jsx';
+import Completedlabdetails from './Components/Bookingcompleted/Completedlabdetails.jsx';
+import Casedetailscompleted from './Components/Bookingcompleted/Casedetailscompleted.jsx';
+import Rejectdhahospital from './Components/Bookingrejected/Rejectdhahospital.jsx';
+import Rejectdhahospital1 from './Components/Bookingrejected/Rejectdhahospital1.jsx';
+import Rejectdoctorhospital from './Components/Bookingrejected/Rejectdoctorhospital.jsx';
+import Rejectdoctorhospital1 from './Components/Bookingrejected/Rejectdoctorhospital1.jsx';
+import Rejectpharmacyhospital from './Components/Bookingrejected/Rejectpharmacyhospital.jsx';
+import Rejectlabhospital from './Components/Bookingrejected/Rejectlabhospital.jsx';
 
 function App() {
   return (
@@ -217,6 +236,25 @@ function App() {
         <Route path='/pendingpharmacy' element={<Pendingpharmacy/>}/>
         <Route path='/pendingpharmacycase1' element={<Pendingpharmacycase1/>}/>
         <Route path='/pendingaddquotation2' element={<Pendingaddquotation2/>}/>
+        <Route path='/pendingaddquotation3' element={<Pendingaddquotation3/>}/>
+        <Route path='/pendingaddquotation4' element={<Pendingaddquotation4/>}/>
+        <Route path='/pendinglab' element={<Pendinglab/>}/>
+        <Route path='/pendinglabdetail' element={<Pendinglabdetail/>}/>
+        <Route path='/dhahospital' element={<Dhahospital/>}/>
+        <Route path='/dhahospital1' element={<Dhahospital1/>}/>
+        <Route path='/doctorhospital' element={<Doctorhospital/>}/>
+        <Route path='/doctorhospital1' element={<Doctorhospital1/>}/>
+        <Route path='/pharmacyhospital' element={<Pharmacyhospital/>}/>
+        <Route path='/labhospital' element={<Labhospital/>}/>
+        <Route path='/completedaddquotation' element={<Completedaddquotation/>}/>
+        <Route path='/completedlabdetails' element={<Completedlabdetails/>}/>
+        <Route path='/casedetailscompleted' element={<Casedetailscompleted/>}/>
+        <Route path='/rejectdhahospital' element={<Rejectdhahospital/>}/>
+        <Route path='/rejectdhahospital1' element={<Rejectdhahospital1/>}/>
+        <Route path='/rejectdoctorhospital' element={<Rejectdoctorhospital/>}/>
+        <Route path='/rejectdoctorhospital1' element={<Rejectdoctorhospital1/>}/>
+        <Route path='/rejectpharmacyhospital' element={<Rejectpharmacyhospital/>}/>
+        <Route path='/rejectlabhospital' element={<Rejectlabhospital/>}/>
 
       </Routes>
 

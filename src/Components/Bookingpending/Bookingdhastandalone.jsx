@@ -20,6 +20,8 @@ export const Bookingdhastandalone = () => {
     const handleClick=()=>{
         setToggleButton(!toggleButton)
     }
+
+    const [isActive, setIsActive]= useState(false);
   return (
     <>
     <div><Navbars/></div>
@@ -40,24 +42,38 @@ export const Bookingdhastandalone = () => {
         </div>
         <div className='bookingrequest_pharmacy_management_container_2'>
             <div className='bookingrequest_pharmacy_management_container_2_1'>
-            <Link to={"/pharmamedicine"} className='bookingrequest_medicine_link'>
+            
             <div className='bookingrequest_pharmacy_management_container_2_p_1'>DHA</div>
-            </Link>
+            
+            <Link to={"/pendingdoctor"} className='bookingrequest_medicine_link'>
             <div className='bookingrequest_pharmacy_management_container_2_p_2'>Doctor</div>
+            </Link>
+            <Link to={"/pendingpharmacy"} className='bookingrequest_medicine_link'>
             <div className='bookingrequest_pharmacy_management_container_2_p_2'>Pharmacy</div>
+            </Link>
+            <Link to={"/pendinglab"} className='bookingrequest_medicine_link'>
             <div className='bookingrequest_pharmacy_management_container_2_p_2'>Lab</div>
+            </Link>
             </div>
             <div className='bookingrequest_pharmacy_management_container_2_2'>
                 Sort by <FaCaretDown className='bookingrequest_pharmacy_management_icon'/>
             </div>
         </div>
         <div className='bookingrequest_pharmacy_management_container_4'>
-            <div className='bookingrequest_pharmacy_management_container_4_urgent_pendingdha_standalone'>Standalone<FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>
+            <div className='bookingrequest_pharmacy_management_container_4_urgent_pendingdha_standalone'onClick={(e)=> setIsActive(!isActive)}>Standalone<FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>
+            {isActive &&(
+              <div className='bookingpending_dropdown_content_drop'>
+                <Link to={"/bookingpendingdha"}>
+                <div className='bookingpending_dropdown_item_drop'>Non Urgent Care</div>
+                </Link>
+                
 
+              </div>
+              )}
         </div>
         
         <div className='bookingrequest_pharmacy_management_container_3'>
-            <Link to={"/pharmabooking"} className='pahrma_boking_link'>
+            <Link to={""} className='pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_1'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -70,7 +86,7 @@ export const Bookingdhastandalone = () => {
                     
                     <div className='pendingdha_standalone_card_upper_2'>
                         <div className='pendingdha_standalone_card_upper_2_left'>Booked For : 18-20 June , 11:00 AM - 2:00 PM </div>
-                        <div className='pendingdha_standalone_card_upper_2_right'><button>Nursing</button></div>
+                        <div className='pendingdha_standalone_card_upper_2_right_1'><button>Vaccination</button></div>
                     </div>
                 </div>
                 <div className='bookingrequest_pharmacy_management_container_3_1_down'>
@@ -98,7 +114,7 @@ export const Bookingdhastandalone = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='bookingrequest_pahrma_boking_link'>
+            <Link to={""} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_2'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -139,7 +155,7 @@ export const Bookingdhastandalone = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='bookingrequest_pahrma_boking_link'>
+            <Link to={""} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_3'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -152,7 +168,7 @@ export const Bookingdhastandalone = () => {
                     
                         <div className='pendingdha_standalone_card_upper_2'>
                             <div className='pendingdha_standalone_card_upper_2_left'>Booked For : 18-20 June , 11:00 AM - 2:00 PM </div>
-                            <div className='pendingdha_standalone_card_upper_2_right'><button>Nursing</button></div>
+                            <div className='pendingdha_standalone_card_upper_2_right_1'><button>Vaccination</button></div>
                         </div>
                         
                     
@@ -180,7 +196,7 @@ export const Bookingdhastandalone = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='bookingrequest_pahrma_boking_link'>
+            <Link to={""} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_4'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>

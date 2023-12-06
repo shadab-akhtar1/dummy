@@ -1,0 +1,38 @@
+/* #################### CSS File in Bookingpendingdha.css in Bookingpending Folder ################ */
+
+
+/* #################### Card CSS in Pendingpharmacy.css file In Booking Pending Folder ######### */
+
+
+/* ########## Link {Routes} DHA PHARMACY DOCTOR LAB in Pendingpharmacy.css file in
+
+                                        Booking Pending Folder 
+
+
+                                        ################## */
+
+.rejectpharmacyhospital1_pendingpharmacy_pendingdha_card_2_up_pharmacy_hospital button {
+    background: #FDC2C2;
+    color: #F50202;
+    width: 70px;
+    height: 20px;
+    border-radius: 24px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #41B079;
+}
+
+.rejectpharmacyhospital1_dropdown_content_drop {
+    position: absolute;
+    top: 250px;
+    padding: 10px;
+    background: white;
+    color: #333;
+}
+
+.rejectpharmacyhospital1_dropdown_item_drop {
+    padding: 10px;
+    cursor: pointer;
+}

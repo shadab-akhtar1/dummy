@@ -1,0 +1,45 @@
+/* ################## CSS IN Bookingrequestdha.css file #######################*/
+
+
+/* ############ NON Urgent Case Box And Card Upper Part Css In Bookingdhastandalone.css In Booking Request Folder ########## */
+
+
+/*######################## card 2nd portion css here ############## */
+
+.pendingdha_bookingrequest_lab_card_2_standalone_rejectdhahospital1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pendingdha_bookingrequest_lab_card_2_left_standalone_rejectdhahospital1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #5B6572;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+.pendingdha_bookingrequest_lab_card_2_right_standalone_rejectdhahospital1 {
+    align-items: center;
+    color: #5B6572;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+}
+
+.pendingdha_card_2_up_standalone_rejectdhahospital1 button {
+    width: 70px;
+    height: 20px;
+    border-radius: 24px;
+    background: #FDC2C2;
+    color: #F50202;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}

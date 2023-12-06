@@ -54,7 +54,7 @@ export const Bookingrequestlab = () => {
             </div>
         </div>
         <div className='bookingrequest_pharmacy_management_container_4'>
-            <div className='bookingrequest_pharmacy_management_container_4_urgent'>Urgent Case <FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>
+            <div className='bookingrequest_pharmacy_management_container_4_urgent'>Standalone <FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>
 
         </div>
         

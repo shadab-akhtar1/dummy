@@ -3,7 +3,7 @@ import './Pendingpharmacycase1.css';
 import Navbars from '../Dhamanagement/Navbars';
 import {Link} from 'react-router-dom';
 import {PiArrowLeftFill} from 'react-icons/pi';
-import userpic from "../Assets/Ellipse 3.jpg";
+import userpicimg from "../Assets/Ellipse 2 (1).jpg";
 import elipse from "../Assets/Ellipse 2.jpg";
 import dhaimage from "../Assets/Image.jpg";
 import { PiCalendarBlankLight } from "react-icons/pi";
@@ -46,7 +46,7 @@ export const Pendingpharmacycase1 = () => {
                     <div className='pharmacycase1bookingcase_dha_case_details_userprofile'>
                         <div className='pharmacycase1bookingcase_dha_case_details_userprofile_left'>
                         <div className='pharmacycase1bookingcase_dha_case_details_userprofile_profile'>
-                            <img src={userpic} alt="userimage" />
+                            <img src={userpicimg} alt="userimage" />
                         </div>
                         <div className='pharmacycase1bookingcase_dha_case_details_userprofile_info'>
                             <ul>
@@ -68,9 +68,9 @@ export const Pendingpharmacycase1 = () => {
                     <div className='pharmacycase1bookingcase_dha_case_detail_symptom'>
                         <div className='pharmacycase1bookingcase_dha_case_deatil_symptom_1'>
                             <div className='pharmacycase1bookingcase_dha_case_detail_symptom_left'>
-                                <div className='pharmacycase1bookingcase_dha_case_detail_symptom_left_1'>Test 1</div>
-                                <div className='pharmacycase1bookingcase_dha_case_detail_symptom_left_1'>Test 2</div>
-                                <div className='pharmacycase1bookingcase_dha_case_detail_symptom_left_1'>Test 3</div>
+                                <div className='pharmacycase1bookingcase_dha_case_detail_symptom_left_1'>Vaccine 1</div>
+                                <div className='pharmacycase1bookingcase_dha_case_detail_symptom_left_1'>Vaccine 2</div>
+                                <div className='pharmacycase1bookingcase_dha_case_detail_symptom_left_1'>Vaccine 3</div>
                             </div>
                             <div className='pharmacycase1bookingcase_dha_case_detail_symptom_right'>
                                 <button>View Prescription</button>
@@ -79,7 +79,7 @@ export const Pendingpharmacycase1 = () => {
 
                     </div>
                     <div className='pharmacycase1bookingcase_dha_case_detail_complet'>
-                        <div className='pharmacycase1bookingcase_dha_case_detail_completion'><p>Request For</p></div>
+                        <div className='pharmacycase1bookingcase_dha_case_detail_completion'><p>Need</p></div>
                         <div className='pharmacycase1bookingcase_dha_case_detail_time'>
                 
                             <p className='pharmacycase1bookingcase_dha_case_detail_time_1'><PiCalendarBlankLight className='pharmacycase1bookingcase_calen'/>13 june,2023</p>

@@ -228,10 +228,9 @@
     align-items: center;
 }
 
-.bookingdoctorcase_dha_case_details_userprofile_profile {
+.bookingdoctorcase_dha_case_details_userprofile_profile img {
     height: 80px;
     width: 80px;
-    margin-top: 15px;
     margin-left: 20px;
     display: flex;
     justify-content: flex-start;
@@ -241,6 +240,7 @@
 .bookingdoctorcase_dha_case_details_userprofile_info ul li {
     list-style: none;
     text-decoration: none;
+    margin-left: -20px;
 }
 
 .bookingdoctorcase_dha_case_details_userprofile_info_2 {
@@ -397,7 +397,7 @@
 }
 
 .bookingdoctorcase_dha_case_detail_completion p {
-    color: #41B079;
+    color: #1A1C1F;
     font-size: 16px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;

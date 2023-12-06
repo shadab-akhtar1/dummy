@@ -1,0 +1,106 @@
+/* ################## CSS IN Bookingrequestdha.css file #######################*/
+
+
+/*######################## card 2nd portion css here ############## */
+
+.pendingdha_bookingrequest_lab_card_2_dhahospital {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pendingdha_bookingrequest_lab_card_2_left_dhahospital {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #5B6572;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pendingdha_bookingrequest_lab_card_2_right_dhahospital {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #5B6572;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pendingdha_card_2_up_dhahospital button {
+    color: #41B079;
+    background-color: linear-gradient(0deg, #41B079, #41B079), linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+    width: 81px;
+    height: 20px;
+    border-radius: 24px;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+
+
+/*######################### Link css DHA DOCTOR PHARMACY LAB START ################# */
+
+.pendinglab_bookingrequest_pharmacy_management_container_2_dhahospital {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-bottom: 1px solid #E1E5E8;
+}
+
+.pendinglab_bookingrequest_pharmacy_management_container_2_1_dhahospital {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pendinglab_bookingrequest_pharmacy_management_container_2_2_dhahospital {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pendinglab_bookingrequest_pharmacy_management_icon_dhahospital {
+    margin-left: 10px;
+}
+
+.pendinglab_bookingrequest_pharmacy_management_container_2_p_1_dhahospital {
+    font-size: 16px;
+    color: #1A1C1F;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid #E40443;
+}
+
+.pendinglab_bookingrequest_pharmacy_management_container_2_p_2_dhahospital {
+    margin-left: 10px;
+    color: #8D98A4;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pendinglab_bookingrequest_pharmacy_management_container_2_p_3_dhahospital {
+    margin-left: 10px;
+    color: #8D98A4;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pendinglab_bookingrequest_pharmacy_management_container_2_p_4_dhahospital {
+    margin-left: 10px;
+    color: #8D98A4;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pendinglab_bookingrequest_medicine_link_dhahospital {
+    text-decoration: none;
+}

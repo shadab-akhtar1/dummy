@@ -3,7 +3,7 @@ import './Pendingdhaurgentcase.css';
 import {Navbars} from '../Dhamanagement/Navbars';
 import {Link} from 'react-router-dom';
 import {PiArrowLeftFill} from 'react-icons/pi';
-import userpic from "../Assets/Ellipse 3.jpg";
+import userpicimg from "../Assets/Ellipse 2 (1).jpg";
 import { PiCalendarBlankLight } from "react-icons/pi";
 import { CiClock2 } from "react-icons/ci";
 import vid from "../Assets/Frame 12431.jpg";
@@ -18,7 +18,7 @@ export const Pendingdhaurgentcase = () => {
     <div className='bookingcase_middle_container_dha_case_details'>
       <div className='bookingcase_middle_container_heading_dha_case_details'>
         <div className='bookingcase_middle_container_heading_1_dha_case_details'>
-            <Link to={"/dhadetailsview"}>
+            <Link to={"/bookingpendingdha"}>
             <div className='arr_div'>< PiArrowLeftFill className='bookingcase_details_arrow_case_dha'/></div>
             </Link>
           <h2>Case Details</h2>
@@ -30,7 +30,7 @@ export const Pendingdhaurgentcase = () => {
                     <div className='bookingcase_dha_case_details_userprofile'>
                         <div className='bookingcase_dha_case_details_userprofile_left'>
                         <div className='bookingcase_dha_case_details_userprofile_profile'>
-                            <img src={userpic} alt="userimage" />
+                            <img src={userpicimg} alt="userimage" />
                         </div>
                         <div className='bookingcase_dha_case_details_userprofile_info'>
                             <ul>
@@ -48,13 +48,7 @@ export const Pendingdhaurgentcase = () => {
                         </div>
                         
                     </div>
-                    <div className='bookingcase_dha_case_detail_service_type'>
-                        <div className='bookingcase_dha_case_detail_service_name'>
-                            <h3>Service Type:</h3>
-                            <p>Non Urgent case</p>
-
-                        </div>
-                    </div>
+                    
                     <div className='bookingcase_dha_case_detail_symptom'>
                         <div className='bookingcase_dha_case_deatil_symptom_1'>
                             <div className='bookingcase_dha_case_detail_symptom_left'>
@@ -69,7 +63,7 @@ export const Pendingdhaurgentcase = () => {
 
                     </div>
                     <div className='bookingcase_dha_case_detail_complet'>
-                        <div className='bookingcase_dha_case_detail_completion'><p>Completed</p></div>
+                        <div className='bookingcase_dha_case_detail_completion'><p>Request For</p></div>
                         <div className='bookingcase_dha_case_detail_time'>
                 
                             <p className='bookingcase_dha_case_detail_time_1'><PiCalendarBlankLight className='bookingcase_calen'/>13 june,2023</p>
@@ -93,8 +87,8 @@ export const Pendingdhaurgentcase = () => {
                     </div>
 
                     <div className='booking_dha_case'>
-                        <div className='booking_dha_case_1'><button>Assign DHA</button></div>
-                        <div className='booking_dha_case_2'><button>Assign Doctor</button></div>
+                        <div className='booking_dha_case_1'><Link to={"/pendingdhaassigndha"} className='pendingurgentcase_btn_link'><button>Assign DHA</button></Link></div>
+                        <div className='booking_dha_case_2'><Link to={"/pendingdhaassigndoctor"} className='pendingurgentcase_btn_link'><button>Assign Doctor</button></Link></div>
 
                     </div>
                 

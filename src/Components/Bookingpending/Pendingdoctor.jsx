@@ -37,17 +37,17 @@ export const Pendingdoctor = () => {
                 </div>
             </div>
         </div>
-        <div className='bookingrequest_pharmacy_management_container_2'>
-            <div className='bookingrequest_pharmacy_management_container_2_1'>
-            <Link to={"/pharmamedicine"} className='bookingrequest_medicine_link'>
-            <div className='bookingrequest_pharmacy_management_container_2_p_1'>DHA</div>
+        <div className='bookingrequest_pharmacy_management_container_2_pendingdoctor'>
+            <div className='bookingrequest_pharmacy_management_container_2_1_pendingdoctor'>
+            <Link to={""} className='bookingrequest_medicine_link_pendingdoctor'>
+            <div className='bookingrequest_pharmacy_management_container_2_p_1_pendingdoctor'>DHA</div>
             </Link>
-            <div className='bookingrequest_pharmacy_management_container_2_p_2'>Doctor</div>
-            <div className='bookingrequest_pharmacy_management_container_2_p_2'>Pharmacy</div>
-            <div className='bookingrequest_pharmacy_management_container_2_p_2'>Lab</div>
+            <div className='bookingrequest_pharmacy_management_container_2_p_2_pendingdoctor'>Doctor</div>
+            <div className='bookingrequest_pharmacy_management_container_2_p_3_pendingdoctor'>Pharmacy</div>
+            <div className='bookingrequest_pharmacy_management_container_2_p_4_pendingdoctor'>Lab</div>
             </div>
-            <div className='bookingrequest_pharmacy_management_container_2_2'>
-                Sort by <FaCaretDown className='bookingrequest_pharmacy_management_icon'/>
+            <div className='bookingrequest_pharmacy_management_container_2_2_pendingdoctor'>
+                Sort by <FaCaretDown className='bookingrequest_pharmacy_management_icon_pendingdoctor'/>
             </div>
         </div>
         <div className='bookingrequest_pharmacy_management_container_4'>
@@ -56,7 +56,7 @@ export const Pendingdoctor = () => {
         </div>
         
         <div className='bookingrequest_pharmacy_management_container_3'>
-            <Link to={"/pharmabooking"} className='pahrma_boking_link'>
+            <Link to={""} className='pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_1'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -100,7 +100,7 @@ export const Pendingdoctor = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='bookingrequest_pahrma_boking_link'>
+            <Link to={""} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_2'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -112,9 +112,9 @@ export const Pendingdoctor = () => {
                     </div>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Vaccine 1</div></div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Vaccine 2 </div></div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Vaccine 3</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Symptom 1</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Symptom 2 </div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Symptom 3</div></div>
                         </div>
                         
                     </div>
@@ -144,7 +144,7 @@ export const Pendingdoctor = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='bookingrequest_pahrma_boking_link'>
+            <Link to={""} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_3'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -156,9 +156,9 @@ export const Pendingdoctor = () => {
                     </div>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Vaccine 1</div></div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Vaccine 2 </div></div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Vaccine 3</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Symptom 1</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Symptom 2 </div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Symptom 3</div></div>
                         </div>
                         
                     </div>
@@ -186,7 +186,7 @@ export const Pendingdoctor = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='bookingrequest_pahrma_boking_link'>
+            <Link to={""} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_4'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -198,9 +198,9 @@ export const Pendingdoctor = () => {
                     </div>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Vaccine 1</div></div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Vaccine 2 </div></div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Vaccine 3</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Symptom 1</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Symptom 2 </div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Symptom 3</div></div>
                         </div>
                         
                     </div>

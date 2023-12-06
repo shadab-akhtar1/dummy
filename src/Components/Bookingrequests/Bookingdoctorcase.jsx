@@ -7,7 +7,7 @@ import profile from "../Assets/Rectangle 619 (1).jpg";
 import {BsTelephone} from 'react-icons/bs';
 import {Link} from 'react-router-dom';
 import {PiArrowLeftFill} from 'react-icons/pi';
-import userpic from "../Assets/Ellipse 3.jpg";
+import userpicimg from "../Assets/Ellipse 2 (1).jpg";
 import elipse from "../Assets/Ellipse 2.jpg";
 import dhaimage from "../Assets/Image.jpg";
 import { PiCalendarBlankLight } from "react-icons/pi";
@@ -55,7 +55,7 @@ export const Bookingdoctorcase = () => {
                     <div className='bookingdoctorcase_dha_case_details_userprofile'>
                         <div className='bookingdoctorcase_dha_case_details_userprofile_left'>
                         <div className='bookingdoctorcase_dha_case_details_userprofile_profile'>
-                            <img src={userpic} alt="userimage" />
+                            <img src={userpicimg} alt="userimage" />
                         </div>
                         <div className='bookingdoctorcase_dha_case_details_userprofile_info'>
                             <ul>
@@ -73,13 +73,7 @@ export const Bookingdoctorcase = () => {
                         </div>
                         
                     </div>
-                    <div className='bookingdoctorcase_dha_case_detail_service_type'>
-                        <div className='bookingdoctorcase_dha_case_detail_service_name'>
-                            <h3>Service Type:</h3>
-                            <p>Non Urgent case</p>
-
-                        </div>
-                    </div>
+                    
                     <div className='bookingdoctorcase_dha_case_detail_symptom'>
                         <div className='bookingdoctorcase_dha_case_deatil_symptom_1'>
                             <div className='bookingdoctorcase_dha_case_detail_symptom_left'>
@@ -94,7 +88,7 @@ export const Bookingdoctorcase = () => {
 
                     </div>
                     <div className='bookingdoctorcase_dha_case_detail_complet'>
-                        <div className='bookingdoctorcase_dha_case_detail_completion'><p>Completed</p></div>
+                        <div className='bookingdoctorcase_dha_case_detail_completion'><p>Request For</p></div>
                         <div className='bookingdoctorcase_dha_case_detail_time'>
                 
                             <p className='bookingdoctorcase_dha_case_detail_time_1'><PiCalendarBlankLight className='bookingdoctorcase_calen'/>13 june,2023</p>

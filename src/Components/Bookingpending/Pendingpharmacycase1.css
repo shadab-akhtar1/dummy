@@ -1,5 +1,3 @@
-/* ######################## CSS in Bookingrequestlabdetail.css in Bookingrequest folder ############# */
-
 .pharmacycase1bookingcase_middle_container_dha_case_details {
     background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     width: 100%;
@@ -75,10 +73,9 @@
     align-items: center;
 }
 
-.pharmacycase1bookingcase_dha_case_details_userprofile_profile {
+.pharmacycase1bookingcase_dha_case_details_userprofile_profile img {
     height: 80px;
     width: 80px;
-    margin-top: 15px;
     margin-left: 20px;
     display: flex;
     justify-content: flex-start;
@@ -88,6 +85,7 @@
 .pharmacycase1bookingcase_dha_case_details_userprofile_info ul li {
     list-style: none;
     text-decoration: none;
+    margin-left: -20px;
 }
 
 .pharmacycase1bookingcase_dha_case_details_userprofile_info_2 {
@@ -244,8 +242,8 @@
 }
 
 .pharmacycase1bookingcase_dha_case_detail_completion p {
-    color: #41B079;
-    font-size: 16px;
+    color: #1A1C1F;
+    font-size: 14px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     margin-left: 20px;

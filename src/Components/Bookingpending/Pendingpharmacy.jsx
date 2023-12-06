@@ -35,17 +35,17 @@ export const Pendingpharmacy = () => {
                 </div>
             </div>
         </div>
-        <div className='bookingrequest_pharmacy_management_container_2'>
-            <div className='bookingrequest_pharmacy_management_container_2_1'>
-            <Link to={"/pharmamedicine"} className='bookingrequest_medicine_link'>
-            <div className='bookingrequest_pharmacy_management_container_2_p_1'>DHA</div>
+        <div className='bookingrequest_pharmacy_management_container_2_pendingpharma'>
+            <div className='bookingrequest_pharmacy_management_container_2_1_pendingpharma'>
+            <Link to={""} className='bookingrequest_medicine_link_pendingpharma'>
+            <div className='bookingrequest_pharmacy_management_container_2_p_1_pendingpharma'>DHA</div>
             </Link>
-            <div className='bookingrequest_pharmacy_management_container_2_p_2'>Doctor</div>
-            <div className='bookingrequest_pharmacy_management_container_2_p_2'>Pharmacy</div>
-            <div className='bookingrequest_pharmacy_management_container_2_p_2'>Lab</div>
+            <div className='bookingrequest_pharmacy_management_container_2_p_2_pendingpharma'>Doctor</div>
+            <div className='bookingrequest_pharmacy_management_container_2_p_3_pendingpharma'>Pharmacy</div>
+            <div className='bookingrequest_pharmacy_management_container_2_p_4_pendingpharma'>Lab</div>
             </div>
-            <div className='bookingrequest_pharmacy_management_container_2_2'>
-                Sort by <FaCaretDown className='bookingrequest_pharmacy_management_icon'/>
+            <div className='bookingrequest_pharmacy_management_container_2_2_pendingpharma'>
+                Sort by <FaCaretDown className='bookingrequest_pharmacy_management_icon_pendingpharma'/>
             </div>
         </div>
         <div className='bookingrequest_pharmacy_management_container_4'>
@@ -54,7 +54,7 @@ export const Pendingpharmacy = () => {
         </div>
         
         <div className='bookingrequest_pharmacy_management_container_3'>
-            <Link to={"/pharmabooking"} className='pahrma_boking_link'>
+            <Link to={""} className='pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_1'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -103,7 +103,7 @@ export const Pendingpharmacy = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='bookingrequest_pahrma_boking_link'>
+            <Link to={""} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_2'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -146,7 +146,7 @@ export const Pendingpharmacy = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='bookingrequest_pahrma_boking_link'>
+            <Link to={""} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_3'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -172,7 +172,7 @@ export const Pendingpharmacy = () => {
                     <div className='bookingrequest_pharmacy_management_container_3_1_down_right'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up'>
                             <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='pendingpharmacy_pendingdha_card_2_up'><button>Pending</button></div>
+                            <div className='pendingpharmacy_pendingdha_card_2_up'><button>Accepted</button></div>
                         </div>
                         <div className='pendingpharmacy_pendingdoctor_bookingrequest_lab_card_2_left'>
                         XYZ, Street Name, City
@@ -193,7 +193,7 @@ export const Pendingpharmacy = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='bookingrequest_pahrma_boking_link'>
+            <Link to={""} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_4'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>

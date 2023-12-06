@@ -21,7 +21,7 @@ export const Pendingdhaassigndha = () => {
         <div className='dhaassign_container_2_1'>
         
             <div className='dhaassign_profile_documnet_labdetailedit_pharma_edit_heading_basic'>
-                <h2><Link to={"/profile"} className='dhaassign_profile_documnet_labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='dhaassign_profile_documnet_labdetailedit_pharma_arrow_edit_basic'/></Link>Choose DHA</h2>
+                <h2><Link to={"/pendingdhaurgentcase"} className='dhaassign_profile_documnet_labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='dhaassign_profile_documnet_labdetailedit_pharma_arrow_edit_basic'/></Link>Choose DHA</h2>
             </div>
             <div className='dhaassign_container_2_1_second'>
                 <div className='dhaassign_container_2_1_second_1'>search</div>
@@ -29,7 +29,9 @@ export const Pendingdhaassigndha = () => {
                     <div className='dhaassign_container_2_1_second_2_up'>Speciality :</div>
                     <div className='dhaassign_container_2_1_second_2_down'>Physiotherapist <FaCaretDown className='dhaassign_container_2_1_second_2_down_icon'/></div>
                 </div>
+                <Link to={"/pendingdhadhaassign"} className='pendingdha_assigndha_link_btn'>
                 <div className='dhaassign_container_2_1_second_3'><button>Assign</button></div>
+                </Link>
 
             </div>
         </div>

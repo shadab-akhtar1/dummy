@@ -500,7 +500,7 @@
     height: 28px;
     width: 126px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background: #B3B3B3;
     color: #1A1C1F;

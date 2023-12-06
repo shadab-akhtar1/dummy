@@ -229,10 +229,9 @@
     align-items: center;
 }
 
-.bookingcase_dha_case_details_userprofile_profile {
-    height: 80px;
-    width: 80px;
-    margin-top: 15px;
+.bookingcase_dha_case_details_userprofile_profile img {
+    height: 88px;
+    width: 88px;
     margin-left: 20px;
     display: flex;
     justify-content: flex-start;
@@ -242,6 +241,7 @@
 .bookingcase_dha_case_details_userprofile_info ul li {
     list-style: none;
     text-decoration: none;
+    margin-left: -20px;
 }
 
 .bookingcase_dha_case_details_userprofile_info_2 {
