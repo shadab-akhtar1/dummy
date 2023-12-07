@@ -41,12 +41,16 @@ export const Pharmacyhospital = () => {
         </div>
         <div className='bookingrequest_pharmacy_management_container_2_pendingpharma'>
             <div className='bookingrequest_pharmacy_management_container_2_1_pendingpharma'>
-            <Link to={""} className='bookingrequest_medicine_link_pendingpharma'>
+            <Link to={"/dhahospital"} className='bookingrequest_medicine_link_pendingpharma'>
             <div className='bookingrequest_pharmacy_management_container_2_p_1_pendingpharma'>DHA</div>
             </Link>
+            <Link to={"/doctorhospital"} className='bookingrequest_medicine_link_pendingpharma'>
             <div className='bookingrequest_pharmacy_management_container_2_p_2_pendingpharma'>Doctor</div>
+            </Link>
             <div className='bookingrequest_pharmacy_management_container_2_p_3_pendingpharma'>Pharmacy</div>
+            <Link to={"/labhospital"} className='bookingrequest_medicine_link_pendingpharma'>
             <div className='bookingrequest_pharmacy_management_container_2_p_4_pendingpharma'>Lab</div>
+            </Link>
             </div>
             <div className='bookingrequest_pharmacy_management_container_2_2_pendingpharma'>
                 Sort by <FaCaretDown className='bookingrequest_pharmacy_management_icon_pendingpharma'/>
@@ -58,26 +62,17 @@ export const Pharmacyhospital = () => {
             </div>
             {isActive &&(
               <div className='dropdown_content_drop'>
-                <Link to={"/dhamanagement"}>
-                <div className='dropdown_item_drop'>Dha Management</div>
+                <Link to={""}>
+                <div className='dropdown_item_drop'>Vaccine</div>
                 </Link>
-                <Link to="/doctormanagement">
-                <div className='dropdown_item_drop'>Doctor Management</div>
-                </Link>
-                <Link to="/pharmacymanagement">
-                <div className='dropdown_item_drop'>Pharmacy Management</div>
-                </Link>
-                <Link to="/labmanagement">
-                <div className='dropdown_item_drop'>Lab Management</div>
-                </Link>
-
+                
               </div>
               )}
 
         </div>
         
         <div className='bookingrequest_pharmacy_management_container_3'>
-            <Link to={""} className='pahrma_boking_link'>
+            <Link to={"/completedaddquotation"} className='pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_1'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -129,7 +124,7 @@ export const Pharmacyhospital = () => {
 
             </div>
             </Link>
-            <Link to={""} className='bookingrequest_pahrma_boking_link'>
+            <Link to={"/completedaddquotation"} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_2'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -183,7 +178,7 @@ export const Pharmacyhospital = () => {
 
             </div>
             </Link>
-            <Link to={""} className='bookingrequest_pahrma_boking_link'>
+            <Link to={"/completedaddquotation"} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_3'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -234,7 +229,7 @@ export const Pharmacyhospital = () => {
 
             </div>
             </Link>
-            <Link to={""} className='bookingrequest_pahrma_boking_link'>
+            <Link to={"/completedaddquotation"} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_4'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>

@@ -494,3 +494,7 @@
     justify-content: space-between;
     margin-right: 20px;
 }
+
+.completedaddquotation_back {
+    color: black;
+}

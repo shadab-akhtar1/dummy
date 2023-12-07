@@ -1,0 +1,34 @@
+/* ################# CSS File in Completelabdetails.css in Bookingcomplete Folder ################ */
+
+.rejectlabtestdetail_completedquotationlab_addquotation4_lab_pharmabooking_doctor_case_detail_para_left {
+    width: 30px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.rejectlabtestdetail_btn {
+    border: none;
+    border-radius: 5px;
+    background: #FFB2B2;
+    width: 70px;
+    height: 18px;
+    color: #FF0606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.rejectlabtestdetail_completedquotationlab_addquotation4_bookingcase_third_container_left_dha_case_details {
+    background-color: white;
+    margin-left: 80px;
+    width: 790px;
+    height: 320px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.rejectlabtestdetail_back {
+    color: black;
+}

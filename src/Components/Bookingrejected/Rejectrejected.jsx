@@ -1,31 +1,27 @@
 import React from 'react';
-import './Pendinglabdetail.css';
+import './Rejectrejected.css';
 import Navbars from '../Dhamanagement/Navbars';
 import {Link} from 'react-router-dom';
 import {PiArrowLeftFill} from 'react-icons/pi';
 import userpicimg from "../Assets/Ellipse 2 (1).jpg";
-import elipse from "../Assets/Ellipse 2.jpg";
-import dhaimage from "../Assets/Image.jpg";
 import { PiCalendarBlankLight } from "react-icons/pi";
 import { CiClock2 } from "react-icons/ci";
-import { MdCall } from "react-icons/md";
 import vid from "../Assets/Frame 12431.jpg";
 import { FaPhoneAlt } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 import {Footer} from '../Dhamanagement/Footer';
-import { IoCheckmark } from "react-icons/io5";
 
-export const Pendinglabdetail = () => {
+export const Rejectrejected = () => {
   return (
     <>
     <div><Navbars/></div>
     <div className='bookingcase_middle_container_dha_case_details'>
       <div className='bookingcase_middle_container_heading_dha_case_details'>
         <div className='bookingcase_middle_container_heading_1_dha_case_details'>
-            <Link to={"/pendinglab"} className='pendinglabdetail_back'>
+            <Link to={"/rejectdhahospital"} className='rejectrejected_back'>
             <div className='arr_div'>< PiArrowLeftFill className='bookingcase_details_arrow_case_dha'/></div>
             </Link>
-          <h2># 123456</h2>
+          <h2>Case Details</h2>
         </div>
        </div>
 
@@ -56,9 +52,9 @@ export const Pendinglabdetail = () => {
                     <div className='bookingcase_dha_case_detail_symptom'>
                         <div className='bookingcase_dha_case_deatil_symptom_1'>
                             <div className='bookingcase_dha_case_detail_symptom_left'>
-                                <div className='bookingcase_dha_case_detail_symptom_left_1'>Test 1</div>
-                                <div className='bookingcase_dha_case_detail_symptom_left_1'>Test 2</div>
-                                <div className='bookingcase_dha_case_detail_symptom_left_1'>Test 3</div>
+                                <div className='bookingcase_dha_case_detail_symptom_left_1'>Symptom 1</div>
+                                <div className='bookingcase_dha_case_detail_symptom_left_1'>Symptom 2</div>
+                                <div className='bookingcase_dha_case_detail_symptom_left_1'>Symptom 3</div>
                             </div>
                             <div className='bookingcase_dha_case_detail_symptom_right'>
                                 <button>View Prescription</button>
@@ -75,50 +71,19 @@ export const Pendinglabdetail = () => {
                         </div>
                     </div>
 
-
-                    <div className='lab_pharmabooking_doctor_case_detail_para'>
-                        <div className='lab_pharmabooking_doctor_case_detail_para_left'>
-                        
-                            <div className='lab_pharmabooking_doctor_case_detail_container_1'><div><IoCheckmark className='pharmabooking_doctor_check_mark' /></div></div>
-                            
-                            <div className='lab_pharmabooking_doctor_case_detail_container_2'>02</div>
-                            <div className='lab_pharmabooking_doctor_case_detail_container_3'>03</div>
-                            
-                            
-                    
-                        </div>
-                       
-                        <div className='lab_pharmabooking_doctor_case_detail_para_right'>
-
-                        <div className='lab_pharmabooking_doctor_case_detail_para_right_5'>
-                                <div className='lab_pharmabooking_doctor_case_detail_para_right_2_up'>
-                                    <div className='lab_pharmabooking_doctor_case_detail_para_content_2'>
-                                        <h4>Lab Test Details</h4>
-                                        <p>Assigned</p>
-
-                                    </div>
-                                </div>
-                        </div>
-                        <div className='lab_pharmabooking_doctor_case_detail_para_right_5'>
-                                <div className='lab_pharmabooking_doctor_case_detail_para_right_2_up'>
-                                    <div className='lab_pharmabooking_doctor_case_detail_para_content_2'>
-                                        <h4>Sample Collected</h4>
-                                        <p>18, June 2023</p>
-
-                                    </div>
-                                </div>
-                        </div>
-                        <div className='lab_pharmabooking_doctor_case_detail_para_right_5'>
-                                <div className='lab_pharmabooking_doctor_case_detail_para_right_2_up'>
-                                    <div className='lab_pharmabooking_doctor_case_detail_para_content_2'>
-                                        <h4>Complete</h4>
-                                        <p>18, June 2023</p>
-
-                                    </div>
-                                </div>
+                    <div className='bookingcase_dha_case_detail_para'>
+                        <div className='bookingcase_dha_case_detail_para_main'>
+                            <div className='bookingcase_dha_case_detail_para_main_left'>
+                                <h4>Patient's Note</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            </div>
+                            <div className='bookingcase_dha_case_detail_para_main_right'>
+                                <h4>Patient's Video</h4>
+                                <img src={vid} alt="" />
+                            </div>
                         </div>
                         
-                        </div>
+                        
                     </div>
 
                     
@@ -129,7 +94,8 @@ export const Pendinglabdetail = () => {
             </div>
     </div>
     <div className='bookingdhacase_footer_pharmacy'><Footer/></div>
+    
     </>
   )
 }
-export default Pendinglabdetail
+export default Rejectrejected

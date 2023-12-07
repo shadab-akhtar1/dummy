@@ -52,7 +52,7 @@ export const Casedetailscompleted = () => {
     <div className='middle_container_doctor_case_details'>
       <div className='middle_container_heading_doctor_case_details'>
         <div className='middle_container_heading_1_doctor_case_details'>
-            <Link to={"/dhadetailsview"}>
+            <Link to={"/dhahospital"} className='casedetailscompleted_back'>
             <div className='arrdoctor_div'>< PiArrowLeftFill className='details_arrow_case_doctor'/></div>
             </Link>
             <h2>Case Details</h2>

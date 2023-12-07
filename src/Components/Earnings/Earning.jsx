@@ -41,7 +41,7 @@ export const Earning = () => {
         <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading_basic'><h2><Link to={"/profile"} className='earning_profile_documnet_labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='earning_profile_documnet_labdetailedit_pharma_arrow_edit_basic'/></Link>My Earnings</h2></div>
         <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_basic_base'>
             <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_basic_2'>All</div>
-            <Link to={"/profiledocument" } className='earning_profile_documnet_labdetailedit_pharma_edit_document_basic'>
+            <Link to={"" } className='earning_profile_documnet_labdetailedit_pharma_edit_document_basic'>
             <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_document_basic'>DHA</div>
             </Link>
             <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic'>Doctor</div>
@@ -63,7 +63,9 @@ export const Earning = () => {
       <div className='earning_container_3'>
         <div className='earning_container_3_1'>
             <div className='earning_container_3_1_left'>History</div>
+            <Link to={"/earninghistory"} className='earning_link'>
             <div className='earning_container_3_1_right'>Withdrawls</div>
+            </Link>
         </div>
         <div className='earning_container_3_2'>
             <div className='earning_3_2_first'>sort by <HiChevronUpDown/></div>

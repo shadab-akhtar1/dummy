@@ -39,12 +39,16 @@ export const Rejectpharmacyhospital = () => {
         </div>
         <div className='bookingrequest_pharmacy_management_container_2_pendingpharma'>
             <div className='bookingrequest_pharmacy_management_container_2_1_pendingpharma'>
-            <Link to={""} className='bookingrequest_medicine_link_pendingpharma'>
+            <Link to={"/rejectdhahospital"} className='bookingrequest_medicine_link_pendingpharma'>
             <div className='bookingrequest_pharmacy_management_container_2_p_1_pendingpharma'>DHA</div>
             </Link>
+            <Link to={"/rejectdoctorhospital"} className='bookingrequest_medicine_link_pendingpharma'>
             <div className='bookingrequest_pharmacy_management_container_2_p_2_pendingpharma'>Doctor</div>
+            </Link>
             <div className='bookingrequest_pharmacy_management_container_2_p_3_pendingpharma'>Pharmacy</div>
+            <Link to={"/rejectlabhospital"} className='bookingrequest_medicine_link_pendingpharma'>
             <div className='bookingrequest_pharmacy_management_container_2_p_4_pendingpharma'>Lab</div>
+            </Link>
             </div>
             <div className='bookingrequest_pharmacy_management_container_2_2_pendingpharma'>
                 Sort by <FaCaretDown className='bookingrequest_pharmacy_management_icon_pendingpharma'/>
@@ -57,7 +61,7 @@ export const Rejectpharmacyhospital = () => {
             {isActive &&(
               <div className='rejectpharmacyhospital1_dropdown_content_drop'>
                 <Link to={""}>
-                <div className='rejectpharmacyhospital1_dropdown_item_drop'>Dha Management</div>
+                <div className='rejectpharmacyhospital1_dropdown_item_drop'>Medicine</div>
                 </Link>
                 
 
@@ -67,7 +71,7 @@ export const Rejectpharmacyhospital = () => {
         </div>
         
         <div className='bookingrequest_pharmacy_management_container_3'>
-            <Link to={""} className='pahrma_boking_link'>
+            <Link to={"/rejectaddquotation"} className='pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_1'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -111,7 +115,7 @@ export const Rejectpharmacyhospital = () => {
 
             </div>
             </Link>
-            <Link to={""} className='bookingrequest_pahrma_boking_link'>
+            <Link to={"/rejectaddquotation"} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_2'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -157,7 +161,7 @@ export const Rejectpharmacyhospital = () => {
 
             </div>
             </Link>
-            <Link to={""} className='bookingrequest_pahrma_boking_link'>
+            <Link to={"/rejectaddquotation"} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_3'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -200,7 +204,7 @@ export const Rejectpharmacyhospital = () => {
 
             </div>
             </Link>
-            <Link to={""} className='bookingrequest_pahrma_boking_link'>
+            <Link to={"/rejectaddquotation"} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_4'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>

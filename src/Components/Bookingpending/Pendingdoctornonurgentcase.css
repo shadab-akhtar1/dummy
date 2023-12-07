@@ -1,1 +1,5 @@
 /* ################## CSS File in Bookingdoctorcase.jsx in Bookingrequest folder ################## */
+
+.pendingdoctornonurgentcare_link {
+    text-decoration: none;
+}

@@ -125,6 +125,9 @@ import Rejectdoctorhospital from './Components/Bookingrejected/Rejectdoctorhospi
 import Rejectdoctorhospital1 from './Components/Bookingrejected/Rejectdoctorhospital1.jsx';
 import Rejectpharmacyhospital from './Components/Bookingrejected/Rejectpharmacyhospital.jsx';
 import Rejectlabhospital from './Components/Bookingrejected/Rejectlabhospital.jsx';
+import Rejectaddquotation from './Components/Bookingrejected/Rejectaddquotation.jsx';
+import Rejectlabtestdetail from './Components/Bookingrejected/Rejectlabtestdetail.jsx';
+import Rejectrejected from './Components/Bookingrejected/Rejectrejected.jsx';
 
 function App() {
   return (
@@ -255,6 +258,9 @@ function App() {
         <Route path='/rejectdoctorhospital1' element={<Rejectdoctorhospital1/>}/>
         <Route path='/rejectpharmacyhospital' element={<Rejectpharmacyhospital/>}/>
         <Route path='/rejectlabhospital' element={<Rejectlabhospital/>}/>
+        <Route path='/rejectaddquotation' element={<Rejectaddquotation/>}/>
+        <Route path='/rejectlabtestdetail' element={<Rejectlabtestdetail/>}/>
+        <Route path='/rejectrejected' element={<Rejectrejected/>}/>
 
       </Routes>
 

@@ -28,7 +28,7 @@ export const Pendingdoctornonurgentcase = () => {
     <div className='bookingdoctorcase_middle_container_dha_case_details'>
       <div className='bookingdoctorcase_middle_container_heading_dha_case_details'>
         <div className='bookingdoctorcase_middle_container_heading_1_dha_case_details'>
-            <Link to={"/"}>
+            <Link to={"/pendingdoctor"} className='pendingdoctornonurgentcare_link'>
             <div className='arr_div'>< PiArrowLeftFill className='bookingdoctorcase_details_arrow_case_dha'/></div>
             </Link>
           <h2>Case #123456</h2>
@@ -125,8 +125,9 @@ export const Pendingdoctornonurgentcase = () => {
                         </div>
 
                     <div className='bookingdoctor_dha_case'>
-                        
+                        <Link to={"/pendingdoctorassigndoctor"} className='pendingdoctornonurgentcare_link'>
                         <div className='bookingdoctor_dha_case_2'><button>Assign Doctor</button></div>
+                        </Link>
 
                     </div>
                 

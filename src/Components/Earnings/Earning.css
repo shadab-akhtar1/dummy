@@ -524,3 +524,7 @@
     margin-left: 3px;
     color: black;
 }
+
+.earning_link {
+    text-decoration: none;
+}

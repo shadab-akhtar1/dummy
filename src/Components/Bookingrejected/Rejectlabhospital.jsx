@@ -37,11 +37,15 @@ export const Rejectlabhospital = () => {
         </div>
         <div className='pendinglab_bookingrequest_pharmacy_management_container_2'>
             <div className='pendinglab_bookingrequest_pharmacy_management_container_2_1'>
-            <Link to={""} className='pendinglab_bookingrequest_medicine_link'>
+            <Link to={"/rejectdhahospital"} className='pendinglab_bookingrequest_medicine_link'>
             <div className='pendinglab_bookingrequest_pharmacy_management_container_2_p_1'>DHA</div>
             </Link>
+            <Link to={"/rejectdoctorhospital"} className='pendinglab_bookingrequest_medicine_link'>
             <div className='pendinglab_bookingrequest_pharmacy_management_container_2_p_2'>Doctor</div>
+            </Link>
+            <Link to={"/rejectpharmacyhospital"} className='pendinglab_bookingrequest_medicine_link'>
             <div className='pendinglab_bookingrequest_pharmacy_management_container_2_p_3'>Pharmacy</div>
+            </Link>
             <div className='pendinglab_bookingrequest_pharmacy_management_container_2_p_4'>Lab</div>
             </div>
             <div className='pendinglab_bookingrequest_pharmacy_management_container_2_2'>
@@ -54,7 +58,7 @@ export const Rejectlabhospital = () => {
         </div>
         
         <div className='bookingrequest_pharmacy_management_container_3'>
-            <Link to={"/pharmabooking"} className='pahrma_boking_link'>
+            <Link to={"/rejectlabtestdetail"} className='pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_1'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -98,7 +102,7 @@ export const Rejectlabhospital = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='bookingrequest_pahrma_boking_link'>
+            <Link to={"/rejectlabtestdetail"} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_2'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -142,7 +146,7 @@ export const Rejectlabhospital = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='bookingrequest_pahrma_boking_link'>
+            <Link to={"/rejectlabtestdetail"} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_3'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -186,7 +190,7 @@ export const Rejectlabhospital = () => {
 
             </div>
             </Link>
-            <Link to={""} className='bookingrequest_pahrma_boking_link'>
+            <Link to={"/rejectlabtestdetail"} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_4'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -232,7 +236,7 @@ export const Rejectlabhospital = () => {
 
             </div>
             </Link>
-            <Link to={""} className='bookingrequest_pahrma_boking_link'>
+            <Link to={"/rejectlabtestdetail"} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_4'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -278,7 +282,7 @@ export const Rejectlabhospital = () => {
 
             </div>
             </Link>
-            <Link to={""} className='bookingrequest_pahrma_boking_link'>
+            <Link to={"/rejectlabtestdetail"} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_4'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -324,7 +328,7 @@ export const Rejectlabhospital = () => {
 
             </div>
             </Link>
-            <Link to={""} className='bookingrequest_pahrma_boking_link'>
+            <Link to={"/rejectlabtestdetail"} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_4'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>

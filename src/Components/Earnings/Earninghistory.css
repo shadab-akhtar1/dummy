@@ -397,15 +397,15 @@
 
 .earninghistory_earning_container_3_1_right {
     margin-left: 20px;
-    color: #8D98A4;
+    color: #1A1C1F;
     font-size: 16px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #E40443;
 }
 
 .earninghistory_earning_container_3_1_left {
-    color: #1A1C1F;
-    border-bottom: 1px solid #E40443;
+    color: #8D98A4;
     font-size: 16px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
@@ -420,6 +420,10 @@
     font-size: 14px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+}
+
+.earning_link {
+    text-decoration: none;
 }
 
 

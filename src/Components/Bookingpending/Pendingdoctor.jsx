@@ -19,6 +19,7 @@ export const Pendingdoctor = () => {
     const handleClick=()=>{
         setToggleButton(!toggleButton)
     }
+    const [isActive, setIsActive]= useState(false);
   return (
     <>
     <div><Navbars/></div>
@@ -39,24 +40,36 @@ export const Pendingdoctor = () => {
         </div>
         <div className='bookingrequest_pharmacy_management_container_2_pendingdoctor'>
             <div className='bookingrequest_pharmacy_management_container_2_1_pendingdoctor'>
-            <Link to={""} className='bookingrequest_medicine_link_pendingdoctor'>
+            <Link to={"/bookingpendingdha"} className='bookingrequest_medicine_link_pendingdoctor'>
             <div className='bookingrequest_pharmacy_management_container_2_p_1_pendingdoctor'>DHA</div>
             </Link>
             <div className='bookingrequest_pharmacy_management_container_2_p_2_pendingdoctor'>Doctor</div>
+            <Link to={"/pendingpharmacy"} className='bookingrequest_medicine_link_pendingdoctor'>
             <div className='bookingrequest_pharmacy_management_container_2_p_3_pendingdoctor'>Pharmacy</div>
+            </Link>
+            <Link to={"/pendinglab"} className='bookingrequest_medicine_link_pendingdoctor'>
             <div className='bookingrequest_pharmacy_management_container_2_p_4_pendingdoctor'>Lab</div>
+            </Link>
             </div>
             <div className='bookingrequest_pharmacy_management_container_2_2_pendingdoctor'>
                 Sort by <FaCaretDown className='bookingrequest_pharmacy_management_icon_pendingdoctor'/>
             </div>
         </div>
         <div className='bookingrequest_pharmacy_management_container_4'>
-            <div className='bookingrequest_pharmacy_management_container_4_urgent_pendingdha'> Urgent Care <FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>
+            <div className='bookingrequest_pharmacy_management_container_4_urgent_pendingdha'onClick={(e)=> setIsActive(!isActive)}> Urgent Care <FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>
+            {isActive &&(
+              <div className='bookingpending_dropdown_content_drop'>
+                <Link to={"/bookingdhastandalone"}>
+                <div className='bookingpending_dropdown_item_drop'>Non Urgent Care</div>
+                </Link>
+                
 
+              </div>
+              )}
         </div>
         
         <div className='bookingrequest_pharmacy_management_container_3'>
-            <Link to={""} className='pahrma_boking_link'>
+            <Link to={"/pendingdoctornonurgentcase"} className='pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_1'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -100,7 +113,7 @@ export const Pendingdoctor = () => {
 
             </div>
             </Link>
-            <Link to={""} className='bookingrequest_pahrma_boking_link'>
+            <Link to={"/pendingdoctornonurgentcase"} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_2'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -144,7 +157,7 @@ export const Pendingdoctor = () => {
 
             </div>
             </Link>
-            <Link to={""} className='bookingrequest_pahrma_boking_link'>
+            <Link to={"/pendingdoctornonurgentcase"} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_3'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
@@ -186,7 +199,7 @@ export const Pendingdoctor = () => {
 
             </div>
             </Link>
-            <Link to={""} className='bookingrequest_pahrma_boking_link'>
+            <Link to={"/pendingdoctornonurgentcase"} className='bookingrequest_pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_4'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>

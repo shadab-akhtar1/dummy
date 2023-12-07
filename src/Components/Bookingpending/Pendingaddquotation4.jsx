@@ -21,7 +21,7 @@ export const Pendingaddquotation4 = () => {
     <div className='addquotation4_bookingcase_middle_container_dha_case_details'>
       <div className='addquotation4_bookingcase_middle_container_heading_dha_case_details'>
         <div className='addquotation4_bookingcase_middle_container_heading_1_dha_case_details'>
-            <Link to={""}>
+            <Link to={"/pendingpharmacy"} className='pendingaddquotation4_back'>
             <div className='addquotation4_arr_div'>< PiArrowLeftFill className='addquotation4_bookingcase_details_arrow_case_dha'/></div>
             </Link>
           <h2># 123456</h2>

@@ -456,3 +456,7 @@
     border: none;
     border-radius: 8px;
 }
+
+.pendingpharmacycase1_link {
+    text-decoration: none;
+}

@@ -22,7 +22,7 @@ export const Pendingdoctorassigndoctor = () => {
         <div className='doctorassign_assigndoctor_dhaassign_container_2_1'>
         
             <div className='doctorassign_assigndoctor_dhaassign_profile_documnet_labdetailedit_pharma_edit_heading_basic'>
-                <h2><Link to={"/profile"} className='doctorassign_assigndoctor_dhaassign_profile_documnet_labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='assigndoctor_dhaassign_profile_documnet_labdetailedit_pharma_arrow_edit_basic'/></Link>Choose Doctor</h2>
+                <h2><Link to={"/pendingdoctornonurgentcase"} className='doctorassign_assigndoctor_dhaassign_profile_documnet_labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='assigndoctor_dhaassign_profile_documnet_labdetailedit_pharma_arrow_edit_basic'/></Link>Choose Doctor</h2>
             </div>
             <div className='doctorassign_assigndoctor_dhaassign_container_2_1_second'>
                 <div className='doctorassign_assigndoctor_dhaassign_container_2_1_second_1'>search</div>
@@ -30,7 +30,9 @@ export const Pendingdoctorassigndoctor = () => {
                     <div className='doctorassign_assigndoctor_dhaassign_container_2_1_second_2_up'>Speciality :</div>
                     <div className='doctorassign_assigndoctor_dhaassign_container_2_1_second_2_down'>Physiotherapist <FaCaretDown className='doctorassign_assigndoctor_dhaassign_container_2_1_second_2_down_icon'/></div>
                 </div>
+                <Link to={"/pendingdoctordoctorassign"} className='pendingdoctordoctorassign_link'>
                 <div className='doctorassign_assigndoctor_dhaassign_container_2_1_second_3'><button>Assign</button></div>
+                </Link>
 
             </div>
         </div>

@@ -18,6 +18,7 @@ export const Doctorhospital1 = () => {
     const handleClick=()=>{
         setToggleButton(!toggleButton)
     }
+    const [isActive, setIsActive]= useState(false);
   return (
     <>
     <div><Navbars/></div>
@@ -38,20 +39,32 @@ export const Doctorhospital1 = () => {
         </div>
         <div className='bookingrequest_pharmacy_management_container_2_pendingdoctor_hospital'>
             <div className='bookingrequest_pharmacy_management_container_2_1_pendingdoctor_hospital'>
-            <Link to={""} className='bookingrequest_medicine_link_pendingdoctor_hospital'>
+            <Link to={"/dhahospital"} className='bookingrequest_medicine_link_pendingdoctor_hospital'>
             <div className='bookingrequest_pharmacy_management_container_2_p_1_pendingdoctor_hospital'>DHA</div>
             </Link>
             <div className='bookingrequest_pharmacy_management_container_2_p_2_pendingdoctor_hospital'>Doctor</div>
+            <Link to={"/pharmacyhospital"} className='bookingrequest_medicine_link_pendingdoctor_hospital'>
             <div className='bookingrequest_pharmacy_management_container_2_p_3_pendingdoctor_hospital'>Pharmacy</div>
+            </Link>
+            <Link to={"/labhospital"} className='bookingrequest_medicine_link_pendingdoctor_hospital'>
             <div className='bookingrequest_pharmacy_management_container_2_p_4_pendingdoctor_hospital'>Lab</div>
+            </Link>
             </div>
             <div className='bookingrequest_pharmacy_management_container_2_2_pendingdoctor_hospital'>
                 Sort by <FaCaretDown className='bookingrequest_pharmacy_management_icon_pendingdoctor_hospital'/>
             </div>
         </div>
         <div className='bookingrequest_pharmacy_management_container_4'>
-            <div className='bookingrequest_pharmacy_management_container_4_urgent_pendingdha'>Non Urgent Care <FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>
+            <div className='bookingrequest_pharmacy_management_container_4_urgent_pendingdha' onClick={(e)=> setIsActive(!isActive)}>Non Urgent Care <FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>
+            {isActive &&(
+              <div className='bookingpending_dropdown_content_drop'>
+                <Link to={"/doctorhospital"}>
+                <div className='bookingpending_dropdown_item_drop'> Urgent Care</div>
+                </Link>
+                
 
+              </div>
+              )}
         </div>
         
         <div className='bookingrequest_pharmacy_management_container_3'>

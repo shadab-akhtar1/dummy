@@ -511,3 +511,7 @@
     justify-content: space-between;
     margin-right: 20px;
 }
+
+.completedlabdetails_back {
+    color: black;
+}

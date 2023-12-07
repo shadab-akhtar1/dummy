@@ -34,7 +34,7 @@ export const Pendingpharmacycase1 = () => {
     <div className='pharmacycase1bookingcase_middle_container_dha_case_details'>
       <div className='pharmacycase1bookingcase_middle_container_heading_dha_case_details'>
         <div className='pharmacycase1bookingcase_middle_container_heading_1_dha_case_details'>
-            <Link to={""}>
+            <Link to={"/pendingpharmacy"} className='pendingpharmacycase1_link'>
             <div className='arr_div'>< PiArrowLeftFill className='pharmacycase1bookingcase_details_arrow_case_dha'/></div>
             </Link>
           <h2># 123456</h2>
@@ -73,7 +73,9 @@ export const Pendingpharmacycase1 = () => {
                                 <div className='pharmacycase1bookingcase_dha_case_detail_symptom_left_1'>Vaccine 3</div>
                             </div>
                             <div className='pharmacycase1bookingcase_dha_case_detail_symptom_right'>
+                                <Link to={"/pendingaddquotation3"} className='pendingpharmacycase1_link'>
                                 <button>View Prescription</button>
+                                </Link>
                             </div>
                         </div>
 
@@ -113,7 +115,9 @@ export const Pendingpharmacycase1 = () => {
                                                                         <input type="text" placeholder='Enter Discount' className='popup_pharma_div_1_input'/>
                                                                     </div>
                                                                     <div className='popup_pharma_div_1'>
+                                                                        <Link to={"/pendingaddquotation2"} className='pendingpharmacycase1_link'>
                                                                         <button>Send</button>
+                                                                        </Link>
                                                                     </div>
                                                                 </form>
 

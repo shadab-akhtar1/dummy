@@ -72,7 +72,9 @@ export const Earninghistory = () => {
       </div>
       <div className='earninghistory_earning_container_3'>
         <div className='earninghistory_earning_container_3_1'>
+          <Link to={"/earning"} className='earning_link'>
             <div className='earninghistory_earning_container_3_1_left'>History</div>
+            </Link>
             <div className='earninghistory_earning_container_3_1_right'>Withdrawls</div>
         </div>
         <div className='earninghistory_earning_container_3_2'>
@@ -102,7 +104,7 @@ export const Earninghistory = () => {
               </ul>
               <ul>
                 <li><button>RS 500</button></li>
-                <Link to={"/labbooking"}>
+                <Link to={""}>
                 
                 </Link>
               </ul>
