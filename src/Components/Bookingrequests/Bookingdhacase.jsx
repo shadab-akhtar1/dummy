@@ -17,34 +17,18 @@ import vid from "../Assets/Frame 12431.jpg";
 import { FaPhoneAlt } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 import {Footer} from '../Dhamanagement/Footer';
+import Navbars from '../Dhamanagement/Navbars';
 
 
 export const Bookingdhacase = () => {
   return (
     <>
-    <nav className='bookingcase_dhaassign_bookingrequests_pharmabooking_navbar_doctorcase'>
-        <div className='bookingcase_dhaassign_bookingrequests_pharmabooking_navbar_logo_doctorcase'>
-        <img src={Weblogo} alt="logo_doctorcase" />
-        </div>
-
-        <ul className='bookingcase_dhaassign_bookingrequests_pharmabooking_nav_links_doctorcase'>
-            <li className='bookingcase_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>Dooper At Home</li>
-            <li className='bookingcase_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>Lab Tesst </li>
-            <li className='bookingcase_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>Our Network < FaCaretDown/></li>
-            <li className='bookingcase_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>About Us</li>
-            <li className='bookingcase_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>Contact Us</li>
-            <li className='bookingcase_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>Join Us With <FaCaretDown/></li>
-            <li className='bookingcase_dhaassign_bookingrequests_pharmabooking_list_item_1_dhacase'><img src={profile} alt="" className='bookingcase_dhaassign_bookingrequests_pharmabooking_jaydoctor_profile'/>Jaydeep Sakhiya <FaCaretDown/></li>
-            <li className='bookingcase_dhaassign_bookingrequests_pharmabooking_list_item_1_doctorcase'><FaBell className='bookingcase_dhaassign_bookingrequests_pharmabooking_icons_bell_doctorcase'/></li>
-            <li className='bookingcase_dhaassign_bookingrequests_pharmabooking_list_item_1_doctorcase_2'>< BsTelephone className='bookingcase_dhaassign_bookingrequests_pharmabooking_phone_icon_doctorcase'/></li>
-        </ul>
-
-    </nav>
+    <div><Navbars/></div>
 
     <div className='bookingcase_middle_container_dha_case_details'>
       <div className='bookingcase_middle_container_heading_dha_case_details'>
         <div className='bookingcase_middle_container_heading_1_dha_case_details'>
-            <Link to={"/dhadetailsview"}>
+            <Link to={"/bookingrequestdha"} className='bookingdhacase_back'>
             <div className='arr_div'>< PiArrowLeftFill className='bookingcase_details_arrow_case_dha'/></div>
             </Link>
           <h2>Case Details</h2>
@@ -95,7 +79,7 @@ export const Bookingdhacase = () => {
 
                     </div>
                     <div className='bookingcase_dha_case_detail_complet'>
-                        <div className='bookingcase_dha_case_detail_completion'><p>Completed</p></div>
+                        <div className='bookingcase_dha_case_detail_completion'><p>Request For</p></div>
                         <div className='bookingcase_dha_case_detail_time'>
                 
                             <p className='bookingcase_dha_case_detail_time_1'><PiCalendarBlankLight className='bookingcase_calen'/>13 june,2023</p>
@@ -119,8 +103,12 @@ export const Bookingdhacase = () => {
                     </div>
 
                     <div className='booking_dha_case'>
+                        <Link to={"/bookingdhaassign"} className='bookingdhacase_link'>
                         <div className='booking_dha_case_1'><button>Assign DHA</button></div>
+                        </Link>
+                        <Link to={"/bookingdhaassigndoctor"} className='bookingdhacase_link'>
                         <div className='booking_dha_case_2'><button>Assign Doctor</button></div>
+                        </Link>
 
                     </div>
                 

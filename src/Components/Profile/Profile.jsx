@@ -48,6 +48,7 @@ export const Profile = () => {
                           </div>
 
                         </div>
+                        <Link to={"/profilebasic"} className='profile_link'>
                         <div className='profile_para_container'>
                           <div className='profile_para_container_left'>
                             <div className='profile_para_container_left_1'><img src={vector} alt="" /></div>
@@ -58,6 +59,8 @@ export const Profile = () => {
                           </div>
 
                         </div>
+                        </Link>
+                        
                         <div className='profile_para_container'>
                           <div className='profile_para_container_left'>
                             <div className='profile_para_container_left_1'><img src={vector1} alt="" /></div>

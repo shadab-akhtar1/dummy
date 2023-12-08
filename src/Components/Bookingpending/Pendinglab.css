@@ -66,3 +66,22 @@
 .pendinglab_bookingrequest_medicine_link {
     text-decoration: none;
 }
+
+
+/*################## CARD CALENDAR AND CLOCK CSS ################ */
+
+.pendinglab_calen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #5B6572;
+}
+
+.pendinglab_clock {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5B6572;
+}

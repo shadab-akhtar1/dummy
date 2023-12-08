@@ -25,7 +25,9 @@ export const Navbars = () => {
             <li className='bookingrequestsdoctor_pharmabooking_list_item_doctorcase_lab'>About Us</li>
             <li className='bookingrequestsdoctor_pharmabooking_list_item_doctorcase_lab'>Contact Us</li>
             <li className='bookingrequestsdoctor_pharmabooking_list_item_doctorcase_lab'>Join Us With <FaCaretDown/></li>
+            <Link to={"/profile"} className='navbars_link'>
             <li className='bookingrequestsdoctor_pharmabooking_list_item_1_dhacase_lab'><img src={profile} alt="" className='bookingrequestsdoctor_pharmabooking_jaydoctor_profile_lab'/>Jaydeep Sakhiya <FaCaretDown/></li>
+            </Link>
             <li className='bookingrequestsdoctor_pharmabooking_list_item_1_doctorcase_lab'><FaBell className='bookingrequestsdoctor_pharmabooking_icons_bell_doctorcase_lab'/></li>
             <li className='bookingrequestsdoctor_pharmabooking_list_item_1_doctorcase_2_lab'>< BsTelephone className='bookingrequestsdoctor_pharmabooking_phone_icon_doctorcase_lab'/></li>
         </ul>

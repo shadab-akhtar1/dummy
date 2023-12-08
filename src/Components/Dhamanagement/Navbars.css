@@ -108,3 +108,8 @@
 
 
 /*############################### NAVBAR END ##############################*/
+
+.navbars_link {
+    text-decoration: none;
+    list-style: none;
+}

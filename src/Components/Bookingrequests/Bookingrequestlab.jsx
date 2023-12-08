@@ -13,6 +13,9 @@ import {PiCaretDoubleRightBold} from 'react-icons/pi';
 import { PiCaretRightBold } from "react-icons/pi";
 import { PiCaretLeftBold } from "react-icons/pi";
 import {Footer} from '../Dhamanagement/Footer';
+import { PiCalendarBlankLight } from "react-icons/pi";
+import { CiClock2 } from "react-icons/ci";
+
 
 export const Bookingrequestlab = () => {
   const[toggleButton,setToggleButton]=useState(false);
@@ -40,17 +43,21 @@ export const Bookingrequestlab = () => {
                 </div>
             </div>
         </div>
-        <div className='bookingrequest_pharmacy_management_container_2'>
-            <div className='bookingrequest_pharmacy_management_container_2_1'>
-            <Link to={"/pharmamedicine"} className='bookingrequest_medicine_link'>
-            <div className='bookingrequest_pharmacy_management_container_2_p_1'>DHA</div>
+        <div className='bookingrequestlab_bookingrequest_pharmacy_management_container_2'>
+            <div className='bookingrequestlab_bookingrequest_pharmacy_management_container_2_1'>
+            <Link to={"/bookingrequestdha"} className='bookingrequestlab_bookingrequest_medicine_link'>
+            <div className='bookingrequestlab_bookingrequest_pharmacy_management_container_2_p_1'>DHA</div>
             </Link>
-            <div className='bookingrequest_pharmacy_management_container_2_p_2'>Doctor</div>
-            <div className='bookingrequest_pharmacy_management_container_2_p_2'>Pharmacy</div>
-            <div className='bookingrequest_pharmacy_management_container_2_p_2'>Lab</div>
+            <Link to={"/bookingrequestdoctor"} className='bookingrequestlab_bookingrequest_medicine_link'>
+            <div className='bookingrequestlab_bookingrequest_pharmacy_management_container_2_p_2'>Doctor</div>
+            </Link>
+            <Link to={"/bookingrequestpharmacy"} className='bookingrequestlab_bookingrequest_medicine_link'>
+            <div className='bookingrequestlab_bookingrequest_pharmacy_management_container_2_p_3'>Pharmacy</div>
+            </Link>
+            <div className='bookingrequestlab_bookingrequest_pharmacy_management_container_2_p_4'>Lab</div>
             </div>
-            <div className='bookingrequest_pharmacy_management_container_2_2'>
-                Sort by <FaCaretDown className='bookingrequest_pharmacy_management_icon'/>
+            <div className='bookingrequestlab_bookingrequest_pharmacy_management_container_2_2'>
+                Sort by <FaCaretDown className='bookingrequestlab_bookingrequest_pharmacy_management_icon'/>
             </div>
         </div>
         <div className='bookingrequest_pharmacy_management_container_4'>
@@ -59,21 +66,21 @@ export const Bookingrequestlab = () => {
         </div>
         
         <div className='bookingrequest_pharmacy_management_container_3'>
-            <Link to={"/pharmabooking"} className='pahrma_boking_link'>
+            <Link to={"/bookingrequestlabdetail"} className='pahrma_boking_link'>
             <div className='bookingrequest_pharmacy_management_container_3_1'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'>09:00AM</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='bookingrequestlab_calen'/>13 June, 2023</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='bookingrequestlab_clock'/>09:00AM</div>
                         </div>
                     </div>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Symptom 1</div></div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Symptom 2 </div></div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Symptom 3</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Test 1</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Test 2 </div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Test 3</div></div>
                         </div>
                         
                     </div>
@@ -110,21 +117,21 @@ export const Bookingrequestlab = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='bookingrequest_pahrma_boking_link'>
-            <div className='bookingrequest_pharmacy_management_container_3_2'>
+            <Link to={"/bookingrequestlabdetail"} className='pahrma_boking_link'>
+            <div className='bookingrequest_pharmacy_management_container_3_1'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'>09:00AM</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='bookingrequestlab_calen'/>13 June, 2023</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='bookingrequestlab_clock'/>09:00AM</div>
                         </div>
                     </div>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Vaccine 1</div></div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Vaccine 2 </div></div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Vaccine 3</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Test 1</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Test 2 </div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Test 3</div></div>
                         </div>
                         
                     </div>
@@ -161,21 +168,21 @@ export const Bookingrequestlab = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='bookingrequest_pahrma_boking_link'>
-            <div className='bookingrequest_pharmacy_management_container_3_3'>
+            <Link to={"/bookingrequestlabdetail"} className='pahrma_boking_link'>
+            <div className='bookingrequest_pharmacy_management_container_3_1'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'>09:00AM</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='bookingrequestlab_calen'/>13 June, 2023</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='bookingrequestlab_clock'/>09:00AM</div>
                         </div>
                     </div>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Vaccine 1</div></div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Vaccine 2 </div></div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Vaccine 3</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Test 1</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Test 2 </div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Test 3</div></div>
                         </div>
                         
                     </div>
@@ -212,21 +219,21 @@ export const Bookingrequestlab = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='bookingrequest_pahrma_boking_link'>
-            <div className='bookingrequest_pharmacy_management_container_3_4'>
+            <Link to={"/bookingrequestlabdetail"} className='pahrma_boking_link'>
+            <div className='bookingrequest_pharmacy_management_container_3_1'>
                 <div className='bookingrequest_pharmacy_management_container_3_1_up'>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'>09:00AM</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='bookingrequestlab_calen'/>13 June, 2023</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='bookingrequestlab_clock'/>09:00AM</div>
                         </div>
                     </div>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Vaccine 1</div></div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Vaccine 2 </div></div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Vaccine 3</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Test 1</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Test 2 </div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Test 3</div></div>
                         </div>
                         
                     </div>
@@ -240,7 +247,6 @@ export const Bookingrequestlab = () => {
                             <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
                             
                         </div>
-                        
                         <div className='bookingrequest_lab_card_2'>
                         <div className='bookingrequest_lab_card_2_left'>
                         XYZ, street name, City
@@ -264,6 +270,213 @@ export const Bookingrequestlab = () => {
 
             </div>
             </Link>
+            <Link to={"/bookingrequestlabdetail"} className='pahrma_boking_link'>
+            <div className='bookingrequest_pharmacy_management_container_3_1'>
+                <div className='bookingrequest_pharmacy_management_container_3_1_up'>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='bookingrequestlab_calen'/>13 June, 2023</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='bookingrequestlab_clock'/>09:00AM</div>
+                        </div>
+                    </div>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left'>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Test 1</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Test 2 </div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Test 3</div></div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div className='bookingrequest_pharmacy_management_container_3_1_down'>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_left'>
+                        <img src={pharimg} alt="" />
+                    </div>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_right'>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up'>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
+                            
+                        </div>
+                        <div className='bookingrequest_lab_card_2'>
+                        <div className='bookingrequest_lab_card_2_left'>
+                        XYZ, street name, City
+                        </div>
+                        
+                        <div className='bookingrequest_lab_card_2_right'>
+                        Earning : 4400
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div className='bookingrequest_pharmacy_management_container_3_1_down_down'>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_down_left'>
+                        <button>Accept</button>
+                    </div>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_down_right'>
+                        <button>Reject</button>
+                    </div>
+                </div>
+
+            </div>
+            </Link>
+            <Link to={"/bookingrequestlabdetail"} className='pahrma_boking_link'>
+            <div className='bookingrequest_pharmacy_management_container_3_1'>
+                <div className='bookingrequest_pharmacy_management_container_3_1_up'>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='bookingrequestlab_calen'/>13 June, 2023</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='bookingrequestlab_clock'/>09:00AM</div>
+                        </div>
+                    </div>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left'>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Test 1</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Test 2 </div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Test 3</div></div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div className='bookingrequest_pharmacy_management_container_3_1_down'>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_left'>
+                        <img src={pharimg} alt="" />
+                    </div>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_right'>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up'>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
+                            
+                        </div>
+                        <div className='bookingrequest_lab_card_2'>
+                        <div className='bookingrequest_lab_card_2_left'>
+                        XYZ, street name, City
+                        </div>
+                        
+                        <div className='bookingrequest_lab_card_2_right'>
+                        Earning : 4400
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div className='bookingrequest_pharmacy_management_container_3_1_down_down'>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_down_left'>
+                        <button>Accept</button>
+                    </div>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_down_right'>
+                        <button>Reject</button>
+                    </div>
+                </div>
+
+            </div>
+            </Link>
+            <Link to={"/bookingrequestlabdetail"} className='pahrma_boking_link'>
+            <div className='bookingrequest_pharmacy_management_container_3_1'>
+                <div className='bookingrequest_pharmacy_management_container_3_1_up'>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='bookingrequestlab_calen'/>13 June, 2023</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='bookingrequestlab_clock'/>09:00AM</div>
+                        </div>
+                    </div>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left'>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Test 1</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Test 2 </div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Test 3</div></div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div className='bookingrequest_pharmacy_management_container_3_1_down'>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_left'>
+                        <img src={pharimg} alt="" />
+                    </div>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_right'>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up'>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
+                            
+                        </div>
+                        <div className='bookingrequest_lab_card_2'>
+                        <div className='bookingrequest_lab_card_2_left'>
+                        XYZ, street name, City
+                        </div>
+                        
+                        <div className='bookingrequest_lab_card_2_right'>
+                        Earning : 4400
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div className='bookingrequest_pharmacy_management_container_3_1_down_down'>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_down_left'>
+                        <button>Accept</button>
+                    </div>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_down_right'>
+                        <button>Reject</button>
+                    </div>
+                </div>
+
+            </div>
+            </Link>
+            <Link to={"/bookingrequestlabdetail"} className='pahrma_boking_link'>
+            <div className='bookingrequest_pharmacy_management_container_3_1'>
+                <div className='bookingrequest_pharmacy_management_container_3_1_up'>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='bookingrequestlab_calen'/>13 June, 2023</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='bookingrequestlab_clock'/>09:00AM</div>
+                        </div>
+                    </div>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left'>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequest_phar_vaac_1'>Test 1</div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequest_phar_vaac_2'>Test 2 </div></div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequest_phar_vaac_3'>Test 3</div></div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div className='bookingrequest_pharmacy_management_container_3_1_down'>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_left'>
+                        <img src={pharimg} alt="" />
+                    </div>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_right'>
+                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up'>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
+                            
+                        </div>
+                        <div className='bookingrequest_lab_card_2'>
+                        <div className='bookingrequest_lab_card_2_left'>
+                        XYZ, street name, City
+                        </div>
+                        
+                        <div className='bookingrequest_lab_card_2_right'>
+                        Earning : 4400
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div className='bookingrequest_pharmacy_management_container_3_1_down_down'>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_down_left'>
+                        <button>Accept</button>
+                    </div>
+                    <div className='bookingrequest_pharmacy_management_container_3_1_down_down_right'>
+                        <button>Reject</button>
+                    </div>
+                </div>
+
+            </div>
+            </Link>
+            
+            
+            
 
         </div>
 

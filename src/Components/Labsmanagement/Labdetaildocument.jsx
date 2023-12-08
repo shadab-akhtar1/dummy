@@ -30,8 +30,8 @@ export const Labdetaildocument = () => {
                     <div className='labdocument_pharma_document_userprofile_form_input'>
                             <label className='labdocument_pharma_document_form_label'>Aadhar Card</label> <br /><br />
                             <input type="file" id='labdocument_pharma_document_form' className='labdocument_pharma_document_form_1' placeholder='aadhar.jpg'/>
-                            <label for="labdocument_pharma_document_form" className='labdocument_pharma_document_form_2'>
-                            <i className='labdocument_pharma_attach_file'><FaRegPenToSquare/></i>
+                            <label for="labdocument_pharma_document_form" className='labdocument_pharma_document_form_2'placeholder='aadhar.jpg'>
+                            <i className='labdocument_pharma_attach_file'placeholder='aadhar.jpg'><FaRegPenToSquare/></i>
                             </label>
                         </div>
 

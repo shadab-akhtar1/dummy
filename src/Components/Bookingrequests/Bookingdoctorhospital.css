@@ -200,7 +200,7 @@
     font-size: 16px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: 1px solid #E40443;
+    border-bottom: 2px solid #E40443;
 }
 
 .bookingrequestdoctor_hospital_pharmacy_management_container_3 {
@@ -268,11 +268,14 @@
 }
 
 .bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right_1 {
-    margin-right: 5px;
+    margin-right: 10px;
     color: #5B6572;
     font-size: 12px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right_2 {
@@ -280,6 +283,9 @@
     font-size: 12px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2 {
@@ -506,11 +512,11 @@
     border: 1px solid #B3B3B3;
     border-radius: 3px;
     height: 28px;
-    width: 126px;
+    width: 169px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #B3B3B3;
+    background: #EEEFEF;
     color: #1A1C1F;
     font-size: 14px;
     font-weight: 600;
@@ -521,6 +527,57 @@
     margin-left: 20px;
     align-items: center;
     color: #8D98A4;
+}
+
+.booking_pendingdoctorhospital_container_card_last {
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.booking_pendingdoctorhospital_container_card_last_up {
+    color: #1A1C1F;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.booking_pendingdoctorhospital_container_card_last_down {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.booking_pendingdoctorhospital_container_card_last_down_left img {
+    height: 32px;
+    width: 32px;
+}
+
+.booking_pendingdoctorhospital_container_card_last_down_right {
+    margin-left: 10px;
+    display: grid;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.booking_pendingdoctorhospital_container_card_last_down_right_1 {
+    color: #1A1C1F;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.booking_pendingdoctorhospital_container_card_last_down_right_2 {
+    color: #E40443;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }
 
 

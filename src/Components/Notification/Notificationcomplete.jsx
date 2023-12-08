@@ -11,7 +11,7 @@ export const Notificationcomplete = () => {
     <div className='notification_complete'><Navbar/></div>
     <div className='notification_complete_container'>
 
-      <div className='notification_complete_pharma_edit_heading_basic'><h2><Link to={""} className='notification_complete_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='notification_complete_arrow_edit_basic'/></Link>Notifications</h2></div>
+      <div className='notification_complete_pharma_edit_heading_basic'><h2><Link to={"/notification"} className='notification_complete_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='notification_complete_arrow_edit_basic'/></Link>Notifications</h2></div>
       <div className='notification_complete_container_2'>
           <div className='notification_complete_container_2_1'>
             <div className='notification_container_2_1_right'>

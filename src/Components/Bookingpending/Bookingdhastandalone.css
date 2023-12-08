@@ -47,7 +47,7 @@
 .bookingrequest_pharmacy_management_container_4_urgent_pendingdha_standalone {
     width: 169px;
     border: 1px solid #B3B3B3;
-    background: #B3B3B3;
+    background: #EEEFEF;
     color: #1A1C1F;
     font-size: 14px;
     font-weight: 600;
@@ -108,3 +108,22 @@
 
 
 /* ##################### Dropdown Down CSS in Bookingpendingdha.css file ###################### */
+
+
+/*########### CARD CALENDAR AND CLOCK ICON CSS ############### */
+
+.bookingpendingdhastandalone_calen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #5B6572;
+}
+
+.bookingpendingdhastandalone_clock {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5B6572;
+}

@@ -17,33 +17,17 @@ import vid from "../Assets/Frame 12431.jpg";
 import { FaPhoneAlt } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 import {Footer} from '../Dhamanagement/Footer';
+import Navbars from '../Dhamanagement/Navbars';
 
 export const Bookingdoctorcase = () => {
   return (
     <>
-    <nav className='bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_navbar_doctorcase'>
-        <div className='bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_navbar_logo_doctorcase'>
-        <img src={Weblogo} alt="logo_doctorcase" />
-        </div>
-
-        <ul className='bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_nav_links_doctorcase'>
-            <li className='bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>Dooper At Home</li>
-            <li className='bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>Lab Tesst </li>
-            <li className='bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>Our Network < FaCaretDown/></li>
-            <li className='bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>About Us</li>
-            <li className='bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>Contact Us</li>
-            <li className='bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_list_item_doctorcase'>Join Us With <FaCaretDown/></li>
-            <li className='bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_list_item_1_dhacase'><img src={profile} alt="" className='bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_jaydoctor_profile'/>Jaydeep Sakhiya <FaCaretDown/></li>
-            <li className='bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_list_item_1_doctorcase'><FaBell className='bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_icons_bell_doctorcase'/></li>
-            <li className='bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_list_item_1_doctorcase_2'>< BsTelephone className='bookingdoctorcase_dhaassign_bookingrequests_pharmabooking_phone_icon_doctorcase'/></li>
-        </ul>
-
-    </nav>
+    <div><Navbars/></div>
 
     <div className='bookingdoctorcase_middle_container_dha_case_details'>
       <div className='bookingdoctorcase_middle_container_heading_dha_case_details'>
         <div className='bookingdoctorcase_middle_container_heading_1_dha_case_details'>
-            <Link to={"/"}>
+            <Link to={"/bookingrequestdoctor"} className='bookingdoctorcase_back'>
             <div className='arr_div'>< PiArrowLeftFill className='bookingdoctorcase_details_arrow_case_dha'/></div>
             </Link>
           <h2>Case #123456</h2>
@@ -134,8 +118,9 @@ export const Bookingdoctorcase = () => {
                         </div>
 
                     <div className='bookingdoctor_dha_case'>
-                        
+                        <Link to={"/bookingdoctorassigndoctor"} className='bookingdoctorcase_link'>
                         <div className='bookingdoctor_dha_case_2'><button>Assign Doctor</button></div>
+                        </Link>
 
                     </div>
                 

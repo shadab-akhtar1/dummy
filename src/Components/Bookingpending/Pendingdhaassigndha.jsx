@@ -12,6 +12,8 @@ import doctorimage from '../Assets/image-slEubuAxR-transformed.png';
 import doctorsimage from '../Assets/image-Ow_nE8fdA-transformed.png';
 import doctoresimage from '../Assets/image-RMOC43HSxZ-transformed.png';
 import {Footer} from '../Dhamanagement/Footer';
+import { IoIosSearch } from "react-icons/io";
+import { IoCheckmark } from "react-icons/io5";
 
 export const Pendingdhaassigndha = () => {
   return (
@@ -24,7 +26,7 @@ export const Pendingdhaassigndha = () => {
                 <h2><Link to={"/pendingdhaurgentcase"} className='dhaassign_profile_documnet_labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='dhaassign_profile_documnet_labdetailedit_pharma_arrow_edit_basic'/></Link>Choose DHA</h2>
             </div>
             <div className='dhaassign_container_2_1_second'>
-                <div className='dhaassign_container_2_1_second_1'>search</div>
+                <div className='dhaassign_container_2_1_second_1'><input type="search" placeholder='search'/><i><IoIosSearch className='bookingdhadoctor_search'/></i></div>
                 <div className='dhaassign_container_2_1_second_2'>
                     <div className='dhaassign_container_2_1_second_2_up'>Speciality :</div>
                     <div className='dhaassign_container_2_1_second_2_down'>Physiotherapist <FaCaretDown className='dhaassign_container_2_1_second_2_down_icon'/></div>
@@ -56,7 +58,7 @@ export const Pendingdhaassigndha = () => {
                     <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Courtney Henry</div>
                     <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
                     </div>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_right'>01</div>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_right'><IoCheckmark/></div>
                 </div>
 
             </div>

@@ -150,3 +150,7 @@
     align-items: center;
     margin-right: 20px;
 }
+
+.notification_link {
+    text-decoration: none;
+}

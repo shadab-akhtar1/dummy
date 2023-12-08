@@ -28,3 +28,83 @@
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
+
+
+/* ########################## LINK ROUTES DHA DOCTOR PHARMACY LAB ######################### */
+
+.bookingrequestlab_bookingrequest_pharmacy_management_container_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-bottom: 1px solid #E1E5E8;
+}
+
+.bookingrequestlab_bookingrequest_pharmacy_management_container_2_1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bookingrequestlab_bookingrequest_pharmacy_management_container_2_2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bookingrequestlab_bookingrequest_pharmacy_management_icon {
+    margin-left: 10px;
+}
+
+.bookingrequestlab_bookingrequest_pharmacy_management_container_2_p_1 {
+    font-size: 16px;
+    color: #8D98A4;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bookingrequestlab_bookingrequest_pharmacy_management_container_2_p_2 {
+    margin-left: 10px;
+    color: #8D98A4;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bookingrequestlab_bookingrequest_pharmacy_management_container_2_p_3 {
+    margin-left: 10px;
+    color: #8D98A4;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bookingrequestlab_bookingrequest_pharmacy_management_container_2_p_4 {
+    margin-left: 10px;
+    color: #1A1C1F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid #E40443;
+}
+
+.bookingrequestlab_bookingrequest_medicine_link {
+    text-decoration: none;
+}
+
+.bookingrequestlab_calen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #5B6572;
+}
+
+.bookingrequestlab_clock {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5B6572;
+}

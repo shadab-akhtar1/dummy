@@ -184,7 +184,7 @@
     color: #1A1C1F;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: 1px solid #E40443;
+    border-bottom: 2px solid #E40443;
 }
 
 .bookingdhahospital_bookingrequest_pharmacy_management_container_2_p_2 {
@@ -265,6 +265,9 @@
     font-size: 12px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up_box_right_2 {
@@ -272,6 +275,9 @@
     font-size: 12px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up_box2 {
@@ -285,11 +291,41 @@
 .bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up_box2_left {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     margin-left: 10px;
 }
 
 .bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up_box2_left_1 {
-    border-right: 2px solid #E40443;
+    color: #E40443;
+    font-size: 10px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up_box2_right_1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.bookingdhahospital_bookingrequest_pharmacy_management_container_3_1_up_box2_right_1 button {
+    background: #E40443;
+    width: 57px;
+    height: 16px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bookingdhahospital_bookingrequest_phar_vaac_1 {
@@ -297,7 +333,6 @@
     font-size: 12px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    margin-right: 5px;
 }
 
 .bookingdhahospital_bookingrequest_phar_vaac_2 {
@@ -498,11 +533,11 @@
     border: 1px solid #B3B3B3;
     border-radius: 3px;
     height: 28px;
-    width: 126px;
+    width: 169px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #B3B3B3;
+    background: #EEEFEF;
     color: #1A1C1F;
     font-size: 14px;
     font-weight: 600;
@@ -513,6 +548,22 @@
     margin-left: 20px;
     align-items: center;
     color: #8D98A4;
+}
+
+.bookingdhahospital_calen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #5B6572;
+}
+
+.bookingdhahospital_clock {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5B6572;
 }
 
 

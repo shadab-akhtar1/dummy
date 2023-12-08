@@ -143,3 +143,22 @@
     height: 32px;
     width: 348px;
 }
+
+
+/*############## CARD CALENDAR AND CLOCK ICON CSS ############### */
+
+.pendingpharmacy_calen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #5B6572;
+}
+
+.pendingpharmacy_clock {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5B6572;
+}

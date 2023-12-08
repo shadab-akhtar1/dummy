@@ -26,6 +26,7 @@ export const Notification = () => {
             </div>
 
           </div>
+          <Link to={"/notificationcomplete"} className='notification_link'>
           <div className='notification_container_2_2'>
             <div className='notification_container_2_2_left'>
               <div className='notification_container_2_2_left_1'><img src={avatar1} alt="" /></div>
@@ -37,6 +38,7 @@ export const Notification = () => {
             </div>
 
           </div>
+          </Link>
           <div className='notification_container_2_3'>
             <div className='notification_container_2_2_left'>
               <div className='notification_container_2_2_left_1'><img src={avatar3} alt="" /></div>

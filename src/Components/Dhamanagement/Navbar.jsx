@@ -42,6 +42,30 @@ export const Navbar = () => {
                 <Link to="/labmanagement">
                 <div className='dropdown_item'>Lab Management</div>
                 </Link>
+                <Link to="/rolemanagement">
+                <div className='dropdown_item'>Role Access Management</div>
+                </Link>
+                <Link to="/profile">
+                <div className='dropdown_item'>Profile</div>
+                </Link>
+                <Link to="/notification">
+                <div className='dropdown_item'>Notification</div>
+                </Link>
+                <Link to="/earning">
+                <div className='dropdown_item'>My Earning</div>
+                </Link>
+                <Link to="/bookingrequestdha">
+                <div className='dropdown_item'>Booking Request</div>
+                </Link>
+                <Link to="/bookingpendingdha">
+                <div className='dropdown_item'>Booking Pending</div>
+                </Link>
+                <Link to="/dhahospital">
+                <div className='dropdown_item'>Booking Completed</div>
+                </Link>
+                <Link to="/rejectdhahospital">
+                <div className='dropdown_item'>Booking Rejected</div>
+                </Link>
 
               </div>
               )}

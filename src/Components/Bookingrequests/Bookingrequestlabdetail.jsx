@@ -27,7 +27,7 @@ export const Bookingrequestlabdetail = () => {
     <div className='bookingcase_middle_container_dha_case_details'>
       <div className='bookingcase_middle_container_heading_dha_case_details'>
         <div className='bookingcase_middle_container_heading_1_dha_case_details'>
-            <Link to={"/dhadetailsview"}>
+            <Link to={"/bookingrequestlab"} className='bookingreqlabdetail_back'>
             <div className='arr_div'>< PiArrowLeftFill className='bookingcase_details_arrow_case_dha'/></div>
             </Link>
           <h2># 123456</h2>

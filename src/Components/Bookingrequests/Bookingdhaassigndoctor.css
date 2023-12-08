@@ -156,6 +156,29 @@
 
 .assigndoctor_dhaassign_container_2_1_second_1 {
     margin-left: 20px;
+    border: 1px solid #DBDADE;
+    border-radius: 6px;
+    width: 240px;
+    height: 38px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.assigndoctor_dhaassign_container_2_1_second_1 input {
+    border: none;
+    outline: none;
+    color: #5B6572;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bookingdhadoctor_search {
+    color: #5B6572;
+    width: 24px;
+    height: 24px;
 }
 
 .assigndoctor_dhaassign_container_2_1_second_2 {
@@ -295,4 +318,8 @@
     align-items: center;
     border-bottom: 1px solid #E3E6E8;
     width: 276px;
+}
+
+.bookingdhaassigndoctor_link {
+    text-decoration: none;
 }

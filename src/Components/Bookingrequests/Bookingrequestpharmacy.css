@@ -1,0 +1,149 @@
+/*############# CSS File in Bookingrequestdha.css file in ################# */
+
+
+/* ########################## LINK ROUTES DHA DOCTOR PHARMACY LAB ######################### */
+
+.bookingrequestpharmacy_bookingrequest_pharmacy_management_container_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-bottom: 1px solid #E1E5E8;
+}
+
+.bookingrequestpharmacy_bookingrequest_pharmacy_management_container_2_1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bookingrequestpharmacy_bookingrequest_pharmacy_management_container_2_2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bookingrequestpharmacy_bookingrequest_pharmacy_management_icon {
+    margin-left: 10px;
+}
+
+.bookingrequestpharmacy_bookingrequest_pharmacy_management_container_2_p_1 {
+    font-size: 16px;
+    color: #8D98A4;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bookingrequestpharmacy_bookingrequest_pharmacy_management_container_2_p_2 {
+    margin-left: 10px;
+    color: #8D98A4;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bookingrequestpharmacy_bookingrequest_pharmacy_management_container_2_p_3 {
+    margin-left: 10px;
+    color: #1A1C1F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid #E40443;
+}
+
+.bookingrequestpharmacy_bookingrequest_pharmacy_management_container_2_p_4 {
+    margin-left: 10px;
+    color: #8D98A4;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bookingrequestpharmacy_bookingrequest_medicine_link {
+    text-decoration: none;
+}
+
+.bookingrequestpharmacy_calen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #5B6572;
+}
+
+.bookingrequestpharmacy_clock {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5B6572;
+}
+
+
+/* ######################## CARD 2nd Part CSS START ###################### */
+
+.bookingrequestpharmacy_bookingrequest_pharmacy_management_container_3_1_down {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.bookingrequestpharmacy_bookingrequest_pharmacy_management_container_3_1_down_left {
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bookingrequestpharmacy_bookingrequest_pharmacy_management_container_3_1_down_left img {
+    width: 48px;
+    height: 48px;
+}
+
+.bookingrequestpharmacy_bookingrequest_pharmacy_management_container_3_1_down_right {
+    width: 284px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.bookingrequestpharmacy_bookingrequest_pharmacy_management_container_3_1_down_right_up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookingrequestpharmacy_bookingrequest_pharmacy_management_container_3_1_down_right_up_text {
+    display: flex;
+    justify-content: flex-start;
+    color: #1A1C1F;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bookingrequestpharmacy_bookingrequest_pharma_btn_1 button {
+    border-radius: 24px;
+    border: none;
+    height: 22px;
+    width: 134px;
+    background-color: linear-gradient(0deg, #7C67FB, #7C67FB), linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+    color: #7C67FB;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bookingrequestpharmacy_bookingrequest_pahrma_boking_link {
+    text-decoration: none;
+}
+
+.bookingrequestpharmacy_bookingrequest_pharmacy_management_container_3_1_down_right_down_1 {
+    color: #5B6572;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+}
