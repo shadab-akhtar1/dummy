@@ -1,10 +1,6 @@
-import React from 'react';
-import './Pharmabookingdone.css';
-import Weblogo from "../Assets/Dooper Logo 1500x1500 2.svg";
-import {FaBell} from 'react-icons/fa';
-import {FaCaretDown} from 'react-icons/fa';
-import profile from "../Assets/Rectangle 619 (1).jpg";
-import {BsTelephone} from 'react-icons/bs';
+import React from 'react'
+import Navbars from '../Dhamanagement/Navbars';
+import './Pharmabookingvaccinedone.css';
 import {PiArrowLeftFill} from 'react-icons/pi';
 import { Link } from 'react-router-dom';
 import userpic from "../Assets/Ellipse 3.jpg";
@@ -12,16 +8,15 @@ import { PiCalendarBlankLight } from "react-icons/pi";
 import { CiClock2 } from "react-icons/ci";
 import { IoCheckmark } from "react-icons/io5";
 import {Footer} from '../Dhamanagement/Footer';
-import Navbars from '../Dhamanagement/Navbars';
 
-export const Pharmabookingdone = () => {
+export const Pharmabookingvaccinedone = () => {
   return (
     <>
     <div><Navbars/></div>
     <div className='pharmabookingdone_middle_container_doctor_case_details'>
       <div className='pharmabookingdone_middle_container_heading_doctor_case_details'>
         <div className='pharmabookingdone_middle_container_heading_1_doctor_case_details'>
-            <Link to={"/pharmamedicine"}>
+            <Link to={"/pharmacymanagement"} className='pharmabookingvaccinedone_back'>
             <div className='pharmabookingdone_arrdoctor_div'>< PiArrowLeftFill className='pharmabookingdone_details_arrow_case_doctor'/></div>
             </Link>
             <h2>Case Details</h2>
@@ -53,9 +48,9 @@ export const Pharmabookingdone = () => {
                     <div className='pharmabookingdone_doctor_case_detail_symptom'>
                         <div className='pharmabookingdone_doctor_case_deatil_symptom_1'>
                             <div className='pharmabookingdone_doctor_case_detail_symptom_left'>
-                                <div className='pharmabookingdone_doctor_case_detail_symptom_left_1'>Medicine 1</div>
-                                <div className='pharmabookingdone_doctor_case_detail_symptom_left_1'>Medicine 2</div>
-                                <div className='pharmabookingdone_doctor_case_detail_symptom_left_1'>Medicine 3</div>
+                                <div className='pharmabookingdone_doctor_case_detail_symptom_left_1'>Vaccine 1</div>
+                                <div className='pharmabookingdone_doctor_case_detail_symptom_left_1'>Vaccine 2</div>
+                                <div className='pharmabookingdone_doctor_case_detail_symptom_left_1'>Vaccine 3</div>
                             </div>
                             <div className='pharmabookingdone_doctor_case_detail_symptom_right'>
                                 <button>View Prescription</button>
@@ -182,4 +177,4 @@ export const Pharmabookingdone = () => {
     </>
   )
 }
-export default Pharmabookingdone
+export default Pharmabookingvaccinedone

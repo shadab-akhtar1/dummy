@@ -30,40 +30,40 @@ export const Navbar = () => {
               </div>
               {isActive &&(
               <div className='dropdown_content'>
-                <Link to={"/dhamanagement"}>
+                <Link to={"/dhamanagement"} className='dropdown_nav_link'>
                 <div className='dropdown_item'>Dha Management</div>
                 </Link>
-                <Link to="/doctormanagement">
+                <Link to="/doctormanagement" className='dropdown_nav_link'>
                 <div className='dropdown_item'>Doctor Management</div>
                 </Link>
-                <Link to="/pharmacymanagement">
+                <Link to="/pharmacymanagement" className='dropdown_nav_link'>
                 <div className='dropdown_item'>Pharmacy Management</div>
                 </Link>
-                <Link to="/labmanagement">
+                <Link to="/labmanagement" className='dropdown_nav_link'>
                 <div className='dropdown_item'>Lab Management</div>
                 </Link>
-                <Link to="/rolemanagement">
+                <Link to="/rolemanagement" className='dropdown_nav_link'>
                 <div className='dropdown_item'>Role Access Management</div>
                 </Link>
-                <Link to="/profile">
+                <Link to="/profile" className='dropdown_nav_link'>
                 <div className='dropdown_item'>Profile</div>
                 </Link>
-                <Link to="/notification">
+                <Link to="/notification" className='dropdown_nav_link'>
                 <div className='dropdown_item'>Notification</div>
                 </Link>
-                <Link to="/earning">
+                <Link to="/earning" className='dropdown_nav_link'>
                 <div className='dropdown_item'>My Earning</div>
                 </Link>
-                <Link to="/bookingrequestdha">
+                <Link to="/bookingrequestdha" className='dropdown_nav_link'>
                 <div className='dropdown_item'>Booking Request</div>
                 </Link>
-                <Link to="/bookingpendingdha">
+                <Link to="/bookingpendingdha" className='dropdown_nav_link'>
                 <div className='dropdown_item'>Booking Pending</div>
                 </Link>
-                <Link to="/dhahospital">
+                <Link to="/dhahospital" className='dropdown_nav_link'>
                 <div className='dropdown_item'>Booking Completed</div>
                 </Link>
-                <Link to="/rejectdhahospital">
+                <Link to="/rejectdhahospital" className='dropdown_nav_link'>
                 <div className='dropdown_item'>Booking Rejected</div>
                 </Link>
 

@@ -29,12 +29,12 @@ export const Rolemanagement = () => {
                 <h2>Role & Access Management</h2>
                 </div>
                 <div className='heading_content_doctor_2_role'>
-                <Link to={"/doctorrequests"} className="link_role">
+                <Link to={"/addsubadmin"} className="link_role">
                 <button className='doctor_btn_1_role'>
                 <IoMdAdd className='add_doctor_btn_role'/>
                 Add Front Desk
               </button></Link>
-              <Link to={"/adddoctor"} className="link_role">
+              <Link to={"/addrole"} className="link_role">
                 <button className='doctor_btn_2_role'>
                 
                 <IoMdAdd className='add_doctor_btn_role'/>

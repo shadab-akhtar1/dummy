@@ -76,12 +76,14 @@ export const Dhadetailsview = () => {
         <div className='middle_container_heading_box'>
           <h2> <Link to={"/dharequest"} className='detailsview_link'>< PiArrowLeftFill className='details_arrow'/></Link>DHA Details</h2>
         </div>
-        <Link to={"/dhadetailsedit"}>
-        <button className='middle_container_btn'><AiOutlineEdit className='middle_container_btn_icon1'/>Edit</button>
-        </Link>
-        <Link to={"/blockdha"}>
-        <button className='middle_container_btn1'><MdBlockFlipped className='middle_container_btn_icon'/>Block</button>
-        </Link>
+        <div className='middle_container_heading_box_right'>
+          <Link to={"/dhadetailsedit"} className='dhadetailsview_link'>
+            <button className='middle_container_btn'><AiOutlineEdit className='middle_container_btn_icon1'/>Edit</button>
+          </Link>
+          <Link to={"/blockdha"} className='dhadetailsview_link'>
+            <button className='middle_container_btn1'><MdBlockFlipped className='middle_container_btn_icon'/>Block</button>
+          </Link>
+        </div>
 
       </div>
 

@@ -121,6 +121,7 @@
     margin-right: 70px;
     display: flex;
     flex-wrap: wrap;
+    gap: 38px;
 }
 
 .lab_management_container_3_all {
@@ -144,7 +145,6 @@
     border-radius: 12px;
     background-color: white;
     width: 380px;
-    margin-left: 40px;
 }
 
 .lab_management_container_3_3 {
@@ -152,7 +152,6 @@
     border-radius: 12px;
     background-color: white;
     width: 380px;
-    margin-left: 40px;
 }
 
 .lab_management_container_3_4 {
@@ -160,7 +159,6 @@
     border-radius: 12px;
     background-color: white;
     width: 380px;
-    margin-top: 30px;
 }
 
 .lab_management_container_3_5 {
@@ -168,8 +166,6 @@
     border-radius: 12px;
     background-color: white;
     width: 380px;
-    margin-top: 30px;
-    margin-left: 40px;
 }
 
 .lab_management_container_3_6 {
@@ -177,8 +173,6 @@
     border-radius: 12px;
     background-color: white;
     width: 380px;
-    margin-top: 30px;
-    margin-left: 40px;
 }
 
 .lab_management_container_3_7 {
@@ -186,7 +180,6 @@
     border-radius: 12px;
     background-color: white;
     width: 380px;
-    margin-top: 30px;
 }
 
 .lab_management_container_3_1_up {
@@ -440,4 +433,8 @@
 .lab_non_urgent_link {
     text-decoration: none;
     list-style: none;
+}
+
+.labmanagement_link {
+    text-decoration: none;
 }

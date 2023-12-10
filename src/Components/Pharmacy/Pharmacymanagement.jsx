@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './Pharmacymanagement.css';
 import {Navbar} from '../Dhamanagement/Navbar';
 import pharimg from '../Assets/Ellipse 2 (1).jpg';
@@ -10,13 +10,25 @@ import {Footer} from '../Dhamanagement/Footer';
 import {Link} from 'react-router-dom';
 
 export const Pharmacymanagement = () => {
+    const[toggleButton,setToggleButton]=useState(false);
+    const handleClick=()=>{
+        setToggleButton(!toggleButton)
+    }
   return (
     <>
     <div className='pharmacy_managemenet'><Navbar/></div>
     <div className='pharmacy_management_container'>
         <div className='pharmacy_management_container_1'>
             <div className='pharmacy_management_heading_box_1'><h2>Dashboard</h2></div>
-            <div className='pharmacy_management_heading_box_2'><p>Availability</p></div>
+            <div className='pharmacy_management_heading_box_2'><p>Availability</p>
+            <div className='toggle_div'>
+                <div  className='toggle'></div>
+                    {toggleButton?<div onClick={handleClick} className='toggle_left'></div>:
+                    <div onClick={handleClick}className='toggle_right'></div>}
+                
+                </div>
+            
+            </div>
         </div>
         <div className='pharmacy_management_container_2'>
             <Link to={"/pharmamedicine"} className='medicine_link'>
@@ -26,7 +38,7 @@ export const Pharmacymanagement = () => {
         </div>
         
         <div className='pharmacy_management_container_3'>
-            <Link to={"/pharmabooking"} className='pahrma_boking_link'>
+            <Link to={"/pharmabookingvaccine"} className='pahrma_boking_link'>
             <div className='pharmacy_management_container_3_1'>
                 <div className='pharmacy_management_container_3_1_up'>
                     <div className='pharmacy_management_container_3_1_up_box'>
@@ -63,7 +75,7 @@ export const Pharmacymanagement = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='pahrma_boking_link'>
+            <Link to={"/pharmabookingvaccinedone"} className='pahrma_boking_link'>
             <div className='pharmacy_management_container_3_2'>
                 <div className='pharmacy_management_container_3_1_up'>
                     <div className='pharmacy_management_container_3_1_up_box'>
@@ -100,7 +112,7 @@ export const Pharmacymanagement = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='pahrma_boking_link'>
+            <Link to={"/pharmabookingvaccinedone"} className='pahrma_boking_link'>
             <div className='pharmacy_management_container_3_3'>
                 <div className='pharmacy_management_container_3_1_up'>
                     <div className='pharmacy_management_container_3_1_up_box'>
@@ -137,7 +149,7 @@ export const Pharmacymanagement = () => {
 
             </div>
             </Link>
-            <Link to={"/pharmabooking"} className='pahrma_boking_link'>
+            <Link to={"/pharmabookingvaccinedone"} className='pahrma_boking_link'>
             <div className='pharmacy_management_container_3_4'>
                 <div className='pharmacy_management_container_3_1_up'>
                     <div className='pharmacy_management_container_3_1_up_box'>

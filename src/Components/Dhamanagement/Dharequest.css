@@ -11,17 +11,14 @@
 /*################# HEADER DHA REQUESTS ########################*/
 
 .heading_box1 {
-    display: flex;
-    justify-content: left;
-    width: 100%;
-    height: 60px;
-    margin-top: -5px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .heading_content_box {
-    width: 800px;
-    margin-right: 120px;
-    padding-left: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .heading_content_box h2 {
@@ -30,6 +27,7 @@
     color: #1A1C1F;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .left_logo_arrow {
@@ -45,7 +43,7 @@
 .request_table {
     border-collapse: collapse;
     width: 90%;
-    margin-left: 80px;
+    margin-left: 70px;
     font-size: 0.9em;
     background-color: whitesmoke;
     border-radius: 10px;

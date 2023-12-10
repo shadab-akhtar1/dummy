@@ -41,7 +41,7 @@ export const Labmanagement = () => {
         </div>
         <div className='lab_management_container_3_all'>All</div>
         <div className='lab_management_container_3'>
-            
+            <Link to={"/labbooking"} className='labmanagement_link'>
             <div className='lab_management_container_3_1'>
                 <div className='lab_management_container_3_1_up'>
                     <div className='lab_management_container_3_1_up_box'>
@@ -80,6 +80,7 @@ export const Labmanagement = () => {
                 </div>
 
             </div>
+            </Link>
 
             <div className='lab_management_container_3_2'>
                 <div className='lab_management_container_3_1_up'>

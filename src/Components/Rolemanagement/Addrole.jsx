@@ -1,5 +1,6 @@
 import React from 'react';
 import './Addrole.css';
+import { Link } from "react-router-dom";
 
 export const Addrole = () => {
   return (
@@ -8,7 +9,9 @@ export const Addrole = () => {
         <div  className='addrole_container'>
             <div className='addrole_container_1'>
                 <div className='addrole_container_1_left'>Add Role</div>
+                <Link to={"/managerole"} className='managerole_link'>
                 <div className='addrole_container_1_right'>Manage</div>
+                </Link>
             </div>
 
             <form className='addrole_form'>

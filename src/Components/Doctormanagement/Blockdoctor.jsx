@@ -2,11 +2,13 @@ import React from 'react';
 import './Blockdoctor.css';
 import { Link } from "react-router-dom";
 import warning from "../Assets/image 228.png";
+import { RxCross2 } from "react-icons/rx";
 
 export const Blockdoctor = () => {
   return (
     <div className='hero_doctorblock'>
     <div className='adddha_success_doctorblock'>
+        <Link to={"/doctordetails"} className='cross_link'><div className='blockdoctor_cross'><RxCross2/></div></Link>
         <div className='adddha_success_box_doctorblock'>
             <div className='adddha_success_box_logo_doctorblock'>
                 <img src={warning} alt="" />

@@ -36,3 +36,22 @@
     padding: 10px;
     cursor: pointer;
 }
+
+
+/*##################### CSS FOR CALENDAR AND CLOCK ################ */
+
+.rejectpharmacyhospital_calen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #5B6572;
+}
+
+.rejectpharmacyhospital_clock {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5B6572;
+}

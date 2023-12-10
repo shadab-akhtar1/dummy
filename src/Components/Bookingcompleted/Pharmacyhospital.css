@@ -35,3 +35,22 @@
     padding: 10px;
     cursor: pointer;
 }
+
+
+/*##################### CSS FOR CALENDAR AND CLOCK ################ */
+
+.pharmacyhospital_calen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #5B6572;
+}
+
+.pharmacyhospital_clock {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5B6572;
+}

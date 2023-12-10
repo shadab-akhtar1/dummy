@@ -2,6 +2,7 @@ import React from 'react';
 import './Addsubadmin.css';
 import {FaCaretDown} from 'react-icons/fa';
 import flag from'../Assets/image 1.png';
+import { Link } from "react-router-dom";
 export const Addsubadmin = () => {
   return (
     <>
@@ -47,7 +48,9 @@ export const Addsubadmin = () => {
                 
 
             </div>
+            <Link to={"/addsubadmincomplete"} className='addsubadmin_link'>
             <button className='addsubadmin_btn'>Next</button>
+            </Link>
         </div>
         
     </div>

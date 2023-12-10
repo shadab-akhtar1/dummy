@@ -89,10 +89,17 @@
     top: 100px;
     padding: 10px;
     background: white;
-    color: #333;
 }
 
 .dropdown_item {
     padding: 10px;
     cursor: pointer;
+    color: #1A1C1F;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown_nav_link {
+    text-decoration: none;
 }

@@ -5,12 +5,13 @@ import Footers from './Footer';
 import background from "../Assets/image 219.jpg";
 import { Link } from "react-router-dom";
 import Done from "../Assets/Done.svg";
-
+import { RxCross2 } from "react-icons/rx";
 
 export const Adddhaupload = () => {
   return (
     <div className='hero'>
         <div className='adddha_success_2'>
+            <Link to={"/blockdha"} className='cross_link_blockdhasuccess'><div className='blockdhasuccess_cross'><RxCross2/></div></Link>
             <div className='adddha_success_box_2'>
                 <div className='adddha_success_box_logo_2'>
                     <img src={Done} alt="" />

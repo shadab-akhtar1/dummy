@@ -2,11 +2,13 @@ import React from 'react';
 import './Blockdoctorsuccess.css';
 import Done from "../Assets/Done.svg";
 import { Link } from "react-router-dom";
+import { RxCross2 } from "react-icons/rx";
 
 export const Blockdoctorsuccess = () => {
   return (
     <div className='hero_doctor_success'>
         <div className='adddha_doctorsuccess_2'>
+            <Link to={"/blockdoctor"} className='cross_link_blockdoctorsuccess'><div className='blockdoctorsuccess_cross'><RxCross2/></div></Link>
             <div className='adddha_doctorsuccess_box_2'>
                 <div className='adddha_doctorsuccess_box_logo_2'>
                     <img src={Done} alt="" />

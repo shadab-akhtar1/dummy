@@ -28,16 +28,13 @@ export const Doctormanagement = () => {
                 <h2><PiArrowLeftFill className="left_logo_doctor"/>Doctor Management</h2>
                 </div>
                 <div className='heading_content_doctor_2'>
-                <button className='doctor_btn_1'>
-                <Link to={"/doctorrequests"} className="Link">
-                View Requests
-              </Link></button>
-                <button className='doctor_btn_2'>
-                <Link to={"/adddoctor"} className="Link">
-                <IoMdAdd className='add_doctor_btn'/>
-                Add Doctor
-              </Link></button>
-              </div>
+                    <Link to={"/doctorrequests"} className="Link">
+                        <button className='doctor_btn_1'>View Requests</button>
+                    </Link>
+                    <Link to={"/adddoctor"} className="Link">
+                        <button className='doctor_btn_2'><IoMdAdd className='add_doctor_btn'/>Add Doctor</button>
+                    </Link>
+                </div>
             </div>
             <div className='option_doctor'>
                 <table className='dha_doctor_table'>

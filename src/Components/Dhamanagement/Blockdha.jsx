@@ -5,12 +5,14 @@ import Footers from './Footer';
 import background from "../Assets/image 219.jpg";
 import { Link } from "react-router-dom";
 import warning from "../Assets/image 228.png";
+import { RxCross2 } from "react-icons/rx";
 
 
 export const Adddhaupload = () => {
   return (
     <div className='hero_block'>
         <div className='adddha_success_block'>
+            <Link to={"/dhadetailsview"} className='cross_link_blockdha'><div className='blockdha_cross'><RxCross2/></div></Link>
             <div className='adddha_success_box_block'>
                 <div className='adddha_success_box_logo_block'>
                     <img src={warning} alt="" />

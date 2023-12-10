@@ -30,15 +30,14 @@ export const Dhamanagement = () => {
                 
                 <h2><Link to={"/successfulverify"}><PiArrowLeftFill className="left_logo"/></Link>DHA Management</h2>
                 </div>
-                <button className='management_btn_1'>
-                <Link to={"/dharequest"} className="Link">
-                DHA Request
-              </Link></button>
-                <button className='management_btn_2'>
-                <Link to={"/adddha"} className="Link">
-                    <IoMdAdd className='add_btn'/>
-                Add DHA
-              </Link></button>
+                <div className='heading_content_right'>
+                    <Link to={"/dharequest"} className="Link">
+                        <button className='management_btn_1'>DHA Request</button>
+                    </Link>
+                    <Link to={"/adddha"} className="Link">
+                        <button className='management_btn_2'><IoMdAdd className='add_btn'/>Add DHA</button>
+                    </Link>
+                </div>
             </div>
             <div className='option'>
                 <table className='dha_table'>

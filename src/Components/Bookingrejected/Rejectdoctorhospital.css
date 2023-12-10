@@ -30,3 +30,22 @@
     align-items: center;
     color: #F50202;
 }
+
+
+/*##################### CSS FOR CALENDAR AND CLOCK ################ */
+
+.rejectdoctorhospital_calen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #5B6572;
+}
+
+.rejectdoctorhospital_clock {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5B6572;
+}

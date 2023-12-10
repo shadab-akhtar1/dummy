@@ -11,6 +11,8 @@ import {PiCaretDoubleRightBold} from 'react-icons/pi';
 import { PiCaretRightBold } from "react-icons/pi";
 import { PiCaretLeftBold } from "react-icons/pi";
 import {Footer} from '../Dhamanagement/Footer';
+import { PiCalendarBlankLight } from "react-icons/pi";
+import { CiClock2 } from "react-icons/ci";
 
 export const Rejectdhahospital = () => {
     const[toggleButton,setToggleButton]=useState(false);
@@ -75,8 +77,8 @@ export const Rejectdhahospital = () => {
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'>09:00AM</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='rejectdhahospital_calen'/>13 June, 2023</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='rejectdhahospital_clock'/>09:00AM</div>
                         </div>
                     </div>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
@@ -119,8 +121,8 @@ export const Rejectdhahospital = () => {
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'>09:00AM</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='rejectdhahospital_calen'/>13 June, 2023</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='rejectdhahospital_clock'/>09:00AM</div>
                         </div>
                     </div>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
@@ -163,8 +165,8 @@ export const Rejectdhahospital = () => {
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'>09:00AM</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='rejectdhahospital_calen'/>13 June, 2023</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='rejectdhahospital_clock'/>09:00AM</div>
                         </div>
                     </div>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
@@ -207,8 +209,8 @@ export const Rejectdhahospital = () => {
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'>09:00AM</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='rejectdhahospital_calen'/>13 June, 2023</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='rejectdhahospital_clock'/>09:00AM</div>
                         </div>
                     </div>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
@@ -253,8 +255,8 @@ export const Rejectdhahospital = () => {
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'>09:00AM</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='rejectdhahospital_calen'/>13 June, 2023</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='rejectdhahospital_clock'/>09:00AM</div>
                         </div>
                     </div>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
@@ -299,8 +301,8 @@ export const Rejectdhahospital = () => {
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'>09:00AM</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='rejectdhahospital_calen'/>13 June, 2023</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='rejectdhahospital_clock'/>09:00AM</div>
                         </div>
                     </div>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
@@ -345,8 +347,8 @@ export const Rejectdhahospital = () => {
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
                         <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'>09:00AM</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='rejectdhahospital_calen'/>13 June, 2023</div>
+                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='rejectdhahospital_clock'/>09:00AM</div>
                         </div>
                     </div>
                     <div className='bookingrequest_pharmacy_management_container_3_1_up_box2'>
