@@ -61,6 +61,7 @@ import Blocklabsuccess from './Components/Labsmanagement/Blocklabsuccess.jsx';
 import Labbooking from './Components/Labsmanagement/Labbooking.jsx';
 import Labbookingstarted from './Components/Labsmanagement/Labbookingstarted.jsx';
 import Labbookingcompleted from './Components/Labsmanagement/Labbookingcompleted.jsx';
+import Labbookingdownload from './Components/Labsmanagement/Labbookingdownload.jsx';
 import Labnonurgent from './Components/Labsmanagement/Labnonurgent.jsx';
 import Labstandalone from './Components/Labsmanagement/Labstandalone.jsx';
 import Rolemanagement from './Components/Rolemanagement/Rolemanagement.jsx';
@@ -196,6 +197,7 @@ function App() {
         <Route path='/labbooking' element={<Labbooking/>}/>
         <Route path='/labbookingstarted' element={<Labbookingstarted/>}/>
         <Route path='/labbookingcompleted' element={<Labbookingcompleted/>}/>
+        <Route path='/labbookingdownload' element={<Labbookingdownload/>}/>
         <Route path='/labnonurgent' element={<Labnonurgent/>}/>
         <Route path='/labstandalone' element={<Labstandalone/>}/>
         <Route path='/rolemanagement' element={<Rolemanagement/>}/>
