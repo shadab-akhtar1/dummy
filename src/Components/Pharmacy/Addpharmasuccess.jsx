@@ -2,6 +2,7 @@ import React from 'react';
 import './Addpharmasuccess.css';
 import { Link } from "react-router-dom";
 import Done from "../Assets/Done.svg";
+import { RxCross2 } from "react-icons/rx";
 
 export const Addpharmasuccess = () => {
   return (
@@ -9,6 +10,7 @@ export const Addpharmasuccess = () => {
     <div className='pharmasuccess_hero'>
          
          <div className='pharmasuccess_adddha_success_1'>
+            <Link to={"/pharmamedicine"} className='cross_link_addpharmasuccess'><div className='addpharmasuccess_cross'><RxCross2/></div></Link>
         
              <div className='pharmasuccess_adddha_success_box_1'>
                  <div className='pharmasuccess_adddha_success_box_logo_1'>

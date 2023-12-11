@@ -2,12 +2,8 @@ import React from 'react';
 import './Bookingdhadoctorassign.css';
 import { Link } from "react-router-dom";
 import Done from "../Assets/Done.svg";
-import {Footer} from '../Dhamanagement/Footer';
-import Weblogo from "../Assets/Dooper Logo 1500x1500 2.svg";
-import {FaBell} from 'react-icons/fa';
-import {FaCaretDown} from 'react-icons/fa';
-import profile from "../Assets/Rectangle 619 (1).jpg";
-import {BsTelephone} from 'react-icons/bs';
+import { RxCross2 } from "react-icons/rx";
+
 
 export const Bookingdhadoctorassign = () => {
   return (
@@ -15,6 +11,7 @@ export const Bookingdhadoctorassign = () => {
     
     <div className='bookingdha_doctorassign'>
     <div className='bookingdha_doctorassign_blocklab_success_adddha_success_2'>
+      <Link to={"/bookingdhaassigndoctor"} className='cross_link_bookingdhadoctorassign'><div className='bookingdhadoctorassign_cross'><RxCross2/></div></Link>
             <div className='bookingdha_doctorassign_blocklab_success_adddha_success_box_2'>
                 <div className='bookingdha_doctorassign_blocklab_success_adddha_success_box_logo_2'>
                     <img src={Done} alt="" />

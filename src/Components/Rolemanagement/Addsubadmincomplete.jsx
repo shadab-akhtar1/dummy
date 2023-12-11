@@ -1,11 +1,14 @@
 import React from 'react';
 import './Addsubadmincomplete.css';
+import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 export const Addsubadmincomplete = () => {
   return (
     <>
       <div className='addsubadmincompleted'>
         <div className='addsubadmincompleted_container'>
+            <Link to={"/addsubadmin"} className='cross_link_addsubadmincomplete'><div className='addsubadmincomplete_cross'><RxCross2/></div></Link>
           <div className='addsubadmincompleted_container_1'>
                 <div className='addsubadmincompleted_container_1_left'>Add Sub Admin</div>
           </div>

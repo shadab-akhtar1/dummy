@@ -1,4 +1,4 @@
-.hero_adddoctor_main {
+.hero_adddoctor1_main {
     background-image: url('../Assets/image 219.jpg');
     height: 100vh;
     background-size: cover;
@@ -7,7 +7,7 @@
     width: 100%;
 }
 
-.adddoctor_add {
+.adddoctor1_add {
     background: #FFFFFF;
     width: 550px;
     position: absolute;
@@ -17,12 +17,12 @@
     border-radius: 16px;
 }
 
-.adddoctor_header_add {
+.adddoctor1_header_add {
     width: 496px;
     margin-left: 25px;
 }
 
-.adddoctor_header_bar_add {
+.adddoctor1_header_bar_add {
     width: 100%;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@
     position: relative;
 }
 
-.adddoctor_header_bar_1_add {
+.adddoctor1_header_bar_1_add {
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -44,7 +44,7 @@
     justify-content: center;
 }
 
-.progress_doctor {
+.progress_doctor1 {
     position: absolute;
     height: 4px;
     border-radius: 6px;
@@ -53,14 +53,14 @@
     top: 35px;
 }
 
-.indicator_doctor {
+.indicator_doctor1 {
     position: absolute;
     height: 100%;
     width: 13%;
     background-color: #E40443;
 }
 
-.adddoctor_header_bar_2_add {
+.adddoctor1_header_bar_2_add {
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -73,7 +73,7 @@
     align-items: center;
 }
 
-.adddoctor_header_bar_3_add {
+.adddoctor1_header_bar_3_add {
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -86,13 +86,13 @@
     align-items: center;
 }
 
-.adddoctor_mid_add {
+.adddoctor1_mid_add {
     width: 500px;
     margin-left: 20px;
     margin-top: -10px;
 }
 
-.adddoctor_mid_add h2 {
+.adddoctor1_mid_add h2 {
     text-align: center;
     font-size: 25px;
     font-weight: 600;
@@ -100,17 +100,17 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.adddoctor_form_add {
+.adddoctor1_form_add {
     margin-top: -15px;
 }
 
-.adddoctor_form_fill_add {
+.adddoctor1_form_fill_add {
     width: 500px;
     align-items: center;
     margin-bottom: 5px;
 }
 
-.adddoctor_form_fill_labi_add {
+.adddoctor1_form_fill_labi_add {
     width: 500px;
     height: 14px;
     padding: 0px, 3px, 0px, 3px;
@@ -120,7 +120,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.adddoctor_form_fill_inp_add {
+.adddoctor1_form_fill_inp_add {
     width: 500px;
     height: 40px;
     border-radius: 8px;
@@ -129,7 +129,7 @@
     margin-bottom: 2px;
 }
 
-.adddoctor_btn_add {
+.adddoctor1_btn_add {
     width: 500px;
     height: 40px;
     border-radius: 8px;

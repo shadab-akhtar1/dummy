@@ -68,10 +68,10 @@
 
 .request_table td {
     padding: 10px 12px;
-    font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+    color: #1A1C1F;
 }
 
 .request_table tbody tr {

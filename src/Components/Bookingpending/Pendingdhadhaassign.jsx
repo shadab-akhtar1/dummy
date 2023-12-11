@@ -2,12 +2,14 @@ import React from 'react';
 import './Pendingdhadhaassign.css';
 import { Link } from "react-router-dom";
 import Done from "../Assets/Done.svg";
+import { RxCross2 } from "react-icons/rx";
 
 export const Pendingdhadhaassign = () => {
   return (
     <>
     <div className='pending_dha_assign_bookingdha_doctorassign'>
     <div className='pending_dha_assign_bookingdha_doctorassign_blocklab_success_adddha_success_2'>
+        <Link to={"/pendingdhaassigndha"} className='cross_link_pendingdhadhaassign'><div className='pendingdhadhaassign_cross'><RxCross2/></div></Link>
             <div className='pending_dha_assign_bookingdha_doctorassign_blocklab_success_adddha_success_box_2'>
                 <div className='pending_dha_assign_bookingdha_doctorassign_blocklab_success_adddha_success_box_logo_2'>
                     <img src={Done} alt="" />

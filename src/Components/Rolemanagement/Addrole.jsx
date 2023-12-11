@@ -1,12 +1,14 @@
 import React from 'react';
 import './Addrole.css';
 import { Link } from "react-router-dom";
+import { RxCross2 } from "react-icons/rx";
 
 export const Addrole = () => {
   return (
     <>
     <div className='addrole'>
         <div  className='addrole_container'>
+            <Link to={"/rolemanagement"} className='cross_link_addrole'><div className='addrole_cross'><RxCross2/></div></Link>
             <div className='addrole_container_1'>
                 <div className='addrole_container_1_left'>Add Role</div>
                 <Link to={"/managerole"} className='managerole_link'>
@@ -68,7 +70,9 @@ export const Addrole = () => {
                     </div>
 
                 </div>
+                <Link to={"/"} className='addrole_link'>
                 <button className='addrole_btn'>Add Role</button>
+                </Link>
                 
 
             </form>

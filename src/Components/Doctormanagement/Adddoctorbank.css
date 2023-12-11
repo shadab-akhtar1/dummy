@@ -35,14 +35,15 @@
 .progress_bar_doctorbank {
     position: absolute;
     height: 4px;
-    width: 100%;
+    width: 496;
     background: #EEF0F3;
+    top: 35px;
 }
 
 .indicator_bar_doctorbank {
     position: absolute;
     height: 100%;
-    width: 62%;
+    width: 496px;
     background-color: #E40443;
 }
 
@@ -52,7 +53,7 @@
     border-radius: 50%;
     background-color: #E40443;
     color: white;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -65,7 +66,7 @@
     border-radius: 50%;
     background-color: #E40443;
     color: white;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -144,16 +145,34 @@
     height: 88px;
     width: 500px;
     border-radius: 8px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 200px;
-    padding-right: 200px;
     position: relative;
     border: 1px solid #EEF0F3;
     color: #5B6572;
     font-size: 14px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.adddoctorbank_file_up_bank i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.adddoctorbank_file_up_bank p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #5B6572;
+    margin-top: -5px;
 }
 
 .adddoctorbank_form_fill_bank_div {

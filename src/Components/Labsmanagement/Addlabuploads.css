@@ -38,7 +38,7 @@
     border-radius: 50%;
     background-color: #E40443;
     color: white;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -48,8 +48,9 @@
 .labuploads_pharmaupload_progress_bar {
     position: absolute;
     height: 4px;
-    width: 100%;
+    width: 496px;
     background: #EEF0F3;
+    top: 35px;
 }
 
 .labuploads_pharmaupload_indicator_bar {
@@ -63,7 +64,7 @@
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    color: black;
+    color: white;
     background-color: #E40443;
     font-size: 10px;
     font-weight: 600;
@@ -101,7 +102,7 @@
 .labuploads_pharmaupload_adddha_form_fill {
     width: 500px;
     align-items: center;
-    height: 110px;
+    margin-top: 10px;
 }
 
 .labuploads_pharmaupload_adddha_form_fill_labi {
@@ -133,7 +134,7 @@
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     border: none;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .labuploads_pharmaupload_adddha_form_fill_inp_3 {
@@ -144,16 +145,34 @@
     height: 88px;
     width: 500px;
     border-radius: 8px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 200px;
-    padding-right: 200px;
     position: relative;
     border: 1px solid #EEF0F3;
     color: #5B6572;
     font-size: 14px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.labuploads_pharmaupload_adddha_file_up i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.labuploads_pharmaupload_adddha_file_up p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #5B6572;
+    margin-top: -5px;
 }
 
 .labuploads_pharmaupload_adddha_form_fill_div {

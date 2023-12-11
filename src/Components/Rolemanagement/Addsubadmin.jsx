@@ -3,11 +3,13 @@ import './Addsubadmin.css';
 import {FaCaretDown} from 'react-icons/fa';
 import flag from'../Assets/image 1.png';
 import { Link } from "react-router-dom";
+import { RxCross2 } from "react-icons/rx";
 export const Addsubadmin = () => {
   return (
     <>
     <div className='addsubadmin'>
         <div className='addsubadmin_container'>
+            <Link to={"/rolemanagement"} className='cross_link_addsubadmin'><div className='addsubadmin_cross'><RxCross2/></div></Link>
             <div className='addsubadmin_container_1'>
                 <div className='addsubadmin_container_1_left'>Add Sub Admin</div>
             </div>

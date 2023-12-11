@@ -2,6 +2,7 @@ import React from 'react';
 import './Addlabsuccess.css';
 import { Link } from "react-router-dom";
 import Done from "../Assets/Done.svg";
+import { RxCross2 } from "react-icons/rx";
 
 export const Addlabsuccess = () => {
   return (
@@ -9,6 +10,7 @@ export const Addlabsuccess = () => {
     <div className='labsuccess_pharmasuccess_hero'>
          
          <div className='labsuccess_pharmasuccess_adddha_success_1'>
+            <Link to={"/labmanagement"} className='cross_link_addlabsuccess'><div className='addlabsuccess_cross'><RxCross2/></div></Link>
         
              <div className='labsuccess_pharmasuccess_adddha_success_box_1'>
                  <div className='labsuccess_pharmasuccess_adddha_success_box_logo_1'>
@@ -22,9 +24,11 @@ Your profile is under review, We will inform you once your account is approved</
                      
  
                  </div>
+                 <div className='labsuccess_btn'>
                     <Link to={"/labmanagement"}>
                  <button className='labsuccess_pharmasuccess_adddha_success_box_btn_1'>Continue</button>
                  </Link>
+                 </div>
  
              </div>
              
