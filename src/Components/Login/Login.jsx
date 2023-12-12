@@ -2,6 +2,8 @@ import React from 'react';
 import './Login.css';
 import UserLogo from "../Assets/Rectangle 618.svg";
 import Weblogo from "../Assets/Dooper Logo 1500x1500 2.svg";
+import {FaCaretDown} from 'react-icons/fa';
+import flag from'../Assets/image 1.png';
 
 import { Link } from "react-router-dom";
 
@@ -51,7 +53,14 @@ export const Login = () => {
 
           <form className="loginform">
             <label for="number">Phone Number</label>
-            <input type="number" placeholder="Enter your phone number" />
+            
+            <div className='login_container_3_input'>
+              <div className='login_container_3_image_div'>
+                        <img src={flag} alt="" />
+                        < FaCaretDown className='login_container_3_dropdown'/>
+                    </div>
+                <input type="text" name="" id="" placeholder='Enter phone number' className='login_container_inp'/>
+            </div>
             <Link to={"/verification"} className="login_Link">
               <button className="otp_btn_login">Send OTP</button>
             </Link>

@@ -9,7 +9,6 @@
 .left_side_verify {
     background-color: #B60336;
     border-radius: 16px;
-    height: 684px;
     width: 450px;
     color: #fff;
     display: flex;
@@ -17,8 +16,8 @@
     justify-content: space-between;
     padding-right: 44px;
     padding-left: 2px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 20px;
 }
 
@@ -149,6 +148,8 @@
     border-radius: 8px;
     text-decoration: none;
     border: 1px solid #E3E6E8;
+    text-align: center;
+    font-size: 18px;
     color: linear-gradient(0deg, #E3E6E8, #E3E6E8), linear-gradient(0deg, #FFFFFF, #FFFFFF);
 }
 
