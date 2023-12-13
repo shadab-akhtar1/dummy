@@ -47,8 +47,9 @@
     position: absolute;
     height: 4px;
     border-radius: 6px;
-    width: 100%;
+    width: 496px;
     background: #EEF0F3;
+    top: 35px;
 }
 
 .addpharma_indicator {
@@ -139,4 +140,62 @@
     margin-top: 20px;
     margin-bottom: 20px;
     border: none;
+}
+
+.adddhapharmacy_form_fill {
+    width: 500px;
+    align-items: center;
+    height: 150px;
+}
+
+.adddhapharmacy_form_fill_labi {
+    width: 500px;
+    height: 14px;
+    padding: 0px, 3px, 0px, 3px;
+    color: #8D98A4;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.adddhapharmacy_form_fill_inp_3 {
+    display: none;
+}
+
+.adddhapharmacy_file_up {
+    height: 88px;
+    width: 500px;
+    border-radius: 8px;
+    position: relative;
+    border: 1px solid #EEF0F3;
+    color: #5B6572;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.adddhapharmacy_file_up i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.adddhapharmacy_file_up p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #5B6572;
+    margin-top: -5px;
+}
+
+.adddhapharmacy_form_fill_div {
+    margin-bottom: 5px;
 }

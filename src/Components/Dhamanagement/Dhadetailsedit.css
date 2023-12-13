@@ -9,7 +9,6 @@
 }
 
 .middle_edit_heading {
-    width: 1200px;
     padding-left: 70px;
     padding-top: 1px;
 }
@@ -17,15 +16,17 @@
 .middle_edit_heading h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    font-size: 22px;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .middle_edit_heading2 {
     display: flex;
     justify-content: flex-start;
     padding-left: 80px;
-    margin-top: -20px;
+    margin-top: -10px;
     border-bottom: 1px solid #E1E5E8;
 }
 
@@ -39,7 +40,7 @@
 .middle_edit_heading2_basic {
     margin-top: 20px;
     margin-right: 20px;
-    border-bottom: 1px solid #E40443;
+    border-bottom: 2px solid #E40443;
     color: #1A1C1F;
     font-size: 16px;
     font-weight: 500;
@@ -74,7 +75,6 @@
 }
 
 .middle_userprofile {
-    width: 1200px;
     padding-left: 70px;
     padding-top: 1px;
     margin-top: 10px;
@@ -88,7 +88,6 @@
 }
 
 .middle_userprofile_box_2 {
-    width: 430px;
     gap: 24px;
 }
 
@@ -148,16 +147,20 @@
 
 .userprofile_form {
     margin-top: 5px;
-    width: 430px;
+}
+
+.userprofile_form_input_basic {
+    margin-bottom: 10px;
+    display: grid;
+    align-items: center;
 }
 
 .form_data {
-    width: 100%;
     color: linear-gradient(0deg, #EEF0F3, #EEF0F3), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     border: 1px solid #EEF0F3;
     border-radius: 6px;
     height: 40px;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: flex-start;
@@ -188,5 +191,6 @@
     font-size: 12px;
     font-weight: 500;
     color: #8D98A4;
+    margin-bottom: 5px;
     font-family: 'Montserrat', sans-serif;
 }

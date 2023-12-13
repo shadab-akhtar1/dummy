@@ -1,12 +1,15 @@
 import React from 'react';
 import './Editpermision.css';
 import profile_logo from '../Assets/Ellipse 2.svg';
+import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 export const Editpermision = () => {
   return (
     <>
     <div className='editpermision'>
       <div className='editpermision_container'>
+      <Link to={"/rolemanagement"} className='cross_link_editpermision'><div className='editpermision_cross'><RxCross2/></div></Link>
             <div className='editpermision_container_1'>
                 <div className='editpermision_container_1_left'>Edit Permision</div>
             </div>

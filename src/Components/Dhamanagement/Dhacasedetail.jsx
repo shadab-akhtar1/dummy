@@ -15,29 +15,14 @@ import { PiCalendarBlankLight } from "react-icons/pi";
 import { CiClock2 } from "react-icons/ci";
 import { MdCall } from "react-icons/md";
 import vid from "../Assets/Frame 12431.jpg";
+import {Navbars} from '../Dhamanagement/Navbars';
+import { IoCheckmark } from "react-icons/io5";
 
 export const Dhacasedetail = () => {
   return (
     <>
     
-<nav className='navbar_dhacase'>
-        <div className='navbar_logo_dhacase'>
-        <img src={Weblogo} alt="logo_dhacase" />
-        </div>
-
-        <ul className='nav_links_dhacase'>
-            <li className='list_item_dhacase'>Dooper At Home</li>
-            <li className='list_item_dhacase'>Lab Tesst </li>
-            <li className='list_item_dhacase'>Our Network < FaCaretDown/></li>
-            <li className='list_item_dhacase'>About Us</li>
-            <li className='list_item_dhacase'>Contact Us</li>
-            <li className='list_item_dhacase'>Join Us With <FaCaretDown/></li>
-            <li className='list_item_1_dhacase'><img src={profile} alt="" className='jay_profile'/>Jaydeep Sakhiya <FaCaretDown/></li>
-            <li className='list_item_1_dhacase'><FaBell className='icons_bell_dhacase'/></li>
-            <li className='list_item_1_dhacase_2'>< BsTelephone className='phone_icon_dhacase'/></li>
-        </ul>
-
-    </nav>
+    <div><Navbars/></div>
 
     <div className='middle_container_dha_case_details'>
       <div className='middle_container_heading_dha_case_details'>
@@ -196,9 +181,16 @@ export const Dhacasedetail = () => {
 
                     <div className='dha_case_detail_box'>
                         <div className='dha_case_detail_box_1'>
+                            <div className='dha_case_detail_box1_up'>
+                                
+                                    <span className='dha_case_detail_indicator'></span>
+                            
+                            </div>
+                            <div className='dha_case_detail_header_add'>
                             <div className='dha_case_detail_container'></div>
-                            <div className='dha_case_detail_container'></div>
-                            <div className='dha_case_detail_container'></div>
+                            <div className='dha_case_detail_container_1'></div>
+                            <div className='dha_case_detail_container_2'></div>
+                            </div>
                         </div>
                         <div className='dha_case_detail_box2'>
                             <div className='dha_case_detail_box2_1'>
@@ -221,6 +213,8 @@ export const Dhacasedetail = () => {
                             </div>
                         </div>
                     </div>
+
+                    
                 </div>
 
             </div>

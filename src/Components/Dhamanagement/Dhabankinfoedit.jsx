@@ -27,20 +27,20 @@ export const Dhabankinfoedit = () => {
                     
                     <form action="" className='bankinfo_userprofile_form'>
                         <div className='userprofile_form_input'>
-                            <label className='bankinfo_form_label'>Bank Name</label><br />
+                            <label className='bankinfo_form_label'>Bank Name</label>
                             <input type="text" className='bankinfo_form_data' placeholder='Central Bank'/>
                         </div>
                         <div className='userprofile_form_input'>
-                            <label className='bankinfo_form_label' >Account Number</label><br />
+                            <label className='bankinfo_form_label' >Account Number</label>
                             <input type="text" className='bankinfo_form_data' placeholder='1234567890'/>
                         </div>
                         <div className='userprofile_form_input'>
-                            <label className='bankinfo_form_label'>IFSC Code</label><br />
+                            <label className='bankinfo_form_label'>IFSC Code</label>
                             <input type="text" className='bankinfo_form_data' placeholder='CBINO4545'/>
                         </div>
                         <div className='userprofile_form_input'>
         
-                            <label className='document_form_label'>Upload bank statement/cancel cheque</label> <br /> <br />
+                            <label className='document_form_label'>Upload bank statement/cancel cheque</label> 
                             <input type="file" id='document_form' className='document_bankinfo_form_1'/>
                             <label for="document_form" className='document_bankinfo_form_2'>
                             <i className='bankinfo_attach_file'><FaRegPenToSquare/></i>

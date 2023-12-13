@@ -53,7 +53,7 @@
     border-radius: 50%;
     background: #E40443;
     color: white;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -77,14 +77,16 @@
     position: absolute;
     height: 4px;
     border-radius: 6px;
-    width: 100%;
+    width: 500px;
     background: #EEF0F3;
+    top: 90px;
+    margin-left: 40px;
 }
 
 .addsubadmincompleted_container_2_indicator {
     position: absolute;
     height: 100%;
-    width: 100%;
+    width: 500px;
     background-color: #E40443;
 }
 
@@ -141,4 +143,26 @@
     margin-left: 190px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.addsubadmincomplete_cross {
+    cursor: pointer;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    box-shadow: 0px 2px 4px 0px #A5A3AE4D;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+    color: #939191;
+}
+
+.cross_link_addsubadmincomplete {
+    color: #939191;
+    text-decoration: none;
 }

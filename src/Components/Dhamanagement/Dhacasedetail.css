@@ -1,100 +1,3 @@
-/*############## Navbar Start ##################*/
-
-.navbar_dhacase {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 120px;
-    padding: 40px, 120px, 40px, 120px;
-    border: 0px, 0px, 1px, 0px;
-    gap: 8px;
-    background-color: white;
-    border-bottom: 1px solid #E3E6E8;
-}
-
-.nav_links_dhacase {
-    display: flex;
-    justify-content: flex-end;
-    padding-left: 10px;
-    margin-right: 50px;
-}
-
-.list_item_dhacase {
-    margin-left: 5px;
-    padding-right: 20px;
-    margin-top: 10px;
-    text-decoration: none;
-    list-style: none;
-    color: #8D98A4;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.list_item_1_dhacase {
-    margin-right: 10px;
-    padding: 5px;
-    text-decoration: none;
-    list-style: none;
-    background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(0deg, #F5F6F7, #F5F6F7);
-    border: 1px solid #F5F6F7;
-    border-radius: 8px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.navbar_logo_dhacase {
-    margin-left: 70px;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    height: 25px;
-    width: 100px;
-}
-
-.icons_bell_dhacase {
-    color: #8D98A4;
-    width: 20px;
-    height: 20px;
-}
-
-.phone_icon_dhacase {
-    color: white;
-    width: 20px;
-    height: 20px;
-}
-
-.list_item_1_dhacase_2 {
-    background-color: #E40443;
-    border-radius: 8px;
-    margin-right: 15px;
-    width: 25px;
-    height: 25px;
-    padding: 5px;
-    text-decoration: none;
-    list-style: none;
-    border: 1px solid #F5F6F7;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.jay_profile {
-    padding-right: 3px;
-}
-
-
-/*################## Navbar End ###################*/
-
-
 /*################## Mid Section Start###############*/
 
 .middle_container_dha_case_details {
@@ -266,10 +169,12 @@
     font-family: 'Montserrat', sans-serif;
     color: #040404;
     text-align: center;
-    padding-top: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dha_case_detail_symptom_right button {
@@ -286,7 +191,6 @@
 }
 
 .dha_case_detail_complet {
-    border-bottom: 1px solid #EEF0F3;
     height: 70px;
     width: 100%;
 }
@@ -640,11 +544,54 @@
     border-radius: 40px;
     padding: 12px;
     gap: 8px;
-    margin-top: 15px;
+    position: absolute;
+}
+
+.dha_case_detail_container_1 {
+    width: 10px;
+    height: 10px;
+    background: #E40443;
+    border-radius: 40px;
+    padding: 12px;
+    gap: 8px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.dha_case_detail_container_2 {
+    width: 10px;
+    height: 10px;
+    background: #E40443;
+    border-radius: 40px;
+    padding: 12px;
+    gap: 8px;
+    position: absolute;
+    margin-top: 100px;
 }
 
 .dha_case_detail_box {
-    display: flex;
-    justify-content: flex-start;
     margin-left: 20px;
+}
+
+.dha_case_detail_box_1 {
+    position: relative;
+}
+
+.dha_case_detail_box2 {}
+
+.dha_case_detail_box1_up {
+    position: absolute;
+    height: 130px;
+    border-radius: 6px;
+    width: 3px;
+    border-left: 2px dashed #EEF0F3;
+    left: 16px;
+}
+
+.dha_case_detail_indicator {
+    position: absolute;
+    width: 100%;
+    height: 13%;
+    height: 50px;
+    border-left: 2px dashed #E40443;
 }

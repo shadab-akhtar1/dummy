@@ -1,20 +1,26 @@
 import React from 'react';
 import './Addsubadmincomplete.css';
+import { IoCheckmark } from "react-icons/io5";
+import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-router-dom";
+
 
 export const Addsubadmincomplete = () => {
   return (
     <>
       <div className='addsubadmincompleted'>
         <div className='addsubadmincompleted_container'>
+        <Link to={"/addsubadmin"} className='cross_link_addsubadmincomplete'><div className='addsubadmincomplete_cross'><RxCross2/></div></Link>
           <div className='addsubadmincompleted_container_1'>
                 <div className='addsubadmincompleted_container_1_left'>Add Sub Admin</div>
           </div>
-          <div className='addsubadmincompleted_container_2'>
-                <span className='addsubadmincompleted_container_2_1'>01</span>
-                <span className='addsubadmincompleted_container_2_2'>02</span>
                 <div className='addsubadmincompleted_container_2_progress'> 
                     <span className='addsubadmincompleted_container_2_indicator'></span>
                 </div>
+          <div className='addsubadmincompleted_container_2'>
+                <span className='addsubadmincompleted_container_2_1'><IoCheckmark/></span>
+                <span className='addsubadmincompleted_container_2_2'>02</span>
+                
 
             </div>
             <form action="" className='addsubadmincompleted_form'>

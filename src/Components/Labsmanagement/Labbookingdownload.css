@@ -1,0 +1,14 @@
+/* ################ CSS FILE IN Labbookingdownload.css ######################## */
+
+.completedlab_pharmabookingdone_btn_feedback_downloaad {
+    background: #E40443;
+    width: 200px;
+    height: 36px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}

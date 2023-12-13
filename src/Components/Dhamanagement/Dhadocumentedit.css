@@ -10,28 +10,33 @@
 }
 
 .middle_document_heading {
-    width: 1200px;
-    padding-left: 80px;
+    padding-left: 70px;
     padding-top: 1px;
 }
 
 .middle_document_heading h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    font-size: 22px;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .middle_document_heading2 {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     padding-left: 80px;
-    margin-top: -20px;
+    margin-top: -10px;
     border-bottom: 1px solid #E1E5E8;
 }
 
 .arrow_document {
     padding-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .document_link_head {
@@ -58,7 +63,7 @@
     color: #1A1C1F;
     font-size: 16px;
     font-weight: 500;
-    border-bottom: 1px solid #E40443;
+    border-bottom: 2px solid #E40443;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -72,7 +77,6 @@
 }
 
 .middle_document_userprofile {
-    width: 1200px;
     padding-left: 70px;
     padding-top: 1px;
     margin-top: 10px;
@@ -86,17 +90,18 @@
 }
 
 .middle_document_userprofile_box_2 {
-    width: 430px;
     gap: 24px;
 }
 
 .document_userprofile_form {
     margin-top: 5px;
-    width: 430px;
 }
 
 .document_userprofile_form_input {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .document_form_data {
@@ -118,12 +123,14 @@
     margin-top: 20px;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
 }
 
 .document_form_label {
     font-size: 12px;
     font-weight: 500;
     color: #8D98A4;
+    margin-bottom: 5px;
     font-family: 'Montserrat', sans-serif;
 }
 

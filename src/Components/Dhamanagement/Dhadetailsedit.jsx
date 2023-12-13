@@ -38,25 +38,25 @@ export const Dhadetailsedit = () => {
                         </div>
                     </div>
                     <form action="" className='userprofile_form'>
-                        <div className='userprofile_form_input'>
-                            <label className='form_label'>Full Name</label><br />
+                        <div className='userprofile_form_input_basic'>
+                            <label className='form_label'>Full Name</label>
                             <input type="text" className='form_data' placeholder='Jaydip Sakhiya'/>
                         
                         </div>
-                        <div className='userprofile_form_input'>
-                            <label className='form_label' >Mobile No.</label><br />
+                        <div className='userprofile_form_input_basic'>
+                            <label className='form_label' >Mobile No.</label>
                             <input type="text" className='form_data' placeholder='+91 | 9876543210'/>
                         </div>
-                        <div className='userprofile_form_input'>
-                            <label className='form_label'>Gender</label><br />
+                        <div className='userprofile_form_input_basic'>
+                            <label className='form_label'>Gender</label>
                             <input type="text" className='form_data' placeholder='Male'/>
                         </div>
-                        <div className='userprofile_form_input'>
-                            <label className='form_label'>Qualification</label><br />
+                        <div className='userprofile_form_input_basic'>
+                            <label className='form_label'>Qualification</label>
                             <input type="text" className='form_data' placeholder='MBBS'/>
                         </div>
-                        <div className='userprofile_form_input'>
-                            <label className='form_label'>Pharmacy Address</label><br />
+                        <div className='userprofile_form_input_basic'>
+                            <label className='form_label'>Pharmacy Address</label>
                             <input type="text" className='form_data'placeholder='121'/>
                             <input type="text" className='form_data' placeholder='Some Society, nr. Some School'/>
                             <input type="text" className='form_data' placeholder='Surat'/>

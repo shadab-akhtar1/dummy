@@ -2,12 +2,15 @@ import React from 'react';
 import './Managerole.css';
 import { RiPencilFill } from "react-icons/ri";
 import { RiDeleteBin5Fill } from "react-icons/ri";
+import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 export const Managerole = () => {
   return (
     <>
     <div className='manage_role'>
         <div className='manage_role_container'>
+                <Link to={"/addrole"} className='cross_link_managerole'><div className='managerole_cross'><RxCross2/></div></Link>
             <div className='manage_role_container_1'>
                 <div className='manage_role_container_1_left'>Manage Role</div>
             </div>

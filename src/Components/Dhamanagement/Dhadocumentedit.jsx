@@ -28,7 +28,7 @@ export const Dhadocumentedit = () => {
                     <form action="" className='document_userprofile_form'>
 
                     <div className='document_userprofile_form_input'>
-                            <label className='document_form_label'>Aadhar Card</label> <br /><br />
+                            <label className='document_form_label'>Aadhar Card</label> 
                             <input type="file" id='document_form' className='document_form_1'placeholder='aadhar.jpg'/>
                             <label for="document_form" className='document_form_2'>
                             <i className='attach_file'><FaRegPenToSquare/></i>
@@ -36,7 +36,7 @@ export const Dhadocumentedit = () => {
                         </div>
 
                         <div className='document_userprofile_form_input'>
-                            <label className='document_form_label'>Pan Card</label> <br /><br />
+                            <label className='document_form_label'>Pan Card</label> 
                             <input type="file" id='document_form' className='document_form_1'/>
                             <label for="document_form" className='document_form_2'>
                             <i className='attach_file'><FaRegPenToSquare/></i>
@@ -46,7 +46,7 @@ export const Dhadocumentedit = () => {
                         
                         
                         <div className='document_userprofile_form_input'>
-                            <label className='document_form_label'>Medical Counsel Certificate</label> <br /><br />
+                            <label className='document_form_label'>Medical Counsel Certificate</label> 
                             <input type="file" id='document_form' className='document_form_1'/>
                             <label for="document_form" className='document_form_2'>
                             <i className='attach_file'><FaRegPenToSquare/></i>

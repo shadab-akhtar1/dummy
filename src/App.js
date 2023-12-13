@@ -24,6 +24,7 @@ import Doctorbank from './Components/Doctormanagement/Doctorbank.jsx';
 import Adddoctor from './Components/Doctormanagement/Adddoctor.jsx';
 import Adddoctorupload from './Components/Doctormanagement/Adddoctorupload.jsx';
 import Adddoctorbank from './Components/Doctormanagement/Adddoctorbank.jsx';
+import Adddoctor1 from './Components/Doctormanagement/Adddoctor1.jsx';
 import Adddoctorsuccess from './Components/Doctormanagement/Adddoctorsuccess.jsx';
 import Doctorcasedetail from './Components/Doctormanagement/Doctorcasedetail.jsx';
 import Dhacasedetail from './Components/Dhamanagement/Dhacasedetail.jsx';
@@ -61,6 +62,7 @@ import Blocklabsuccess from './Components/Labsmanagement/Blocklabsuccess.jsx';
 import Labbooking from './Components/Labsmanagement/Labbooking.jsx';
 import Labbookingstarted from './Components/Labsmanagement/Labbookingstarted.jsx';
 import Labbookingcompleted from './Components/Labsmanagement/Labbookingcompleted.jsx';
+import Labbookingdownload from './Components/Labsmanagement/Labbookingdownload.jsx';
 import Labnonurgent from './Components/Labsmanagement/Labnonurgent.jsx';
 import Labstandalone from './Components/Labsmanagement/Labstandalone.jsx';
 import Rolemanagement from './Components/Rolemanagement/Rolemanagement.jsx';
@@ -157,6 +159,7 @@ function App() {
          <Route path='/doctordocument' element={<Doctordocument/>}/>
          <Route path='/doctorbank' element={<Doctorbank/>}/>
          <Route path='/adddoctor' element={<Adddoctor/>}/>
+         <Route path='/adddoctor1' element={<Adddoctor1/>}/>
          <Route path='/adddoctorupload' element={<Adddoctorupload/>}/>
          <Route path='/adddoctorbank' element={<Adddoctorbank/>}/>
          <Route path='/adddoctorsuccess' element={<Adddoctorsuccess/>}/>
@@ -196,6 +199,7 @@ function App() {
         <Route path='/labbooking' element={<Labbooking/>}/>
         <Route path='/labbookingstarted' element={<Labbookingstarted/>}/>
         <Route path='/labbookingcompleted' element={<Labbookingcompleted/>}/>
+        <Route path='/labbookingdownload' element={<Labbookingdownload/>}/>
         <Route path='/labnonurgent' element={<Labnonurgent/>}/>
         <Route path='/labstandalone' element={<Labstandalone/>}/>
         <Route path='/rolemanagement' element={<Rolemanagement/>}/>

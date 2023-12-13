@@ -47,8 +47,9 @@
     position: absolute;
     height: 4px;
     border-radius: 6px;
-    width: 100%;
+    width: 496px;
     background: #EEF0F3;
+    top: 35px;
 }
 
 .indicator {
