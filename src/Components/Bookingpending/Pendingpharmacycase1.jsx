@@ -35,7 +35,7 @@ export const Pendingpharmacycase1 = () => {
       <div className='pharmacycase1bookingcase_middle_container_heading_dha_case_details'>
         <div className='pharmacycase1bookingcase_middle_container_heading_1_dha_case_details'>
             <Link to={"/pendingpharmacy"} className='pendingpharmacycase1_link'>
-            <div className='arr_div'>< PiArrowLeftFill className='pharmacycase1bookingcase_details_arrow_case_dha'/></div>
+            <div className='pharmacycase1bookingcase_arr_div'>< PiArrowLeftFill className='pharmacycase1bookingcase_details_arrow_case_dha'/></div>
             </Link>
           <h2># 123456</h2>
         </div>

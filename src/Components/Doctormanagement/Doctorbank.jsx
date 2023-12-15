@@ -26,22 +26,22 @@ export const Doctorbank = () => {
                     
                     <form action="" className='doctor_bankinfo_userprofile_form'>
                         <div className='doctor_userprofile_form_input'>
-                            <label className='doctor_bankinfo_form_label'>Bank Name</label><br />
+                            <label className='doctor_bankinfo_form_label'>Bank Name</label>
                             <input type="text" className='doctor_bankinfo_form_data'/>
                         </div>
-                        <div className='userprofile_form_input'>
-                            <label className='doctor_bankinfo_form_label' >Account Number</label><br />
+                        <div className='doctor_userprofile_form_input'>
+                            <label className='doctor_bankinfo_form_label' >Account Number</label>
                             <input type="text" className='doctor_bankinfo_form_data'/>
                         </div>
-                        <div className='userprofile_form_input'>
-                            <label className='doctor_bankinfo_form_label'>IFSC Code</label><br />
+                        <div className='doctor_userprofile_form_input'>
+                            <label className='doctor_bankinfo_form_label'>IFSC Code</label>
                             <input type="text" className='doctor_bankinfo_form_data'/>
                         </div>
                         
                         <div className='adddoctor_bank_form_fill'>
-                    <div className='adddoctor_bank_form_fill_div'><label className='adddoctor_bank_form_fill_labi'>Lab RMC Medical Counsel Certificate</label></div><br />
+                    <div className='adddoctor_bank_form_fill_div'><label className='adddoctor_bank_form_fill_labi'>Lab RMC Medical Counsel Certificate</label></div>
                     <input type="file" id="adddoctor_bank_file"className='adddoctor_bank_form_fill_inp_3' />
-                    <label for="adddoctor_bank_file" className='adddoctor_bank_file_up'><i className='adddoctor_bank_icon_i'><RiUploadCloudLine/></i>Upload File</label>
+                    <label for="adddoctor_bank_file" className='adddoctor_bank_file_up'><i className='adddoctor_bank_icon_i'><RiUploadCloudLine/></i><p>Upload</p></label>
                 </div>
                         
                     </form>

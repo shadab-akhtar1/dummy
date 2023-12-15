@@ -13,11 +13,7 @@ import { LuEye } from "react-icons/lu";
 import { AiOutlineEdit } from "react-icons/ai";
 import { MdBlockFlipped } from "react-icons/md";
 import prof from '../Assets/Ellipse 187.jpg';
-import prof2 from '../Assets/Ellipse 187 (1).jpg';
-import prof3 from '../Assets/Ellipse 187 (2).jpg';
-import prof4 from '../Assets/Ellipse 187 (3).jpg';
-import prof5 from '../Assets/Ellipse 187 (4).jpg';
-import prof6 from '../Assets/Ellipse 187 (5).jpg';
+
 export const Rolemanagement = () => {
   return (
     <>
@@ -32,7 +28,7 @@ export const Rolemanagement = () => {
                 <Link to={"/addsubadmin"} className="link_role">
                 <button className='doctor_btn_1_role'>
                 <IoMdAdd className='add_doctor_btn_role'/>
-                Add Front Desk
+                Add Sub Admin
               </button></Link>
               <Link to={"/addrole"} className="link_role">
                 <button className='doctor_btn_2_role'>
@@ -61,7 +57,9 @@ export const Rolemanagement = () => {
                             <td>Booking Manager</td>
                             <td className='role_td'><div className='role_management_all_icon'>
                                 <div className='role_management_1_icon'><LuEye/></div>
+                                <Link to={"/editpermision"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_2_icon'><AiOutlineEdit/></div>
+                                </Link>
                                 <div className='role_management_3_icon'>< MdBlockFlipped/></div>
                             </div></td>
                             

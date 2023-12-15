@@ -29,7 +29,11 @@ export const Dhadetailsedit = () => {
                         <img src={userprofile} alt="userprofile" />
                         <div className='userprofile_box'>
                             <ul>
-                                <li><button className='upload_btn'>Upload New Photo</button></li>
+                                <li><div className='userprofile_box_upload'>
+                                    <input type="file" id='Upload' hidden/>
+                                <label htmlFor="Upload" className='upload_btn'>Upload New Photo</label>
+                                </div>
+                                </li>
                                 <li><button className='reset_btn'>Reset</button></li>
                             </ul>
                             <ul>

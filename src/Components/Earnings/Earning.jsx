@@ -15,28 +15,12 @@ import { PiCaretRightBold } from "react-icons/pi";
 import { PiCaretLeftBold } from "react-icons/pi";
 import {PiCaretDoubleLeftBold} from 'react-icons/pi';
 import {PiCaretDoubleRightBold} from 'react-icons/pi';
+import {Navbars} from '../Dhamanagement/Navbars';
 
 export const Earning = () => {
   return (
     <>
-    <nav className='earning_pharmabooking_navbar_doctorcase'>
-        <div className='earning_pharmabooking_navbar_logo_doctorcase'>
-        <img src={Weblogo} alt="logo_doctorcase" />
-        </div>
-
-        <ul className='earning_pharmabooking_nav_links_doctorcase'>
-            <li className='earning_pharmabooking_list_item_doctorcase'>Dooper At Home</li>
-            <li className='earning_pharmabooking_list_item_doctorcase'>Lab Tesst </li>
-            <li className='earning_pharmabooking_list_item_doctorcase'>Our Network < FaCaretDown/></li>
-            <li className='earning_pharmabooking_list_item_doctorcase'>About Us</li>
-            <li className='earning_pharmabooking_list_item_doctorcase'>Contact Us</li>
-            <li className='earning_pharmabooking_list_item_doctorcase'>Join Us With <FaCaretDown/></li>
-            <li className='earning_pharmabooking_list_item_1_dhacase'><img src={profile} alt="" className='earning_pharmabooking_jaydoctor_profile'/>Jaydeep Sakhiya <FaCaretDown/></li>
-            <li className='earning_pharmabooking_list_item_1_doctorcase'><FaBell className='earning_pharmabooking_icons_bell_doctorcase'/></li>
-            <li className='earning_pharmabooking_list_item_1_doctorcase_2'>< BsTelephone className='earning_pharmabooking_phone_icon_doctorcase'/></li>
-        </ul>
-
-    </nav>
+   <div><Navbars/></div>
     <div className='earning_profile_documnet_labdetailedit_pharma_edit_basic'>
         <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading_basic'><h2><Link to={"/profile"} className='earning_profile_documnet_labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='earning_profile_documnet_labdetailedit_pharma_arrow_edit_basic'/></Link>My Earnings</h2></div>
         <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_basic_base'>
@@ -51,13 +35,13 @@ export const Earning = () => {
         <div className='earning_labdetails_pharma_detail2'>
         <div className='earning_labdetails_pharma_detail2_profile'>
           <img src={profile_logo} alt="profile" />
-          <div className='earning_labdetails_pharma_detail2_profile_name'>Hospital Name <p>Owner Name</p></div>
+          <div className='earning_labdetails_pharma_detail2_profile_name'>Hospital Name <p>Location</p></div>
           
         </div>
         <div className='earning_labdetails_pharma_detail2_box'>786544<p>Total Cases</p></div>
-        <div className='earning_labdetails_pharma_detail2_box'>Rs 5000 <p>Total Earnings</p></div>
-        <div className='earning_labdetails_pharma_detail2_boxes'>Rs 3000 <p>This Months Earnings</p></div>
-        <div className='earning_labdetails_pharma_detail2_boxer'>Rs 2000 <p>Total Reedemeed</p></div>
+        <div className='earning_labdetails_pharma_detail2_box'>Rs 500000 <p>Total Earnings</p></div>
+        <div className='earning_labdetails_pharma_detail2_boxes'>Rs 300000 <p>This Months Earnings</p></div>
+        <div className='earning_labdetails_pharma_detail2_boxer'>Rs 200000 <p>Total Reedemeed</p></div>
         
       </div>
       <div className='earning_container_3'>
@@ -81,9 +65,9 @@ export const Earning = () => {
       <div className='earning_labdetails_pharma_detail3_last_one_last'>
             <div className='earning_labdetails_pharma_detail3_last_one_last_1'>
               <ul>
-                <li>#12345</li>
-                <li>Patient Name</li>
-                <li>16 june 2023</li>
+                <li className='earning_labdetails_pharma_detail3_last_one_last_1_li'>#12345</li>
+                <li className='earning_labdetails_pharma_detail3_last_one_last_1_li'>Patient Name</li>
+                <li className='earning_labdetails_last_li'>16 june 2023</li>
               </ul>
               <ul>
                 <li><button>RS 500</button></li>
@@ -92,9 +76,9 @@ export const Earning = () => {
             </div>
             <div className='earning_labdetails_pharma_detail3_last_one_last_1'>
             <ul>
-                <li>#12345</li>
-                <li>Patient Name</li>
-                <li>16 june 2023</li>
+                <li  className='earning_labdetails_pharma_detail3_last_one_last_1_li'>#12345</li>
+                <li  className='earning_labdetails_pharma_detail3_last_one_last_1_li'>Patient Name</li>
+                <li className='earning_labdetails_last_li'>16 june 2023</li>
               </ul>
               <ul>
                 <li><button>RS 500</button></li>
@@ -103,9 +87,9 @@ export const Earning = () => {
             </div>
             <div className='earning_labdetails_pharma_detail3_last_one_last_1'>
             <ul>
-                <li>#12345</li>
-                <li>Patient name</li>
-                <li>16 june 2023</li>
+                <li  className='earning_labdetails_pharma_detail3_last_one_last_1_li'>#12345</li>
+                <li  className='earning_labdetails_pharma_detail3_last_one_last_1_li'>Patient name</li>
+                <li className='earning_labdetails_last_li'>16 june 2023</li>
               </ul>
               <ul>
                 <li><button>RS 500</button></li>
@@ -114,9 +98,9 @@ export const Earning = () => {
             </div>
             <div className='earning_labdetails_pharma_detail3_last_one_last_1'>
             <ul>
-                <li>#12345</li>
-                <li>Patient name</li>
-                <li>16 june 2023</li>
+                <li  className='earning_labdetails_pharma_detail3_last_one_last_1_li'>#12345</li>
+                <li  className='earning_labdetails_pharma_detail3_last_one_last_1_li'>Patient name</li>
+                <li className='earning_labdetails_last_li'>16 june 2023</li>
               </ul>
               <ul>
                 <li><button>RS 500</button></li>
@@ -125,9 +109,9 @@ export const Earning = () => {
             </div>
             <div className='earning_labdetails_pharma_detail3_last_one_last_1'>
             <ul>
-                <li>#12345</li>
-                <li>Patient name</li>
-                <li>16 june 2023</li>
+                <li  className='earning_labdetails_pharma_detail3_last_one_last_1_li'>#12345</li>
+                <li  className='earning_labdetails_pharma_detail3_last_one_last_1_li'>Patient name</li>
+                <li className='earning_labdetails_last_li'>16 june 2023</li>
               </ul>
               <ul>
                 <li><button>RS 500</button></li>

@@ -28,14 +28,14 @@ export const Bookingrequestlabdetail = () => {
       <div className='bookingcase_middle_container_heading_dha_case_details'>
         <div className='bookingcase_middle_container_heading_1_dha_case_details'>
             <Link to={"/bookingrequestlab"} className='bookingreqlabdetail_back'>
-            <div className='arr_div'>< PiArrowLeftFill className='bookingcase_details_arrow_case_dha'/></div>
+            <div className='bookingcase_arr_div'>< PiArrowLeftFill className='bookingcase_details_arrow_case_dha'/></div>
             </Link>
           <h2># 123456</h2>
         </div>
        </div>
 
             <div className='bookingcase_third_container_dha_case_details'>
-                <div className='bookingcase_third_container_left_dha_case_details'>
+                <div className='bookingcaselab_third_container_left_dha_case_details'>
                     <div className='bookingcase_dha_case_details_userprofile'>
                         <div className='bookingcase_dha_case_details_userprofile_left'>
                         <div className='bookingcase_dha_case_details_userprofile_profile'>
@@ -81,41 +81,41 @@ export const Bookingrequestlabdetail = () => {
                     </div>
 
 
-                    <div className='lab_pharmabooking_doctor_case_detail_para'>
-                        <div className='lab_pharmabooking_doctor_case_detail_para_left'>
+                    <div className='lab_bookingrequest_pharmabooking_doctor_case_detail_para'>
+                        <div className='lab_bookingrequest_pharmabooking_doctor_case_detail_para_left'>
                         
-                            <div className='lab_pharmabooking_doctor_case_detail_container_1'><div><IoCheckmark className='pharmabooking_doctor_check_mark' /></div></div>
+                            <div className='lab_bookingrequest_pharmabooking_doctor_case_detail_container_1'><div><IoCheckmark className='pharmabooking_doctor_check_mark' /></div></div>
                             
-                            <div className='lab_pharmabooking_doctor_case_detail_container_2'>02</div>
-                            <div className='lab_pharmabooking_doctor_case_detail_container_3'>03</div>
+                            <div className='lab_bookingrequest_pharmabooking_doctor_case_detail_container_2'>02</div>
+                            <div className='lab_bookingrequest_pharmabooking_doctor_case_detail_container_3'>03</div>
                             
                             
                     
                         </div>
                        
-                        <div className='lab_pharmabooking_doctor_case_detail_para_right'>
+                        <div className='lab_bookingrequest_pharmabooking_doctor_case_detail_para_right'>
 
-                        <div className='lab_pharmabooking_doctor_case_detail_para_right_5'>
-                                <div className='lab_pharmabooking_doctor_case_detail_para_right_2_up'>
-                                    <div className='lab_pharmabooking_doctor_case_detail_para_content_2'>
+                        <div className='lab_bookingrequest_pharmabooking_doctor_case_detail_para_right_5'>
+                                <div className='lab_bookingrequest_pharmabooking_doctor_case_detail_para_right_2_up_1'>
+                                    <div className='lab_bookingrequest_pharmabooking_doctor_case_detail_para_content_2'>
                                         <h4>Lab Test Details</h4>
                                         <p>Assigned</p>
 
                                     </div>
                                 </div>
                         </div>
-                        <div className='lab_pharmabooking_doctor_case_detail_para_right_5'>
-                                <div className='lab_pharmabooking_doctor_case_detail_para_right_2_up'>
-                                    <div className='lab_pharmabooking_doctor_case_detail_para_content_2'>
+                        <div className='lab_bookingrequest_pharmabooking_doctor_case_detail_para_right_5'>
+                                <div className='lab_bookingrequest_pharmabooking_doctor_case_detail_para_right_2_up'>
+                                    <div className='lab_bookingrequest_pharmabooking_doctor_case_detail_para_content_2'>
                                         <h4>Sample Collected</h4>
                                         <p>18, June 2023</p>
 
                                     </div>
                                 </div>
                         </div>
-                        <div className='lab_pharmabooking_doctor_case_detail_para_right_5'>
-                                <div className='lab_pharmabooking_doctor_case_detail_para_right_2_up'>
-                                    <div className='lab_pharmabooking_doctor_case_detail_para_content_2'>
+                        <div className='lab_bookingrequest_pharmabooking_doctor_case_detail_para_right_5'>
+                                <div className='lab_bookingrequest_pharmabooking_doctor_case_detail_para_right_2_up'>
+                                    <div className='lab_bookingrequest_pharmabooking_doctor_case_detail_para_content_2'>
                                         <h4>Complete</h4>
                                         <p>18, June 2023</p>
 

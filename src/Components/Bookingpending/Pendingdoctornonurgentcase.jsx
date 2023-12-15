@@ -29,14 +29,14 @@ export const Pendingdoctornonurgentcase = () => {
       <div className='bookingdoctorcase_middle_container_heading_dha_case_details'>
         <div className='bookingdoctorcase_middle_container_heading_1_dha_case_details'>
             <Link to={"/pendingdoctor"} className='pendingdoctornonurgentcare_link'>
-            <div className='arr_div'>< PiArrowLeftFill className='bookingdoctorcase_details_arrow_case_dha'/></div>
+            <div className='bookingdoctorcase_arr_div'>< PiArrowLeftFill className='bookingdoctorcase_details_arrow_case_dha'/></div>
             </Link>
           <h2>Case #123456</h2>
         </div>
        </div>
 
             <div className='bookingdoctorcase_third_container_dha_case_details'>
-                <div className='bookingdoctorcase_third_container_left_dha_case_details'>
+                <div className='bookingdoctorcase_third_container_left_dha_case_details_pendingdoctornonurgent'>
                     <div className='bookingdoctorcase_dha_case_details_userprofile'>
                         <div className='bookingdoctorcase_dha_case_details_userprofile_left'>
                         <div className='bookingdoctorcase_dha_case_details_userprofile_profile'>
@@ -132,7 +132,7 @@ export const Pendingdoctornonurgentcase = () => {
                     </div>
                 
                 </div>
-                <div className='bookingdoctorcase_third_container_right_dha_case_details'>
+                <div className='bookingdoctorcase_third_container_right_dha_case_details_pendingdoctornonurgent'>
                     <div className='bookingdoctorcase_third_container_right_case_details_first'>
                         <div className='bookingdoctorcase_third_container_right_case_details_first_1'>
                             <h2>Order details</h2>

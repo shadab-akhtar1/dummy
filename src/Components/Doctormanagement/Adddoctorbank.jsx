@@ -39,7 +39,7 @@ export const Adddoctorbank = () => {
                 </div>
                 <div className='adddoctorbank_form_fill_bank'>
     
-                    <div className='adddoctorbank_form_fill_bank_div'><label className='adddoctorbank_form_fill_lab_bank'>Upload Bank Statement/cancel Cheque</label></div>
+                    <div className='adddoctorbank_form_fill_bank_div'><label className='adddoctorbank_form_fill_labi_bank'>Upload Bank Statement/cancel Cheque</label></div>
                     <input type="file" id="adddoctorbank_file"className='adddoctorbank_form_fill_inp_bank_3' />
                     <label for="adddoctorbank_file" className='adddoctorbank_file_up_bank'><i><RiUploadCloudLine/></i><p>Upload</p></label>
                 </div>

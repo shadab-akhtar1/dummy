@@ -1,12 +1,8 @@
 import React from 'react';
 import './Dhacasedetail.css';
-import Weblogo from "../Assets/Dooper Logo 1500x1500 2.svg";
-import {FaBell} from 'react-icons/fa';
-import {FaCaretDown} from 'react-icons/fa';
-import {BiArrowBack} from 'react-icons/bi';
+
 import {PiArrowLeftFill} from 'react-icons/pi';
-import profile from "../Assets/Rectangle 619 (1).jpg";
-import {BsTelephone} from 'react-icons/bs';
+
 import userpic from "../Assets/Ellipse 3.jpg";
 import elipse from "../Assets/Ellipse 2.jpg";
 import dhaimage from "../Assets/Image.jpg";
@@ -16,7 +12,7 @@ import { CiClock2 } from "react-icons/ci";
 import { MdCall } from "react-icons/md";
 import vid from "../Assets/Frame 12431.jpg";
 import {Navbars} from '../Dhamanagement/Navbars';
-import { IoCheckmark } from "react-icons/io5";
+
 
 export const Dhacasedetail = () => {
   return (

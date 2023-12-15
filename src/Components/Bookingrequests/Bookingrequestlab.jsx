@@ -22,6 +22,8 @@ export const Bookingrequestlab = () => {
     const handleClick=()=>{
         setToggleButton(!toggleButton)
     }
+    const [isActive, setIsActive]= useState(false);
+    const [hisActive, setHisActive]= useState(false);
   return (
     <>
     <div><Navbars/></div>
@@ -36,10 +38,10 @@ export const Bookingrequestlab = () => {
             
                 </div>
                 <div className='toggle_booking_div'>
-                    <div  className='toggle_booking'></div>
+                    <div  className='toggle_booking'>
                     {toggleButton?<div onClick={handleClick} className='toggle_booking_left'></div>:
                     <div onClick={handleClick}className='toggle_booking_right'></div>}
-                
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,13 +58,31 @@ export const Bookingrequestlab = () => {
             </Link>
             <div className='bookingrequestlab_bookingrequest_pharmacy_management_container_2_p_4'>Lab</div>
             </div>
-            <div className='bookingrequestlab_bookingrequest_pharmacy_management_container_2_2'>
+            <div className='bookingrequestlab_bookingrequest_pharmacy_management_container_2_2'onClick={(e)=> setHisActive(!hisActive)}>
                 Sort by <FaCaretDown className='bookingrequestlab_bookingrequest_pharmacy_management_icon'/>
             </div>
+            {hisActive &&(
+              <div className='bookingrequest_dropdown_content_drop'>
+                <Link to={""}>
+                <div className='bookingrequest_dropdown_item_drop'>Sort by</div>
+                </Link>
+                
+
+              </div>
+              )}
         </div>
         <div className='bookingrequest_pharmacy_management_container_4'>
-            <div className='bookingrequest_pharmacy_management_container_4_urgent'>Standalone <FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>
+            <div className='bookingrequest_pharmacy_management_container_4_urgent'onClick={(e)=> setIsActive(!isActive)}>Standalone <FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>
+            {isActive &&(
+              <div className='bookingpending_dropdown_content_drop'>
+                <Link to={"/bookingdhahospital"}>
+                <div className='bookingpending_dropdown_item_drop'>Standalone</div>
+                </Link>
+                
 
+              </div>
+              )}
+        
         </div>
         
         <div className='bookingrequest_pharmacy_management_container_3'>

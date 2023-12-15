@@ -4,22 +4,27 @@
 
 .pharma_edit_bankinfo {
     width: 100%;
-    height: 90vh;
+    height: 84vh;
     margin-top: -11px;
     background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
 }
 
 .pharma_edit_bankinfo_heading {
     width: 1200px;
-    padding-left: 80px;
+    padding-left: 70px;
     padding-top: 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .pharma_edit_bankinfo_heading h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    font-size: 22px;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .pharma_edit_bankinfo_heading2 {
@@ -31,7 +36,10 @@
 }
 
 .pharma_arrow_bankinfo {
-    padding-right: 5px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pharma_bankinfo_link_head {
@@ -64,7 +72,7 @@
 .pharma_edit_bankinfo_heading2_info {
     margin-top: 20px;
     margin-right: 20px;
-    border-bottom: 1px solid #E40443;
+    border-bottom: 2px solid #E40443;
     color: #1A1C1F;
     font-size: 16px;
     font-weight: 500;
@@ -86,21 +94,20 @@
 }
 
 .pharma_bankinfo_userprofile_box_2 {
-    width: 430px;
     gap: 24px;
 }
 
 .pharma_bankinfo_userprofile_form {
     margin-top: 5px;
-    width: 430px;
 }
 
 .pharma_userprofile_form_input {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    display: grid;
+    align-items: center;
 }
 
 .pharma_bankinfo_form_data {
-    width: 100%;
     color: linear-gradient(0deg, #EEF0F3, #EEF0F3), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     border: 1px solid #EEF0F3;
     border-radius: 6px;
@@ -125,6 +132,7 @@
     font-size: 12px;
     font-weight: 500;
     color: #8D98A4;
+    margin-bottom: 5px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -133,7 +141,6 @@
 }
 
 .pharma_bankinfo_form_2 {
-    width: 400px;
     color: linear-gradient(0deg, #EEF0F3, #EEF0F3), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     border: 1px solid #EEF0F3;
     border-radius: 6px;

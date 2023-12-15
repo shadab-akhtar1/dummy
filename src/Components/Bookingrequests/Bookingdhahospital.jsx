@@ -23,6 +23,7 @@ export const Bookingdhahospital = () => {
         setToggleButton(!toggleButton)
     }
     const [isActive, setIsActive]= useState(false);
+    const [hisActive, setHisActive]= useState(false);
   return (
     <>
     <div><Navbars/></div>
@@ -35,10 +36,10 @@ export const Bookingdhahospital = () => {
             
                 </div>
                 <div className='bookingdhahospital_toggle_booking_div'>
-                    <div  className='bookingdhahospital_toggle_booking'></div>
+                    <div  className='bookingdhahospital_toggle_booking'>
                     {toggleButton?<div onClick={handleClick} className='bookingdhahospital_toggle_booking_left'></div>:
                     <div onClick={handleClick}className='bookingdhahospital_toggle_booking_right'></div>}
-                
+                    </div>
                 </div>
             </div>
         </div>
@@ -57,9 +58,18 @@ export const Bookingdhahospital = () => {
             <div className='bookingdhahospital_bookingrequest_pharmacy_management_container_2_p_2'>Lab</div>
             </Link>
             </div>
-            <div className='bookingdhahospital_bookingrequest_pharmacy_management_container_2_2'>
+            <div className='bookingdhahospital_bookingrequest_pharmacy_management_container_2_2'onClick={(e)=> setHisActive(!hisActive)}>
                 Sort by <FaCaretDown className='bookingdhahospital_bookingrequest_pharmacy_management_icon'/>
             </div>
+            {hisActive &&(
+              <div className='bookingrequest_dropdown_content_drop'>
+                <Link to={""}>
+                <div className='bookingrequest_dropdown_item_drop'>Sort by</div>
+                </Link>
+                
+
+              </div>
+              )}
         </div>
         <div className='bookingdhahospital_bookingrequest_pharmacy_management_container_4'>
             <div className='bookingdhahospital_bookingrequest_pharmacy_management_container_4_urgent'onClick={(e)=> setIsActive(!isActive)}>Standalone <FaCaretDown className='bookingdhahospital_bookingrequest_pharmacy_management_container_4_icon'/></div>

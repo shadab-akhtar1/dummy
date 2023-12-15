@@ -8,6 +8,8 @@ import avatar2 from '../Assets/Avatar (1).png';
 import avatar3 from '../Assets/Avatar.png';
 import avatar4 from '../Assets/Avatar (2).png';
 import avatar5 from '../Assets/Avatar (3).png';
+import { GoChevronLeft } from "react-icons/go";
+import {GoChevronRight} from "react-icons/go";
 
 export const Notification = () => {
   return (
@@ -19,14 +21,16 @@ export const Notification = () => {
           <div className='notification_container_2_1'>
             <div className='notification_container_2_1_right'>
               <div className='notification_container_2_1_right_1'>Mark all as read</div>
+              <Link to={"/notificationcomplete"} className='notification_link'>
               <div className='notification_container_2_1_right_2'>clear all</div>
+              </Link>
               <div className='notification_container_2_1_right_3'>1-10 of 10</div>
-              <div className='notification_container_2_1_right_4'>hfjd</div>
+              <div className='notification_container_2_1_right_4'><GoChevronLeft className='notification_left_arrow'/><GoChevronRight className='notification_right_arrow'/></div>
 
             </div>
 
           </div>
-          <Link to={"/notificationcomplete"} className='notification_link'>
+          
           <div className='notification_container_2_2'>
             <div className='notification_container_2_2_left'>
               <div className='notification_container_2_2_left_1'><img src={avatar1} alt="" /></div>
@@ -38,7 +42,7 @@ export const Notification = () => {
             </div>
 
           </div>
-          </Link>
+          
           <div className='notification_container_2_3'>
             <div className='notification_container_2_2_left'>
               <div className='notification_container_2_2_left_1'><img src={avatar3} alt="" /></div>

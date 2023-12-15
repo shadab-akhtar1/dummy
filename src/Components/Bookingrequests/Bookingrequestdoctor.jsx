@@ -23,6 +23,7 @@ export const Bookingrequestdoctor = () => {
         setToggleButton(!toggleButton)
     }
     const [isActive, setIsActive]= useState(false);
+    const [hisActive, setHisActive]= useState(false);
   return (
     <>
     <div><Navbars/></div>
@@ -35,10 +36,10 @@ export const Bookingrequestdoctor = () => {
             
                 </div>
                 <div className='doctortoggle_booking_div'>
-                    <div  className='doctortoggle_booking'></div>
+                    <div  className='doctortoggle_booking'>
                     {toggleButton?<div onClick={handleClick} className='doctortoggle_booking_left'></div>:
                     <div onClick={handleClick}className='doctortoggle_booking_right'></div>}
-                
+                    </div>
                 </div>
             </div>
         </div>
@@ -55,9 +56,18 @@ export const Bookingrequestdoctor = () => {
             <div className='bookingrequestdoctor_pharmacy_management_container_2_p_2'>Lab</div>
             </Link>
             </div>
-            <div className='bookingrequestdoctor_pharmacy_management_container_2_2'>
+            <div className='bookingrequestdoctor_pharmacy_management_container_2_2' onClick={(e)=> setHisActive(!hisActive)}>
                 Sort by <FaCaretDown className='bookingrequestdoctor_pharmacy_management_icon'/>
             </div>
+            {hisActive &&(
+              <div className='bookingrequest_dropdown_content_drop'>
+                <Link to={""}>
+                <div className='bookingrequest_dropdown_item_drop'>Sort by</div>
+                </Link>
+                
+
+              </div>
+              )}
         </div>
         <div className='bookingrequestdoctor_pharmacy_management_container_4'>
             <div className='bookingrequestdoctor_pharmacy_management_container_4_urgent'onClick={(e)=> setIsActive(!isActive)}>Urgent Care <FaCaretDown className='bookingrequestdoctor_pharmacy_management_container_4_icon'/></div>

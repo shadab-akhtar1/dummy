@@ -1,115 +1,3 @@
-/*############## Navbar Start ##################*/
-
-.earninghistory_earning_pharmabooking_navbar_doctorcase {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 120px;
-    padding: 40px, 120px, 40px, 120px;
-    border: 0px, 0px, 1px, 0px;
-    gap: 8px;
-    background-color: white;
-    border-bottom: 1px solid #E3E6E8;
-}
-
-.earninghistory_earning_pharmabooking_nav_links_doctorcase {
-    display: flex;
-    justify-content: flex-end;
-    padding-left: 10px;
-    margin-right: 50px;
-}
-
-.earninghistory_earning_pharmabooking_list_item_doctorcase {
-    margin-left: 5px;
-    padding-right: 20px;
-    margin-top: 10px;
-    text-decoration: none;
-    list-style: none;
-    color: #8D98A4;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.earninghistory_earning_pharmabooking_list_item_1_doctorcase {
-    margin-right: 10px;
-    padding: 5px;
-    text-decoration: none;
-    list-style: none;
-    background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(0deg, #F5F6F7, #F5F6F7);
-    border: 1px solid #F5F6F7;
-    border-radius: 8px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.earninghistory_earning_pharmabooking_navbar_logo_doctorcase {
-    margin-left: 70px;
-    margin-bottom: 20px;
-    height: 25px;
-    width: 100px;
-}
-
-.earninghistory_earning_pharmabooking_icons_bell_doctorcase {
-    color: #8D98A4;
-    width: 20px;
-    height: 20px;
-}
-
-.earninghistory_earning_pharmabooking_phone_icon_doctorcase {
-    color: white;
-    width: 20px;
-    height: 20px;
-}
-
-.earninghistory_earning_pharmabooking_list_item_1_dhacase {
-    margin-right: 10px;
-    padding: 5px;
-    text-decoration: none;
-    list-style: none;
-    background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(0deg, #F5F6F7, #F5F6F7);
-    border: 1px solid #F5F6F7;
-    border-radius: 8px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.earninghistory_earning_pharmabooking_list_item_1_doctorcase_2 {
-    background-color: #E40443;
-    border-radius: 8px;
-    margin-right: 15px;
-    width: 25px;
-    height: 25px;
-    padding: 5px;
-    text-decoration: none;
-    list-style: none;
-    border: 1px solid #F5F6F7;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.earninghistory_earning_pharmabooking_jaydoctor_profile {
-    padding-right: 3px;
-}
-
-
-/*############################### NAVBAR END ##############################*/
-
-
 /*############################### MIDDLE 1ST SECTION #################################*/
 
 .earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_basic {
@@ -190,9 +78,10 @@
     justify-content: space-between;
     background-color: white;
     width: 1240px;
-    margin-left: 80px;
+    margin-left: 70px;
     align-items: center;
     border-radius: 8px;
+    margin-top: 20px;
 }
 
 .earninghistory_earning_labdetails_pharma_detail2_profile {
@@ -204,11 +93,11 @@
 
 .earninghistory_earning_labdetails_pharma_detail2_profile_name {
     padding-left: 10px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     width: 180px;
-    margin-top: 20px;
+    color: #1A1C1F;
 }
 
 .earninghistory_earning_labdetails_pharma_detail2_profile_name p {
@@ -255,6 +144,8 @@
     padding-top: 10px;
     padding-left: 12px;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .earninghistory_earning_labdetails_pharma_detail2_box p {
@@ -277,6 +168,8 @@
     padding-top: 10px;
     padding-left: 12px;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .earninghistory_earning_labdetails_pharma_detail2_boxes p {
@@ -300,6 +193,8 @@
     padding-top: 10px;
     padding-left: 12px;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .earninghistory_earning_labdetails_pharma_detail2_boxer p {
@@ -324,6 +219,8 @@
     justify-content: center;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .earninghistory_earning_labdetails_pharma_detail2_calling {
@@ -345,7 +242,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 80px;
+    margin-left: 70px;
     margin-right: 70px;
     border-bottom: 1px solid #E1E5E8;
     height: 32px;
@@ -356,6 +253,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 10px;
 }
 
 .earninghistory_earning_container_3_2 {
@@ -433,7 +331,7 @@
     display: flex;
     justify-content: space-between;
     width: 1240px;
-    margin-left: 80px;
+    margin-left: 70px;
     margin-right: 40px;
     align-items: center;
     border-radius: 8px;
@@ -443,11 +341,13 @@
 
 .earninghistory_labdetails_pharma_detail3_last_last {
     width: 500px;
+    height: 606px;
 }
 
 .earninghistory_labdetails_pharma_detail3_last_last_last {
     margin-bottom: 20px;
     width: 500px;
+    height: 606px;
 }
 
 .earninghistory_labdetails_pharma_detail3_last_one {
@@ -522,7 +422,7 @@
 .earninghistory_labdetails_pharma_detail3_last_one_last {
     background-color: white;
     border-radius: 16px;
-    padding: 20px;
+    padding: 32px;
     margin-top: 20px;
 }
 
@@ -537,13 +437,23 @@
     margin-bottom: 10px;
 }
 
-.earninghistory_labdetails_pharma_detail3_last_one_last_1 ul li {
+.earninghistory_labdetails_pharma_detail3_last_one_last_1_li {
+    list-style: none;
+    margin-right: 30px;
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1A1C1F;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.earninghistory_labdetails_pharma_detail3_last_one_last_1_li_1 {
     list-style: none;
     margin-right: 30px;
     padding-top: 5px;
     font-size: 12px;
-    font-weight: 500;
-    color: #1A1C1F;
+    font-weight: 400;
+    color: #38404A;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -558,14 +468,42 @@
     list-style: none;
 }
 
-.earninghistory_labdetails_pharma_detail3_last_one_last_1 ul li button {
-    background: #E5FFF2;
+.earninghistory_labdetails_pharma_detail3_last_one_last_1 ul {
+    margin-left: -20px;
+}
+
+.earninghistory_labdetails_pharma_detail3_last_one_last_1 ul li {
+    list-style: none;
+}
+
+.earninghistory_labdetails_pharma_detail3_last_one_last_1_button {
+    background: #F5F6F7;
     border-radius: 40px;
     border: none;
-    color: #41B079;
+    color: #F1614B;
     font-size: 12px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    width: 75px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.earninghistory_labdetails_pharma_detail3_last_one_last_right {
+    background-color: white;
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 10px;
+}
+
+.earninghistory_right_lastdiv {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #1A1C1F;
 }
 
 .earninghistory_right_lastdiv_2 {
@@ -573,6 +511,7 @@
     justify-content: space-between;
     align-items: center;
     height: 102px;
+    margin-top: 20px;
 }
 
 .earninghistory_right_lastdiv_2_left {
@@ -611,6 +550,7 @@
     font-size: 14px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
 }
 
 .earninghistory_right_lastdiv_2_left_3 {
@@ -618,6 +558,7 @@
     font-size: 12px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
 }
 
 .earninghistory_right_lastdiv_3 {
@@ -636,7 +577,6 @@
     position: relative;
     margin-top: 10px;
     margin-left: 20px;
-    border-left: 2px dashed #EEF0F3;
 }
 
 .earninghistory_lab_pharmabooking_doctor_case_detail_container_1 {
@@ -666,6 +606,10 @@
     align-items: center;
     position: absolute;
     left: -18px;
+    color: #5B6572;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .earninghistory_lab_pharmabooking_doctor_check_mark {
@@ -690,6 +634,10 @@
     align-items: center;
     position: absolute;
     left: -18px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 .earninghistory_lab_pharmabooking_doctor_case_detail_container_4 {
@@ -768,7 +716,7 @@
     justify-content: flex-start;
     align-items: center;
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 70px;
 }
 
 .earninghistory_container_4_1 {
@@ -810,6 +758,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 
@@ -820,7 +771,7 @@
     margin-top: 5px;
     margin-bottom: 2px;
     padding-top: 5px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: center;
 }
@@ -845,7 +796,7 @@
     align-items: center;
 }
 
-.earninghistory_labdetails_pharma_detail3_pagination_pag a.pharma_detail3_anchi_pag_active {
+.earninghistory_labdetails_pharma_detail3_pagination_pag a.earninghistory_labdetails_pharma_detail3_anchi_pag_active {
     background-color: #E40443;
     font-weight: 400;
     color: white;
@@ -859,4 +810,21 @@
     margin-right: 3px;
     margin-left: 3px;
     color: black;
+}
+
+.earninghistory_lab_progress {
+    position: absolute;
+    height: 200px;
+    border-radius: 6px;
+    width: 3px;
+    border-left: 2px dashed #EEF0F3;
+    left: -1px;
+}
+
+.earninghistory_lab_indicator {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    border-left: 2px dashed #3EB655;
+    left: -1px;
 }

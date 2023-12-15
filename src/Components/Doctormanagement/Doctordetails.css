@@ -334,7 +334,7 @@
 .last_doctor_details {
     display: flex;
     justify-content: space-between;
-    width: 1240px;
+    width: 1216px;
     margin-left: 70px;
     margin-right: 40px;
     align-items: center;
@@ -344,17 +344,26 @@
 }
 
 .last_last_doctor_details {
-    width: 500px;
+    width: 484px;
+    margin-right: 100px;
 }
 
 .last_last_last_doctor_details {
     margin-bottom: 20px;
+    width: 484px;
 }
 
 .last_one_doctor_details {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.last_one_doctor_details_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
 }
 
 .last_one_left_doctor_details {
@@ -418,6 +427,7 @@
     font-weight: 500;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
 }
 
 .last_one_last_doctor_details {
@@ -438,9 +448,13 @@
     margin-bottom: 10px;
 }
 
+.last_one_last_1_doctor_details ul {
+    margin-left: -20px;
+}
+
 .last_one_last_1_doctor_details ul li {
     list-style: none;
-    margin-right: 30px;
+    margin-right: 20px;
     padding-top: 5px;
     font-size: 12px;
     font-weight: 500;
@@ -511,4 +525,8 @@
     margin-right: 3px;
     margin-left: 3px;
     color: black;
+}
+
+.footer_dha_doctor_details {
+    width: 100%;
 }

@@ -12,21 +12,29 @@
 
 .pharma_detail_container_heading {
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 40px;
 }
 
 .pharma_detail_container_heading_box {
-    width: 800px;
-    margin-left: 20px;
-    margin-right: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.pharma_detail_container_right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .pharma_detail_container_heading_box h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    font-size: 22px;
     display: flex;
     justify-content: flex-start;
     color: #1A1C1F;
@@ -42,7 +50,6 @@
 .pharma_detail_container_btn {
     height: 36px;
     width: 100px;
-    margin-top: 20px;
     background: #E40443;
     border-radius: 8px;
     border: none;
@@ -52,6 +59,7 @@
     font-weight: 600;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -64,7 +72,6 @@
 .pharma_detail_container_btn1 {
     height: 36px;
     width: 100px;
-    margin-top: 20px;
     background: #E40443;
     border-radius: 8px;
     border: none;
@@ -74,6 +81,7 @@
     font-weight: 600;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -94,7 +102,7 @@
     justify-content: space-between;
     background-color: white;
     width: 1240px;
-    margin-left: 80px;
+    margin-left: 70px;
     align-items: center;
     border-radius: 8px;
 }
@@ -251,7 +259,7 @@
     gap: 20px;
     background-color: white;
     width: 1240px;
-    margin-left: 80px;
+    margin-left: 70px;
     border-radius: 8px;
     margin-top: 10px;
 }
@@ -335,7 +343,7 @@
     display: flex;
     justify-content: space-between;
     width: 1240px;
-    margin-left: 80px;
+    margin-left: 70px;
     margin-right: 40px;
     align-items: center;
     border-radius: 8px;
@@ -344,11 +352,14 @@
 }
 
 .pharma_detail3_last_last {
-    width: 500px;
+    width: 484px;
+    margin-right: 100px;
+    padding-top: 10px;
 }
 
 .pharma_detail3_last_last_last {
     margin-bottom: 20px;
+    width: 484px;
 }
 
 .pharma_detail3_last_one {
@@ -418,6 +429,7 @@
     font-weight: 500;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
 }
 
 .pharma_detail3_last_one_last {
@@ -436,6 +448,10 @@
     border: 1px solid #E3E6E8;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.pharma_detail3_last_one_last_1 ul {
+    margin-left: -20px;
 }
 
 .pharma_detail3_last_one_last_1 ul li {
@@ -457,9 +473,10 @@
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     list-style: none;
+    margin-left: 20px;
 }
 
-.pharma_detail3_last_one_last_1 ul li button {
+.pharma_detail3_last_one_last_1_btn1 {
     background: #E5FFF2;
     border-radius: 40px;
     border: none;
@@ -467,6 +484,30 @@
     font-size: 12px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pharma_detail3_last_one_last_1_btn2 {
+    background: #E5FFF2;
+    border-radius: 40px;
+    border: none;
+    color: #41B079;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    width: 75px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pharmadetail_link {
+    text-decoration: none;
 }
 
 

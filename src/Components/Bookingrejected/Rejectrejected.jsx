@@ -19,7 +19,7 @@ export const Rejectrejected = () => {
       <div className='bookingcase_middle_container_heading_dha_case_details'>
         <div className='bookingcase_middle_container_heading_1_dha_case_details'>
             <Link to={"/rejectdhahospital"} className='rejectrejected_back'>
-            <div className='arr_div'>< PiArrowLeftFill className='bookingcase_details_arrow_case_dha'/></div>
+            <div className='bookingcase_arr_div'>< PiArrowLeftFill className='bookingcase_details_arrow_case_dha'/></div>
             </Link>
           <h2>Case Details</h2>
         </div>

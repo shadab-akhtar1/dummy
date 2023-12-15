@@ -1,121 +1,9 @@
-/*############## Navbar Start ##################*/
-
-.pharmabookingdone_navbar_doctorcase {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 120px;
-    padding: 40px, 120px, 40px, 120px;
-    border: 0px, 0px, 1px, 0px;
-    gap: 8px;
-    background-color: white;
-    border-bottom: 1px solid #E3E6E8;
-}
-
-.pharmabookingdone_nav_links_doctorcase {
-    display: flex;
-    justify-content: flex-end;
-    padding-left: 10px;
-    margin-right: 50px;
-}
-
-.pharmabookingdone_list_item_doctorcase {
-    margin-left: 5px;
-    padding-right: 20px;
-    margin-top: 10px;
-    text-decoration: none;
-    list-style: none;
-    color: #8D98A4;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.pharmabookingdone_list_item_1_doctorcase {
-    margin-right: 10px;
-    padding: 5px;
-    text-decoration: none;
-    list-style: none;
-    background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(0deg, #F5F6F7, #F5F6F7);
-    border: 1px solid #F5F6F7;
-    border-radius: 8px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.pharmabookingdone_navbar_logo_doctorcase {
-    margin-left: 70px;
-    margin-bottom: 20px;
-    height: 25px;
-    width: 100px;
-}
-
-.pharmabookingdone_icons_bell_doctorcase {
-    color: #8D98A4;
-    width: 20px;
-    height: 20px;
-}
-
-.pharmabookingdone_phone_icon_doctorcase {
-    color: white;
-    width: 20px;
-    height: 20px;
-}
-
-.pharmabookingdone_list_item_1_dhacase {
-    margin-right: 10px;
-    padding: 5px;
-    text-decoration: none;
-    list-style: none;
-    background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(0deg, #F5F6F7, #F5F6F7);
-    border: 1px solid #F5F6F7;
-    border-radius: 8px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.pharmabookingdone_list_item_1_doctorcase_2 {
-    background-color: #E40443;
-    border-radius: 8px;
-    margin-right: 15px;
-    width: 25px;
-    height: 25px;
-    padding: 5px;
-    text-decoration: none;
-    list-style: none;
-    border: 1px solid #F5F6F7;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.pharmabookingdone_jaydoctor_profile {
-    padding-right: 3px;
-}
-
-
-/*################## Navbar End ###################*/
-
-
 /*################## Mid Section Start###############*/
 
 .pharmabookingdone_middle_container_doctor_case_details {
     background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     width: 100%;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .pharmabookingdone_middle_container_heading_doctor_case_details {
@@ -265,12 +153,13 @@
 }
 
 .pharmabookingdone_doctor_case_detail_symptom {
-    border-bottom: 1px solid #EEF0F3
+    border-bottom: 1px solid #EEF0F3;
 }
 
 .pharmabookingdone_doctor_case_deatil_symptom_1 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -279,6 +168,7 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
+    align-items: center;
 }
 
 .pharmabookingdone_doctor_case_detail_symptom_left_1 {
@@ -291,10 +181,12 @@
     font-family: 'Montserrat', sans-serif;
     color: #040404;
     text-align: center;
-    padding-top: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pharmabookingdone_doctor_case_detail_symptom_right button {
@@ -307,7 +199,9 @@
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     border: none;
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pharmabookingdone_doctor_case_detail_para {
@@ -317,8 +211,12 @@
 }
 
 .pharmabookingdone_doctor_case_detail_para_left {
-    width: 40px;
-    position: absolute;
+    width: 20px;
+    height: 300px;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-left: 2px dashed #EEF0F3;
 }
 
 .pharmabookingdone_doctor_case_detail_container_1 {
@@ -328,10 +226,11 @@
     border-radius: 40px;
     padding: 12px;
     gap: 8px;
-    margin-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: -18px;
 }
 
 .pharmabookingdone_doctor_case_detail_container_2 {
@@ -341,10 +240,12 @@
     border-radius: 40px;
     padding: 12px;
     gap: 8px;
-    margin-top: 35px;
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: -18px;
 }
 
 .pharmabookingdone_doctor_check_mark {
@@ -363,10 +264,12 @@
     border-radius: 40px;
     padding: 12px;
     gap: 8px;
-    margin-top: 35px;
+    margin-top: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: -18px;
 }
 
 .pharmabookingdone_doctor_case_detail_container_4 {
@@ -376,10 +279,12 @@
     border-radius: 40px;
     padding: 12px;
     gap: 8px;
-    margin-top: 35px;
+    margin-top: 210px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: -18px;
 }
 
 .pharmabookingdone_doctor_case_detail_container_5 {
@@ -389,21 +294,18 @@
     border-radius: 40px;
     padding: 12px;
     gap: 8px;
-    margin-top: 35px;
+    margin-top: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: -18px;
 }
 
-.pharmabookingdone_doctor_case_detail_para_right {
-    border-left: 2px dashed #E40443;
-    margin-left: 17px;
-}
+.pharmabookingdone_doctor_case_detail_para_right {}
 
 .pharmabookingdone_doctor_case_detail_para_right_5 {
-    border-bottom: 1px solid #E3E6E8;
     width: 685px;
-    margin-left: 20px;
 }
 
 .pharmabookingdone_doctor_case_detail_para_right_2_up {

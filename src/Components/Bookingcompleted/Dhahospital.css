@@ -78,7 +78,7 @@
 }
 
 .pendinglab_bookingrequest_pharmacy_management_container_2_p_2_dhahospital {
-    margin-left: 10px;
+    margin-left: 20px;
     color: #8D98A4;
     font-size: 16px;
     font-weight: 500;
@@ -86,7 +86,7 @@
 }
 
 .pendinglab_bookingrequest_pharmacy_management_container_2_p_3_dhahospital {
-    margin-left: 10px;
+    margin-left: 20px;
     color: #8D98A4;
     font-size: 16px;
     font-weight: 500;
@@ -94,7 +94,7 @@
 }
 
 .pendinglab_bookingrequest_pharmacy_management_container_2_p_4_dhahospital {
-    margin-left: 10px;
+    margin-left: 20px;
     color: #8D98A4;
     font-size: 16px;
     font-weight: 500;
@@ -123,3 +123,6 @@
     align-items: center;
     color: #5B6572;
 }
+
+
+/* ######################## Dropdown Sort by Css File In Bookingrequestdha.css ################### */

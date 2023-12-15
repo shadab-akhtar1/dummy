@@ -19,14 +19,14 @@ export const Pendingdhaurgentcase = () => {
       <div className='bookingcase_middle_container_heading_dha_case_details'>
         <div className='bookingcase_middle_container_heading_1_dha_case_details'>
             <Link to={"/bookingpendingdha"}>
-            <div className='arr_div'>< PiArrowLeftFill className='bookingcase_details_arrow_case_dha'/></div>
+            <div className='bookingcase_arr_div'>< PiArrowLeftFill className='bookingcase_details_arrow_case_dha'/></div>
             </Link>
-          <h2>Case Details</h2>
+          <h2>Case #123456</h2>
         </div>
        </div>
 
             <div className='bookingcase_third_container_dha_case_details'>
-                <div className='bookingcase_third_container_left_dha_case_details'>
+                <div className='bookingcase_third_container_left_dha_case_details_pendingdhaurgent'>
                     <div className='bookingcase_dha_case_details_userprofile'>
                         <div className='bookingcase_dha_case_details_userprofile_left'>
                         <div className='bookingcase_dha_case_details_userprofile_profile'>
@@ -93,7 +93,7 @@ export const Pendingdhaurgentcase = () => {
                     </div>
                 
                 </div>
-                <div className='bookingcase_third_container_right_dha_case_details'>
+                <div className='bookingcase_third_container_right_dha_case_details_pendingdhaurgent'>
                     <div className='bookingcase_third_container_right_case_details_first'>
                         <div className='bookingcase_third_container_right_case_details_first_1'>
                             <h2>Order details</h2>

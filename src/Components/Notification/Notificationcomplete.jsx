@@ -4,6 +4,8 @@ import {Navbar} from '../Dhamanagement/Navbar';
 import {PiArrowLeftFill} from 'react-icons/pi';
 import {Link} from 'react-router-dom';
 import mobile from '../Assets/OBJECTS.png';
+import { GoChevronLeft } from "react-icons/go";
+import {GoChevronRight} from "react-icons/go";
 
 export const Notificationcomplete = () => {
   return (
@@ -16,9 +18,9 @@ export const Notificationcomplete = () => {
           <div className='notification_complete_container_2_1'>
             <div className='notification_container_2_1_right'>
               <div className='notification_complete_container_2_1_right_1'>Mark all as read</div>
-              <div className='notification_complete_container_2_1_right_2'>clear all</div>
+              <div className='notification_complete_container_2_1_right_2'>Delete all</div>
               <div className='notification_complete_container_2_1_right_3'>1-10 of 10</div>
-              <div className='notification_complete_container_2_1_right_4'>hfjd</div>
+              <div className='notification_complete_container_2_1_right_4'><GoChevronLeft className='notification_complete_left_arrow'/><GoChevronRight className='notification_complete_right_arrow'/></div>
 
             </div>
 

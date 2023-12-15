@@ -45,31 +45,35 @@
 .bookingdoctorcase_middle_container_dha_case_details {
     background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     width: 100%;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .bookingdoctorcase_middle_container_heading_dha_case_details {
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .bookingdoctorcase_middle_container_heading_1_dha_case_details {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-    margin-left: 80px;
+    align-items: center;
 }
 
 .bookingdoctorcase_middle_container_heading_1_dha_case_details h2 {
     font-size: 22px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bookingdoctorcase_arr_div {
-    margin-top: 20px;
+    display: flex;
+    align-items: center;
     margin-right: 10px;
 }
 
@@ -83,22 +87,22 @@
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .bookingdoctorcase_third_container_left_dha_case_details {
     background-color: white;
-    margin-left: 80px;
     width: 790px;
-    height: 800px;
+    height: 719px;
     border-radius: 16px;
     margin-bottom: 20px;
 }
 
 .bookingdoctorcase_third_container_right_dha_case_details {
     background-color: white;
-    margin-right: 70px;
     width: 380px;
-    height: 800px;
+    height: 719px;
     border-radius: 16px;
     margin-bottom: 20px;
 }
@@ -248,6 +252,7 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
+    align-items: center;
 }
 
 .bookingdoctorcase_dha_case_detail_symptom_left_1 {
@@ -260,7 +265,9 @@
     font-family: 'Montserrat', sans-serif;
     color: #040404;
     text-align: center;
-    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 5px;
     margin-bottom: 10px;
     margin-top: 10px;

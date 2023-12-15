@@ -205,6 +205,10 @@
     color: white;
 }
 
+.rolemanagement_editpermision_link {
+    text-decoration: none;
+}
+
 
 /*################# Pagination ################# */
 

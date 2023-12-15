@@ -25,15 +25,15 @@ export const Labdetailedit = () => {
                     
                     <form action="" className='labdetailedit_pharma_form_basic'>
                         <div className='labdetailedit_pharma_form_input'>
-                            <label className='labdetailedit_pharma_form_label_basic'>Full Name</label><br />
+                            <label className='labdetailedit_pharma_form_label_basic'>Full Name</label>
                             <input type="text" className='labdetailedit_pharma_form_data_basic' placeholder='Jaydip Sakhiya'/>
                         </div>
                         <div className='labdetailedit_pharma_form_input'>
-                            <label className='labdetailedit_pharma_form_label_basic' >Mobile No.</label><br />
+                            <label className='labdetailedit_pharma_form_label_basic' >Mobile No.</label>
                             <input type="text" className='labdetailedit_pharma_form_data_basic' placeholder='+91 1234567890'/>
                         </div>
                         <div className='labdetailedit_pharma_edit_userprofile_form_input'>
-                            <label className='labdetailedit_pharma_edit_document_form_label'>Lab Photo</label> <br /><br />
+                            <label className='labdetailedit_pharma_edit_document_form_label'>Lab Photo</label> 
                             <input type="file" id='labdetailedit_pharma_edit_form' className='labdetailedit_pharma_edit_document_form_1'/>
                             <label for="labdetailedit_pharma_edit_form" className='labdetailedit_pharma_edit_document_form_2'>
                             <i className='labdetailedit_pharma_edit_attach_file'><GrAttachment/></i>
@@ -41,14 +41,14 @@ export const Labdetailedit = () => {
                             </label>
                         </div>
                         <div className='labdetailedit_pharma_form_input'>
-                            <label className='labdetailedit_pharma_form_label_basic'>Lab name </label><br />
+                            <label className='labdetailedit_pharma_form_label_basic'>Lab name </label>
                             
                             <input type="text"  className='labdetailedit_pharma_form_data_basic' placeholder='JJ Labs'/>
                             
                         
                         </div>
                         <div className='labdetailedit_pharma_form_input'>
-                            <label className='labdetailedit_pharma_form_label_basic'>Lab Address</label><br />
+                            <label className='labdetailedit_pharma_form_label_basic'>Lab Address</label>
                             <input type="text" className='labdetailedit_pharma_form_data_basic' placeholder='121'/>
                             <input type="text" className='labdetailedit_pharma_form_data_basic' placeholder='Some Society,nr. Some School.'/>
                             <input type="text" className='labdetailedit_pharma_form_data_basic' placeholder='Surat'/>

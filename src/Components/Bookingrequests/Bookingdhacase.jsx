@@ -29,9 +29,9 @@ export const Bookingdhacase = () => {
       <div className='bookingcase_middle_container_heading_dha_case_details'>
         <div className='bookingcase_middle_container_heading_1_dha_case_details'>
             <Link to={"/bookingrequestdha"} className='bookingdhacase_back'>
-            <div className='arr_div'>< PiArrowLeftFill className='bookingcase_details_arrow_case_dha'/></div>
+            <div className='bookingcase_arr_div'>< PiArrowLeftFill className='bookingcase_details_arrow_case_dha'/></div>
             </Link>
-          <h2>Case Details</h2>
+          <h2>Case #123456</h2>
         </div>
        </div>
 

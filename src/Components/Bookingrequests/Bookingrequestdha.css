@@ -1,4 +1,4 @@
-.bookingrequest_pharmacy_managemenet_container {
+.bookingrequest_pharmacy_management_container {
     background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     width: 100%;
 }
@@ -7,12 +7,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .bookingrequest_pharmacy_management_heading_box_1 {
     display: flex;
     justify-content: flex-start;
-    margin-left: 70px;
+    align-items: center;
 }
 
 .bookingrequest_pharmacy_management_heading_box_1 h2 {
@@ -32,7 +34,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 70px;
 }
 
 .bookingrequest_pharmacy_management_heading_box_2 p {
@@ -77,7 +78,7 @@
 }
 
 .bookingrequest_pharmacy_management_container_2_p_2 {
-    margin-left: 10px;
+    margin-left: 20px;
     color: #8D98A4;
     font-size: 16px;
     font-weight: 500;
@@ -357,6 +358,13 @@
     color: #898989;
 }
 
+.toggle_booking_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
 .toggle_booking {
     background: #DCFAEB;
     height: 10px;
@@ -388,6 +396,7 @@
 .bookingrequest_pharmacy_management_container_4 {
     margin-left: 90px;
     margin-top: 20px;
+    margin-right: 70px;
 }
 
 .bookingrequest_pharmacy_management_container_4_urgent {
@@ -482,4 +491,21 @@
 .bookingrequest_medicine_link {
     text-decoration: none;
     list-style: none;
+}
+
+
+/*################### Dropdown Sort by #################### */
+
+.bookingrequest_dropdown_content_drop {
+    position: absolute;
+    top: 210px;
+    right: 70px;
+    padding: 10px;
+    background: white;
+    color: #333;
+}
+
+.bookingrequest_dropdown_item_drop {
+    padding: 5px;
+    cursor: pointer;
 }

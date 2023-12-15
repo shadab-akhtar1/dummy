@@ -25,15 +25,15 @@ export const pharmabasicedit = () => {
                     
                     <form action="" className='pharma_form_basic'>
                         <div className='pharma_form_input'>
-                            <label className='pharma_form_label_basic'>Full Name</label><br />
+                            <label className='pharma_form_label_basic'>Full Name</label>
                             <input type="text" className='pharma_form_data_basic' placeholder='Jaydip Sakhiya'/>
                         </div>
                         <div className='pharma_form_input'>
-                            <label className='pharma_form_label_basic' >Mobile No.</label><br />
+                            <label className='pharma_form_label_basic' >Mobile No.</label>
                             <input type="text" className='pharma_form_data_basic' placeholder='+91 1234567890'/>
                         </div>
                         <div className='pharma_edit_userprofile_form_input'>
-                            <label className='pharma_edit_document_form_label'>Pharmacy Photo</label> <br /><br />
+                            <label className='pharma_edit_document_form_label'>Pharmacy Photo</label>
                             <input type="file" id='pharma_edit_form' className='pharma_edit_document_form_1'/>
                             <label for="pharma_edit_form" className='pharma_edit_document_form_2'>
                             <i className='pharma_edit_attach_file'><GrAttachment/></i>
@@ -41,14 +41,14 @@ export const pharmabasicedit = () => {
                             </label>
                         </div>
                         <div className='pharma_form_input'>
-                            <label className='pharma_form_label_basic'>Pharmacy name </label><br />
+                            <label className='pharma_form_label_basic'>Pharmacy name </label>
                             
                             <input type="text"  className='pharma_form_data_basic' placeholder='JJ Labs'/>
                             
                         
                         </div>
                         <div className='pharma_form_input'>
-                            <label className='pharma_form_label_basic'>Pharmacy Address</label><br />
+                            <label className='pharma_form_label_basic'>Pharmacy Address</label>
                             <input type="text" className='pharma_form_data_basic' placeholder='121'/>
                             <input type="text" className='pharma_form_data_basic' placeholder='Some Society,nr. Some School.'/>
                             <input type="text" className='pharma_form_data_basic' placeholder='Surat'/>

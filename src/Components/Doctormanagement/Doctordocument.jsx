@@ -27,8 +27,8 @@ export const Doctordocument = () => {
                     
                     <form action="" className='doctor_document_userprofile_form'>
 
-                    <div className='document_userprofile_form_input'>
-                            <label className='doctor_document_form_label'>Aadhar Card</label> <br /><br />
+                    <div className='document_userprofile_form_input_doctor'>
+                            <label className='doctor_document_form_label'>Aadhar Card</label> 
                             <input type="file" id='document_form' className='doctor_document_form_1'/>
                             <label for="document_form" className='doctor_document_form_2'>
                             <i className='doctor_attach_file'><GrAttachment/></i>
@@ -36,8 +36,8 @@ export const Doctordocument = () => {
                             </label>
                         </div>
 
-                        <div className='document_userprofile_form_input'>
-                            <label className='doctor_document_form_label'>Pan Card</label> <br /><br />
+                        <div className='document_userprofile_form_input_doctor'>
+                            <label className='doctor_document_form_label'>Pan Card</label> 
                             <input type="file" id='document_form' className='doctor_document_form_1'/>
                             <label for="document_form" className='doctor_document_form_2'>
                             <i className='doctor_attach_file'><GrAttachment/></i>
@@ -46,8 +46,8 @@ export const Doctordocument = () => {
                         
                         
                         
-                        <div className='document_userprofile_form_input'>
-                            <label className='doctor_document_form_label'>Lab RMC Medical Counsel Certificate</label> <br /><br />
+                        <div className='document_userprofile_form_input_doctor'>
+                            <label className='doctor_document_form_label'>Lab RMC Medical Counsel Certificate</label> 
                             <input type="file" id='document_form' className='doctor_document_form_1'/>
                             <label for="document_form" className='doctor_document_form_2'>
                             <i className='doctor_attach_file'><GrAttachment/></i>

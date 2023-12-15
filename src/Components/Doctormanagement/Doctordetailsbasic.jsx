@@ -3,7 +3,7 @@ import './Doctordetailsbasic.css';
 import {Navbar} from '../Dhamanagement/Navbar';
 import userprofile from '../Assets/Avatar.svg';
 import {Link} from 'react-router-dom';
-import {FaCaretDown} from 'react-icons/fa';
+
 import {PiArrowLeftFill} from 'react-icons/pi';
 
 export const Doctordetailsbasic = () => {
@@ -37,34 +37,34 @@ export const Doctordetailsbasic = () => {
                     </div>
                     <form action="" className='userprofile_form_basic'>
                         <div className='userprofile_form_input'>
-                            <label className='form_label_basic'>Full Name</label><br />
+                            <label className='form_label_basic'>Full Name</label>
                             <input type="text" className='form_data_basic' placeholder='Jaydip Sakhiya'/>
                         </div>
                         <div className='userprofile_form_input'>
-                            <label className='form_label_basic' >Mobile No.</label><br />
+                            <label className='form_label_basic' >Mobile No.</label>
                             <input type="text" className='form_data_basic' placeholder='+91 1234567890'/>
                         </div>
                         <div className='userprofile_form_input'>
-                            <label className='form_label_basic'>Gender </label><br />
+                            <label className='form_label_basic'>Gender </label>
                             
                             <input type="text"  className='form_data_basic' placeholder='Male'/>
                             
                         
                         </div>
                         <div className='userprofile_form_input'>
-                            <label className='form_label_basic'> Address</label><br />
+                            <label className='form_label_basic'> Address</label>
                             <input type="text" className='form_data_basic' placeholder='Lorem ipsum dolor sit amet'/>
                             <input type="text" className='form_data_basic' placeholder='consectetur adipiscing elit. Praesent.'/>
                             <input type="text" className='form_data_basic' placeholder='Jaipur'/>
                             <input type="text" className='form_data_basic' placeholder='Rajasthan'/>
                         </div>
                         <div className='userprofile_form_input'>
-                            <label className='form_label_basic'>Qualification</label><br />
+                            <label className='form_label_basic'>Qualification</label>
                             <input type="text" className='form_data_basic' placeholder='Doctor MBBS'/>
                         </div>
                         
                         <div className='userprofile_form_input'>
-                            <label className='form_label_basic'>Speciality</label><br />
+                            <label className='form_label_basic'>Speciality</label>
                             <input type="text" className='form_data_basic' placeholder='Dentist'/>
                         </div>
                     </form>

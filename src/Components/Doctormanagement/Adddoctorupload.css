@@ -10,7 +10,6 @@
 .adddoctor {
     background: #FFFFFF;
     width: 550px;
-    height: 95vh;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -102,7 +101,7 @@
 .adddoctor_form_fill {
     width: 500px;
     align-items: center;
-    height: 150px;
+    margin-bottom: 20px;
 }
 
 .adddoctor_form_fill_labi {

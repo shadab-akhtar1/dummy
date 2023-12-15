@@ -112,6 +112,10 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    color: #5B6572;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .addsubadmin_container_3_image_div {
@@ -142,6 +146,9 @@
     color: #5B6572;
     border: none;
     outline: none;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .addsubadmin_btn {

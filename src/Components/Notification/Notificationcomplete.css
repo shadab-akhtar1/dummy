@@ -119,3 +119,15 @@
     margin-top: 20px;
     text-align: center;
 }
+
+.notification_complete_left_arrow {
+    color: #4B4656;
+    height: 22px;
+    width: 22px;
+}
+
+.notification_complete_right_arrow {
+    color: #4B4656;
+    height: 22px;
+    width: 22px;
+}

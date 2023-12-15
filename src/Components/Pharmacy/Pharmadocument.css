@@ -4,22 +4,27 @@
 
 .pharma_document {
     width: 100%;
-    height: 90vh;
+    height: 84vh;
     margin-top: -11px;
     background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
 }
 
 .pharma_document_heading {
     width: 1200px;
-    padding-left: 80px;
+    padding-left: 70px;
     padding-top: 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .pharma_document_heading h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    font-size: 22px;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .pharma_document_heading2 {
@@ -31,7 +36,11 @@
 }
 
 .pharma_arrow_document {
-    padding-right: 5px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1A1C1F;
 }
 
 .pharma_document_link_head {
@@ -58,7 +67,7 @@
     color: #1A1C1F;
     font-size: 16px;
     font-weight: 500;
-    border-bottom: 1px solid #E40443;
+    border-bottom: 2px solid #E40443;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -86,21 +95,23 @@
 }
 
 .pharma_document_userprofile_box_2 {
-    width: 430px;
     gap: 24px;
 }
 
 .pharma_userprofile_form {
     margin-top: 5px;
-    width: 430px;
+    display: grid;
+    align-items: center;
 }
 
 .pharma_document_userprofile_form_input {
     margin-bottom: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 .pharma_document_form_data {
-    width: 100%;
     color: linear-gradient(0deg, #EEF0F3, #EEF0F3), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     border: 1px solid #EEF0F3;
     border-radius: 6px;
@@ -125,15 +136,14 @@
     font-weight: 500;
     color: #8D98A4;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5px;
 }
 
 .pharma_document_form_1 {
     display: none;
-    width: 430px;
 }
 
 .pharma_document_form_2 {
-    width: 430px;
     color: linear-gradient(0deg, #EEF0F3, #EEF0F3), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     border: 1px solid #EEF0F3;
     border-radius: 6px;

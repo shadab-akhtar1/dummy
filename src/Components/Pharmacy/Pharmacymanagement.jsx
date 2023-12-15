@@ -21,13 +21,13 @@ export const Pharmacymanagement = () => {
         <div className='pharmacy_management_container_1'>
             <div className='pharmacy_management_heading_box_1'><h2>Dashboard</h2></div>
             <div className='pharmacy_management_heading_box_2'><p>Availability</p>
-            <div className='toggle_div'>
-                <div  className='toggle'></div>
-                    {toggleButton?<div onClick={handleClick} className='toggle_left'></div>:
-                    <div onClick={handleClick}className='toggle_right'></div>}
+            <div  className='toggle_div'>
+                <div onClick={handleClick} className='toggle'>
+                    {toggleButton?<div  className='toggle_left'></div>:
+                    <div className='toggle_right'></div>}
                 
                 </div>
-            
+                </div>
             </div>
         </div>
         <div className='pharmacy_management_container_2'>

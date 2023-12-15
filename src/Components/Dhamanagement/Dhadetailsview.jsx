@@ -355,7 +355,7 @@ export const Dhadetailsview = () => {
 
               
           </div>
-          <p className='deta'>View Account Details</p>
+          <span className='deta'>View Account Details</span>
           <div className='last_one_last'>
             <div className='last_one_last_1'>
               <ul>

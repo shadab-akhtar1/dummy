@@ -74,6 +74,10 @@
     margin-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #5B6572;
 }
 
 .addrole_form_select option {
@@ -111,6 +115,10 @@
     height: 88px;
     margin-top: 5px;
     width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #5B6572;
 }
 
 .addrole_form_3 {

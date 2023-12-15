@@ -20,7 +20,7 @@ export const Rejectlabtestdetail = () => {
     <div className='completedquotationlab_addquotation4_bookingcase_middle_container_dha_case_details'>
       <div className='completedquotationlab_addquotation4_bookingcase_middle_container_heading_dha_case_details'>
         <div className='completedquotationlab_addquotation4_bookingcase_middle_container_heading_1_dha_case_details'>
-            <Link to={"rejectlabhospital"} className='rejectlabtestdetail_back'>
+            <Link to={"/rejectlabhospital"} className='rejectlabtestdetail_back'>
             <div className='completedquotationlab_addquotation4_arr_div'>< PiArrowLeftFill className='completedquotationlab_addquotation4_bookingcase_details_arrow_case_dha'/></div>
             </Link>
           <h2># 123456</h2>

@@ -26,20 +26,20 @@ export const Pharmabankinfo = () => {
                     
                     <form action="" className='pharma_bankinfo_userprofile_form'>
                         <div className='pharma_userprofile_form_input'>
-                            <label className='pharma_bankinfo_form_label'>Bank Name</label><br />
+                            <label className='pharma_bankinfo_form_label'>Bank Name</label>
                             <input type="text" className='pharma_bankinfo_form_data' placeholder='Central Bank'/>
                         </div>
                         <div className='pharma_userprofile_form_input'>
-                            <label className='pharma_bankinfo_form_label' >Account Number</label><br />
+                            <label className='pharma_bankinfo_form_label' >Account Number</label>
                             <input type="text" className='pharma_bankinfo_form_data' placeholder='1234567890'/>
                         </div>
                         <div className='pharma_userprofile_form_input'>
-                            <label className='pharma_bankinfo_form_label'>IFSC Code</label><br />
+                            <label className='pharma_bankinfo_form_label'>IFSC Code</label>
                             <input type="text" className='pharma_bankinfo_form_data' placeholder='CBINO4545'/>
                         </div>
                         <div className='pharma_userprofile_form_input'>
         
-                            <label className='pharma_document_form_label'>Upload bank statement/cancel cheque</label> <br /> <br />
+                            <label className='pharma_document_form_label'>Upload bank statement/cancel cheque</label> 
                             <input type="file" id='pharma_document_form' className='pharma_bankinfo_form_1'/>
                             <label for="pharma_document_form" className='pharma_bankinfo_form_2'>
                             <i className='pharma_bankinfo_attach_file'><FaRegPenToSquare/></i>

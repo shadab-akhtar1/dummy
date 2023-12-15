@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './Labnonurgent.css';
 import {Navbar} from '../Dhamanagement/Navbar';
 import pharimg from '../Assets/Ellipse 2 (1).jpg';
@@ -12,6 +12,7 @@ import {PiArrowLeftFill} from 'react-icons/pi';
 import {FaCaretDown} from 'react-icons/fa';
 
 export const Labnonurgent = () => {
+    const [isActive, setIsActive]= useState(false);
   return (
     <>
     <div className='labnonurgent_managemenet'><Navbar/></div>
@@ -32,11 +33,24 @@ export const Labnonurgent = () => {
             </Link>
             </div>
             <div className='labnonurgent_management_container_2_down'>
-                <div className='labnonurgent_management_all'>All <FaCaretDown/></div>
-
+                <div className='labnonurgent_management_all' onClick={(e)=> setIsActive(!isActive)}>All <FaCaretDown/></div>
+                {isActive &&(
+                    <div className='labnonurgent_dropdown_content_drop'>
+                    <Link to={""}>
+                    <div className='labnonurgent_dropdown_item_drop'>All</div>
+                    </Link>
+                    <Link to={""}>
+                    <div className='labnonurgent_dropdown_item_drop'>Pending</div>
+                    </Link>
+                    <Link to={""}>
+                    <div className='labnonurgent_dropdown_item_drop'>Requested</div>
+                    </Link>
+                    </div>
+              )}
             </div>
         </div>
         <div className='labnonurgent_management_container_3_all'>All</div>
+        
         <div className='labnonurgent_management_container_3'>
             
             <div className='labnonurgent_management_container_3_1'>

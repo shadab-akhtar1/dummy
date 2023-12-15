@@ -342,7 +342,7 @@
 .last {
     display: flex;
     justify-content: space-between;
-    width: 1240px;
+    width: 1216px;
     margin-left: 70px;
     margin-right: 40px;
     align-items: center;
@@ -352,11 +352,14 @@
 }
 
 .last_last {
-    width: 500px;
+    width: 484px;
+    margin-right: 100px;
+    padding-top: 10px;
 }
 
 .last_last_last {
     margin-bottom: 20px;
+    width: 484px;
 }
 
 .last_one {
@@ -426,6 +429,7 @@
     font-weight: 500;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
 }
 
 .last_one_last {

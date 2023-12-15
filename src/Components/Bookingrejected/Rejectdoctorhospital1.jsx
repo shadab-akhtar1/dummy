@@ -21,6 +21,7 @@ export const Rejectdoctorhospital1 = () => {
         setToggleButton(!toggleButton)
     }
     const [isActive, setIsActive]= useState(false);
+    const [hisActive, setHisActive]= useState(false);
   return (
     <>
     <div><Navbars/></div>
@@ -32,10 +33,10 @@ export const Rejectdoctorhospital1 = () => {
             
                 </div>
                 <div className='toggle_booking_div'>
-                    <div  className='toggle_booking'></div>
+                    <div  className='toggle_booking'>
                     {toggleButton?<div onClick={handleClick} className='toggle_booking_left'></div>:
                     <div onClick={handleClick}className='toggle_booking_right'></div>}
-                
+                    </div>
                 </div>
             </div>
         </div>
@@ -52,9 +53,18 @@ export const Rejectdoctorhospital1 = () => {
             <div className='bookingrequest_pharmacy_management_container_2_p_4_pendingdoctor_hospital'>Lab</div>
             </Link>
             </div>
-            <div className='bookingrequest_pharmacy_management_container_2_2_pendingdoctor_hospital'>
+            <div className='bookingrequest_pharmacy_management_container_2_2_pendingdoctor_hospital'onClick={(e)=> setHisActive(!hisActive)}>
                 Sort by <FaCaretDown className='bookingrequest_pharmacy_management_icon_pendingdoctor_hospital'/>
             </div>
+            {hisActive &&(
+              <div className='bookingrequest_dropdown_content_drop'>
+                <Link to={""}>
+                <div className='bookingrequest_dropdown_item_drop'>Sort by</div>
+                </Link>
+                
+
+              </div>
+              )}
         </div>
         <div className='bookingrequest_pharmacy_management_container_4'>
             <div className='bookingrequest_pharmacy_management_container_4_urgent_pendingdha'onClick={(e)=> setIsActive(!isActive)}>Non Urgent Care <FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>

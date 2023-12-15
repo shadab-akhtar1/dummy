@@ -19,7 +19,7 @@ export const Pharmabookingvaccinedone = () => {
             <Link to={"/pharmacymanagement"} className='pharmabookingvaccinedone_back'>
             <div className='pharmabookingdone_arrdoctor_div'>< PiArrowLeftFill className='pharmabookingdone_details_arrow_case_doctor'/></div>
             </Link>
-            <h2>Case Details</h2>
+            <h2>Case #123456</h2>
         </div>
        </div>
        <div className='pharmabookingdone_third_container_doctor_case_details'>

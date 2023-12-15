@@ -108,7 +108,7 @@
 }
 
 .lab_management_container_2_p_2 {
-    margin-left: 10px;
+    margin-left: 20px;
     color: #8D98A4;
     font-size: 16px;
     font-weight: 500;
@@ -138,6 +138,7 @@
     border-radius: 12px;
     background-color: white;
     width: 380px;
+    height: 147px;
 }
 
 .lab_management_container_3_2 {
@@ -145,6 +146,7 @@
     border-radius: 12px;
     background-color: white;
     width: 380px;
+    height: 147px;
 }
 
 .lab_management_container_3_3 {
@@ -152,6 +154,7 @@
     border-radius: 12px;
     background-color: white;
     width: 380px;
+    height: 147px;
 }
 
 .lab_management_container_3_4 {
@@ -159,6 +162,7 @@
     border-radius: 12px;
     background-color: white;
     width: 380px;
+    height: 147px;
 }
 
 .lab_management_container_3_5 {
@@ -166,6 +170,7 @@
     border-radius: 12px;
     background-color: white;
     width: 380px;
+    height: 147px;
 }
 
 .lab_management_container_3_6 {
@@ -173,6 +178,7 @@
     border-radius: 12px;
     background-color: white;
     width: 380px;
+    height: 147px;
 }
 
 .lab_management_container_3_7 {
@@ -180,6 +186,7 @@
     border-radius: 12px;
     background-color: white;
     width: 380px;
+    height: 147px;
 }
 
 .lab_management_container_3_1_up {
@@ -287,6 +294,7 @@
 .lab_management_container_3_1_down {
     display: flex;
     align-items: center;
+    margin-top: 5px;
 }
 
 .lab_management_container_3_1_down_left {
@@ -376,6 +384,19 @@
     font-size: 12px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+}
+
+.labmanagement_dropdown_content_drop {
+    position: absolute;
+    top: 240px;
+    padding: 10px;
+    background: white;
+    color: #1A1C1F;
+}
+
+.labmanagement_dropdown_item_drop {
+    padding: 5px;
+    cursor: pointer;
 }
 
 

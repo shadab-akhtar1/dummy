@@ -154,3 +154,15 @@
 .notification_link {
     text-decoration: none;
 }
+
+.notification_left_arrow {
+    color: #4B4656;
+    height: 22px;
+    width: 22px;
+}
+
+.notification_right_arrow {
+    color: #4B4656;
+    height: 22px;
+    width: 22px;
+}

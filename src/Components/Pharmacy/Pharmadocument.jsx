@@ -28,7 +28,7 @@ export const Pharmadocument = () => {
                     <form action="" className='pharma_userprofile_form'>
 
                     <div className='pharma_document_userprofile_form_input'>
-                            <label className='pharma_document_form_label'>Aadhar Card</label> <br /><br />
+                            <label className='pharma_document_form_label'>Aadhar Card</label> 
                             <input type="file" id='pharma_document_form' className='pharma_document_form_1' placeholder='aadhar.jpg'/>
                             <label for="pharma_document_form" className='pharma_document_form_2'>
                             <i className='pharma_attach_file'><FaRegPenToSquare/></i>
@@ -36,7 +36,7 @@ export const Pharmadocument = () => {
                         </div>
 
                         <div className='pharma_document_userprofile_form_input'>
-                            <label className='pharma_document_form_label'>Pan Card</label> <br /><br />
+                            <label className='pharma_document_form_label'>Pan Card</label> 
                             <input type="file" id='pharma_document_form' className='pharma_document_form_1'/>
                             <label for="pharma_document_form" className='pharma_document_form_2'>
                             <i className='pharma_attach_file'><FaRegPenToSquare/></i>
@@ -46,14 +46,14 @@ export const Pharmadocument = () => {
                         
                         
                         <div className='pharma_document_userprofile_form_input'>
-                            <label className='pharma_document_form_label'>License File</label> <br /><br />
+                            <label className='pharma_document_form_label'>License File</label> 
                             <input type="file" id='pharma_document_form' className='pharma_document_form_1'/>
                             <label for="pharma_document_form" className='pharma_document_form_2'>
                             <i className='pharma_attach_file'><FaRegPenToSquare/></i>
                             </label>
                         </div>
                         <div className='pharma_document_userprofile_form_input'>
-                            <label className='pharma_document_form_label'>GST File</label> <br /><br />
+                            <label className='pharma_document_form_label'>GST File</label> 
                             <input type="file" id='pharma_document_form' className='pharma_document_form_1'/>
                             <label for="pharma_document_form" className='pharma_document_form_2'>
                             <i className='pharma_attach_file'><FaRegPenToSquare/></i>

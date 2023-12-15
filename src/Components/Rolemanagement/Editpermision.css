@@ -73,6 +73,10 @@
     height: 40px;
     border-radius: 8px;
     border: 1px solid #EEF0F3;
+    color: #1A1C1F;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .addsubadmincompleted_editpermision_form_3 {

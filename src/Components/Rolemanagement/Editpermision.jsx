@@ -20,7 +20,7 @@ export const Editpermision = () => {
               </div>
               <div className=''>
                 <select name="" id="" placeholder='Booking Manager' className='editpermision_container_2_2'>
-                  <option value="">Booking manager</option>
+                  <option value="">Booking Manager</option>
 
                 </select>
               </div>

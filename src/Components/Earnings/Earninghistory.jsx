@@ -17,28 +17,12 @@ import {PiCaretDoubleLeftBold} from 'react-icons/pi';
 import {PiCaretDoubleRightBold} from 'react-icons/pi';
 import {BiChevronDown} from 'react-icons/bi';
 import { IoCheckmark } from "react-icons/io5";
+import Navbars from '../Dhamanagement/Navbars';
 
 export const Earninghistory = () => {
   return (
     <>
-        <nav className='earninghistory_earning_pharmabooking_navbar_doctorcase'>
-        <div className='earninghistory_earning_pharmabooking_navbar_logo_doctorcase'>
-        <img src={Weblogo} alt="logo_doctorcase" />
-        </div>
-
-        <ul className='earninghistory_earning_pharmabooking_nav_links_doctorcase'>
-            <li className='earninghistory_earning_pharmabooking_list_item_doctorcase'>Dooper At Home</li>
-            <li className='earninghistory_earning_pharmabooking_list_item_doctorcase'>Lab Tesst </li>
-            <li className='earninghistory_earning_pharmabooking_list_item_doctorcase'>Our Network < FaCaretDown/></li>
-            <li className='earninghistory_earning_pharmabooking_list_item_doctorcase'>About Us</li>
-            <li className='earninghistory_earning_pharmabooking_list_item_doctorcase'>Contact Us</li>
-            <li className='earninghistory_earning_pharmabooking_list_item_doctorcase'>Join Us With <FaCaretDown/></li>
-            <li className='earninghistory_earning_pharmabooking_list_item_1_dhacase'><img src={profile} alt="" className='earninghistory_earning_pharmabooking_jaydoctor_profile'/>Jaydeep Sakhiya <FaCaretDown/></li>
-            <li className='earninghistory_earning_pharmabooking_list_item_1_doctorcase'><FaBell className='earninghistory_earning_pharmabooking_icons_bell_doctorcase'/></li>
-            <li className='earninghistory_earning_pharmabooking_list_item_1_doctorcase_2'>< BsTelephone className='earninghistory_earning_pharmabooking_phone_icon_doctorcase'/></li>
-        </ul>
-
-    </nav>
+        <div><Navbars/></div>
     <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_basic'>
         <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading_basic'><h2><Link to={"/profile"} className='earninghistory_earning_profile_documnet_labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='earninghistory_earning_profile_documnet_labdetailedit_pharma_arrow_edit_basic'/></Link>My Earnings</h2></div>
         <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_basic_base'>
@@ -52,8 +36,8 @@ export const Earninghistory = () => {
         </div>
         <div className='earninghistory_earning_labdetails_pharma_detail2'>
         <div className='earninghistory_earning_labdetails_pharma_detail2_profile'>
-          <img src={profile_logo} alt="profile" />
-          <div className='earninghistory_earning_labdetails_pharma_detail2_profile_name'>Hospital Name <p>Owner Name</p></div>
+        
+          <div className='earninghistory_earning_labdetails_pharma_detail2_profile_name'>Doctors </div>
           
         </div>
         <div className='earninghistory_earning_labdetails_pharma_detail2_box'>786544<p>Total Cases</p></div>
@@ -98,12 +82,12 @@ export const Earninghistory = () => {
           <div className='earninghistory_labdetails_pharma_detail3_last_one_last'>
             <div className='earninghistory_labdetails_pharma_detail3_last_one_last_1'>
               <ul>
-                <li>Transction #1234</li>
+                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li'>Transction #1234</li>
                 
-                <li>16 june 2023</li>
+                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li_1'>16 june 2023</li>
               </ul>
               <ul>
-                <li><button>RS 500</button></li>
+                <li><button className='earninghistory_labdetails_pharma_detail3_last_one_last_1_button'>RS 500</button></li>
                 <Link to={""}>
                 
                 </Link>
@@ -111,45 +95,45 @@ export const Earninghistory = () => {
             </div>
             <div className='earninghistory_labdetails_pharma_detail3_last_one_last_1'>
             <ul>
-                <li>Transction #1234</li>
+                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li'>Transction #1234</li>
             
-                <li>16 june 2023</li>
+                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li_1'>16 june 2023</li>
               </ul>
               <ul>
-                <li><button>RS 500</button></li>
+                <li><button className='earninghistory_labdetails_pharma_detail3_last_one_last_1_button'>RS 500</button></li>
                 
               </ul>
             </div>
             <div className='earninghistory_labdetails_pharma_detail3_last_one_last_1'>
             <ul>
-                <li>Transction #1234</li>
+                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li'>Transction #1234</li>
                 
-                <li>16 june 2023</li>
+                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li_1'>16 june 2023</li>
               </ul>
               <ul>
-                <li><button>RS 500</button></li>
+                <li><button className='earninghistory_labdetails_pharma_detail3_last_one_last_1_button'>RS 500</button></li>
                 
               </ul>
             </div>
             <div className='earninghistory_labdetails_pharma_detail3_last_one_last_1'>
             <ul>
-                <li>Transction #1234</li>
+                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li'>Transction #1234</li>
                 
-                <li>16 june 2023</li>
+                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li_1'>16 june 2023</li>
               </ul>
               <ul>
-                <li><button>RS 500</button></li>
+                <li><button className='earninghistory_labdetails_pharma_detail3_last_one_last_1_button'>RS 500</button></li>
                 
               </ul>
             </div>
             <div className='earninghistory_labdetails_pharma_detail3_last_one_last_1'>
             <ul>
-                <li>Transction #1234</li>
+                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li'>Transction #1234</li>
                 
-                <li>16 june 2023</li>
+                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li_1'>16 june 2023</li>
               </ul>
               <ul>
-                <li><button>RS 500</button></li>
+                <li><button className='earninghistory_labdetails_pharma_detail3_last_one_last_1_button'>RS 500</button></li>
                 
               </ul>
             </div>
@@ -177,15 +161,10 @@ export const Earninghistory = () => {
 
           
           <div className='earninghistory_labdetails_pharma_detail3_last_last'>
-          <div className='earninghistory_labdetails_pharma_detail3_last_one'>
-            
-              
-
-              
-          </div>
           
-          <div className='earninghistory_labdetails_pharma_detail3_last_one_last'>
-            <div className='earninghisrory_right_lastdiv'>Withdrawal Status</div>
+          
+          <div className='earninghistory_labdetails_pharma_detail3_last_one_last_right'>
+            <div className='earninghistory_right_lastdiv'>Withdrawal Status</div>
 
             <div className='earninghistory_right_lastdiv_2'>
                 <div className='earninghistory_right_lastdiv_2_left'>
@@ -194,15 +173,21 @@ export const Earninghistory = () => {
                     <div className='earninghistory_right_lastdiv_2_left_3'>16,June 2023</div>
                 </div>
                 <div className='earninghistory_right_lastdiv_2_right'>
-                    <button>Panding</button>
+                    <button>Pending</button>
                 </div>
             </div>
+
+            
+
             <div className='earninghistory_right_lastdiv_3'>
                 <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para'>
                         <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para_left'>
+                            <div className='earninghistory_lab_progress'>
+                              <span className='earninghistory_lab_indicator'></span>
+                            </div>
                         
-                            <div className='earninghistory_lab_pharmabooking_doctor_case_detail_container_1'><div><IoCheckmark className='earninghistory_pharmabooking_doctor_check_mark' /></div></div>
-                            <div className='earninghistory_lab_pharmabooking_doctor_case_detail_container_4'><div><IoCheckmark className='earninghistory_pharmabooking_doctor_check_mark' /></div></div>
+                            <div className='earninghistory_lab_pharmabooking_doctor_case_detail_container_1'><div><IoCheckmark className='earninghistory_lab_pharmabooking_doctor_check_mark' /></div></div>
+                            <div className='earninghistory_lab_pharmabooking_doctor_case_detail_container_4'><div><IoCheckmark className='earninghistory_lab_pharmabooking_doctor_check_mark' /></div></div>
                             
                             <div className='earninghistory_lab_pharmabooking_doctor_case_detail_container_2'>04</div>
                             <div className='earninghistory_lab_pharmabooking_doctor_case_detail_container_3'>03</div>

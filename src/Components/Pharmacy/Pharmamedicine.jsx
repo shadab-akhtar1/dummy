@@ -24,30 +24,31 @@ export const Pharmamedicine = () => {
             <div className='pharmacy_medicine_heading_box_1'><h2>Dashboard</h2></div>
             <div className='pharmacy_medicine_heading_box_2'>
                 <Link to={"/addpharma"}>
-            <button className='pharmacy_medicine_add_pharmacy_btn'>Add Pharmacy</button>
+                <button className='pharmacy_medicine_add_pharmacy_btn'>Add Pharmacy</button>
                 </Link>
                 
                 <p className='pharma_medicine_p_tag'>Availability</p>
-                <div className='toggle_div'>
-                <div  className='toggle'></div>
-                    {toggleButton?<div onClick={handleClick} className='toggle_left'></div>:
-                    <div onClick={handleClick}className='toggle_right'></div>}
                 
+                <div className='toggle_div'>
+                <div onClick={handleClick} className='toggle'>
+                    {toggleButton?<div  className='toggle_left'></div>:
+                    <div className='toggle_right'></div>}
                 </div>
-
+                </div>
             
             </div>
-
+            
         </div>
         <div className='pharmacy_medicine_container_2'>
             <div className='pharmacy_medicine_container_2_p_1'>Medicines</div>
             <Link to={"/pharmacymanagement"} className='vaccine_link'>
-            <div className='pharmacy_medicine_container_2_p_2'>Vacination</div>
+            <div className='pharmacy_medicine_container_2_p_2'>Vaccination</div>
             </Link>
             
         </div>
-
+        < div className='pharmacy_medicine_continer_3_up'>Pending</div>
         <div className='pharmacy_medicine_container_3'>
+        
             <Link to={"/pharmabooking"} className='pahrma_booking_done_link'>
             <div className='pharmacy_medicine_container_3_1'>
                 <div className='pharmacy_medicine_container_3_1_up'>
@@ -60,9 +61,9 @@ export const Pharmamedicine = () => {
                     </div>
                     <div className='pharmacy_medicine_container_3_1_up_box2'>
                         <div className='pharmacy_medicine_container_3_1_up_box2_left'>
-                            <div className='pharmacy_medicine_container_3_1_up_box2_left_1'><div className='phar_med_1'>Vaccine 1</div></div>
-                            <div className='pharmacy_medicine_container_3_1_up_box2_left_2'> <div className='phar_med_2'>Vaccine 2 </div></div>
-                            <div className='pharmacy_medicine_container_3_1_up_box2_left_3'><div className='phar_med_3'>Vaccine 3</div></div>
+                            <div className='pharmacy_medicine_container_3_1_up_box2_left_1'><div className='phar_med_1'>Medicine 1</div></div>
+                            <div className='pharmacy_medicine_container_3_1_up_box2_left_2'> <div className='phar_med_2'>Medicine 2 </div></div>
+                            <div className='pharmacy_medicine_container_3_1_up_box2_left_3'><div className='phar_med_3'>Medicine 3</div></div>
                         </div>
                         <div className='pharmacy_medicine_container_3_1_up_box2_right'>Quotation: 560</div>
                     </div>
@@ -97,9 +98,9 @@ export const Pharmamedicine = () => {
                     </div>
                     <div className='pharmacy_medicine_container_3_1_up_box2'>
                         <div className='pharmacy_medicine_container_3_1_up_box2_left'>
-                            <div className='pharmacy_medicine_container_3_1_up_box2_left_1'><div className='phar_med_1'>Vaccine 1</div></div>
-                            <div className='pharmacy_medicine_container_3_1_up_box2_left_2'> <div className='phar_med_2'>Vaccine 2 </div></div>
-                            <div className='pharmacy_medicine_container_3_1_up_box2_left_3'><div className='phar_med_3'>Vaccine 3</div></div>
+                            <div className='pharmacy_medicine_container_3_1_up_box2_left_1'><div className='phar_med_1'>Medicine 1</div></div>
+                            <div className='pharmacy_medicine_container_3_1_up_box2_left_2'> <div className='phar_med_2'>Medicine 2 </div></div>
+                            <div className='pharmacy_medicine_container_3_1_up_box2_left_3'><div className='phar_med_3'>Medicine 3</div></div>
                         </div>
                         <div className='pharmacy_medicine_container_3_1_up_box2_right'>Quotation: 560</div>
                     </div>
@@ -111,7 +112,7 @@ export const Pharmamedicine = () => {
                     <div className='pharmacy_medicine_container_3_1_down_right'>
                         <div className='pharmacy_medicine_container_3_1_down_right_up'>
                             <div className='pharmacy_medicine_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='pharmacy_medicine_container_3_1_down_right_up_btn'><button className='pharma_btn_med'>Accepted</button></div>
+                            <div className='pharmacy_medicine_container_3_1_down_right_up_btn'><button className='pharma_btn_med_1'>Quotation Requested</button></div>
                         </div>
                         <div className='pharmacy_medicine_container_3_1_down_right_down'>
                         XYZ, street name, City
@@ -134,9 +135,9 @@ export const Pharmamedicine = () => {
                     </div>
                     <div className='pharmacy_medicine_container_3_1_up_box2'>
                         <div className='pharmacy_medicine_container_3_1_up_box2_left'>
-                            <div className='pharmacy_medicine_container_3_1_up_box2_left_1'><div className='phar_med_1'>Vaccine 1</div></div>
-                            <div className='pharmacy_medicine_container_3_1_up_box2_left_2'> <div className='phar_med_2'>Vaccine 2 </div></div>
-                            <div className='pharmacy_medicine_container_3_1_up_box2_left_3'><div className='phar_med_3'>Vaccine 3</div></div>
+                            <div className='pharmacy_medicine_container_3_1_up_box2_left_1'><div className='phar_med_1'>Medicine 1</div></div>
+                            <div className='pharmacy_medicine_container_3_1_up_box2_left_2'> <div className='phar_med_2'>Medicine 2 </div></div>
+                            <div className='pharmacy_medicine_container_3_1_up_box2_left_3'><div className='phar_med_3'>Medicine 3</div></div>
                         </div>
                         <div className='pharmacy_medicine_container_3_1_up_box2_right'>Quotation: 560</div>
                     </div>
@@ -171,9 +172,9 @@ export const Pharmamedicine = () => {
                     </div>
                     <div className='pharmacy_medicine_container_3_1_up_box2'>
                         <div className='pharmacy_medicine_container_3_1_up_box2_left'>
-                            <div className='pharmacy_medicine_container_3_1_up_box2_left_1'><div className='phar_med_1'>Vaccine 1</div></div>
-                            <div className='pharmacy_medicine_container_3_1_up_box2_left_2'> <div className='phar_med_2'>Vaccine 2 </div></div>
-                            <div className='pharmacy_medicine_container_3_1_up_box2_left_3'><div className='phar_med_3'>Vaccine 3</div></div>
+                            <div className='pharmacy_medicine_container_3_1_up_box2_left_1'><div className='phar_med_1'>Medicine 1</div></div>
+                            <div className='pharmacy_medicine_container_3_1_up_box2_left_2'> <div className='phar_med_2'>Medicine 2 </div></div>
+                            <div className='pharmacy_medicine_container_3_1_up_box2_left_3'><div className='phar_med_3'>Medicine 3</div></div>
                         </div>
                         <div className='pharmacy_medicine_container_3_1_up_box2_right'>Quotation: 560</div>
                     </div>
@@ -185,7 +186,7 @@ export const Pharmamedicine = () => {
                     <div className='pharmacy_medicine_container_3_1_down_right'>
                         <div className='pharmacy_medicine_container_3_1_down_right_up'>
                             <div className='pharmacy_medicine_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='pharmacy_medicine_container_3_1_down_right_up_btn'><button className='pharma_btn_med'>Accepted</button></div>
+                            <div className='pharmacy_medicine_container_3_1_down_right_up_btn'><button className='pharma_btn_med_1'>Quotation Requested</button></div>
                         </div>
                         <div className='pharmacy_medicine_container_3_1_down_right_down'>
                         XYZ, street name, City

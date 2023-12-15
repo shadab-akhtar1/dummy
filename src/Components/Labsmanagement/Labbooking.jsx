@@ -42,14 +42,6 @@ export const Labbooking = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className='lab_pharmabooking_doctor_case_detail_complet'>
-                        <div className='lab_pharmabooking_doctor_case_detail_completion'><p>Request For</p></div>
-                        <div className='lab_pharmabooking_doctor_case_detail_time'>
-                
-                            <p className='lab_pharmabooking_doctor_case_detail_time_1'><PiCalendarBlankLight className='lab_pharmabooking_calen_doctor'/>13 june,2023</p>
-                            <p className='lab_pharmabooking_doctor_case_detail_time_2'><CiClock2 className='lab_pharmabooking_doctor_case_detail_clock'/>09:00AM</p>
-                        </div>
-                    </div>
                     <div className='lab_pharmabooking_doctor_case_detail_symptom'>
                         <div className='lab_pharmabooking_doctor_case_deatil_symptom_1'>
                             <div className='lab_pharmabooking_doctor_case_detail_symptom_left'>
@@ -63,6 +55,15 @@ export const Labbooking = () => {
                         </div>
 
                     </div>
+                    <div className='lab_pharmabooking_doctor_case_detail_complet'>
+                        <div className='lab_pharmabooking_doctor_case_detail_completion'><p>Request For</p></div>
+                        <div className='lab_pharmabooking_doctor_case_detail_time'>
+                
+                            <p className='lab_pharmabooking_doctor_case_detail_time_1'><PiCalendarBlankLight className='lab_pharmabooking_calen_doctor'/>13 june,2023</p>
+                            <p className='lab_pharmabooking_doctor_case_detail_time_2'><CiClock2 className='lab_pharmabooking_doctor_case_detail_clock'/>09:00AM</p>
+                        </div>
+                    </div>
+                    
                     <div className='lab_pharmabooking_doctor_case_detail_para'>
                         <div className='lab_pharmabooking_doctor_case_detail_para_left'>
                         
@@ -78,15 +79,18 @@ export const Labbooking = () => {
                         <div className='lab_pharmabooking_doctor_case_detail_para_right'>
 
                         <div className='lab_pharmabooking_doctor_case_detail_para_right_5'>
-                                <div className='lab_pharmabooking_doctor_case_detail_para_right_2_up'>
+                            
+                                <div className='lab_pharmabooking_doctor_case_detail_para_right_2_up_1'>
                                     <div className='lab_pharmabooking_doctor_case_detail_para_content_2'>
                                         <h4>Lab Test Details</h4>
                                         <p>Assigned</p>
 
                                     </div>
                                 </div>
+                                
                         </div>
                         <div className='lab_pharmabooking_doctor_case_detail_para_right_5'>
+                        <Link to={"/labbookingstarted"} className='labbooking_link'>
                                 <div className='lab_pharmabooking_doctor_case_detail_para_right_2_up'>
                                     <div className='lab_pharmabooking_doctor_case_detail_para_content_2'>
                                         <h4>Service Started</h4>
@@ -94,6 +98,7 @@ export const Labbooking = () => {
 
                                     </div>
                                 </div>
+                                </Link>
                         </div>
                         <div className='lab_pharmabooking_doctor_case_detail_para_right_5'>
                                 <div className='lab_pharmabooking_doctor_case_detail_para_right_2_up'>
@@ -115,43 +120,30 @@ export const Labbooking = () => {
                             <h2>Payment Details</h2>
                         </div>
                         <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_2'>
-                            <ul>
-                                <li className='lab_pharmabooking_third_container_right_doctorcase_details_first_list'>Test 1</li>
-                                <li className='lab_pharmabooking_third_container_right_doctorcase_details_first_item'>Rs 600</li>
-                            </ul>
+                           <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_list_div'>Test 1</div>
+                           <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_item_div'>Rs 600</div>
                         </div>
                         <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_3'>
-                            <ul>
-                                <li className='lab_pharmabooking_third_container_right_doctorcase_details_first_list'>Test 1</li>
-                                <li className='lab_pharmabooking_third_container_right_doctorcase_details_first_item'>Rs 600</li>
-                            </ul>
+                            <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_list_div'>Test 1</div>
+                           <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_item_div'>Rs 600</div>
                         </div>
                         <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_4'>
-                            <ul>
-                                <li className='lab_pharmabooking_third_container_right_doctorcase_details_first_list'>Taxes</li>
-                                <li className='lab_pharmabooking_third_container_right_doctorcase_details_first_item'>Rs 600</li>
-                                
-                            </ul>
+                            <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_list_div'>Taxes</div>
+                           <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_item_div'>Rs 600</div>
                         </div>
 
                         <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_5'>
-                            <ul>
-                                <li className='lab_pharmabooking_third_container_right_doctorcase_details_first_list'>Sub Total</li>
-                                <li className='lab_pharmabooking_third_container_right_doctorcase_details_first_item'> Rs 600</li>
-                            </ul>
+                            <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_list_div'>Subtotal</div>
+                           <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_item_div'>Rs 100</div>
                         </div>
                         <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_6'>
-                            <ul>
-                                <li className='lab_pharmabooking_third_container_right_doctorcase_details_first_list'>Discount</li>
-                                <li className='lab_pharmabooking_third_container_right_doctorcase_details_first_item'>Rs 100</li>
-                            </ul>
+                            <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_list_div'>Discount</div>
+                           <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_item_div'>Rs 100</div>
                         </div>
 
                         <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_7'>
-                            <ul>
-                                <li className='lab_pharmabooking_third_container_right_doctorcase_details_first_list'>Total</li>
-                                <li className='lab_pharmabooking_third_container_right_doctorcase_details_first_item'>Rs 500</li>
-                            </ul>
+                            <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_list_div_1'>Total</div>
+                           <div className='lab_pharmabooking_third_container_right_doctorcase_details_first_item_div'>Rs 400</div>
                         </div>
 
                         

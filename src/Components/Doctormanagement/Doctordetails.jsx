@@ -253,7 +253,7 @@ export const Doctordetails = () => {
 
           
           <div className='last_last_doctor_details'>
-          <div className='last_one_doctor_details'>
+          <div className='last_one_doctor_details_2'>
             <div className='last_one_left_doctor_details'>Transaction History</div>
               <div className='last_two_right_doctor_details'>
                 <div className='last_two_right_page_doctor_details'>Page</div>
@@ -266,7 +266,7 @@ export const Doctordetails = () => {
 
               
           </div>
-          <p className='deta_doctor'>View Account Details</p>
+          <span className='deta_doctor'>View Account Details</span>
           <div className='last_one_last_doctor_details'>
             <div className='last_one_last_1_doctor_details'>
               <ul>
@@ -326,7 +326,7 @@ export const Doctordetails = () => {
             </div>
 
             <div>
-            <div className='pagination_pag'>
+            <div className='pagination_pag_doctor'>
             <a href=''>< PiCaretDoubleLeftBold className='arr'/></a>
                     <a href=''><PiCaretLeftBold className='arr_doctor'/></a>
                     <a href=''className='active'>1</a>

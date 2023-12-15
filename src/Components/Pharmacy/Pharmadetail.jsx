@@ -75,12 +75,14 @@ export const Pharmadetail = () => {
         <div className='pharma_detail_container_heading_box'>
           <h2> <Link to={"/pharmamedicine"} className='pharma_detail_detailsview_link'>< PiArrowLeftFill className='pharma_detail_details_arrow'/></Link>Pharmacy Details</h2>
         </div>
-        <Link to={"/pharmabasicedit"}>
+        <div className='pharma_detail_container_right'>
+        <Link to={"/pharmabasicedit"} className='pharmadetail_link'>
         <button className='pharma_detail_container_btn'><AiOutlineEdit className='pharma_detail_container_btn_icon1'/>Edit</button>
         </Link>
-        <Link to={"/blockpharma"}>
+        <Link to={"/blockpharma"} className='pharmadetail_link'>
         <button className='pharma_detail_container_btn1'><MdBlockFlipped className='pharma_detail_container_btn_icon'/>Block</button>
         </Link>
+        </div>
 
       </div>
 
@@ -93,7 +95,7 @@ export const Pharmadetail = () => {
         <div className='pharma_detail2_box'>Rs 5000 <p>Total Earnings</p></div>
         <div className='pharma_detail2_boxes'>Rs 3000 <p>This Months Earnings</p></div>
         <div className='pharma_detail2_boxer'>Rs 2000 <p>Total Reedemeed</p></div>
-        <div className='pharma_detail2_boxex'><div className='pharma_detail2_calling'>< IoCallOutline /></div>Call Docyor</div>
+        <div className='pharma_detail2_boxex'><div className='pharma_detail2_calling'>< IoCallOutline /></div>Call Doctor</div>
       </div>
       <div className='pharma_detail3'>
       <div className='pharma_detail3_Container'>
@@ -281,12 +283,12 @@ export const Pharmadetail = () => {
           <div className='pharma_detail3_last_one_last'>
             <div className='pharma_detail3_last_one_last_1'>
               <ul>
-                <li>Project Name</li>
-                <li>Booking</li>
+                <li>Patient;s Name</li>
+                <li>Booking #1234</li>
                 <li>16 june 2023</li>
               </ul>
               <ul>
-                <li><button>Completed</button></li>
+                <li><button className='pharma_detail3_last_one_last_1_btn1'>Completed</button></li>
                 <Link to={"/pharmabooking"}>
                 <div className='pharma_detail3_view_details'>View Details</div>
                 </Link>
@@ -294,12 +296,12 @@ export const Pharmadetail = () => {
             </div>
             <div className='pharma_detail3_last_one_last_1'>
             <ul>
-                <li>Project Name</li>
-                <li>Booking</li>
+                <li>Patient;s Name</li>
+                <li>Booking #1234</li>
                 <li>16 june 2023</li>
               </ul>
               <ul>
-                <li><button>Completed</button></li>
+                <li><button className='pharma_detail3_last_one_last_1_btn1'>Completed</button></li>
                 <Link to={"/pharmabookingdone"}>
                 <div className='pharma_detail3_view_details'>View Details</div>
                 </Link>
@@ -307,23 +309,23 @@ export const Pharmadetail = () => {
             </div>
             <div className='pharma_detail3_last_one_last_1'>
             <ul>
-                <li>Project Name</li>
-                <li>Booking</li>
+                <li>Patient;s Name</li>
+                <li>Booking #1234</li>
                 <li>16 june 2023</li>
               </ul>
               <ul>
-                <li><button>Completed</button></li>
+                <li><button className='pharma_detail3_last_one_last_1_btn1'>Completed</button></li>
                 <div className='pharma_detail3_view_details'>View Details</div>
               </ul>
             </div>
             <div className='pharma_detail3_last_one_last_1'>
             <ul>
-                <li>Project Name</li>
-                <li>Booking</li>
+                <li>Patient;s Name</li>
+                <li>Booking #1234</li>
                 <li>16 june 2023</li>
               </ul>
               <ul>
-                <li><button>Completed</button></li>
+                <li><button className='pharma_detail3_last_one_last_1_btn1'>Completed</button></li>
                 <div className='pharma_detail3_view_details'>View Details</div>
               </ul>
             </div>
@@ -364,61 +366,61 @@ export const Pharmadetail = () => {
 
               
           </div>
-          <p className='pharma_detail3_deta'>View Account Details</p>
+          <span className='pharma_detail3_deta'>View Account Details</span>
           <div className='pharma_detail3_last_one_last'>
             <div className='pharma_detail3_last_one_last_1'>
               <ul>
-                <li>Home Care #1234</li>
+                <li>transaction #1234</li>
       
                 <li>16,june 2023</li>
               </ul>
               <ul>
-                <li><button>RS 500</button></li>
+                <li><button className='pharma_detail3_last_one_last_1_btn2'>RS 500</button></li>
                 
               </ul>
             </div>
             <div className='pharma_detail3_last_one_last_1'>
             <ul>
-                <li>Transaction #1234</li>
+                <li>transaction #1234</li>
             
                 <li>16,june 2023</li>
               </ul>
               <ul>
-                <li><button>RS 500</button></li>
+                <li><button className='pharma_detail3_last_one_last_1_btn2'>RS 500</button></li>
                 
               </ul>
             </div>
             <div className='pharma_detail3_last_one_last_1'>
             <ul>
-                <li>Home care #1234</li>
+                <li>transaction #1234</li>
                 
                 <li>16,june 2023</li>
               </ul>
               <ul>
-                <li><button>RS 500</button></li>
+                <li><button className='pharma_detail3_last_one_last_1_btn2'>RS 500</button></li>
                 
               </ul>
             </div>
             <div className='pharma_detail3_last_one_last_1'>
             <ul>
-                <li>Transaction #1234</li>
+                <li>transaction #1234</li>
                 
                 <li>16,june 2023</li>
               </ul>
               <ul>
-                <li><button>RS 500</button></li>
+                <li><button className='pharma_detail3_last_one_last_1_btn2'>RS 500</button></li>
               
               </ul>
             </div>
 
             <div className='pharma_detail3_last_one_last_1'>
             <ul>
-                <li>Home Care #1234</li>
+                <li>transaction #1234</li>
                 
                 <li>16,june 2023</li>
               </ul>
               <ul>
-                <li><button>RS 500</button></li>
+                <li><button className='pharma_detail3_last_one_last_1_btn2'>RS 500</button></li>
               
               </ul>
             </div>

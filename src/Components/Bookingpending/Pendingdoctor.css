@@ -52,7 +52,7 @@
 }
 
 .bookingrequest_pharmacy_management_container_2_p_2_pendingdoctor {
-    margin-left: 10px;
+    margin-left: 20px;
     color: #1A1C1F;
     font-size: 16px;
     font-weight: 500;
@@ -61,7 +61,7 @@
 }
 
 .bookingrequest_pharmacy_management_container_2_p_3_pendingdoctor {
-    margin-left: 10px;
+    margin-left: 20px;
     color: #8D98A4;
     font-size: 16px;
     font-weight: 500;
@@ -69,7 +69,7 @@
 }
 
 .bookingrequest_pharmacy_management_container_2_p_4_pendingdoctor {
-    margin-left: 10px;
+    margin-left: 20px;
     color: #8D98A4;
     font-size: 16px;
     font-weight: 500;
@@ -98,3 +98,6 @@
     align-items: center;
     color: #5B6572;
 }
+
+
+/*######################### Dropdown Sort by in bookingrequestdha file css #################### */

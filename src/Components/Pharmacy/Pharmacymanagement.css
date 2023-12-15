@@ -46,6 +46,7 @@
     justify-content: flex-start;
     margin-left: 70px;
     margin-right: 70px;
+    margin-top: 10px;
     border-bottom: 1px solid #E1E5E8;
 }
 
@@ -57,7 +58,7 @@
 }
 
 .pharmacy_management_container_2_p_2 {
-    margin-left: 10px;
+    margin-left: 20px;
     color: #1A1C1F;
     font-size: 16px;
     font-weight: 500;
@@ -120,13 +121,13 @@
     font-size: 18px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .pharmacy_management_container_3_1_up_box_right {
     display: flex;
     justify-content: flex-end;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .pharmacy_management_container_3_1_up_box_right_1 {
@@ -155,7 +156,7 @@
 .pharmacy_management_container_3_1_up_box2_left {
     display: flex;
     justify-content: flex-start;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .pharmacy_management_container_3_1_up_box2_left_1 {
@@ -197,7 +198,7 @@
 .pharmacy_management_container_3_1_up_box2_right {
     display: flex;
     justify-content: flex-end;
-    margin-right: 10px;
+    margin-right: 15px;
     color: #5B6572;
     font-size: 12px;
     font-weight: 500;
@@ -210,7 +211,7 @@
 }
 
 .pharmacy_management_container_3_1_down_left {
-    margin-left: 10px;
+    margin-left: 15px;
     display: flex;
     justify-content: flex-start;
     margin-top: 10px;
@@ -261,8 +262,8 @@
     border: none;
     height: 22px;
     width: 134px;
-    background-color: linear-gradient(0deg, #7C67FB, #7C67FB), linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
-    color: #7C67FB;
+    background-color: linear-gradient(0deg, #437BE9, #437BE9), linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+    color: #437BE9;
     font-size: 10px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
@@ -275,7 +276,6 @@
 .pharmacy_management_container_3_1_down_right_up_btn {
     display: flex;
     justify-content: flex-end;
-    margin-left: 20px;
 }
 
 .pharmacy_management_container_3_1_down_right_down {
