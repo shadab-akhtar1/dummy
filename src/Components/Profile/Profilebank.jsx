@@ -11,10 +11,10 @@ export const Profilebank = () => {
     <>
     <div className='profilebank_labbank_pharma_navbar_bankinfo'><Navbar/></div>
     <div className='profilebank_labbank_pharma_edit_bankinfo'>
-        <div className='profilebank_labbank_pharma_edit_bankinfo_heading'><h2><Link to={"profiledocument"} className='profilebank_labbank_pharma_bankinfo_link_head'><PiArrowLeftFill className='profilebank_labbank_pharma_arrow_bankinfo'/></Link>Edit Profile</h2></div>
+        <div className='profilebank_labbank_pharma_edit_bankinfo_heading'><h2><Link to={"/profiledocument"} className='profilebank_labbank_pharma_bankinfo_link_head'><PiArrowLeftFill className='profilebank_labbank_pharma_arrow_bankinfo'/></Link>Edit Profile</h2></div>
         <div className='profilebank_labbank_pharma_edit_bankinfo_heading2'>
             <div className='profilebank_labbank_pharma_edit_bankinfo_heading2_basic'>Basic Details</div>
-            <Link to={"profiledocument"} className='profilebank_labbank_pharma_bankinfo_document'>
+            <Link to={"/profiledocument"} className='profilebank_labbank_pharma_bankinfo_document'>
             <div className='profilebank_labbank_pharma_edit_bankinfo_heading2_document'>Documents</div>
             </Link>
             <div className='profilebank_labbank_pharma_edit_bankinfo_heading2_info'>Bank Info</div>

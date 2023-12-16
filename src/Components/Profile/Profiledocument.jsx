@@ -10,7 +10,7 @@ export const Profiledocument = () => {
     <>
     <div className='profiledocument_labdocument_pharma_navbar_document'><Navbar/></div>
     <div className='profiledocument_labdocument_pharma_document'>
-        <div className='profiledocument_labdocument_pharma_document_heading'><h2><Link to={"profilebasic"} className='profiledocument_labdocument_pharma_document_link_head'><PiArrowLeftFill className='profiledocument_pharma_arrow_document'/></Link>Edit Profile</h2></div>
+        <div className='profiledocument_labdocument_pharma_document_heading'><h2><Link to={"/profilebasic"} className='profiledocument_labdocument_pharma_document_link_head'><PiArrowLeftFill className='profiledocument_pharma_arrow_document'/></Link>Edit Profile</h2></div>
         <div className='profiledocument_labdocument_pharma_document_heading2'>
             <Link to={"/profilebasic"} className='profiledocument_labdocument_pharma_basicdetails_link'>
             <div className='profiledocument_labdocument_pharma_document_heading2_basic'>Basic Details</div>

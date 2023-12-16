@@ -53,7 +53,6 @@
     background: #E40443;
     border-radius: 8px;
     border: none;
-    margin-left: 130px;
     margin-right: 5px;
     color: white;
     font-weight: 600;
@@ -104,7 +103,7 @@
     display: flex;
     justify-content: space-between;
     background-color: white;
-    width: 1240px;
+    margin-right: 70px;
     margin-left: 70px;
     align-items: center;
     border-radius: 8px;
@@ -264,7 +263,7 @@
     grid-template-columns: auto auto auto;
     gap: 20px;
     background-color: white;
-    width: 1240px;
+    margin-right: 70px;
     margin-left: 70px;
     border-radius: 8px;
     margin-top: 10px;
@@ -348,7 +347,7 @@
 .labdetails_pharma_detail3_last {
     display: flex;
     justify-content: space-between;
-    width: 1240px;
+    margin-right: 70px;
     margin-left: 70px;
     margin-right: 40px;
     align-items: center;
