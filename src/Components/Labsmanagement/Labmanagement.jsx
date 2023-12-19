@@ -10,9 +10,12 @@ import {Footer} from '../Dhamanagement/Footer';
 import {Link} from 'react-router-dom';
 import {PiArrowLeftFill} from 'react-icons/pi';
 import {FaCaretDown} from 'react-icons/fa';
+import Menu from "../Labsmanagement/Menu";
 
 export const Labmanagement = () => {
     const [isActive, setIsActive]= useState(false);
+
+   
   return (
     <>
     <div className='lab_managemenet'><Navbar/></div>
@@ -54,6 +57,8 @@ export const Labmanagement = () => {
         </div>
         <div className='lab_management_container_3_all'>All</div>
         <div className='lab_management_container_3'>
+
+            
             <Link to={"/labbooking"} className='labmanagement_link'>
             <div className='lab_management_container_3_1'>
                 <div className='lab_management_container_3_1_up'>

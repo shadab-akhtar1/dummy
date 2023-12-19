@@ -18,6 +18,7 @@ import { MdCall } from "react-icons/md";
 import { SlCloudDownload } from "react-icons/sl";
 import { IoCheckmark } from "react-icons/io5";
 import {Navbars} from '../Dhamanagement/Navbars';
+import { MdKeyboardArrowUp } from "react-icons/md";
 
 export const Pendingcasecompleted = () => {
   return (
@@ -26,7 +27,7 @@ export const Pendingcasecompleted = () => {
     <div className='pendingcasecompleted_middle_container_doctor_pending_details'>
     <div className='pendingcasecompleted_middle_container_heading_doctor_pending_details'>
       <div className='pendingcasecompleted_middle_container_heading_1_doctor_pending_details'>
-          <Link to={""}>
+          <Link to={"/bookingpendingdha"}>
           <div className='pendingcasecompleted_arrdoctor_div_pending'>< PiArrowLeftFill className='pendingcasecompleted_details_arrow_pending_doctor'/></div>
           </Link>
           <h2>Case Details</h2>
@@ -49,7 +50,7 @@ export const Pendingcasecompleted = () => {
                       </div>
                   </div>
                   <div className='pendingcasecompleted_doctor_pending_detail_complet'>
-                      <div className='pendingcasecompleted_doctor_pending_detail_completion'><p>Completed</p></div>
+                      <div className='pendingcasecompleted_doctor_pending_detail_completion'><p>Request For</p></div>
                       <div className='pendingcasecompleted_doctor_pending_detail_time'>
               
                           <p className='pendingcasecompleted_doctor_pending_detail_time_1'><PiCalendarBlankLight className='pendingcasecompleted_calen_doctor_pending'/>13 june,2023</p>
@@ -79,12 +80,12 @@ export const Pendingcasecompleted = () => {
                   <div className='pendingcasecompleted_doctor_pending_detail_para'>
                     <div className='pendingcasecompleted_doctor_pending_detail_para_left'>
                       
-                          <div className='pendingcasecompleted_doctor_pending_detail_container_1'></div>
+                          <div className='pendingcasecompleted_doctor_pending_detail_container_1'><div ><IoCheckmark className='pendingcasecompleted_doctor_check_mark_pending' /></div></div>
                           
                           <div className='pendingcasecompleted_doctor_pending_detail_container_2'><div ><IoCheckmark className='pendingcasecompleted_doctor_check_mark_pending' /></div></div>
-                          <div className='pendingcasecompleted_doctor_pending_detail_container_3'></div>
-                          <div className='pendingcasecompleted_doctor_pending_detail_container_4'></div>
-                          <div className='pendingcasecompleted_doctor_pending_detail_container_5'>05</div>
+                          <div className='pendingcasecompleted_doctor_pending_detail_container_3'><div ><IoCheckmark className='pendingcasecompleted_doctor_check_mark_pending' /></div></div>
+                          <div className='pendingcasecompleted_doctor_pending_detail_container_4'><div ><IoCheckmark className='pendingcasecompleted_doctor_check_mark_pending' /></div></div>
+                          <div className='pendingcasecompleted_doctor_pending_detail_container_5'><div ><IoCheckmark className='pendingcasecompleted_doctor_check_mark_pending' /></div></div>
                           <div className='pendingcasecompleted_doctor_pending_detail_container_6'>06</div>
                           <div className='pendingcasecompleted_doctor_pending_detail_container_7'>07</div>
                           <div className='pendingcasecompleted_doctor_pending_detail_container_8'>08</div>
@@ -103,7 +104,7 @@ export const Pendingcasecompleted = () => {
 
                                   </div>
                                   <div className='pendingcasecompleted_doctor_pending_detail_para_icon'>
-                                      <div className='pendingcasecompleted_doctor_pending_detail_para_icon_1'></div>
+                                      <div className='pendingcasecompleted_doctor_pending_detail_para_icon_1'><MdKeyboardArrowUp /></div>
                                   </div>
                               
                               </div>
@@ -131,7 +132,7 @@ export const Pendingcasecompleted = () => {
 
                                   </div>
                                   <div className='pendingcasecompleted_doctor_pending_detail_para_icon'>
-                              
+                                    <div className='pendingcasecompleted_doctor_pending_detail_para_icon_1'><MdKeyboardArrowUp /></div>
                                   </div>
                               </div>
                               <div className='pendingcasecompleted_doctor_pending_detail_para_right_2_down'>
@@ -168,7 +169,7 @@ export const Pendingcasecompleted = () => {
 
                                       </div>
                                       <div className='pendingcasecompleted_doctor_pending_detail_para_icon'>
-                                          <div className='pendingcasecompleted_doctor_pending_detail_para_icon_1'></div>
+                                          <div className='pendingcasecompleted_doctor_pending_detail_para_icon_1'><MdKeyboardArrowUp/></div>
                                       </div>
                               
                                   </div>
@@ -184,7 +185,7 @@ export const Pendingcasecompleted = () => {
 
                                   </div>
                                   <div className='pendingcasecompleted_doctor_pending_detail_para_icon'>
-                              
+                                    <div className='pendingcasecompleted_doctor_pending_detail_para_icon_1'><MdKeyboardArrowUp /></div>
                                   </div>
                               </div>
                               <div className='pendingcasecompleted_doctor_pending_detail_para_right_4_down'>
@@ -225,7 +226,7 @@ export const Pendingcasecompleted = () => {
 
                                   </div>
                                   <div className='pendingcasecompleted_doctor_pending_detail_para_icon'>
-                              
+                                    <div className='pendingcasecompleted_doctor_pending_detail_para_icon_1'><MdKeyboardArrowUp /></div>
                                   </div>
                               </div>
                               <div className='pendingcasecompleted_doctor_pending_detail_para_right_2_down'>
@@ -261,7 +262,7 @@ export const Pendingcasecompleted = () => {
 
                                       </div>
                                       <div className='pendingcasecompleted_doctor_pending_detail_para_icon'>
-                                          
+                                        <div className='pendingcasecompleted_doctor_pending_detail_para_icon_1'><MdKeyboardArrowUp /></div>
                                       </div>
                               
                               </div>
@@ -295,7 +296,7 @@ export const Pendingcasecompleted = () => {
 
                                   </div>
                                   <div className='pendingcasecompleted_doctor_pending_detail_para_icon'>
-                              
+                                    <div className='pendingcasecompleted_doctor_pending_detail_para_icon_1'><MdKeyboardArrowUp /></div>
                                   </div>
                               </div>
                               <div className='pendingcasecompleted_doctor_prescription'>Doctor's Prescription</div>
@@ -313,7 +314,7 @@ export const Pendingcasecompleted = () => {
 
                                   </div>
                                   <div className='pendingcasecompleted_doctor_pending_detail_para_icon'>
-                              
+                                    <div className='pendingcasecompleted_doctor_pending_detail_para_icon_1'><MdKeyboardArrowUp /></div>
                                   </div>
                               </div>
                               <div className='pendingcasecompleted_doctor_prescription'>Doctor's Prescription</div>
@@ -322,7 +323,7 @@ export const Pendingcasecompleted = () => {
 
                           </div>
                           <div className='pendingcasecompleted_doctor_pending_detail_para_right_9'>
-                            <div className='pendingcasecompleted_5_2'>
+                            <div className='pendingcasecompleted_5_2_1'>
                                   <div className='pendingcasecompleted_doctor_pending_detail_para_right_9_up'>
                                       <div className='pendingcasecompleted_doctor_pending_detail_para_content'>
                                           <h4>Completed</h4>
@@ -330,7 +331,7 @@ export const Pendingcasecompleted = () => {
 
                                       </div>
                                       <div className='pendingcasecompleted_doctor_pending_detail_para_icon'>
-                                          <div className='pendingcasecompleted_doctor_pending_detail_para_icon_1'></div>
+                                          <div className='pendingcasecompleted_doctor_pending_detail_para_icon_1'><MdKeyboardArrowUp/></div>
                                       </div>
                               
                                   </div>

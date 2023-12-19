@@ -1,99 +1,3 @@
-/*############## Navbar Start ##################*/
-
-.navbar_doctorcase {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 120px;
-    padding: 40px, 120px, 40px, 120px;
-    border: 0px, 0px, 1px, 0px;
-    gap: 8px;
-    background-color: white;
-    border-bottom: 1px solid #E3E6E8;
-}
-
-.nav_links_doctorcase {
-    display: flex;
-    justify-content: flex-end;
-    padding-left: 10px;
-    margin-right: 50px;
-}
-
-.list_item_doctorcase {
-    margin-left: 5px;
-    padding-right: 20px;
-    margin-top: 10px;
-    text-decoration: none;
-    list-style: none;
-    color: #8D98A4;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.list_item_1_doctorcase {
-    margin-right: 10px;
-    padding: 5px;
-    text-decoration: none;
-    list-style: none;
-    background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(0deg, #F5F6F7, #F5F6F7);
-    border: 1px solid #F5F6F7;
-    border-radius: 8px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.navbar_logo_doctorcase {
-    margin-left: 70px;
-    margin-bottom: 20px;
-    height: 25px;
-    width: 100px;
-}
-
-.icons_bell_doctorcase {
-    color: #8D98A4;
-    width: 20px;
-    height: 20px;
-}
-
-.phone_icon_doctorcase {
-    color: white;
-    width: 20px;
-    height: 20px;
-}
-
-.list_item_1_doctorcase_2 {
-    background-color: #E40443;
-    border-radius: 8px;
-    margin-right: 15px;
-    width: 25px;
-    height: 25px;
-    padding: 5px;
-    text-decoration: none;
-    list-style: none;
-    border: 1px solid #F5F6F7;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.jaydoctor_profile {
-    padding-right: 3px;
-}
-
-
-/*################## Navbar End ###################*/
-
-
 /*################## Mid Section Start###############*/
 
 .middle_container_doctor_case_details {
@@ -214,8 +118,8 @@
 }
 
 .doctor_case_detail_completion p {
-    color: #41B079;
-    font-size: 16px;
+    color: #1A1C1F;
+    font-size: 14px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     margin-left: 20px;
@@ -263,6 +167,7 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
+    align-items: center;
 }
 
 .doctor_case_detail_symptom_left_1 {
@@ -275,7 +180,9 @@
     font-family: 'Montserrat', sans-serif;
     color: #040404;
     text-align: center;
-    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 5px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -337,6 +244,9 @@
     padding: 12px;
     gap: 8px;
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .doctor_case_detail_container_2 {
@@ -369,6 +279,9 @@
     padding: 12px;
     gap: 8px;
     margin-top: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .doctor_case_detail_container_4 {
@@ -379,6 +292,9 @@
     padding: 12px;
     gap: 8px;
     margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .doctor_case_detail_container_5 {
@@ -389,6 +305,9 @@
     padding: 12px;
     gap: 8px;
     margin-top: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .doctor_case_detail_container_6 {
@@ -399,6 +318,9 @@
     padding: 12px;
     gap: 8px;
     margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .doctor_case_detail_container_7 {
@@ -409,6 +331,9 @@
     padding: 12px;
     gap: 8px;
     margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .doctor_case_detail_container_8 {
@@ -419,6 +344,9 @@
     padding: 12px;
     gap: 8px;
     margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .doctor_case_detail_container_9 {
@@ -429,6 +357,9 @@
     padding: 12px;
     gap: 8px;
     margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .doctor_case_detail_para_right {
@@ -490,6 +421,13 @@
     border-radius: 24px;
     background: #1A1C1F;
     margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctor_case_detail_para_icon_1 {
+    color: white;
 }
 
 .doctor_case_detail_para_right_1_down {

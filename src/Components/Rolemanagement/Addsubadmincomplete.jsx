@@ -48,13 +48,13 @@ export const Addsubadmincomplete = () => {
                     <div className='addsubadmincompleted_form_3_2'>
                         <p>Permission 4</p>
                         <label >
-                            <input type="checkbox" checked className='addsubadmincompleted_inp'/>
+                            <input type="checkbox"  className='addsubadmincompleted_inp'/>
                         </label>
                     </div>
                     <div className='addsubadmincompleted_form_3_2'>
                         <p>Permission 5</p>
                         <label >
-                            <input type="checkbox" checked/>
+                            <input type="checkbox" />
                         </label>
                     </div>
 

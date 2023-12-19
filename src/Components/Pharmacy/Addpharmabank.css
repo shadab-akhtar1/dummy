@@ -10,7 +10,6 @@
 .pharmabank_adddha_bank {
     background: #FFFFFF;
     width: 550px;
-    height: 80vh;
     position: absolute;
     margin-top: 20px;
     left: 28%;
@@ -131,7 +130,7 @@
     font-size: 12px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 20px;
     border: none;
 }

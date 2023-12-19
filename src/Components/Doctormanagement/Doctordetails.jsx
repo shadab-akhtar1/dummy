@@ -45,7 +45,7 @@ export const Doctordetails = () => {
         <div className='middle2_box_doctor_details'>Rs 5000 <p>Total Earnings</p></div>
         <div className='middle2_boxes_doctor_details'>Rs 3000 <p>This Months Earnings</p></div>
         <div className='middle2_boxer_doctor_details'>Rs 2000 <p>Total Reedemeed</p></div>
-        <div className='middle2_boxex_doctor_details'>< IoCallOutline className='calling_doctor_details'/>Call Doctor</div>
+        <div className='middle2_boxex_doctor_details'><div className='calling_doctor_details'>< IoCallOutline /></div>Call Doctor</div>
       </div>
       <div className='middle3_doctor_details'>
       <div className='Container_doctor_details'>

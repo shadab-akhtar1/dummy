@@ -19,7 +19,9 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     display: flex;
+    font-size: 22px;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .profilebank_labbank_pharma_edit_bankinfo_heading2 {
@@ -31,7 +33,9 @@
 }
 
 .profilebank_labbank_pharma_arrow_bankinfo {
-    padding-right: 5px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .profilebank_labbank_pharma_bankinfo_link_head {

@@ -21,7 +21,7 @@ export const Pendingdoctordoctorassign = () => {
 
                 </div>
                 
-                <Link to={"/"} className='pendingdoctorassign_doctorassign_blocklab_success_link'>
+                <Link to={"/pendingcasecompleted"} className='pendingdoctorassign_doctorassign_blocklab_success_link'>
                 <button className='pendingdoctorassign_doctorassign_blocklab_success_adddha_success_box_btn_2'>View Status</button>
                 </Link>
                 

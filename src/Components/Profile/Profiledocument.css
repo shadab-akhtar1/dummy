@@ -18,8 +18,10 @@
 .profiledocument_labdocument_pharma_document_heading h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    font-size: 22px;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .profiledocument_labdocument_pharma_document_heading2 {
@@ -30,8 +32,10 @@
     border-bottom: 1px solid #E1E5E8;
 }
 
-.profiledocument_labdocument_pharma_arrow_document {
-    padding-right: 5px;
+.profiledocument_pharma_arrow_document {
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .profiledocument_labdocument_pharma_document_link_head {

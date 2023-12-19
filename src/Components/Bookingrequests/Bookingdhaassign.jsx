@@ -31,7 +31,7 @@ export const Bookingdhaassign = () => {
                     <div className='dhaassign_container_2_1_second_2_up'>Speciality :</div>
                     <div className='dhaassign_container_2_1_second_2_down'>Physiotherapist <FaCaretDown className='dhaassign_container_2_1_second_2_down_icon'/></div>
                 </div>
-                <Link to={"bookingdhadhaassign"} className='bookingdhaassign_link'>
+                <Link to={"/bookingdhadhaassign"} className='bookingdhaassign_link'>
                 <div className='dhaassign_container_2_1_second_3'><button>Assign</button></div>
                 </Link>
 

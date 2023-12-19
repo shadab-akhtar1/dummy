@@ -165,3 +165,8 @@
 
 
 /* ################ Dropdown Sort by css in Bookingrequestdha.css ##################### */
+
+.pending_pharmacy_select {
+    outline: none;
+    border: none;
+}

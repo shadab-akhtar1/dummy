@@ -19,8 +19,10 @@
 .profile_labdetailedit_pharma_edit_heading_basic h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    font-size: 22px;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .profile_labdetailedit_pharma_userprofile_basic {

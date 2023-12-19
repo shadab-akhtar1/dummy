@@ -10,7 +10,6 @@
 .pharmaupload_adddha {
     background: #FFFFFF;
     width: 550px;
-    height: 95vh;
     position: absolute;
     margin-top: 20px;
     left: 28%;
@@ -133,6 +132,7 @@
     font-family: 'Montserrat', sans-serif;
     border: none;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .pharmaupload_adddha_form_fill_inp_3 {

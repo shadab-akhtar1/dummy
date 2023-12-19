@@ -54,16 +54,16 @@ export const Pendingpharmacy = () => {
             </div>
             <div className='bookingrequest_pharmacy_management_container_2_2_pendingpharma' onClick={(e)=> setHisActive(!hisActive)}>
                 Sort by <FaCaretDown className='bookingrequest_pharmacy_management_icon_pendingpharma'/>
+                <select name="" id="" className='pending_pharmacy_select'>
+                    <option value="All">All</option>
+                    <option value="Pending">Pending</option>
+                    <option value="Completed">Completed</option>
+                </select>
             </div>
-            {hisActive &&(
-              <div className='bookingrequest_dropdown_content_drop'>
-                <Link to={""}>
-                <div className='bookingrequest_dropdown_item_drop'>Sort by</div>
-                </Link>
+            
                 
 
-              </div>
-              )}
+            
         </div>
         <div className='bookingrequest_pharmacy_management_container_4'>
             <div className='bookingrequest_pharmacy_management_container_4_urgent_pendingdha'onClick={(e)=> setIsActive(!isActive)}> Medicine <FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>

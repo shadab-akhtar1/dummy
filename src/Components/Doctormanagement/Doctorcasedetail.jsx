@@ -19,6 +19,8 @@ import { SlCloudDownload } from "react-icons/sl";
 import { IoCheckmark } from "react-icons/io5";
 import aadhar from '../Assets/aadhaar-card-dummy.png';
 import medpic from '../Assets/image 201.png';
+import Navbars from '../Dhamanagement/Navbars';
+import { MdKeyboardArrowUp } from "react-icons/md";
 
 export const Doctorcasedetail = () => {
     const [med, setMed] = useState(false);
@@ -47,24 +49,7 @@ export const Doctorcasedetail = () => {
   return (
     <>
 
-<nav className='navbar_doctorcase'>
-        <div className='navbar_logo_doctorcase'>
-        <img src={Weblogo} alt="logo_doctorcase" />
-        </div>
-
-        <ul className='nav_links_doctorcase'>
-            <li className='list_item_doctorcase'>Dooper At Home</li>
-            <li className='list_item_doctorcase'>Lab Tesst </li>
-            <li className='list_item_doctorcase'>Our Network < FaCaretDown/></li>
-            <li className='list_item_doctorcase'>About Us</li>
-            <li className='list_item_doctorcase'>Contact Us</li>
-            <li className='list_item_doctorcase'>Join Us With <FaCaretDown/></li>
-            <li className='list_item_1_dhacase'><img src={profile} alt="" className='jaydoctor_profile'/>Jaydeep Sakhiya <FaCaretDown/></li>
-            <li className='list_item_1_doctorcase'><FaBell className='icons_bell_doctorcase'/></li>
-            <li className='list_item_1_doctorcase_2'>< BsTelephone className='phone_icon_doctorcase'/></li>
-        </ul>
-
-    </nav>
+<div><Navbars/></div>
 
     <div className='middle_container_doctor_case_details'>
       <div className='middle_container_heading_doctor_case_details'>
@@ -92,7 +77,7 @@ export const Doctorcasedetail = () => {
                         </div>
                     </div>
                     <div className='doctor_case_detail_complet'>
-                        <div className='doctor_case_detail_completion'><p>Completed</p></div>
+                        <div className='doctor_case_detail_completion'><p>Request For</p></div>
                         <div className='doctor_case_detail_time'>
                 
                             <p className='doctor_case_detail_time_1'><PiCalendarBlankLight className='calen_doctor'/>13 june,2023</p>
@@ -122,16 +107,16 @@ export const Doctorcasedetail = () => {
                     <div className='doctor_case_detail_para'>
                     <div className='doctor_case_detail_para_left'>
                         
-                            <div className='doctor_case_detail_container_1'></div>
+                            <div className='doctor_case_detail_container_1'><div ><IoCheckmark className='doctor_check_mark' /></div></div>
                             
                             <div className='doctor_case_detail_container_2'><div ><IoCheckmark className='doctor_check_mark' /></div></div>
-                            <div className='doctor_case_detail_container_3'></div>
-                            <div className='doctor_case_detail_container_4'></div>
-                            <div className='doctor_case_detail_container_5'></div>
-                            <div className='doctor_case_detail_container_6'></div>
-                            <div className='doctor_case_detail_container_7'></div>
-                            <div className='doctor_case_detail_container_8'></div>
-                            <div className='doctor_case_detail_container_9'></div>
+                            <div className='doctor_case_detail_container_3'><div ><IoCheckmark className='doctor_check_mark' /></div></div>
+                            <div className='doctor_case_detail_container_4'><div ><IoCheckmark className='doctor_check_mark' /></div></div>
+                            <div className='doctor_case_detail_container_5'><div ><IoCheckmark className='doctor_check_mark' /></div></div>
+                            <div className='doctor_case_detail_container_6'><div ><IoCheckmark className='doctor_check_mark' /></div></div>
+                            <div className='doctor_case_detail_container_7'><div ><IoCheckmark className='doctor_check_mark' /></div></div>
+                            <div className='doctor_case_detail_container_8'><div ><IoCheckmark className='doctor_check_mark' /></div></div>
+                            <div className='doctor_case_detail_container_9'><div ><IoCheckmark className='doctor_check_mark' /></div></div>
                     
                         </div>
                        
@@ -144,7 +129,7 @@ export const Doctorcasedetail = () => {
 
                                     </div>
                                     <div className='doctor_case_detail_para_icon'>
-                                        <div className='doctor_case_detail_para_icon_1'></div>
+                                        <div className='doctor_case_detail_para_icon_1'><MdKeyboardArrowUp /></div>
                                     </div>
                                 
                                 </div>
@@ -170,7 +155,7 @@ export const Doctorcasedetail = () => {
 
                                     </div>
                                     <div className='doctor_case_detail_para_icon'>
-                                
+                                        <div className='doctor_case_detail_para_icon_1'><MdKeyboardArrowUp /></div>
                                     </div>
                                 </div>
                                 <div className='doctor_case_detail_para_right_2_down'>
@@ -204,7 +189,7 @@ export const Doctorcasedetail = () => {
 
                                         </div>
                                         <div className='doctor_case_detail_para_icon'>
-                                            <div className='doctor_case_detail_para_icon_1'></div>
+                                            <div className='doctor_case_detail_para_icon_1'><MdKeyboardArrowUp/></div>
                                         </div>
                                 
                                     </div>
@@ -218,7 +203,7 @@ export const Doctorcasedetail = () => {
 
                                     </div>
                                     <div className='doctor_case_detail_para_icon'>
-                                
+                                        <div className='doctor_case_detail_para_icon_1'><MdKeyboardArrowUp /></div>
                                     </div>
                                 </div>
                                 <div className='doctor_case_detail_para_right_4_down'>
@@ -257,7 +242,7 @@ export const Doctorcasedetail = () => {
 
                                     </div>
                                     <div className='doctor_case_detail_para_icon'>
-                                
+                                        <div className='doctor_case_detail_para_icon_1'><MdKeyboardArrowUp /></div>
                                     </div>
                                 </div>
                                 <div className='doctor_case_detail_para_right_2_down'>
@@ -265,7 +250,7 @@ export const Doctorcasedetail = () => {
                                         <img src={elipse2} alt="" />
                                             <div className='doctor_case_detail_para_main_left_1_left'>
                                                 <ul>
-                                                    <li className='doctor_case_detail_list'>DHA Name</li>
+                                                    <li className='doctor_case_detail_list'>Doctor's Name</li>
                                                     <li className='doctor_case_detail_list_item'>Degree</li>
                                                 </ul>
                                             </div>
@@ -290,7 +275,7 @@ export const Doctorcasedetail = () => {
 
                                         </div>
                                         <div className='doctor_case_detail_para_icon'>
-                                            <div className='doctor_case_detail_para_icon_1'></div>
+                                            <div className='doctor_case_detail_para_icon_1'><MdKeyboardArrowUp/></div>
                                         </div>
                                 
                                 </div>
@@ -321,7 +306,7 @@ export const Doctorcasedetail = () => {
 
                                     </div>
                                     <div className='doctor_case_detail_para_icon'>
-                                
+                                        <div className='doctor_case_detail_para_icon_1'><MdKeyboardArrowUp /></div>
                                     </div>
                                 </div>
                                 <div className='doctor_case_detail_para_right_2_down'>
@@ -362,7 +347,7 @@ export const Doctorcasedetail = () => {
 
                                     </div>
                                     <div className='doctor_case_detail_para_icon'>
-                                
+                                        <div className='doctor_case_detail_para_icon_1'><MdKeyboardArrowUp /></div>
                                     </div>
                                 </div>
                                 <div className='doctor_case_detail_para_right_2_down'>
@@ -481,7 +466,7 @@ export const Doctorcasedetail = () => {
 
                                         </div>
                                         <div className='doctor_case_detail_para_icon'>
-                                            <div className='doctor_case_detail_para_icon_1'></div>
+                                            <div className='doctor_case_detail_para_icon_1'><MdKeyboardArrowUp/></div>
                                         </div>
                                 
                                     </div>

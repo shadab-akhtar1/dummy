@@ -32,7 +32,7 @@ export const Adddoctor = () => {
                 <div className='adddoctor_form_fill_add'>
                     <label className='adddoctor_form_fill_labi_add'>Gender</label>
                     
-                    <select name="" id="" className='adddoctor_form_fill_inp_add' placeholder='Male'>
+                    <select name="" id="" className='adddoctor_form_fill_inp_add' placeholder='select'>
                         <option value="">Male</option>
                     </select>
                 </div>
