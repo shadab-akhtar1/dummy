@@ -59,13 +59,13 @@ export const Addrole = () => {
                     <div className='addrole_form_3_2'>
                         <p>Permission 4</p>
                         <label >
-                            <input type="checkbox" checked className='addrole_inp'/>
+                            <input type="checkbox"  className='addrole_inp'/>
                         </label>
                     </div>
                     <div className='addrole_form_3_2'>
                         <p>Permission 5</p>
                         <label >
-                            <input type="checkbox" checked/>
+                            <input type="checkbox" />
                         </label>
                     </div>
 

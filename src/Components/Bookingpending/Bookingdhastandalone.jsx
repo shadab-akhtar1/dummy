@@ -63,7 +63,7 @@ export const Bookingdhastandalone = () => {
             </div>
             {hisActive &&(
               <div className='bookingrequest_dropdown_content_drop'>
-                <Link to={""}>
+                <Link to={""} className='bookingrequest_dropdown_left_link'>
                 <div className='bookingrequest_dropdown_item_drop'>Sort by</div>
                 </Link>
                 
@@ -75,7 +75,7 @@ export const Bookingdhastandalone = () => {
             <div className='bookingrequest_pharmacy_management_container_4_urgent_pendingdha_standalone'onClick={(e)=> setIsActive(!isActive)}>Standalone<FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>
             {isActive &&(
               <div className='bookingpending_dropdown_content_drop'>
-                <Link to={"/bookingpendingdha"}>
+                <Link to={"/bookingpendingdha"} className='bookingpending_dropdown_link'>
                 <div className='bookingpending_dropdown_item_drop'>Non Urgent Care</div>
                 </Link>
                 

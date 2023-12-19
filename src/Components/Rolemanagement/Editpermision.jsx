@@ -50,13 +50,13 @@ export const Editpermision = () => {
                     <div className='addsubadmincompleted_editpermision_form_3_2'>
                         <p>Permission 4</p>
                         <label >
-                            <input type="checkbox" checked className='addsubadmincompleted_editpermision_inp'/>
+                            <input type="checkbox"  className='addsubadmincompleted_editpermision_inp'/>
                         </label>
                     </div>
                     <div className='addsubadmincompleted_editpermision_form_3_2'>
                         <p>Permission 5</p>
                         <label >
-                            <input type="checkbox" checked/>
+                            <input type="checkbox" />
                         </label>
                     </div>
 

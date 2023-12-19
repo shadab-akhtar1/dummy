@@ -64,15 +64,25 @@
 
 .bookingpending_dropdown_content_drop {
     position: absolute;
-    top: 250px;
-    padding: 10px;
-    background: white;
-    color: #333;
+    top: 260px;
+    width: 169px;
+    background: #EEEFEF;
+    color: #1A1C1F;
 }
 
 .bookingpending_dropdown_item_drop {
     padding: 10px;
     cursor: pointer;
+    color: #1A1C1F;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bookingpending_dropdown_link {
+    text-decoration: none;
+    color: #1A1C1F;
 }
 
 

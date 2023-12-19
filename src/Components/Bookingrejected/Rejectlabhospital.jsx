@@ -58,7 +58,7 @@ export const Rejectlabhospital = () => {
             </div>
             {hisActive &&(
               <div className='bookingrequest_dropdown_content_drop'>
-                <Link to={""}>
+                <Link to={""} className='bookingrequest_dropdown_left_link'>
                 <div className='bookingrequest_dropdown_item_drop'>Sort by</div>
                 </Link>
                 
@@ -69,9 +69,9 @@ export const Rejectlabhospital = () => {
         <div className='bookingrequest_pharmacy_management_container_4'>
             <div className='bookingrequest_pharmacy_management_container_4_urgent_pendingdha'onClick={(e)=> setIsActive(!isActive)}>Standalone <FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>
             {isActive &&(
-              <div className='rejectpharmacyhospital1_dropdown_content_drop'>
-                <Link to={""}>
-                <div className='rejectpharmacyhospital1_dropdown_item_drop'>Standalone</div>
+              <div className='bookingpending_dropdown_content_drop'>
+                <Link to={""} className='bookingpending_dropdown_link'>
+                <div className='bookingpending_dropdown_item_drop'>Standalone</div>
                 </Link>
                 
 

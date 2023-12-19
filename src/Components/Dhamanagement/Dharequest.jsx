@@ -42,38 +42,38 @@ export const Dharequest = () => {
                     </thead>
                     <tbody>
                         <tr> 
-                            <td><Link to={"/dhadetailsview"}><div className='data_user_prof_2'><img src={prof} alt="" className='user_prof_2'/>Jacob Jones</div></Link></td>
+                            <td><Link to={"/dhadetailsview"} className='dharequest_link'><div className='data_user_prof_2'><img src={prof} alt="" className='user_prof_2'/>Jacob Jones</div></Link></td>
                             
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             
                         </tr>
                         <tr>
-                            <td><div className='data_user_prof_2'><img src={prof2} alt="" className='user_prof_2'/>Darrell Steward</div></td>
+                            <td><Link to={"/dhadetailsview"} className='dharequest_link'><div className='data_user_prof_2'><img src={prof2} alt="" className='user_prof_2'/>Darrell Steward</div></Link></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             
                         </tr>
                         <tr>
-                            <td><div className='data_user_prof_2'><img src={prof3} alt="" className='user_prof_2'/>Esther Howard</div></td>
+                            <td><Link to={"/dhadetailsview"} className='dharequest_link'><div className='data_user_prof_2'><img src={prof3} alt="" className='user_prof_2'/>Esther Howard</div></Link></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             
                         </tr>
                         <tr>
-                            <td><div className='data_user_prof_2'><img src={prof4} alt="" className='user_prof_2'/>Arlene McCoy</div></td>
+                            <td><Link to={"/dhadetailsview"} className='dharequest_link'><div className='data_user_prof_2'><img src={prof4} alt="" className='user_prof_2'/>Arlene McCoy</div></Link></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             
                         </tr>
                         <tr className='table_row'>
-                            <td><div className='data_user_prof_2'><img src={prof5} alt="" className='user_prof_2'/>jane Cooper</div></td>
+                            <td><Link to={"/dhadetailsview"} className='dharequest_link'><div className='data_user_prof_2'><img src={prof5} alt="" className='user_prof_2'/>jane Cooper</div></Link></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             
                         </tr>
                         <tr>
-                            <td ><div className='data_user_prof_2'><img src={prof6} alt="" className='user_prof_2'/>Ralph Edwards</div></td>
+                            <td ><Link to={"/dhadetailsview"} className='dharequest_link'><div className='data_user_prof_2'><img src={prof6} alt="" className='user_prof_2'/>Ralph Edwards</div></Link></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                            

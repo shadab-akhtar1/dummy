@@ -79,6 +79,14 @@ import Profiledocument from './Components/Profile/Profiledocument.jsx';
 import Profilebank from './Components/Profile/Profilebank.jsx';
 import Earning from './Components/Earnings/Earning.jsx';
 import Earninghistory from './Components/Earnings/Earninghistory.jsx';
+import Earningdha from './Components/Earnings/Earningdha.jsx';
+import Earningdoctor from './Components/Earnings/Earningdoctor.jsx';
+import Earningpharmacy from './Components/Earnings/Earningpharmacy.jsx';
+import Earninglab from './Components/Earnings/Earninglab.jsx';
+import Earningdhahistory from './Components/Earnings/Earningdhahistory.jsx';
+import Earningdoctorhistory from './Components/Earnings/Earningdoctorhistory.jsx';
+import Earningpharmacyhistory from './Components/Earnings/Earningpharmacyhistory.jsx';
+import Earninglabhistory from './Components/Earnings/Earninglabhistory.jsx';
 import Bookingrequestdha from './Components/Bookingrequests/Bookingrequestdha.jsx';
 import Bookingdhaassign from './Components/Bookingrequests/Bookingdhaassign.jsx';
 import Bookingdhadoctorassign from './Components/Bookingrequests/Bookingdhadoctorassign.jsx';
@@ -215,7 +223,15 @@ function App() {
         <Route path='/profiledocument' element={<Profiledocument/>}/>
         <Route path='/profilebank' element={<Profilebank/>}/>
         <Route path='/earning' element={<Earning/>}/>
+        <Route path='/earningdha' element={<Earningdha/>}/>
+        <Route path='/earningdoctor' element={<Earningdoctor/>}/>
+        <Route path='/earningpharmacy' element={<Earningpharmacy/>}/>
+        <Route path='/earninglab' element={<Earninglab/>}/>
         <Route path='/earninghistory' element={<Earninghistory/>}/>
+        <Route path='/earningdhahistory' element={<Earningdhahistory/>}/>
+        <Route path='/earningdoctorhistory' element={<Earningdoctorhistory/>}/>
+        <Route path='/earningpharmacyhistory' element={<Earningpharmacyhistory/>}/>
+        <Route path='/earninglabhistory' element={<Earninglabhistory/>}/>
         <Route path='/bookingrequestdha' element={<Bookingrequestdha/>}/>
         <Route path='/bookingdhaassign' element={<Bookingdhaassign/>}/>
         <Route path='/bookingdhadoctorassign' element={<Bookingdhadoctorassign/>}/>

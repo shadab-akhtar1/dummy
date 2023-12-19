@@ -42,13 +42,13 @@ export const Labmanagement = () => {
                 <div className='lab_management_all' onClick={(e)=> setIsActive(!isActive)}>All <FaCaretDown/></div>
                 {isActive &&(
                     <div className='labmanagement_dropdown_content_drop'>
-                    <Link to={""}>
+                    <Link to={""} className='labmanagement_dropdown_link'>
                     <div className='labmanagement_dropdown_item_drop'>All</div>
                     </Link>
-                    <Link to={""}>
+                    <Link to={""} className='labmanagement_dropdown_link'>
                     <div className='labmanagement_dropdown_item_drop'>Pending</div>
                     </Link>
-                    <Link to={""}>
+                    <Link to={""} className='labmanagement_dropdown_link'>
                     <div className='labmanagement_dropdown_item_drop'>Requested</div>
                     </Link>
                     </div>

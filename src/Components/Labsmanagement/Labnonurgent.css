@@ -388,13 +388,21 @@
     position: absolute;
     top: 240px;
     padding: 10px;
-    background: white;
+    background: #EEEFEF;
     color: #1A1C1F;
 }
 
 .labnonurgent_dropdown_item_drop {
     padding: 5px;
     cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.labnonurgent_dropdown_link {
+    text-decoration: none;
+    color: #1A1C1F;
 }
 
 

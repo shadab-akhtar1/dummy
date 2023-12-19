@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Bookingdhaassign.css';
 import Weblogo from "../Assets/Dooper Logo 1500x1500 2.svg";
 import {FaBell} from 'react-icons/fa';
@@ -16,6 +16,7 @@ import { IoIosSearch } from "react-icons/io";
 import { IoCheckmark } from "react-icons/io5";
 
 export const Bookingdhaassign = () => {
+    const [show, setShow] = useState(false)
   return (
     <>
      <div><Navbars/></div>
@@ -38,7 +39,7 @@ export const Bookingdhaassign = () => {
             </div>
         </div>
         <div className='dhaassign_container_2_2'>
-            <div className='dhaassign_container_2_2_first'>
+            <div className='dhaassign_container_2_2_first' tabIndex={1}>
                 
                 <div className='dhaassign_container_2_2_first_up'><img src={doctorimage} alt="" /></div>
                 
@@ -49,7 +50,8 @@ export const Bookingdhaassign = () => {
 
             </div>
 
-            <div className='assigndoctor_dhaassign_container_2_2_first_1'>
+            <div className={show === true ? "dhaassign_container_2_2_top" : ""}>
+            <div className= "dhaassign_container_2_2_first" onClick={() =>setShow(!show)}>
                 
                 <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctorimage} alt="" /></div>
                 
@@ -58,13 +60,14 @@ export const Bookingdhaassign = () => {
                     <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Courtney Henry</div>
                     <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
                     </div>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_right'><IoCheckmark/></div>
+                    {show && <div className='assigndoctor_dhaassign_container_2_2_first_down_1_right'tabIndex={1}><IoCheckmark/></div>}
                 </div>
 
+            </div>
             </div>
 
     
-            <div className='dhaassign_container_2_2_first'>
+            <div className='dhaassign_container_2_2_first' tabIndex={1}>
                 
                 <div className='dhaassign_container_2_2_first_up'><img src={doctoresimage} alt="" /></div>
                 
@@ -77,7 +80,7 @@ export const Bookingdhaassign = () => {
 
         
         
-            <div className='dhaassign_container_2_2_first'>
+            <div className='dhaassign_container_2_2_first'tabIndex={1}>
                 
                 <div className='dhaassign_container_2_2_first_up'><img src={doctoresimage} alt="" /></div>
                 
@@ -87,7 +90,7 @@ export const Bookingdhaassign = () => {
                 </div>
 
             </div>
-            <div className='dhaassign_container_2_2_fifth'>
+            <div className='dhaassign_container_2_2_first' tabIndex={1}>
                 
                 <div className='dhaassign_container_2_2_first_up'><img src={doctorsimage} alt="" /></div>
                 
@@ -98,7 +101,7 @@ export const Bookingdhaassign = () => {
 
             </div>
 
-            <div className='dhaassign_container_2_2_fifth'>
+            <div className='dhaassign_container_2_2_first'tabIndex={1}>
                 
                 <div className='dhaassign_container_2_2_first_up'><img src={doctorsimage} alt="" /></div>
                 

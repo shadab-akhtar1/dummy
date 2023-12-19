@@ -1,6 +1,6 @@
 import React from 'react';
-import './Earninghistory.css';
-
+import './Earningpharmacyhistory.css';
+import Navbars from '../Dhamanagement/Navbars';
 import {Link} from 'react-router-dom';
 import {PiArrowLeftFill} from 'react-icons/pi';
 import profile_logo from '../Assets/Ellipse 2.svg';
@@ -13,27 +13,28 @@ import {PiCaretDoubleLeftBold} from 'react-icons/pi';
 import {PiCaretDoubleRightBold} from 'react-icons/pi';
 import {BiChevronDown} from 'react-icons/bi';
 import { IoCheckmark } from "react-icons/io5";
-import Navbars from '../Dhamanagement/Navbars';
 
-export const Earninghistory = () => {
+export const Earningpharmacyhistory = () => {
   return (
     <>
-        <div><Navbars/></div>
+    <div><Navbars/></div>
     <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_basic'>
         <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading_basic'><h2><Link to={"/profile"} className='earninghistory_earning_profile_documnet_labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='earninghistory_earning_profile_documnet_labdetailedit_pharma_arrow_edit_basic'/></Link>My Earnings</h2></div>
-        <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_basic_base'>
-            <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_basic_2'>All</div>
-            <Link to={"/earningdha" } className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_document_basic'>
-            <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_document_basic'>DHA</div>
+        <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_basic_base_pharmacyhistory'>
+            <Link to={"/earning" } className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_document_basic_pharmacyhistory'>
+            <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_basic_2_pharmacyhistory'>All</div>
             </Link>
-            <Link to={"/earningdoctor" } className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_document_basic'>
-            <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic'>Doctor</div>
+            <Link to={"/earningdha" } className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_document_basic_pharmacyhistory'>
+            <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_document_basic_pharmacyhistory'>DHA</div>
             </Link>
-            <Link to={"/earningpharmacy" } className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_document_basic'>
-            <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic'>Pharmacy</div>
+            <Link to={"/earningdoctor" } className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_document_basic_pharmacyhistory'>
+            <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic_1_pharmacyhistory'>Doctor</div>
             </Link>
-            <Link to={"/earninglab" } className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_document_basic'>
-            <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic'>Lab</div>
+            
+            <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic_2_pharmacyhistory'>Pharmacy</div>
+            
+            <Link to={"/earninglab" } className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_document_basic_pharmacyhistory'>
+            <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic_3_pharmacyhistory'>Lab</div>
             </Link>
         </div>
         <div className='earninghistory_earning_labdetails_pharma_detail2'>
@@ -58,7 +59,7 @@ export const Earninghistory = () => {
       </div>
       <div className='earninghistory_earning_container_3'>
         <div className='earninghistory_earning_container_3_1'>
-          <Link to={"/earning"} className='earning_link'>
+          <Link to={"/earningpharmacy"} className='earning_link'>
             <div className='earninghistory_earning_container_3_1_left'>History</div>
             </Link>
             <div className='earninghistory_earning_container_3_1_right'>Withdrawls</div>
@@ -258,4 +259,4 @@ export const Earninghistory = () => {
     </>
   )
 }
-export default Earninghistory
+export default Earningpharmacyhistory

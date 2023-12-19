@@ -58,7 +58,7 @@ export const Rejectpharmacyhospital = () => {
             </div>
             {hisActive &&(
               <div className='bookingrequest_dropdown_content_drop'>
-                <Link to={""}>
+                <Link to={""} className='bookingrequest_dropdown_left_link'>
                 <div className='bookingrequest_dropdown_item_drop'>Sort by</div>
                 </Link>
                 
@@ -71,9 +71,9 @@ export const Rejectpharmacyhospital = () => {
 
             </div>
             {isActive &&(
-              <div className='rejectpharmacyhospital1_dropdown_content_drop'>
-                <Link to={""}>
-                <div className='rejectpharmacyhospital1_dropdown_item_drop'>Medicine</div>
+              <div className='bookingpending_dropdown_content_drop'>
+                <Link to={""} className='bookingpending_dropdown_link'>
+                <div className='bookingpending_dropdown_item_drop'>Medicine</div>
                 </Link>
                 
 

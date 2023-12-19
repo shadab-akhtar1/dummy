@@ -62,7 +62,7 @@ export const Bookingrequestpharmacy = () => {
             </div>
             {hisActive &&(
               <div className='bookingrequest_dropdown_content_drop'>
-                <Link to={""}>
+                <Link to={""} className='bookingrequest_dropdown_left_link'>
                 <div className='bookingrequest_dropdown_item_drop'>Sort by</div>
                 </Link>
                 
@@ -74,7 +74,7 @@ export const Bookingrequestpharmacy = () => {
             <div className='bookingrequest_pharmacy_management_container_4_urgent'onClick={(e)=> setIsActive(!isActive)}>Vaccine <FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>
             {isActive &&(
               <div className='bookingpending_dropdown_content_drop'>
-                <Link to={"/bookingdhahospital"}>
+                <Link to={"/bookingdhahospital"} className='bookingpending_dropdown_link'>
                 <div className='bookingpending_dropdown_item_drop'>Standalone</div>
                 </Link>
                 

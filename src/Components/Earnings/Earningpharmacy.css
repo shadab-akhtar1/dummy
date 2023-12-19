@@ -1,0 +1,70 @@
+/* ########################### Css File In Earning.css ################################ */
+
+
+/* ####################### CSS File For Routes ALL DHA Doctor Pharmacy lab ########################## */
+
+.earning_profile_documnet_labdetailedit_pharma_edit_heading2_basic_base_pharmacy {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 80px;
+    margin-top: -20px;
+    border-bottom: 1px solid #E1E5E8;
+}
+
+.earning_profile_documnet_labdetailedit_pharma_arrow_edit_basic_pharmacy {
+    color: #8D98A4;
+    text-align: center;
+    padding-top: 3px;
+    padding-right: 10px;
+}
+
+.earning_profile_documnet_labdetailedit_pharma_edit_heading2_basic_2_pharmacy {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #8D98A4;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.earning_profile_documnet_labdetailedit_pharma_edit_heading2_document_basic_pharmacy {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #8D98A4;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic_1_pharmacy {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #8D98A4;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic_2_pharmacy {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #1A1C1F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid #E40443;
+}
+
+.earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic_3_pharmacy {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #8D98A4;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.earning_profile_documnet_labdetailedit_pharma_edit_document_basic_pharmacy {
+    text-decoration: none;
+}

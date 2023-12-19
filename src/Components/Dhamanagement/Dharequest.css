@@ -143,3 +143,8 @@
 .footer_dha {
     margin-top: -21px;
 }
+
+.dharequest_link {
+    text-decoration: none;
+    color: #1A1C1F;
+}

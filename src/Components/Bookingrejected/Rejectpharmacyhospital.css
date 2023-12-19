@@ -25,10 +25,9 @@
 
 .rejectpharmacyhospital1_dropdown_content_drop {
     position: absolute;
-    top: 250px;
-    padding: 10px;
-    background: white;
-    color: #333;
+    top: 260px;
+    background: #EEEFEF;
+    color: #1A1C1F;
 }
 
 .rejectpharmacyhospital1_dropdown_item_drop {
@@ -57,3 +56,6 @@
 
 
 /* ################### Dropdown  Sort by Css file in Bookingrequestdha.css ############## */
+
+
+/* ################ Dropdown Vaccine Css File in Bookingpending.css ################## */

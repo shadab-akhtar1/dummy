@@ -72,7 +72,9 @@ export const Rolemanagement = () => {
                             <td>User Manager</td>
                             <td className='role_td'><div className='role_management_all_icon'>
                                 <div className='role_management_1_icon'><LuEye/></div>
+                                <Link to={"/editpermision"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_2_icon'><AiOutlineEdit/></div>
+                                </Link>
                                 <div className='role_management_3_icon'>< MdBlockFlipped/></div>
                             </div></td>
                             
@@ -84,7 +86,9 @@ export const Rolemanagement = () => {
                             <td>Doctor Manager</td>
                             <td className='role_td'><div className='role_management_all_icon'>
                                 <div className='role_management_1_icon'><LuEye/></div>
+                                <Link to={"/editpermision"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_2_icon'><AiOutlineEdit/></div>
+                                </Link>
                                 <div className='role_management_3_icon'>< MdBlockFlipped/></div>
                             </div></td>
                     
@@ -96,7 +100,9 @@ export const Rolemanagement = () => {
                             <td>Lab Manager</td>
                             <td className='role_td'><div className='role_management_all_icon'>
                                 <div className='role_management_1_icon'><LuEye/></div>
+                                <Link to={"/editpermision"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_2_icon'><AiOutlineEdit/></div>
+                                </Link>
                                 <div className='role_management_3_icon'>< MdBlockFlipped/></div>
                             </div></td>
                             
@@ -108,7 +114,9 @@ export const Rolemanagement = () => {
                             <td>Pharmacy Manager</td>
                             <td className='role_td'><div className='role_management_all_icon'>
                                 <div className='role_management_1_icon'><LuEye/></div>
+                                <Link to={"/editpermision"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_2_icon'><AiOutlineEdit/></div>
+                                </Link>
                                 <div className='role_management_3_icon'>< MdBlockFlipped/></div>
                             </div></td>
                             
@@ -120,7 +128,9 @@ export const Rolemanagement = () => {
                             <td>DHA Manager</td>
                             <td className='role_td'><div className='role_management_all_icon'>
                                 <div className='role_management_1_icon'><LuEye/></div>
+                                <Link to={"/editpermision"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_2_icon'><AiOutlineEdit/></div>
+                                </Link>
                                 <div className='role_management_3_icon'>< MdBlockFlipped/></div>
                             </div></td>
                             

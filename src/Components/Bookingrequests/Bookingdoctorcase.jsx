@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './Bookingdoctorcase.css';
 import Weblogo from "../Assets/Dooper Logo 1500x1500 2.svg";
 import {FaBell} from 'react-icons/fa';
@@ -18,8 +18,20 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 import {Footer} from '../Dhamanagement/Footer';
 import Navbars from '../Dhamanagement/Navbars';
+import medicalreport from '../Assets/doctorreport.png'
 
 export const Bookingdoctorcase = () => {
+    const [medreport, setMedreport] = useState(false);
+
+  const toggleMedreport = () => {
+    setMedreport(!medreport);
+  };
+
+  if(medreport) {
+    document.body.classList.add('active-modal')
+  } else {
+    document.body.classList.remove('active-modal')
+  }
   return (
     <>
     <div><Navbars/></div>
@@ -112,7 +124,19 @@ export const Bookingdoctorcase = () => {
                                 </div>
                             </div>
                             <div className='bookingdoctorcase_dha_case_detail_para_bottom_bot'>
-                                <button>View Vitals Report</button>
+                                <button onClick={toggleMedreport}>View Vitals Report</button>
+                                {medreport && (
+                                                <div className="modal_doctor_report">
+                                                        <div onClick={toggleMedreport} className="overlay_doctor_report"></div>
+                                                        <div className="modal_content_doctor_report">
+        
+                                                            <img src={medicalreport} alt="" className='med_img_doc_report'/>
+                                                            <button className="close_modal_doctor_report" onClick={toggleMedreport}>
+                                                                CLOSE
+                                                            </button>
+                                                        </div>
+                                                </div>
+                                                )}
                             </div>
 
                         </div>

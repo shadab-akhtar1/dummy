@@ -221,3 +221,8 @@
 .footer_dha_manage {
     margin-top: -23px;
 }
+
+.dhamanagement_link {
+    text-decoration: none;
+    color: #1A1C1F;
+}

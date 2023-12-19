@@ -1,12 +1,7 @@
 import React,{useState} from 'react';
 import './Bookingrequestdha.css';
-import Weblogo from "../Assets/Dooper Logo 1500x1500 2.svg";
-import {FaBell} from 'react-icons/fa';
 import {FaCaretDown} from 'react-icons/fa';
-import profile from "../Assets/Rectangle 619 (1).jpg";
-import {BsTelephone} from 'react-icons/bs';
 import {Link} from 'react-router-dom';
-import {PiArrowLeftFill} from 'react-icons/pi';
 import pharimg from '../Assets/Ellipse 2 (1).jpg';
 import {PiCaretDoubleLeftBold} from 'react-icons/pi';
 import {PiCaretDoubleRightBold} from 'react-icons/pi';
@@ -65,7 +60,7 @@ export const Bookingrequestdha = () => {
             </div>
             {hisActive &&(
               <div className='bookingrequest_dropdown_content_drop'>
-                <Link to={""}>
+                <Link to={""} className='bookingrequest_dropdown_left_link'>
                 <div className='bookingrequest_dropdown_item_drop'>Sort by</div>
                 </Link>
                 
@@ -77,7 +72,7 @@ export const Bookingrequestdha = () => {
             <div className='bookingrequest_pharmacy_management_container_4_urgent'onClick={(e)=> setIsActive(!isActive)}>Urgent care <FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>
             {isActive &&(
               <div className='bookingpending_dropdown_content_drop'>
-                <Link to={"/bookingdhahospital"}>
+                <Link to={"/bookingdhahospital"} className='bookingpending_dropdown_link'>
                 <div className='bookingpending_dropdown_item_drop'>Standalone</div>
                 </Link>
                 

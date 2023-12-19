@@ -1,6 +1,6 @@
 import React from 'react';
-import './Earning.css';
-
+import './Earningdha.css';
+import Navbars from '../Dhamanagement/Navbars';
 import {Link} from 'react-router-dom';
 import {PiArrowLeftFill} from 'react-icons/pi';
 import profile_logo from '../Assets/Ellipse 2.svg';
@@ -11,27 +11,27 @@ import { PiCaretRightBold } from "react-icons/pi";
 import { PiCaretLeftBold } from "react-icons/pi";
 import {PiCaretDoubleLeftBold} from 'react-icons/pi';
 import {PiCaretDoubleRightBold} from 'react-icons/pi';
-import {Navbars} from '../Dhamanagement/Navbars';
 
-export const Earning = () => {
+export const Earningdha = () => {
   return (
     <>
-   <div><Navbars/></div>
+    <div><Navbars/></div>
     <div className='earning_profile_documnet_labdetailedit_pharma_edit_basic'>
-        <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading_basic'><h2><Link to={"/profile"} className='earning_profile_documnet_labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='earning_profile_documnet_labdetailedit_pharma_arrow_edit_basic'/></Link>My Earnings</h2></div>
-        <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_basic_base'>
-            <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_basic_2'>All</div>
-            <Link to={"/earningdha" } className='earning_profile_documnet_labdetailedit_pharma_edit_document_basic'>
-            <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_document_basic'>DHA</div>
+        <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading_basic'><h2><Link to={"/earning"} className='earning_profile_documnet_labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='earning_profile_documnet_labdetailedit_pharma_arrow_edit_basic'/></Link>My Earnings</h2></div>
+        <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_basic_base_dha'>
+            <Link to={"/earning" } className='earning_profile_documnet_labdetailedit_pharma_edit_document_basic_dha'>
+            <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_basic_2_dha'>All</div>
             </Link>
-            <Link to={"/earningdoctor" } className='earning_profile_documnet_labdetailedit_pharma_edit_document_basic'>
-            <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic'>Doctor</div>
+            
+            <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_document_basic_dha'>DHA</div>
+            <Link to={"/earningdoctor" } className='earning_profile_documnet_labdetailedit_pharma_edit_document_basic_dha'>
+            <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic_dha'>Doctor</div>
             </Link>
-            <Link to={"/earningpharmacy" } className='earning_profile_documnet_labdetailedit_pharma_edit_document_basic'>
-            <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic'>Pharmacy</div>
+            <Link to={"/earningpharmacy" } className='earning_profile_documnet_labdetailedit_pharma_edit_document_basic_dha'>
+            <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic_dha'>Pharmacy</div>
             </Link>
-            <Link to={"/earninglab" } className='earning_profile_documnet_labdetailedit_pharma_edit_document_basic'>
-            <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic'>Lab</div>
+            <Link to={"/earninglab" } className='earning_profile_documnet_labdetailedit_pharma_edit_document_basic_dha'>
+            <div className='earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic_dha'>Lab</div>
             </Link>
         </div>
         <div className='earning_labdetails_pharma_detail2'>
@@ -49,7 +49,7 @@ export const Earning = () => {
       <div className='earning_container_3'>
         <div className='earning_container_3_1'>
             <div className='earning_container_3_1_left'>History</div>
-            <Link to={"/earninghistory"} className='earning_link'>
+            <Link to={"/earningdhahistory"} className='earning_link'>
             <div className='earning_container_3_1_right'>Withdrawls</div>
             </Link>
         </div>
@@ -139,8 +139,7 @@ export const Earning = () => {
           </div>
 
     </div>
-    
     </>
   )
 }
-export default Earning
+export default Earningdha

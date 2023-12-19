@@ -501,11 +501,19 @@
     top: 210px;
     right: 70px;
     padding: 10px;
-    background: white;
+    background: #EEEFEF;
     color: #333;
 }
 
 .bookingrequest_dropdown_item_drop {
     padding: 5px;
     cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bookingrequest_dropdown_left_link {
+    text-decoration: none;
+    color: #1A1C1F;
 }

@@ -53,7 +53,7 @@ export const Dhamanagement = () => {
                     </thead>
                     <tbody >
                         <tr >
-                            <td ><div className='data_user_prof'><img src={prof} alt="" className='user_prof'/>Jacob Jones</div></td>
+                            <td ><Link to={"/dhadetailsview"} className='dhamanagement_link'><div className='data_user_prof'><img src={prof} alt="" className='user_prof'/>Jacob Jones</div></Link></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             <td>12</td>
@@ -61,7 +61,7 @@ export const Dhamanagement = () => {
                             <td ><button className='dha_table_btn_1'>offline</button></td>
                         </tr>
                         <tr>
-                            <td ><div className='data_user_prof'><img src={prof2} alt="" className='user_prof'/>Darrell Steward</div></td>
+                            <td ><Link to={"/dhadetailsview"} className='dhamanagement_link'><div className='data_user_prof'><img src={prof2} alt="" className='user_prof'/>Darrell Steward</div></Link></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             <td>12</td>
@@ -69,7 +69,7 @@ export const Dhamanagement = () => {
                             <td ><button className='dha_table_btn_2'>online</button></td>
                         </tr>
                         <tr>
-                            <td ><div className='data_user_prof'><img src={prof3} alt="" className='user_prof'/>Esther Howard</div></td>
+                            <td ><Link to={"/dhadetailsview"} className='dhamanagement_link'><div className='data_user_prof'><img src={prof3} alt="" className='user_prof'/>Esther Howard</div></Link></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             <td>12</td>
@@ -77,7 +77,7 @@ export const Dhamanagement = () => {
                             <td><button className='dha_table_btn_1'>offline</button></td>
                         </tr>
                         <tr className='table_row'>
-                            <td ><div className='data_user_prof'><img src={prof4} alt="" className='user_prof'/>Arlene McCoy </div></td>
+                            <td ><Link to={"/dhadetailsview"} className='dhamanagement_link'><div className='data_user_prof'><img src={prof4} alt="" className='user_prof'/>Arlene McCoy </div></Link></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             <td>12</td>
@@ -85,7 +85,7 @@ export const Dhamanagement = () => {
                             <td><button className='dha_table_btn_2'>online</button></td>
                         </tr>
                         <tr className='table_row'>
-                            <td ><div className='data_user_prof'><img src={prof5} alt="" className='user_prof'/>jane Cooper </div></td>
+                            <td ><Link to={"/dhadetailsview"} className='dhamanagement_link'><div className='data_user_prof'><img src={prof5} alt="" className='user_prof'/>jane Cooper </div></Link></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             <td>12</td>
@@ -93,7 +93,7 @@ export const Dhamanagement = () => {
                             <td><button className='dha_table_btn_2'>Online</button></td>
                         </tr>
                         <tr>
-                            <td ><div className='data_user_prof'><img src={prof6} alt="" className='user_prof'/>Ralph Edwards</div></td>
+                            <td ><Link to={"/dhadetailsview"} className='dhamanagement_link'><div className='data_user_prof'><img src={prof6} alt="" className='user_prof'/>Ralph Edwards</div></Link></td>
                             <td>email@email.com</td>
                             <td>+91 123 456 7890</td>
                             <td>12</td>
