@@ -17,6 +17,12 @@ import { IoCheckmark } from "react-icons/io5";
 
 export const Bookingdhaassign = () => {
     const [show, setShow] = useState(false)
+    const [showmid, setShowmid] = useState(false)
+    const [showcase, setShowcase] = useState(false)
+    const [showmidcase, setShowmidcase] = useState(false)
+    const [showid, setShowid] = useState(false)
+    const [showidmid, setShowidmid] = useState(false)
+    
   return (
     <>
      <div><Navbars/></div>
@@ -39,15 +45,20 @@ export const Bookingdhaassign = () => {
             </div>
         </div>
         <div className='dhaassign_container_2_2'>
-            <div className='dhaassign_container_2_2_first' tabIndex={1}>
+            <div className={showmid === true ? "dhaassign_container_2_2_top" : ""}>
+            <div className='dhaassign_container_2_2_first' onClick={() =>setShowmid(!showmid)}>
                 
-                <div className='dhaassign_container_2_2_first_up'><img src={doctorimage} alt="" /></div>
+                <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctorimage} alt="" /></div>
                 
-                <div className='dhaassign_container_2_2_first_down'>
-                    <div className='dhaassign_container_2_2_first_down_1'>Courtney Henry</div>
-                    <div className='dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
+                <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Courtney Henry</div>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
+                    </div>
                 </div>
+                {showmid && <div className='assigndoctor_dhaassign_container_2_2_first_down_1_right'tabIndex={1}><IoCheckmark/></div>}
 
+            </div>
             </div>
 
             <div className={show === true ? "dhaassign_container_2_2_top" : ""}>
@@ -66,50 +77,70 @@ export const Bookingdhaassign = () => {
             </div>
             </div>
 
-    
-            <div className='dhaassign_container_2_2_first' tabIndex={1}>
+            <div className={showcase === true ? "dhaassign_container_2_2_top" : ""}>
+            <div className='dhaassign_container_2_2_first'  onClick={() =>setShowcase(!showcase)}>
                 
-                <div className='dhaassign_container_2_2_first_up'><img src={doctoresimage} alt="" /></div>
+                <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctoresimage} alt="" /></div>
                 
-                <div className='dhaassign_container_2_2_first_down'>
-                    <div className='dhaassign_container_2_2_first_down_1'>Devon Lane</div>
-                    <div className='dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
+                <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Devon Lane</div>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
+                    </div>
+                    {showcase && <div className='assigndoctor_dhaassign_container_2_2_first_down_1_right'tabIndex={1}><IoCheckmark/></div>}
                 </div>
 
             </div>
+            </div>
+            
 
         
-        
-            <div className='dhaassign_container_2_2_first'tabIndex={1}>
+            <div className={showmidcase === true ? "dhaassign_container_2_2_top" : ""}>
+            <div className='dhaassign_container_2_2_first' onClick={() =>setShowmidcase(!showmidcase)}>
                 
-                <div className='dhaassign_container_2_2_first_up'><img src={doctoresimage} alt="" /></div>
+                <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctoresimage} alt="" /></div>
                 
-                <div className='dhaassign_container_2_2_first_down'>
-                    <div className='dhaassign_container_2_2_first_down_1'>Devon Lane</div>
-                    <div className='dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
+                <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Devon Lane</div>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
+                    </div>
+                    {showmidcase && <div className='assigndoctor_dhaassign_container_2_2_first_down_1_right'tabIndex={1}><IoCheckmark/></div>}
                 </div>
 
             </div>
-            <div className='dhaassign_container_2_2_first' tabIndex={1}>
+            </div>
+
+            <div className={showid === true ? "dhaassign_container_2_2_top" : ""}>
+            <div className='dhaassign_container_2_2_first' onClick={() =>setShowid(!showid)}>
+                
+                <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctorsimage} alt="" /></div>
+                
+                <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Floyd Miles</div>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
+                    </div>
+                    {showid && <div className='assigndoctor_dhaassign_container_2_2_first_down_1_right'tabIndex={1}><IoCheckmark/></div>}
+                </div>
+
+            </div>
+            </div>
+
+            <div className={showidmid === true ? "dhaassign_container_2_2_top" : ""}>
+            <div className='dhaassign_container_2_2_first' onClick={() =>setShowidmid(!showidmid)}>
                 
                 <div className='dhaassign_container_2_2_first_up'><img src={doctorsimage} alt="" /></div>
                 
-                <div className='dhaassign_container_2_2_first_down'>
-                    <div className='dhaassign_container_2_2_first_down_1'>Floyd Miles</div>
-                    <div className='dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
+                <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Floyd Miles</div>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
+                    </div>
+                    {showidmid && <div className='assigndoctor_dhaassign_container_2_2_first_down_1_right'tabIndex={1}><IoCheckmark/></div>}
                 </div>
 
             </div>
-
-            <div className='dhaassign_container_2_2_first'tabIndex={1}>
-                
-                <div className='dhaassign_container_2_2_first_up'><img src={doctorsimage} alt="" /></div>
-                
-                <div className='dhaassign_container_2_2_first_down'>
-                    <div className='dhaassign_container_2_2_first_down_1'>Floyd Miles</div>
-                    <div className='dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
-                </div>
-
             </div>
 
         </div>
