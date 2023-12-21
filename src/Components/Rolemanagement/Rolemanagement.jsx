@@ -60,7 +60,9 @@ export const Rolemanagement = () => {
                                 <Link to={"/editpermision"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_2_icon'><AiOutlineEdit/></div>
                                 </Link>
+                                <Link to={"/blockrole"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_3_icon'>< MdBlockFlipped/></div>
+                                </Link>
                             </div></td>
                             
                         </tr>
@@ -75,7 +77,9 @@ export const Rolemanagement = () => {
                                 <Link to={"/editpermision"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_2_icon'><AiOutlineEdit/></div>
                                 </Link>
+                                <Link to={"/blockrole"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_3_icon'>< MdBlockFlipped/></div>
+                                </Link>
                             </div></td>
                             
                         </tr>
@@ -89,7 +93,9 @@ export const Rolemanagement = () => {
                                 <Link to={"/editpermision"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_2_icon'><AiOutlineEdit/></div>
                                 </Link>
+                                <Link to={"/blockrole"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_3_icon'>< MdBlockFlipped/></div>
+                                </Link>
                             </div></td>
                     
                         </tr>
@@ -103,7 +109,9 @@ export const Rolemanagement = () => {
                                 <Link to={"/editpermision"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_2_icon'><AiOutlineEdit/></div>
                                 </Link>
+                                <Link to={"/blockrole"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_3_icon'>< MdBlockFlipped/></div>
+                                </Link>
                             </div></td>
                             
                         </tr>
@@ -117,7 +125,9 @@ export const Rolemanagement = () => {
                                 <Link to={"/editpermision"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_2_icon'><AiOutlineEdit/></div>
                                 </Link>
+                                <Link to={"/blockrole"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_3_icon'>< MdBlockFlipped/></div>
+                                </Link>
                             </div></td>
                             
                         </tr>
@@ -131,7 +141,9 @@ export const Rolemanagement = () => {
                                 <Link to={"/editpermision"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_2_icon'><AiOutlineEdit/></div>
                                 </Link>
+                                <Link to={"/blockrole"} className='rolemanagement_editpermision_link'>
                                 <div className='role_management_3_icon'>< MdBlockFlipped/></div>
+                                </Link>
                             </div></td>
                             
                         </tr>

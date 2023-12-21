@@ -6,6 +6,7 @@ import background from "../Assets/image 219.jpg";
 import { Link } from "react-router-dom";
 import warning from "../Assets/image 228.png";
 import { RxCross2 } from "react-icons/rx";
+import content from '../Assets/content (2).png';
 
 
 export const Adddhaupload = () => {

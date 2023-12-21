@@ -46,6 +46,8 @@ export const Doctorcasedetail = () => {
   } else {
     document.body.classList.remove('active-modal')
   }
+
+  const [show, setShow] =useState(true)
   return (
     <>
 
@@ -129,11 +131,11 @@ export const Doctorcasedetail = () => {
 
                                     </div>
                                     <div className='doctor_case_detail_para_icon'>
-                                        <div className='doctor_case_detail_para_icon_1'><MdKeyboardArrowUp /></div>
+                                        <div className='doctor_case_detail_para_icon_1'onClick={() =>setShow(!show)}><MdKeyboardArrowUp /></div>
                                     </div>
                                 
                                 </div>
-                                <div className='doctor_case_detail_para_right_1_down'>
+                                {show && <div className='doctor_case_detail_para_right_1_down'>
                                     
                                         <div className='doctor_case_detail_para_main_left'>
                                             <h4>Patient's Note</h4>
@@ -145,7 +147,7 @@ export const Doctorcasedetail = () => {
                                         </div>
                                     
 
-                                </div>
+                                </div>}
                             </div>
                             <div className='doctor_case_detail_para_right_2'>
                                 <div className='doctor_case_detail_para_right_2_up'>

@@ -48,18 +48,20 @@ export const Profile = () => {
                           </div>
 
                         </div>
-                        <Link to={"/profilebasic"} className='profile_link'>
+                        
                         <div className='profile_para_container'>
                           <div className='profile_para_container_left'>
                             <div className='profile_para_container_left_1'><img src={vector} alt="" /></div>
                             <div className='profile_para_container_left_2'>Edit Profile</div>
                           </div>
                           <div className='profile_para_container_right'>
+                          <Link to={"/profilebasic"} className='profile_link'>
                             <div className='profile_para_container_right_1'><MdKeyboardArrowRight/></div>
+                            </Link>
                           </div>
 
                         </div>
-                        </Link>
+                        
                         
                         <div className='profile_para_container'>
                           <div className='profile_para_container_left'>
@@ -67,7 +69,9 @@ export const Profile = () => {
                             <div className='profile_para_container_left_2'>My Earning</div>
                           </div>
                           <div className='profile_para_container_right'>
+                          <Link to={"/earning"} className='profile_link'>
                             <div className='profile_para_container_right_1'><MdKeyboardArrowRight/></div>
+                            </Link>
                           </div>
 
                         </div>

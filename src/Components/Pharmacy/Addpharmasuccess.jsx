@@ -10,7 +10,7 @@ export const Addpharmasuccess = () => {
     <div className='pharmasuccess_hero'>
          
          <div className='pharmasuccess_adddha_success_1'>
-         <Link to={"/pharmamedicine"} className='cross_link_addpharmasuccess'><div className='addpharmasuccess_cross'><RxCross2/></div></Link>
+         <Link to={"/pharmacymanagementmain"} className='cross_link_addpharmasuccess'><div className='addpharmasuccess_cross'><RxCross2/></div></Link>
         
              <div className='pharmasuccess_adddha_success_box_1'>
                  <div className='pharmasuccess_adddha_success_box_logo_1'>
@@ -22,7 +22,7 @@ export const Addpharmasuccess = () => {
                      <p className='pharmasuccess_adddha_success_box_pi'>DHA (Dooper Health Assistance) is Added successfully.</p>
  
                  </div>
-                    <Link to={"/pharmamedicine"}>
+                    <Link to={"/pharmacymanagementmain"}>
                  <button className='pharmasuccess_adddha_success_box_btn_1'>Continue</button>
                  </Link>
  

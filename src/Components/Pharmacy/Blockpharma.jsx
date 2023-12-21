@@ -9,7 +9,7 @@ export const Blockpharma = () => {
     <>
     <div className='blockpharma_hero_block'>
         <div className='blockpharma_adddha_success_block'>
-        <Link to={"/"} className='cross_link_blockpharma'><div className='blockpharma_cross'><RxCross2/></div></Link>
+        <Link to={"/pharmadetail"} className='cross_link_blockpharma'><div className='blockpharma_cross'><RxCross2/></div></Link>
             <div className='blockpharma_adddha_success_box_block'>
                 <div className='blockpharma_adddha_success_box_logo_block'>
                     <img src={warning} alt="" />

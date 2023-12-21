@@ -38,21 +38,7 @@ export const pendingdhaassigndoctor = () => {
             </div>
         </div>
         <div className='assigndoctor_dhaassign_container_2_2'>
-            <div className='assigndoctor_dhaassign_container_2_2_first'>
-                
-                <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctorimage} alt="" /></div>
-                
-                <div className='assigndoctor_dhaassign_container_2_2_first_down'>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Courtney Henry</div>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
-                </div>
-
-            </div>
-
-        
-
-        
-            <div className='assigndoctor_dhaassign_container_2_2_first_1'>
+            <div className='assigndoctor_dhaassign_container_2_2_first'tabIndex={1}>
                 
                 <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctorimage} alt="" /></div>
                 
@@ -61,54 +47,78 @@ export const pendingdhaassigndoctor = () => {
                     <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Courtney Henry</div>
                     <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
                     </div>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_right'><IoCheckmark/></div>
+                </div>
+
+            </div>
+
+        
+
+        
+            <div className='assigndoctor_dhaassign_container_2_2_first'tabIndex={1}>
+                
+                <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctorimage} alt="" /></div>
+                
+                <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Courtney Henry</div>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
+                    </div>
+                    
                 </div>
 
             </div>
 
         
         
-            <div className='assigndoctor_dhaassign_container_2_2_first'>
+            <div className='assigndoctor_dhaassign_container_2_2_first'tabIndex={1}>
                 
                 <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctoresimage} alt="" /></div>
                 
-                <div className='assigndoctor_dhaassign_container_2_2_first_down'>
+                <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
                     <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Devon Lane</div>
                     <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
+                    </div>
                 </div>
 
             </div>
 
         
         
-            <div className='assigndoctor_dhaassign_container_2_2_first'>
+            <div className='assigndoctor_dhaassign_container_2_2_first'tabIndex={1}>
                 
                 <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctoresimage} alt="" /></div>
                 
-                <div className='assigndoctor_dhaassign_container_2_2_first_down'>
+                <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
                     <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Devon Lane</div>
                     <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
+                    </div>
                 </div>
 
             </div>
-            <div className='assigndoctor_dhaassign_container_2_2_fifth'>
+            <div className='assigndoctor_dhaassign_container_2_2_first'tabIndex={1}>
                 
                 <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctorsimage} alt="" /></div>
                 
-                <div className='assigndoctor_dhaassign_container_2_2_first_down'>
+                <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
                     <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Floyd Miles</div>
                     <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
+                    </div>
                 </div>
 
             </div>
 
-            <div className='assigndoctor_dhaassign_container_2_2_fifth'>
+            <div className='assigndoctor_dhaassign_container_2_2_first'tabIndex={1}>
                 
                 <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctorsimage} alt="" /></div>
                 
-                <div className='assigndoctor_dhaassign_container_2_2_first_down'>
+                <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
+                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
                     <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Floyd Miles</div>
                     <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
+                    </div>
                 </div>
 
             </div>

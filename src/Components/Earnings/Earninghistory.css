@@ -828,3 +828,103 @@
     border-left: 2px dashed #3EB655;
     left: -1px;
 }
+
+
+/* ################# POPUP ###################### */
+
+.modal_doctor_earn,
+.overlay_doctor_earn {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay_doctor_earn {
+    background: rgba(49, 49, 49, 0.8);
+}
+
+.modal_content_doctor_test_earn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 16px;
+    width: 438px;
+    min-width: 231px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_earning_text {
+    width: 378px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_earning_text p {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.modal_earning_text span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #E40443;
+}
+
+.close_modal_doctor_earn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+
+.modal_earning_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_earning_btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E40443;
+    border: none;
+    border-radius: 8px;
+    width: 226px;
+    height: 38px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.med_img_doc {
+    height: 650px;
+    width: 550px;
+}
+
+.modal_content_doctor_earn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}

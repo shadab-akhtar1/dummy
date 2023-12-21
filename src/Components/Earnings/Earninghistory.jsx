@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './Earninghistory.css';
 
 import {Link} from 'react-router-dom';
@@ -16,6 +16,17 @@ import { IoCheckmark } from "react-icons/io5";
 import Navbars from '../Dhamanagement/Navbars';
 
 export const Earninghistory = () => {
+  const [formearn, setFormearn] = useState(false);
+
+  const toggleFormearn = () => {
+    setFormearn(!formearn);
+  };
+
+  if(formearn) {
+    document.body.classList.add('active-modal')
+  } else {
+    document.body.classList.remove('active-modal')
+  }
   return (
     <>
         <div><Navbars/></div>
@@ -52,9 +63,33 @@ export const Earninghistory = () => {
         <div className='earninghistory_container_4_1'>
             <input type="text" name="" id=""placeholder='Amount'/>
         </div>
-        <div className='earninghistory_container_4_2'>
+        <div className='earninghistory_container_4_2' onClick={toggleFormearn}>
             <button>Withdraw money</button>
         </div>
+        {formearn && (
+                                                <div className="modal_doctor_earn">
+                                                        <div onClick={toggleFormearn} className="overlay_doctor_earn"></div>
+                                                        <div className="modal_content_doctor_test_earn">
+                                                          <div className='modal_earning_text'>
+                                                          <p>Your <span>Withdrawal</span> request have been submitted .</p>
+                                                          <div className='modal_earning_btn'>
+                                                          <button>Done</button>
+                                                          </div>
+                                                          </div>
+        
+                                                        
+                                                                
+                                                                    
+
+                                                            
+
+                                                                
+                                                            <button className="close_modal_doctor_earn" onClick={toggleFormearn}>
+                                                                CLOSE
+                                                            </button>
+                                                        </div>
+                                                </div>
+                                                )}
       </div>
       <div className='earninghistory_earning_container_3'>
         <div className='earninghistory_earning_container_3_1'>

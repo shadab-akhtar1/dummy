@@ -1,5 +1,5 @@
 .addlabbank_pharmabank_hero {
-    background-image: url('../Assets/image 219.jpg');
+    background-image: url('../Assets/image\ 219\ \(1\).png');
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,7 +10,6 @@
 .addlabbank_pharmabank_adddha_bank {
     background: #FFFFFF;
     width: 550px;
-    height: 80vh;
     position: absolute;
     left: 50%;
     top: 50%;

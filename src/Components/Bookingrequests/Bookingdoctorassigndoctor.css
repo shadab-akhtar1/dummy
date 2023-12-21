@@ -133,6 +133,10 @@
     align-items: center;
 }
 
+.doctorassign_assigndoctor_dhaassign_container_2_2_first:focus {
+    border: 4px solid #3EB655;
+}
+
 .doctorassign_assigndoctor_dhaassign_container_2_2_first_1 {
     height: 344px;
     width: 276px;

@@ -16,11 +16,19 @@ export const Navbar = () => {
         </div>
 
         <ul className='nav_links'>
-            <li className='list_item'>Dooper At Home</li>
-            <li className='list_item'>Lab Tesst </li>
+            <Link to={"/dhamanagement"} className='navbar_link_tag'>
+            <li className='list_item_2'><p>DHA</p> <span className='list_item_span'>Management</span></li>
+            </Link>
+            <Link to={"/doctormanagement"} className='navbar_link_tag'>
+            <li className='list_item_2'><p>Doctor</p> <span  className='list_item_span'>Management</span> </li>
+            </Link>
             <li className='list_item'>Our Network < FaCaretDown/></li>
-            <li className='list_item'>About Us</li>
-            <li className='list_item'>Contact Us</li>
+            <Link to={"/pharmacymanagementmain"} className='navbar_link_tag'>
+            <li className='list_item_2'><p>Pharmacy </p><span  className='list_item_span'>Management</span></li>
+            </Link>
+            <Link to={"/labmanagement"} className='navbar_link_tag'>
+            <li className='list_item_2'><p>Lab</p> <span  className='list_item_span'>Management</span></li>
+            </Link>
             <li className='list_item'>Join Us With <FaCaretDown/></li>
             
             <li className='list_item_1'>
@@ -30,30 +38,13 @@ export const Navbar = () => {
               </div>
               {isActive &&(
               <div className='dropdown_content'>
-                <Link to={"/dhamanagement"} className='dropdown_nav_link'>
-                <div className='dropdown_item'>Dha Management</div>
-                </Link>
-                <Link to="/doctormanagement" className='dropdown_nav_link'>
-                <div className='dropdown_item'>Doctor Management</div>
-                </Link>
-                <Link to="/pharmacymanagement" className='dropdown_nav_link'>
-                <div className='dropdown_item'>Pharmacy Management</div>
-                </Link>
-                <Link to="/labmanagement" className='dropdown_nav_link'>
-                <div className='dropdown_item'>Lab Management</div>
-                </Link>
+               
                 <Link to="/rolemanagement" className='dropdown_nav_link'>
                 <div className='dropdown_item'>Role Access Management</div>
                 </Link>
-                <Link to="/profile" className='dropdown_nav_link'>
-                <div className='dropdown_item'>Profile</div>
-                </Link>
-                <Link to="/notification" className='dropdown_nav_link'>
-                <div className='dropdown_item'>Notification</div>
-                </Link>
-                <Link to="/earning" className='dropdown_nav_link'>
-                <div className='dropdown_item'>My Earning</div>
-                </Link>
+                
+                
+                
                 <Link to="/bookingrequestdha" className='dropdown_nav_link'>
                 <div className='dropdown_item'>Booking Request</div>
                 </Link>
@@ -71,8 +62,9 @@ export const Navbar = () => {
               )}
               
               </li>
-            
+              <Link to="/notification" className='dropdown_nav_link'>
             <li className='list_item_1'><FaBell className='icons_bell'/></li>
+            </Link>
         </ul>
 
     </nav>

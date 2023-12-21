@@ -133,6 +133,10 @@
     align-items: center;
 }
 
+.dhaassign_container_2_2_first:focus {
+    border: 4px solid #3EB655;
+}
+
 .dhaassign_container_2_2_top {
     border: 4px solid #3EB655;
 }

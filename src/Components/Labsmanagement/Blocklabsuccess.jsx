@@ -17,7 +17,7 @@ export const Blocklabsuccess = () => {
                 </div>
                 <div className='blocklab_success_adddha_success_box_para'>
                     <h4 className='blocklab_success_adddha_success_box_head_2'>Lab Successfully Blocked</h4>
-                    <p className='blocklab_success_adddha_success_box_pi_2'>Pharmacy name is Blocked Successfully.</p>
+                    <p className='blocklab_success_adddha_success_box_pi_2'>Lab name is Blocked Successfully.</p>
 
                 </div>
                 

@@ -37,7 +37,7 @@ export const Addlabuploads = () => {
                 
                
                 <Link to={"/addlabbank"} className='labupload_pharmaupload_adddhabank_link'>
-                <button className='labupload_pharmaupload_adddha_btn'>Next Step</button>
+                <button className='labuploads_pharmaupload_adddha_btn'>Next Step</button>
                 </Link>
             </form>
             </div>

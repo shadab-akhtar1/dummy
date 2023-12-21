@@ -32,6 +32,8 @@ import Blockdoctor from './Components/Doctormanagement/Blockdoctor.jsx';
 import Blockdoctorsuccess from './Components/Doctormanagement/Blockdoctorsuccess.jsx';
 import Doctorpending from './Components/Doctormanagement/Doctorpending.jsx';
 import Pharmacymanagement from './Components/Pharmacy/Pharmacymanagement.jsx';
+import Pharmacymanagementmain from './Components/Pharmacy/Pharmacymanagementmain.jsx';
+import Pharmacyrequest from './Components/Pharmacy/Pharmacyrequest.jsx';
 import Pharmamedicine from './Components/Pharmacy/Pharmamedicine.jsx';
 import Pharmabasicedit from './Components/Pharmacy/Pharmabasicedit.jsx';
 import Pharmadocument from './Components/Pharmacy/Pharmadocument.jsx';
@@ -66,6 +68,8 @@ import Labbookingdownload from './Components/Labsmanagement/Labbookingdownload.j
 import Labnonurgent from './Components/Labsmanagement/Labnonurgent.jsx';
 import Labstandalone from './Components/Labsmanagement/Labstandalone.jsx';
 import Rolemanagement from './Components/Rolemanagement/Rolemanagement.jsx';
+import Blockrole from './Components/Rolemanagement/Blockrole.jsx';
+import Blockrolesuccess from './Components/Rolemanagement/Blockrolesuccess.jsx';
 import Addrole from './Components/Rolemanagement/Addrole.jsx';
 import Managerole from './Components/Rolemanagement/Managerole.jsx';
 import Addsubadmin from './Components/Rolemanagement/Addsubadmin.jsx';
@@ -177,6 +181,8 @@ function App() {
          <Route path='/blockdoctorsuccess' element={<Blockdoctorsuccess/>}/>
          <Route path='/doctorpending' element={<Doctorpending/>}/>
         <Route path='/pharmacymanagement' element={<Pharmacymanagement/>}/>
+        <Route path='/pharmacymanagementmain' element={<Pharmacymanagementmain/>}/>
+        <Route path='/pharmacyrequest' element={<Pharmacyrequest/>}/>
         <Route path='/pharmamedicine' element={<Pharmamedicine/>}/>
         <Route path='/pharmabasicedit' element={<Pharmabasicedit/>}/>
         <Route path='/pharmadocument' element={<Pharmadocument/>}/>
@@ -211,6 +217,8 @@ function App() {
         <Route path='/labnonurgent' element={<Labnonurgent/>}/>
         <Route path='/labstandalone' element={<Labstandalone/>}/>
         <Route path='/rolemanagement' element={<Rolemanagement/>}/>
+        <Route path='/blockrole' element={<Blockrole/>}/>
+        <Route path='/blockrolesuccess' element={<Blockrolesuccess/>}/>
         <Route path='/addrole' element={<Addrole/>}/>
         <Route path='/managerole' element={<Managerole/>}/>
         <Route path='/addsubadmin' element={<Addsubadmin/>}/>
