@@ -14,8 +14,11 @@ import {Footer} from '../Dhamanagement/Footer';
 import Navbars from '../Dhamanagement/Navbars';
 import { IoIosSearch } from "react-icons/io";
 import { IoCheckmark } from "react-icons/io5";
+import Doctordetail from './Doctordetail';
 
 export const Bookingdhaassign = () => {
+    const [items,setItems] = useState(Doctordetail);
+    const [showmid, setShowmid] = useState(false)
   
     
   return (
@@ -40,109 +43,36 @@ export const Bookingdhaassign = () => {
             </div>
         </div>
         <div className='dhaassign_container_2_2'>
-            
-            <div className='dhaassign_container_2_2_first'tabIndex={1} >
-                
-                <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctorimage} alt="" /></div>
-                
-                <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Courtney Henry</div>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
-                    </div>
-                    
-                </div>
-                
-
-            </div>
-            
-
-            
-            <div className= "dhaassign_container_2_2_first" tabIndex={1}>
-                
-                <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctorimage} alt="" /></div>
-                
-                <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Courtney Henry</div>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
-                    </div>
-                    
-                </div>
-
-            </div>
-            
-
-            
-            <div className='dhaassign_container_2_2_first' tabIndex={1} >
-                
-                <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctoresimage} alt="" /></div>
-                
-                <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Devon Lane</div>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
-                    </div>
-                    
-                </div>
-
-            </div>
-            
-            
-
         
-            
-            <div className='dhaassign_container_2_2_first'tabIndex={1} >
+
+            {
+                items.map((elem) =>{
+                    const {id,name,description,image} = elem;
+
+                    return(
+                        <div className={showmid === id ? "dhaassign_container_2_2_top" : "null"}>
+                        <div className='dhaassign_container_2_2_first'  onClick={() =>setShowmid(id)}>
                 
-                <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctoresimage} alt="" /></div>
-                
-                <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Devon Lane</div>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
+                        <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={image} alt="" /></div>
+                        
+                        <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
+                            <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
+                            <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>{name}</div>
+                            <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>{description}</div>
+                            </div>
+                            {showmid ===id  ? (<div className='assigndoctor_dhaassign_container_2_2_first_down_1_right'tabIndex={1}><IoCheckmark/></div>):null}
+                        </div>
+                        
+        
+                    </div>
                     </div>
                     
-                </div>
-
-            </div>
+                    )
+                })
+            }
             
-
-           
-            <div className='dhaassign_container_2_2_first'tabIndex={1} >
-                
-                <div className='assigndoctor_dhaassign_container_2_2_first_up'><img src={doctorsimage} alt="" /></div>
-                
-                <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Floyd Miles</div>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
-                    </div>
-                    
-                </div>
-
-            </div>
             
-
-            
-            <div className='dhaassign_container_2_2_first' tabIndex={1}>
-                
-                <div className='dhaassign_container_2_2_first_up'><img src={doctorsimage} alt="" /></div>
-                
-                <div className='assigndoctor_dhaassign_container_2_2_first_down_main'>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1_left'>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_1'>Floyd Miles</div>
-                    <div className='assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
-                    </div>
-                    
-                </div>
-
-            </div>
-            
-
         </div>
-
-        
-
 
     </div>
     <div className='dhaassign_bookingrequest_footer_pharmacy'><Footer/></div>
