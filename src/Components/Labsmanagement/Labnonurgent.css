@@ -335,8 +335,6 @@
     border: none;
     height: 22px;
     width: 73px;
-    background: #FDF0CC;
-    color: #1A1C1F;
     font-size: 10px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
@@ -350,7 +348,6 @@
     font-size: 10px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    color: #41B079;
 }
 
 .labnonurgent_management_container_3_1_down_right_up_btn {

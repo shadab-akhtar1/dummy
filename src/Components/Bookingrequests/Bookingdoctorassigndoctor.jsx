@@ -1,10 +1,6 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './Bookingdoctorassigndoctor.css';
-import Weblogo from "../Assets/Dooper Logo 1500x1500 2.svg";
-import {FaBell} from 'react-icons/fa';
 import {FaCaretDown} from 'react-icons/fa';
-import profile from "../Assets/Rectangle 619 (1).jpg";
-import {BsTelephone} from 'react-icons/bs';
 import {Link} from 'react-router-dom';
 import {PiArrowLeftFill} from 'react-icons/pi';
 import doctorimage from '../Assets/image-slEubuAxR-transformed.png';
@@ -14,8 +10,12 @@ import {Footer} from '../Dhamanagement/Footer';
 import Navbars from '../Dhamanagement/Navbars';
 import { IoCheckmark } from "react-icons/io5";
 import { IoIosSearch } from "react-icons/io";
+import Doctordetail from './Doctordetail';
 
 export const Bookingdoctorassigndoctor = () => {
+
+        const [items,setItems] = useState(Doctordetail);
+        const [showmid, setShowmid] = useState(false)
   return (
     <>
     <div><Navbars/></div>
@@ -38,95 +38,31 @@ export const Bookingdoctorassigndoctor = () => {
             </div>
         </div>
         <div className='doctorassign_assigndoctor_dhaassign_container_2_2'>
-            <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first'tabIndex={1}>
+            {
+                items.map((elem) =>{
+                    const {id,name,description,image} = elem;
+                    return(
+                        <div className={showmid === id ? "dhaassign_container_2_2_top" : "null"}>
+                        <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first'onClick={() =>setShowmid(id)}>
                 
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_up'><img src={doctorimage} alt="" /></div>
+                        <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_up'><img src={image} alt="" /></div>
                 
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_main'>
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_1_left'>
-                    <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_1'>Courtney Henry</div>
-                    <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
-                    </div>
-                </div>
+                        <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_main'>
+                            <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_1_left'>
+                            <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_1'>{name}</div>
+                            <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_2'>{description}</div>
+                            </div>
+                            {showmid ===id  ? (<div className='assigndoctor_dhaassign_container_2_2_first_down_1_right'tabIndex={1}><IoCheckmark/></div>):null}
+                        </div>
+                        
 
-            </div>
-
-        
-
-        
-            <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first'tabIndex={1}>
-                
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_up'><img src={doctorimage} alt="" /></div>
-                
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_main'>
-                    <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_1_left'>
-                    <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_1'>Courtney Henry</div>
-                    <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
-                    </div>
-                    
-                </div>
-
-            </div>
-
-        
-        
-            <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first'tabIndex={1}>
-                
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_up'><img src={doctoresimage} alt="" /></div>
-                
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_main'>
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_1_left'>
-                    <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_1'>Devon Lane</div>
-                    <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
-                    </div>
-                </div>
-
-            </div>
-
-        
-        
-            <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first'tabIndex={1}>
-                
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_up'><img src={doctoresimage} alt="" /></div>
-                
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_main'>
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_1_left'>
-                    <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_1'>Devon Lane</div>
-                    <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
-                    </div>
-                </div>
-
-            </div>
-            <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first'tabIndex={1}>
-                
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_up'><img src={doctorsimage} alt="" /></div>
-                
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_main'>
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_1_left'>
-                    <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_1'>Floyd Miles</div>
-                    <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first'tabIndex={1}>
-                
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_up'><img src={doctorsimage} alt="" /></div>
-                
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_main'>
-                <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_1_left'>
-                    <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_1'>Floyd Miles</div>
-                    <div className='doctorassign_assigndoctor_dhaassign_container_2_2_first_down_2'>Physiotherapist</div>
-                    </div>
-                </div>
-
-            </div>
+                        </div>
+                        </div>
+                    )
+                })
+            }
 
         </div>
-
-        
-
 
     </div>
     <div className='doctorassign_assigndoctor_dhaassign_bookingrequest_footer_pharmacy'><Footer/></div>

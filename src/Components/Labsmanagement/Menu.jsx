@@ -2,45 +2,83 @@ const Menu = [
     {
         id:1,
         category:"pending",
-        button:"Pending"
+        button:[
+            {
+                name:"pending",
+                color:"#1A1C1F",
+                colors:"#FDF0CC",
+            }
+        ]
     },
     {
         id:2,
         category:"completed",
-        button:"Completed "
+        button:[
+            {
+                name:"Completed",
+                color:"#41B079",
+                colors:"",
+            }
+        ]
     },
     {
         id:3,
         category:"pending",
-        button:"Pending"
+        button:[
+            {
+                name:"Pending",
+                color:"#1A1C1F",
+                colors:"#FDF0CC",
+            }
+        ]
     },
     {
         id:4,
         category:"completed",
-        button:"Completed"
+        button:[
+            {
+                name:"Completed",
+                color:"#41B079",
+                colors:"",
+            }
+        ]
     },
     {
         id:5,
         category:"pending",
-        button:"Pending"
+        button:[
+            {
+                name:"Pending",
+                color:"#1A1C1F",
+                colors:"#FDF0CC",
+            }
+        ]
     },
     {
         id:6,
         category:"completed",
-        button:"Completed"
+        button:[
+            {
+                name:"Completed",
+                color:"#41B079",
+                colors:"",
+            }
+        ]
     },
     {
         id:7,
         category:"pending",
-        button:"Pending"
+        button:[
+            {
+                name:"Pending",
+                color:"#1A1C1F",
+                colors:"#FDF0CC",
+            }
+        ]
     },
-    {
-        id:8,
-        category:"completed",
-        button:"Completed"
-    }
+    
 
 
 
 ]
-export default Menu
+export default Menu;

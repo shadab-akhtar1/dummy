@@ -11,10 +11,18 @@ import {Link} from 'react-router-dom';
 import {PiArrowLeftFill} from 'react-icons/pi';
 import {FaCaretDown} from 'react-icons/fa';
 import Menu from "../Labsmanagement/Menu";
+import lab from '../Labsmanagement/Lab.json';
 
 export const Labmanagement = () => {
     const [isActive, setIsActive]= useState(false);
+    const [items,setItems] = useState(Menu);
 
+    const filterItem = (categItem) =>{
+        const updatedItem = Menu.filter((curElem) =>{
+            return curElem.category === categItem;
+        });
+        setItems(updatedItem);
+    }
    
   return (
     <>
@@ -43,13 +51,13 @@ export const Labmanagement = () => {
                 {isActive &&(
                     <div className='labmanagement_dropdown_content_drop'>
                     <Link to={""} className='labmanagement_dropdown_link'>
-                    <div className='labmanagement_dropdown_item_drop'>All</div>
+                    <div className='labmanagement_dropdown_item_drop' onClick={() =>setItems (Menu)}>All</div>
                     </Link>
                     <Link to={""} className='labmanagement_dropdown_link'>
-                    <div className='labmanagement_dropdown_item_drop'>Pending</div>
+                    <div className='labmanagement_dropdown_item_drop'onClick={() =>filterItem ('pending')}>Pending</div>
                     </Link>
                     <Link to={""} className='labmanagement_dropdown_link'>
-                    <div className='labmanagement_dropdown_item_drop'>Requested</div>
+                    <div className='labmanagement_dropdown_item_drop' onClick={() =>filterItem ('completed')}>Completed</div>
                     </Link>
                     </div>
               )}
@@ -58,289 +66,68 @@ export const Labmanagement = () => {
         <div className='lab_management_container_3_all'>All</div>
         <div className='lab_management_container_3'>
 
+            {
+                items.map((elem) =>{
+                    const {id,button}=elem;
+                    return(
+                        <Link to={"/labbooking"} className='labmanagement_link'>
+                        <div className='lab_management_container_3_1'>
+                            <div className='lab_management_container_3_1_up'>
+                                <div className='lab_management_container_3_1_up_box'>
+                                    <div className='lab_management_container_3_1_up_box_left'>#123456</div>
+                                    <div className='lab_management_container_3_1_up_box_right'>
+                                        <div className='lab_management_container_3_1_up_box_right_1'>13 June, 2023</div>
+                                        <div className='lab_management_container_3_1_up_box_right_2'>09:00AM</div>
+                                    </div>
+                                </div>
+                                <div className='lab_management_container_3_1_up_box2'>
+                                    <div className='lab_management_container_3_1_up_box2_left'>
+                                        <div className='lab_management_container_3_1_up_box2_left_1'><div className='lab_vaac_1'>Test 1</div></div>
+                                        <div className='lab_management_container_3_1_up_box2_left_2'> <div className='lab_vaac_2'>Test 2 </div></div>
+                                        <div className='lab_management_container_3_1_up_box2_left_3'><div className='lab_vaac_3'>Test 3</div></div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div className='lab_management_container_3_1_down'>
+                                <div className='lab_management_container_3_1_down_left'>
+                                    <img src={pharimg} alt="" />
+                                </div>
+                                <div className='lab_management_container_3_1_down_right'>
+                                    <div className='lab_management_container_3_1_down_right_up'>
+                                        <div className='lab_management_container_3_1_down_right_up_text'>Patient Name</div>
+                                      
+                                        <div className='lab_management_container_3_1_down_right_up_btn'>
+                                        {
+                                            button.map((btn) => {
+                                                const {name,color,colors} =btn;
+                                                return(
+                                                   <div >
+                                                   <button className='lab_btn'  style={{color:color,background:colors}}> {name}
+                                                   
+                                                    
+                                                    </button>
+                                                    </div>
+                                                )
+                                            })
+                                        }
+                                           </div> 
+                                    </div>
+                                    <div className='lab_management_container_3_1_down_right_down'>
+                                    <div className='lab_management_container_3_1_down_right_down_left'>
+                                    XYZ, street name, City
+                                    </div>
+                                    <div className='lab_management_3_1_down_right_down_right'>Earning 400</div>
+                                    </div>
             
-            <Link to={"/labbooking"} className='labmanagement_link'>
-            <div className='lab_management_container_3_1'>
-                <div className='lab_management_container_3_1_up'>
-                    <div className='lab_management_container_3_1_up_box'>
-                        <div className='lab_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='lab_management_container_3_1_up_box_right'>
-                            <div className='lab_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='lab_management_container_3_1_up_box_right_2'>09:00AM</div>
+                                </div>
+                            </div>
+            
                         </div>
-                    </div>
-                    <div className='lab_management_container_3_1_up_box2'>
-                        <div className='lab_management_container_3_1_up_box2_left'>
-                            <div className='lab_management_container_3_1_up_box2_left_1'><div className='lab_vaac_1'>Test 1</div></div>
-                            <div className='lab_management_container_3_1_up_box2_left_2'> <div className='lab_vaac_2'>Test 2 </div></div>
-                            <div className='lab_management_container_3_1_up_box2_left_3'><div className='lab_vaac_3'>Test 3</div></div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div className='lab_management_container_3_1_down'>
-                    <div className='lab_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
-                    </div>
-                    <div className='lab_management_container_3_1_down_right'>
-                        <div className='lab_management_container_3_1_down_right_up'>
-                            <div className='lab_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='lab_management_container_3_1_down_right_up_btn'><button className='lab_btn'>Pending</button></div>
-                        </div>
-                        <div className='lab_management_container_3_1_down_right_down'>
-                        <div className='lab_management_container_3_1_down_right_down_left'>
-                        XYZ, street name, City
-                        </div>
-                        <div className='lab_management_3_1_down_right_down_right'>Earning 400</div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-            </Link>
-
-            <div className='lab_management_container_3_2'>
-                <div className='lab_management_container_3_1_up'>
-                    <div className='lab_management_container_3_1_up_box'>
-                        <div className='lab_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='lab_management_container_3_1_up_box_right'>
-                            <div className='lab_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='lab_management_container_3_1_up_box_right_2'>09:00AM</div>
-                        </div>
-                    </div>
-                    <div className='lab_management_container_3_1_up_box2'>
-                        <div className='lab_management_container_3_1_up_box2_left'>
-                            <div className='lab_management_container_3_1_up_box2_left_1'><div className='lab_vaac_1'>Test 1</div></div>
-                            <div className='lab_management_container_3_1_up_box2_left_2'> <div className='lab_vaac_2'>Test 2 </div></div>
-                            <div className='lab_management_container_3_1_up_box2_left_3'><div className='lab_vaac_3'>Test 3</div></div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div className='lab_management_container_3_1_down'>
-                    <div className='lab_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
-                    </div>
-                    <div className='lab_management_container_3_1_down_right'>
-                        <div className='lab_management_container_3_1_down_right_up'>
-                            <div className='lab_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='lab_management_container_3_1_down_right_up_btn'><button className='lab_btn_2'>Completed</button></div>
-                        </div>
-                        <div className='lab_management_container_3_1_down_right_down'>
-                        <div className='lab_management_container_3_1_down_right_down_left'>
-                        XYZ, street name, City
-                        </div>
-                        <div className='lab_management_3_1_down_right_down_right'>Earning 400</div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-            <div className='lab_management_container_3_3'>
-                <div className='lab_management_container_3_1_up'>
-                    <div className='lab_management_container_3_1_up_box'>
-                        <div className='lab_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='lab_management_container_3_1_up_box_right'>
-                            <div className='lab_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='lab_management_container_3_1_up_box_right_2'>09:00AM</div>
-                        </div>
-                    </div>
-                    <div className='lab_management_container_3_1_up_box2'>
-                        <div className='lab_management_container_3_1_up_box2_left'>
-                            <div className='lab_management_container_3_1_up_box2_left_1'><div className='phar_vaac_1'>Test 1</div></div>
-                            <div className='lab_management_container_3_1_up_box2_left_2'> <div className='phar_vaac_2'>Test 2 </div></div>
-                            <div className='lab_management_container_3_1_up_box2_left_3'><div className='phar_vaac_3'>Test 3</div></div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div className='lab_management_container_3_1_down'>
-                    <div className='lab_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
-                    </div>
-                    <div className='lab_management_container_3_1_down_right'>
-                        <div className='lab_management_container_3_1_down_right_up'>
-                            <div className='lab_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='lab_management_container_3_1_down_right_up_btn'><button className='lab_btn'>Pending</button></div>
-                        </div>
-                        <div className='lab_management_container_3_1_down_right_down'>
-                        <div className='lab_management_container_3_1_down_right_down_left'>
-                        XYZ, street name, City
-                        </div>
-                        <div className='lab_management_3_1_down_right_down_right'>Earning 400</div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-            <div className='lab_management_container_3_4'>
-                <div className='lab_management_container_3_1_up'>
-                    <div className='lab_management_container_3_1_up_box'>
-                        <div className='lab_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='lab_management_container_3_1_up_box_right'>
-                            <div className='lab_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='lab_management_container_3_1_up_box_right_2'>09:00AM</div>
-                        </div>
-                    </div>
-                    <div className='lab_management_container_3_1_up_box2'>
-                        <div className='lab_management_container_3_1_up_box2_left'>
-                            <div className='lab_management_container_3_1_up_box2_left_1'><div className='lab_vaac_1'>Test 1</div></div>
-                            <div className='lab_management_container_3_1_up_box2_left_2'> <div className='lab_vaac_2'>test 2 </div></div>
-                            <div className='lab_management_container_3_1_up_box2_left_3'><div className='lab_vaac_3'>test 3</div></div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div className='lab_management_container_3_1_down'>
-                    <div className='lab_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
-                    </div>
-                    <div className='lab_management_container_3_1_down_right'>
-                        <div className='lab_management_container_3_1_down_right_up'>
-                            <div className='lab_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='lab_management_container_3_1_down_right_up_btn'><button className='lab_btn_2'>Completed</button></div>
-                        </div>
-                        <div className='lab_management_container_3_1_down_right_down'>
-                        <div className='lab_management_container_3_1_down_right_down_left'>
-                        XYZ, street name, City
-                        </div>
-                        <div className='lab_management_3_1_down_right_down_right'>Earning 400</div>
-                        </div>
-
-                    </div>
-                </div>
-
-                
-
-            </div>
-
-            <div className='lab_management_container_3_5'>
-                <div className='lab_management_container_3_1_up'>
-                    <div className='lab_management_container_3_1_up_box'>
-                        <div className='lab_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='lab_management_container_3_1_up_box_right'>
-                            <div className='lab_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='lab_management_container_3_1_up_box_right_2'>09:00AM</div>
-                        </div>
-                    </div>
-                    <div className='lab_management_container_3_1_up_box2'>
-                        <div className='lab_management_container_3_1_up_box2_left'>
-                            <div className='lab_management_container_3_1_up_box2_left_1'><div className='lab_vaac_1'>Test 1</div></div>
-                            <div className='lab_management_container_3_1_up_box2_left_2'> <div className='lab_vaac_2'>test 2 </div></div>
-                            <div className='lab_management_container_3_1_up_box2_left_3'><div className='lab_vaac_3'>test 3</div></div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div className='lab_management_container_3_1_down'>
-                    <div className='lab_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
-                    </div>
-                    <div className='lab_management_container_3_1_down_right'>
-                        <div className='lab_management_container_3_1_down_right_up'>
-                            <div className='lab_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='lab_management_container_3_1_down_right_up_btn'><button className='lab_btn'>Pending</button></div>
-                        </div>
-                        <div className='lab_management_container_3_1_down_right_down'>
-                        <div className='lab_management_container_3_1_down_right_down_left'>
-                        XYZ, street name, City
-                        </div>
-                        <div className='lab_management_3_1_down_right_down_right'>Earning 400</div>
-                        </div>
-
-                    </div>
-                </div>
-
-                
-
-            </div>
-
-            <div className='lab_management_container_3_6'>
-                <div className='lab_management_container_3_1_up'>
-                    <div className='lab_management_container_3_1_up_box'>
-                        <div className='lab_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='lab_management_container_3_1_up_box_right'>
-                            <div className='lab_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='lab_management_container_3_1_up_box_right_2'>09:00AM</div>
-                        </div>
-                    </div>
-                    <div className='lab_management_container_3_1_up_box2'>
-                        <div className='lab_management_container_3_1_up_box2_left'>
-                            <div className='lab_management_container_3_1_up_box2_left_1'><div className='lab_vaac_1'>Test 1</div></div>
-                            <div className='lab_management_container_3_1_up_box2_left_2'> <div className='lab_vaac_2'>test 2 </div></div>
-                            <div className='lab_management_container_3_1_up_box2_left_3'><div className='lab_vaac_3'>test 3</div></div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div className='lab_management_container_3_1_down'>
-                    <div className='lab_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
-                    </div>
-                    <div className='lab_management_container_3_1_down_right'>
-                        <div className='lab_management_container_3_1_down_right_up'>
-                            <div className='lab_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='lab_management_container_3_1_down_right_up_btn'><button className='lab_btn_2'>Completed</button></div>
-                        </div>
-                        <div className='lab_management_container_3_1_down_right_down'>
-                        <div className='lab_management_container_3_1_down_right_down_left'>
-                        XYZ, street name, City
-                        </div>
-                        <div className='lab_management_3_1_down_right_down_right'>Earning 400</div>
-                        </div>
-
-                    </div>
-                </div>
-
-                
-
-            </div>
-
-            <div className='lab_management_container_3_7'>
-                <div className='lab_management_container_3_1_up'>
-                    <div className='lab_management_container_3_1_up_box'>
-                        <div className='lab_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='lab_management_container_3_1_up_box_right'>
-                            <div className='lab_management_container_3_1_up_box_right_1'>13 June, 2023</div>
-                            <div className='lab_management_container_3_1_up_box_right_2'>09:00AM</div>
-                        </div>
-                    </div>
-                    <div className='lab_management_container_3_1_up_box2'>
-                        <div className='lab_management_container_3_1_up_box2_left'>
-                            <div className='lab_management_container_3_1_up_box2_left_1'><div className='lab_vaac_1'>Test 1</div></div>
-                            <div className='lab_management_container_3_1_up_box2_left_2'> <div className='lab_vaac_2'>test 2 </div></div>
-                            <div className='lab_management_container_3_1_up_box2_left_3'><div className='lab_vaac_3'>test 3</div></div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div className='lab_management_container_3_1_down'>
-                    <div className='lab_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
-                    </div>
-                    <div className='lab_management_container_3_1_down_right'>
-                        <div className='lab_management_container_3_1_down_right_up'>
-                            <div className='lab_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='lab_management_container_3_1_down_right_up_btn'><button className='lab_btn'>Pending</button></div>
-                        </div>
-                        <div className='lab_management_container_3_1_down_right_down'>
-                        <div className='lab_management_container_3_1_down_right_down_left'>
-                        XYZ, street name, City
-                        </div>
-                        <div className='lab_management_3_1_down_right_down_right'>Earning 400</div>
-                        </div>
-
-                    </div>
-                </div>
-
-                
-
-            </div>
+                        </Link>
+                    )
+                })
+            }
 
         </div>
 

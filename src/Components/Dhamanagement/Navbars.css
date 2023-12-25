@@ -16,6 +16,7 @@
 .bookingrequestsdoctor_pharmabooking_nav_links_doctorcase_lab {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding-left: 10px;
     margin-right: 50px;
 }
@@ -31,6 +32,27 @@
     font-size: 14px;
     font-weight: 500;
     cursor: pointer;
+}
+
+.list_item_2_navbars {
+    margin-left: 5px;
+    padding-right: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: #8D98A4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    display: grid;
+}
+
+.list_item_2_navbars p {
+    text-align: center;
+}
+
+.list_item_span_navbars {
+    margin-top: -10px;
 }
 
 .bookingrequestsdoctor_pharmabooking_list_item_1_doctorcase_lab {
@@ -58,8 +80,8 @@
 
 .bookingrequestsdoctor_pharmabooking_icons_bell_doctorcase_lab {
     color: #8D98A4;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 
 .bookingrequestsdoctor_pharmabooking_phone_icon_doctorcase_lab {
@@ -113,4 +135,8 @@
     text-decoration: none;
     list-style: none;
     color: #1A1C1F;
+}
+
+.navbars_link_tag {
+    text-decoration: none;
 }
