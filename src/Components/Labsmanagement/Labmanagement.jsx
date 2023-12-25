@@ -11,7 +11,6 @@ import {Link} from 'react-router-dom';
 import {PiArrowLeftFill} from 'react-icons/pi';
 import {FaCaretDown} from 'react-icons/fa';
 import Menu from "../Labsmanagement/Menu";
-import lab from '../Labsmanagement/Lab.json';
 
 export const Labmanagement = () => {
     const [isActive, setIsActive]= useState(false);
