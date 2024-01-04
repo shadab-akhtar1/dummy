@@ -1,5 +1,5 @@
 import React from 'react';
-import './Adddhabank.css';
+import './Blockdha.css';
 import Weblogo from "../Assets/Dooper Logo 1500x1500 2.svg";
 import Footers from './Footer';
 import background from "../Assets/image 219.jpg";
@@ -10,43 +10,43 @@ import { IoCheckmark } from "react-icons/io5";
 
 export const Adddhabank = () => {
   return (
-    <div className='hero'>
-        <div className='adddha_bank'>
-            <div className='adddha_header_bank'>
-                    <div className='progress_bar_bank'>
-                        <span className='indicator_bar_bank'></span>
+    <div className='hero_block'>
+        <div className='bg-[#FFFFFF] w-[550px] absolute mt-[20px] left-[28%] rounded-[16px]'>
+            <div className='w-[496px] ml-[25px]'>
+                    <div className='absolute h-[4px] rounded-[6px] w-[496px] bg-[#EEF0F3] top-[35px]'>
+                        <span className='absolute h-[100%] w-[496px] bg-[#E40443]'></span>
                     </div>
-                <div className='adddha_header_bar_bank'>
-                    <span className='adddha_header_bar_1_bank'><IoCheckmark/></span>
-                    <span className='adddha_header_bar_2_bank'><IoCheckmark/></span>
-                    <span className='adddha_header_bar_3_bank'>03</span>
+                <div className='w-[100%] flex justify-between items-center mt-[20px] relative'>
+                    <span className='w-[32px] h-[32px] rounded-[50%] bg-[#E40443] text-[white] text-[16px] font-semibold flex justify-center items-center '><IoCheckmark/></span>
+                    <span className='w-[32px] h-[32px] rounded-[50%] bg-[#E40443] text-[white] text-[16px] font-semibold flex justify-center items-center '><IoCheckmark/></span>
+                    <span className='w-[32px] h-[32px] rounded-[50%] bg-[#E40443] text-[white] text-[10px] font-semibold flex justify-center items-center'>03</span>
                     
                 </div>
 
             </div>
-            <div className='adddha_mid_bank'>
-                <div> <h2>Bank Info</h2></div>
+            <div className='w-[500px] ml-[20px]'>
+                <div> <h2 className='text-center text-[25px] font-semibold font-montserrat text-[#1A1C1F]'>Bank Info</h2></div>
             <form action="" className='adddha_form'>
-                <div className='adddha_form_fill_bank'>
-                    <label className='adddha_form_fill_labi_bank'>Bank Name</label>
-                    <input  type="text" className='adddha_form_fill_inp_bank' placeholder='Enter Bank'/>
+                <div className='w-[500px] items-center mb-[10px]'>
+                    <label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat mb-[5px]'>Bank Name</label>
+                    <input  type="text" className='w-[500px] h-[40px] rounded-[8px] text-[#5B6572] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[14px] font-medium font-montserrat' placeholder='Enter Bank'/>
                 </div>
-                <div className='adddha_form_fill_bank'>
-                    <label className='adddha_form_fill_labi_bank'>Account Number</label>
-                    <input type="text" className='adddha_form_fill_inp_bank' placeholder='Enter Account Number'/>
+                <div className='w-[500px] items-center mb-[10px]'>
+                    <label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat mb-[5px]'>Account Number</label>
+                    <input type="text" className='w-[500px] h-[40px] rounded-[8px] text-[#5B6572] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[14px] font-medium font-montserrat' placeholder='Enter Account Number'/>
                 </div>
-                <div className='adddha_form_fill_bank'>
-                    <label className='adddha_form_fill_labi_bank'>IFSC Code</label>
-                    <input type="text" className='adddha_form_fill_inp_bank'placeholder='Enter IFSC Code' />
+                <div className='w-[500px] items-center mb-[10px]'>
+                    <label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat mb-[5px]'>IFSC Code</label>
+                    <input type="text" className='w-[500px] h-[40px] rounded-[8px] text-[#5B6572] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[14px] font-medium font-montserrat'placeholder='Enter IFSC Code' />
                 </div>
-                <div className='adddha_form_fill_bank'>
+                <div className='w-[500px] items-center mb-[10px]'>
     
-                    <div className='adddha_form_fill_bank_div'><label className='adddha_form_fill_labi_bank'>Upload Bank Statement/cancel Cheque</label></div>
-                    <input type="file" id="adddha_file"className='adddha_form_fill_inp_bank_3' />
-                    <label for="adddha_file" className='adddha_file_up_bank'><i><RiUploadCloudLine/></i><p>Upload</p></label>
+                    <div className='mb-[5px]'><label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat mb-[5px]'>Upload Bank Statement/cancel Cheque</label></div>
+                    <input type="file" id="adddha_file"className='hidden' />
+                    <label for="adddha_file" className='h-[88px] w-[500px] rounded-[8px] relative border-[1px] border-solid border-[#EEF0F3] text-[#5B6572] text-[14px] font-medium font-montserrat grid justify-center items-center'><i className='flex justify-center items-center text-[24px] mt-[15px]'><RiUploadCloudLine/></i><p className='flex justify-center items-center text-[14px] font-medium font-montserrat text-[#5B6572] mt-[-5px]'>Upload</p></label>
                 </div>
                 <Link to={"/adddhasuccess"} className='adddhabank_link'> 
-                <button className='adddha_btn_bank'>Submit</button>
+                <button className='w-[500px] h-[40px] rounded-[8px] bg-[#E40443] text-[white] text-[12px] font-semibold font-montserrat mt-[20px] mb-[20px] border-none'>Submit</button>
                 </Link>
         
             </form>

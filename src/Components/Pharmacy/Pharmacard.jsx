@@ -1,0 +1,49 @@
+const Pharmacard =[
+    {
+        id:1,
+        category:"Accepted",
+        button:[
+            {
+                name:"Accepted",
+                color:"#7C67FB",
+                colors:"#F4F4F4",
+            }
+        ]
+    },
+    {
+        id:2,
+        category:"Requested",
+        button:[
+            {
+                name:"Quotation Requested",
+                color:"#437BE9",
+                colors:"#F4F4F4",
+                width:"134px",
+            }
+        ]
+    },
+    {
+        id:3,
+        category:"Accepted",
+        button:[
+            {
+                name:"Accepted",
+                color:"#7C67FB",
+                colors:"#F4F4F4",
+            }
+        ]
+    },
+    {
+        id:4,
+        category:"Requested",
+        button:[
+            {
+                name:"Quotation Requested",
+                color:"#437BE9",
+                colors:"#F4F4F4",
+                width:"134px",
+            }
+        ]
+    },
+]
+export default Pharmacard

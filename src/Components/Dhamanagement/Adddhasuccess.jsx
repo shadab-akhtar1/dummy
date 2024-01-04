@@ -1,5 +1,5 @@
 import React from 'react';
-import './Adddhasuccess.css';
+import './Blockdha.css';
 import Weblogo from "../Assets/Dooper Logo 1500x1500 2.svg";
 import Footers from './Footer';
 import background from "../Assets/image 219.jpg";
@@ -10,28 +10,29 @@ import { RxCross2 } from "react-icons/rx";
 
 export const Adddhaupload = () => {
   return (
-    <div className='hero'>
-         
-        <div className='adddha_success_1'>
-        <Link to={"/dhadetailsview"} className='cross_link_adddhasuccess'><div className='adddhasuccess_cross'><RxCross2/></div></Link>
-            <div className='adddha_success_box_1'>
-                <div className='adddha_success_box_logo_1'>
-                    <img src={Done} alt="" />
+    <>
+    <div className=" hero_block "
+    
+    >
+      <div className='w-[550px] h-[340px] bg-[white] flex justify-center items-center absolute left-[50%] top-[50%] rounded-[16px] -translate-x-1/2 -translate-y-1/2 relevtive'>
+          <Link to={"/dhadetailsview"} className='text-[#939191] no-underline'><div className='cursor-pointer absolute right-[-12px] top-[-12px] bg-[white] flex justify-center items-center rounded-[6px] w-[32px] h-[32px] text-[#939191] text-[20px] '><RxCross2/></div></Link>
+          <div className='adddha_success_box_block'>
+              <div className='flex justify-center items-center'>
+                  <img src={Done} alt="" className='w-[117px] h-[112px]'/>
 
-                </div>
-                <div className='adddha_success_box_para_1'>
-                    <h4 className='adddha_success_box_head'>Successful</h4>
-                    <p className='adddha_success_box_pi'>DHA (Dooper Health Assistance) is Added successfully.</p>
+              </div>
+              <div className='grid justify-center items-center '>
+                  <h4 className='flex justify-center items-center text-[20px] font-montserrat font-bold text-[#1A1C1F]'>Successful</h4>
+                  <p className='items-center text-[14px] font-medium font-montserrat text-[#1A1C1F] flex justify-center '>DHA (Dooper Health Assistance) is  Added Successfully</p>
 
-                </div>
-
-                <button className='adddha_success_box_btn_1'>Continue</button>
-
-            </div>
-            
-        </div>
-        
-    </div>
+              </div>
+              <button className='bg-[#FCE6EC] w-[410px] h-[40px] rounded-[8px] border-none text-[#E40443] text-[12px] font-semibold font-montserrat mt-[20px] flex justify-center items-center'>Continue</button>
+          </div>
+          
+      </div>
+      
+  </div>
+    </>
   )
 }
 export default Adddhaupload 

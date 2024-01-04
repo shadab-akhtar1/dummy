@@ -1,61 +1,60 @@
 import React from 'react';
-import './Addlab.css';
+import './Blocklab.css';
 import { Link } from "react-router-dom";
 import {RiUploadCloudLine} from "react-icons/ri";
 
 export const Addlab = () => {
   return (
     <>
-    <div className='addlab_hero_addpharma_main'>
-        <div className='addlab_addpharma_add'>
-            <div className='addlab_addpharma_header_add'>
-                    <div className='addlab_addpharma_progress'>
-                        <span className='addlab_addpharma_indicator'></span>
-                    </div>
-                <div className='addlab_addpharma_header_bar_add'>
-                
-                    <span className='addlab_addpharma_header_bar_1_add'>01</span>
-                    <span className='addlab_addpharma_header_bar_2_add'>02</span>
-                    <span className='addlab_addpharma_header_bar_3_add'>03</span>
+    <div className='blocklab_hero_block'>
+    <div className='bg-[#FFFFFF] w-[550px] absolute mt-[20px] left-[28%] rounded-[16px] '>
                     
+                    <div className='w-[496px] ml-[25px]'>
+                            <div className='absolute h-[4px] rounded-[6px] w-[496px] bg-[#EEF0F3] top-[35px]'>
+                                <span className='absolute h-[100%] w-[13%] bg-[#E40443]'></span>
+                            </div>
+                        <div className='w-[100%] flex justify-between items-center mt-[20px] relative'>
+                        
+                            <span className='w-[32px] h-[32px] rounded-[50%] bg-[#E40443] text-[white] text-[10px] font-semibold flex justify-center items-center '>01</span>
+                            <span className='w-[32px] h-[32px] rounded-[50%] bg-[#EEF0F3] text-[black] text-[10px] font-semibold flex justify-center items-center'>02</span>
+                            <span className='w-[32px] h-[32px] rounded-[50%] bg-[#EEF0F3] text-[black] text-[10px] font-semibold flex justify-center items-center'>03</span>
+                            
+                        </div>
+                        
+        
+                    </div>
+                    
+                    <div className='w-[500px] ml-[20px] mt-[10px]'>
+                        <div> <h2 className='text-center text-[25px] font-semibold text-[#1A1C1F] font-montserrat'>Basic Details</h2></div>
+                    <form action="" className='mt-[-15px]'>
+                        <div className='w-[500px] items-center mb-[5px]'>
+                            <label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat'>Name</label>
+                            <input  type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat ' placeholder='Enter Full Name'/>
+                        </div>
+                        <div className='w-[500px] items-center mb-[20px]'>
+                    <div className='mb-[5px]'><label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat'>Lab Photo</label></div>
+                    <input type="file" id="adddha_file"className='hidden' />
+                    <label for="adddha_file" className='h-[88px] w-[500px] rounded-[8px] relative border-[1px] border-solid border-[#EEF0F3] text-[#5B6572] text-[14px] font-medium font-montserrat grid justify-center items-center'><i className='flex justify-center items-center text-[24px] mt-[15px]'><RiUploadCloudLine/></i><p className='flex justify-center items-center text-[14px] font-medium font-montserrat text-[#5B6572] mt-[-5px]'>Upload</p></label>
                 </div>
-                
-
-            </div>
-            
-            <div className='addlab_addpharma_mid_add'>
-                <div> <h2>Basic Details</h2></div>
-            <form action="" className='addlab_addpharma_form_add'>
-                <div className='addlab_addpharma_form_fill_add'>
-                    <label className='addlab_addpharma_form_fill_labi_add'> Full Name</label>
-                    <input  type="text" className='addlab_addpharma_form_fill_inp_add' placeholder='Enter Full NAme'/>
+                        
+                        <div className='w-[500px] items-center mb-[5px]'>
+                            <label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat'>Lab Name</label>
+                            <input type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat' placeholder='Mobile Number'/>
+                        </div>
+                        <div className='w-[500px] items-center mb-[5px]'>
+                            <label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat'>Address</label>
+                            <input type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat' placeholder='Address Line 1'/><br />
+                            <input type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat'placeholder='Address Line 2'/><br />
+                            <input type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat' placeholder='City'/><br />
+                            <input type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat' placeholder='State'/>
+                        </div>
+                        
+                        <Link to={"/addlabupload"} className='adddhaupload_link'> 
+                        <button className='w-[500px] h-[40px] rounded-[8px] bg-[#E40443] text-[white] text-[12px] font-semibold font-montserrat mt-[20px] mb-[20px] border-none'>Next Step</button>
+                        </Link>
+                    </form>
+                    </div>
                 </div>
-
-                <div className='addlab_labupload_pharmaupload_adddha_form_fill'>
-                    <div className='addlab_labupload_pharmaupload_adddha_form_fill_div'><label className='addlab_labupload_pharmaupload_adddha_form_fill_labi'>Lab Photo</label></div>
-                    <input type="file" id="addlab_labupload_pharmaupload_adddha_file"className='addlab_labupload_pharmaupload_adddha_form_fill_inp_3' />
-                    <label for="addlab_labupload_pharmaupload_adddha_file" className='addlab_labupload_pharmaupload_adddha_file_up'><i><RiUploadCloudLine/></i><p>Upload</p></label>
-                </div>
-
-                <div className='addlab_addpharma_form_fill_add'>
-                    <label className='addlab_addpharma_form_fill_labi_add'>Lab Name</label>
-                    <input type="text" className='addlab_addpharma_form_fill_inp_add' placeholder='Enter Lab Nme'/>
-                </div>
-                
-                <div className='addlab_addpharma_form_fill_add'>
-                    <label className='addlab_addpharma_form_fill_labi_add'>Lab Address</label>
-                    <input type="text" className='addlab_addpharma_form_fill_inp_add' placeholder='Address Line 1'/><br />
-                    <input type="text" className='addlab_addpharma_form_fill_inp_add' placeholder='Address Line 2'/><br />
-                    <input type="text" className='addlab_addpharma_form_fill_inp_add' placeholder='City '/><br />
-                    <input type="text" className='addlab_addpharma_form_fill_inp_add ' placeholder='State'/>
-                </div>
-                
-                <Link to={"/addlabupload"} className='addlab_addpharmaupload_link'> 
-                <button className='addlab_addpharma_btn_add'>Next Step</button>
-                </Link>
-            </form>
-            </div>
-        </div>
         
     </div>
     

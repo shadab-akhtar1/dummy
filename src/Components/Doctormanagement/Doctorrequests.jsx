@@ -1,5 +1,4 @@
 import React from 'react';
-import './Doctorrequests.css';
 import {Navbar} from '../Dhamanagement/Navbar';
 import {Footer} from '../Dhamanagement/Footer';
 import prof from '../Assets/Ellipse 187.jpg';
@@ -8,94 +7,76 @@ import prof3 from '../Assets/Ellipse 187 (2).jpg';
 import prof4 from '../Assets/Ellipse 187 (3).jpg';
 import prof5 from '../Assets/Ellipse 187 (4).jpg';
 import prof6 from '../Assets/Ellipse 187 (5).jpg';
-import { PiCaretRightBold } from "react-icons/pi";
-import { PiCaretLeftBold } from "react-icons/pi";
-import {IoMdAdd} from 'react-icons/io';
 import {PiArrowLeftFill} from 'react-icons/pi';
-import {FaLessThan} from 'react-icons/fa6';
-import {PiCaretDoubleLeftBold} from 'react-icons/pi';
-import {PiCaretDoubleRightBold} from 'react-icons/pi';
-import {FaGreaterThan} from 'react-icons/fa6';
 import { Link } from "react-router-dom";
+import Pagination from '../Dhamanagement/Pagination';
 
 export const Doctorrequests = () => {
   return (
     <>
-        <div className='doctor_requests'><Navbar/></div>
-        <div className='middle_section_doctor_requests'>
-            <div className='heading_box1_requests'>
-                <div className='heading_content_box_requests'>
-                <h2> <Link to={"/doctormanagement"}><PiArrowLeftFill className="left_logo"/></Link>Doctor Requests</h2>
+        <div className='w-[100%]'><Navbar/></div>
+        <div className='bg-[#F5F6F7] w-[100%] pt-[20px]'>
+            <div className='  ml-[70px] mr-[70px]'>
+                <div className='flex justify-start items-center'>
+                <h2 className='font-bold font-montserrat text-[#1A1C1F flex justify-start items-center text-[22px]'> <Link to={"/doctormanagement"}><PiArrowLeftFill className='text-[#1A1C1F] text-center  pr-[10px] text-[30px] '/></Link>Doctor Requests</h2>
                 </div>
                 
             </div>
-            <div className='option_requests'>
-                <table className='requests_table'>
+            <div className='option'>
+                <table className='border-collapse ml-[70px] w-[90%] text-[0.9em] bg-[whitesmoke] rounded-[10px] mt-[20px] overflow-hidden'>
                     <thead>
-                        <tr>
-                            <th>Doctor Name</th>
-                            <th>Speciality</th>
-                            <th>Contact</th>
+                        <tr className='w-[250px] bg-[#E3E6E8] text-left border-b-[1px] border-solid border-[#E3E6E8]'>
+                            <th className='py-[10px] px-[12px] text-[12px] font-medium text-[#5B6572] font-montserrat'>Doctor Name</th>
+                            <th className='py-[10px] px-[12px] text-[12px] font-medium text-[#5B6572] font-montserrat'>Speciality</th>
+                            <th className='py-[10px] px-[12px] text-[12px] font-medium text-[#5B6572] font-montserrat'>Contact</th>
                             
                         </tr>
                     </thead>
                     <tbody>
-                        <tr> <Link to={"/doctordetails"}>
-                            <td className='requests_data_user_prof_2'><img src={prof} alt="" className='requests_user_prof_2'/>Jacob Jones</td>
-                            </Link>
-                            <td>Psychologist</td>
-                            <td>+91 123 456 7890</td>
+                        <tr className='border-b-[1px] border-solid border-[#E3E6E8] bg-[white] h-[60px]'> 
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><Link to={"/doctordetails"} className='no-underline text-[#1A1C1F]'><div className='flex text-center items-center'><img src={prof} alt="" className='mr-[10px] h-[19px] w-[19px] bg-[#D9D9D9] items-center'/>Jacob Jones</div></Link></td>
+                            
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Psychologist</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>+91 123 456 7890</td>
                             
                         </tr>
-                        <tr>
-                            <td className='requests_data_user_prof_2'><img src={prof2} alt="" className='requests_user_prof_2'/>Darrell Steward</td>
-                            <td>Nose Specialist</td>
-                            <td>+91 123 456 7890</td>
+                        <tr className='border-b-[1px] border-solid border-[#E3E6E8] bg-[white] h-[60px]'>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><Link to={"/doctordetails"} className='no-underline text-[#1A1C1F]'><div className='flex text-center items-center'><img src={prof2} alt="" className='mr-[10px] h-[19px] w-[19px] bg-[#D9D9D9] items-center'/>Darrell Steward</div></Link></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Nose Specialist</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>+91 123 456 7890</td>
                             
                         </tr>
-                        <tr>
-                            <td className='requests_data_user_prof_2'><img src={prof3} alt="" className='requests_user_prof_2'/>Esther Howard</td>
-                            <td>Heart Specialist</td>
-                            <td>+91 123 456 7890</td>
+                        <tr className='border-b-[1px] border-solid border-[#E3E6E8] bg-[white] h-[60px]'>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><Link to={"/doctordetails"} className='no-underline text-[#1A1C1F]'><div className='flex text-center items-center'><img src={prof3} alt="" className='mr-[10px] h-[19px] w-[19px] bg-[#D9D9D9] items-center'/>Esther Howard</div></Link></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Heart Specialist</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>+91 123 456 7890</td>
                             
                         </tr>
-                        <tr>
-                            <td className='requests_data_user_prof_2'><img src={prof4} alt="" className='requests_user_prof_2'/>Arlene McCoy</td>
-                            <td>Hepatologist</td>
-                            <td>+91 123 456 7890</td>
+                        <tr className='border-b-[1px] border-solid border-[#E3E6E8] bg-[white] h-[60px]'>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><Link to={"/doctordetails"} className='no-underline text-[#1A1C1F]'><div className='flex text-center items-center'><img src={prof4} alt="" className='mr-[10px] h-[19px] w-[19px] bg-[#D9D9D9] items-center'/>Arlene McCoy</div></Link></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Hepatologist</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>+91 123 456 7890</td>
                             
                         </tr>
-                        <tr className='table_row'>
-                            <td className='requests_data_user_prof_2'><img src={prof5} alt="" className='requests_user_prof_2'/>jane Cooper</td>
-                            <td>Ophthalmologist</td>
-                            <td>+91 123 456 7890</td>
+                        <tr className='border-b-[1px] border-solid border-[#E3E6E8] bg-[white] h-[60px]'>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><Link to={"/doctordetails"} className='no-underline text-[#1A1C1F]'><div className='flex text-center items-center'><img src={prof5} alt="" className='mr-[10px] h-[19px] w-[19px] bg-[#D9D9D9] items-center'/>jane Cooper</div></Link></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Ophthalmologist</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>+91 123 456 7890</td>
                             
                         </tr>
-                        <tr>
-                            <td className='requests_data_user_prof_2'><img src={prof6} alt="" className='requests_user_prof_2'/>Ralph Edwards</td>
-                            <td>Psychologist</td>
-                            <td>+91 123 456 7890</td>
+                        <tr className='border-b-[1px] border-solid border-[#E3E6E8] bg-[white] h-[60px]'>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><Link to={"/doctordetails"} className='no-underline text-[#1A1C1F]'><div className='flex text-center items-center'><img src={prof6} alt="" className='mr-[10px] h-[19px] w-[19px] bg-[#D9D9D9] items-center'/>Ralph Edwards</div></Link></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Psychologist</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>+91 123 456 7890</td>
                            
                         </tr>
                     </tbody>
                 </table>
 
-                <div className='pag_requests'>
-                    <a href=''>< PiCaretDoubleLeftBold className='left_arrow'/></a>
-                    <a href=''><PiCaretLeftBold className='left_1_arrow'/></a>
-                    <a href=''className='active'>1</a>
-                    <a href=''>2</a>
-                    <a href=''>3</a>
-                    <a href=''>...</a>
-                    <a href=''>10</a>
-                    <a href=''><PiCaretRightBold className='left_1_arrow'/></a>
-                    <a href=''><PiCaretDoubleRightBold className='left_arrow'/></a>
-
-
-                </div>
+                <div className='pb-[30px] mt-[20px]'><Pagination/></div>
             </div>
         </div>
-        <div className='footer_dha_requests'><Footer/></div>
+        <div className='footer_dha'><Footer/></div>
     </>
     
   )

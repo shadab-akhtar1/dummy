@@ -1,13 +1,8 @@
 import React from 'react';
-import './Doctormanagement.css';
 import { Link } from "react-router-dom";
 import {Navbar} from '../Dhamanagement/Navbar';
-import {Footer} from '../Dhamanagement/Footer';
+import Footermanage from '../Dhamanagement/Footer';
 import {PiArrowLeftFill} from 'react-icons/pi';
-import {PiCaretDoubleLeftBold} from 'react-icons/pi';
-import {PiCaretDoubleRightBold} from 'react-icons/pi';
-import { PiCaretRightBold } from "react-icons/pi";
-import { PiCaretLeftBold } from "react-icons/pi";
 import {IoMdAdd} from 'react-icons/io';
 import prof from '../Assets/Ellipse 187.jpg';
 import prof2 from '../Assets/Ellipse 187 (1).jpg';
@@ -15,106 +10,97 @@ import prof3 from '../Assets/Ellipse 187 (2).jpg';
 import prof4 from '../Assets/Ellipse 187 (3).jpg';
 import prof5 from '../Assets/Ellipse 187 (4).jpg';
 import prof6 from '../Assets/Ellipse 187 (5).jpg';
+import Pagination from '../Dhamanagement/Pagination';
 
 
 export const Doctormanagement = () => {
   return (
     <>
-    <div className='doctor_managemenet'><Navbar/></div>
-    <div className='middle_section_doctor'>
-            <div className='heading_doctor'>
-                <div className='heading_content_doctor'>
+     <div className='w-[100%]'><Navbar/></div>
+        <div className='bg-[#F5F6F7] w-[100%] pt-[20px]'>
+            <div className='flex justify-between items-center ml-[70px] mr-[70px] '>
+                <div className='flex justify-start font-montserrat font-bold'>
                 
-                <h2><PiArrowLeftFill className="left_logo_doctor"/>Doctor Management</h2>
+                <h2 className='font-bold font-montserrat text-[#1A1C1F] flex justify-around items-center text-[22px]'><Link to={"/successfulverify"}><PiArrowLeftFill className='pr-[10px] text-[#1A1C1F] text-center items-center text-[30px]'/></Link>Doctor Management</h2>
                 </div>
-                <div className='heading_content_doctor_2'>
+                <div className='flex justify-end items-center'>
                     <Link to={"/doctorrequests"} className="Link">
-                        <button className='doctor_btn_1'>View Requests</button>
+                        <button className='h-[36px] w-[137px] bg-[#FCE6EC] rounded-[8px] border-none mr-[5px] text-[#E40443] font-semibold text-[14px] font-montserrat flex justify-center items-center'>Doctor Request</button>
                     </Link>
                     <Link to={"/adddoctor"} className="Link">
-                        <button className='doctor_btn_2'><IoMdAdd className='add_doctor_btn'/>Add Doctor</button>
+                        <button className='h-[36px] w-[137px] bg-[#FCE6EC] rounded-[8px] border-none ml-[5px] text-[#E40443] font-semibold text-[14px] font-montserrat flex justify-center items-center'><IoMdAdd className='w-[14px] h-[14px] mr-[10px]'/>Add Doctor</button>
                     </Link>
                 </div>
             </div>
-            <div className='option_doctor'>
-                <table className='dha_doctor_table'>
+            <div className='option'>
+                <table className='border-collapse ml-[70px] w-[90%] text-[0.9em] bg-[whitesmoke] rounded-[10px] mt-[20px] overflow-hidden'>
                     <thead>
-                        <tr>
-                            <th>Doctor Name</th>
-                            <th>Speciality</th>
-                            <th>Contact</th>
-                            <th>Total Booking</th>
-                            <th>Total Earnings</th>
-                            <th>Status</th>
+                        <tr className='w-[250px] bg-[#E3E6E8] text-left border-b-[1px] border-solid border-[#E3E6E8]'>
+                            <th className='py-[10px] px-[12px] text-[12px] font-medium text-[#5B6572] font-montserrat'>Doctor Name</th>
+                            <th className='py-[10px] px-[12px] text-[12px] font-medium text-[#5B6572] font-montserrat'>Speciality</th>
+                            <th className='py-[10px] px-[12px] text-[12px] font-medium text-[#5B6572] font-montserrat'>Contact</th>
+                            <th className='py-[10px] px-[12px] text-[12px] font-medium text-[#5B6572] font-montserrat'>Total Booking</th>
+                            <th className='py-[10px] px-[12px] text-[12px] font-medium text-[#5B6572] font-montserrat'>Total Earnings</th>
+                            <th className='py-[10px] px-[12px] text-[12px] font-medium text-[#5B6572] font-montserrat'>Status</th>
                         </tr>
                     </thead>
                     <tbody >
-                        <tr >
-                            <td> <div className='doctor_data_user_prof'><img src={prof} alt="" className='doctor_user_prof'/>Jacob Jones</div></td>
-                            <td>Psychologist</td>
-                            <td>+91 123 456 7890</td>
-                            <td> <div className='doctor_td_4'><span className='doctor_td_4_span'>12</span><span className='doctor_td_4_span_1'>view</span></div></td>
-                            <td>Rs. 5000</td>
-                            <td ><button className='dha_doctor_table_btn_2'>online</button></td>
+                        <tr className='border-b-[1px] border-solid border-[#E3E6E8] bg-[white] h-[60px]'>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><Link to={""} className='no-underline text-[#1A1C1F]'><div className='flex text-center items-center'><img src={prof} alt="" className='mr-[10px] h-[19px] w-[19px] bg-[#D9D9D9] items-center'/>Jacob Jones</div></Link></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Psychologist</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>+91 123 456 7890</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><div className='flex'><span className=''>12</span><span className='ml-[10px] text-[#E40443] text-[16px] font-normal font-montserrat'>view</span></div></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Rs. 5000</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><button className='rounded-[24px] bg-[#FFE9E6] border-none h-[22px] w-[58px] text-[#F1614B] text-[10px] font-medium fonyt-montserrat text-center'>offline</button></td>
                         </tr>
-                        <tr>
-                            <td><div className='doctor_data_user_prof'><img src={prof2} alt="" className='doctor_user_prof'/>Darrell Steward</div></td>
-                            <td>Nose specialist</td>
-                            <td>+91 123 456 7890</td>
-                            <td><div className='doctor_td_4'><span className='doctor_td_4_span'>12</span><span className='doctor_td_4_span_1'>view</span></div></td>
-                            <td >Rs. 5000</td>
-                            <td ><button className='dha_doctor_table_btn_2'>online</button></td>
+                        <tr className='border-b-[1px] border-solid border-[#E3E6E8] bg-[white] h-[60px]'>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><Link to={""} className='no-underline text-[#1A1C1F]'><div className='flex text-center items-center'><img src={prof2} alt="" className='mr-[10px] h-[19px] w-[19px] bg-[#D9D9D9] items-center'/>Darrell Steward</div></Link></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Nose specialist</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>+91 123 456 7890</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><div className='flex'><span className=''>12</span><span className='ml-[10px] text-[#E40443] text-[16px] font-normal font-montserrat'>view</span></div></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Rs. 5000</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><button className='rounded-[24px] bg-[#D1EDD6] border-none h-[22px] w-[58px] text-[#3EB655] text-[10px] font-medium fonyt-montserrat text-center'>online</button></td>
                         </tr>
-                        <tr>
-                            <td> <div className='doctor_data_user_prof'><img src={prof3} alt="" className='doctor_user_prof'/>Esther Howard</div></td>
-                            <td>Heart specialist</td>
-                            <td>+91 123 456 7890</td>
-                            <td><div className='doctor_td_4'><span className='doctor_td_4_span'>12</span><span className='doctor_td_4_span_1'>view</span></div></td>
-                            <td>Rs. 5000</td>
-                            <td><button className='dha_doctor_table_btn_1'>offline</button></td>
+                        <tr className='border-b-[1px] border-solid border-[#E3E6E8] bg-[white] h-[60px]'>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><Link to={""} className='no-underline text-[#1A1C1F]'><div className='flex text-center items-center'><img src={prof3} alt="" className='mr-[10px] h-[19px] w-[19px] bg-[#D9D9D9] items-center'/>Esther Howard</div></Link></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Heart specialist</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>+91 123 456 7890</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><div className='flex'><span className=''>12</span><span className='ml-[10px] text-[#E40443] text-[16px] font-normal font-montserrat'>view</span></div></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Rs. 5000</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><button className='rounded-[24px] bg-[#FFE9E6] border-none h-[22px] w-[58px] text-[#F1614B] text-[10px] font-medium fonyt-montserrat text-center'>offline</button></td>
                         </tr>
-                        <tr className='table_row'>
-                            <td> <div className='doctor_data_user_prof'><img src={prof4} alt="" className='doctor_user_prof'/>Arlene McCoy</div></td>
-                            <td>Hepatologist</td>
-                            <td>+91 123 456 7890</td>
-                            <td><div className='doctor_td_4'><span className='doctor_td_4_span'>12</span><span className='doctor_td_4_span_1'>view</span></div></td>
-                            <td>Rs. 5000</td>
-                            <td><button className='dha_doctor_table_btn_2'>online</button></td>
+                        <tr className='border-b-[1px] border-solid border-[#E3E6E8] bg-[white] h-[60px]'>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><Link to={""} className='no-underline text-[#1A1C1F]'><div className='flex text-center items-center'><img src={prof4} alt="" className='mr-[10px] h-[19px] w-[19px] bg-[#D9D9D9] items-center'/>Arlene McCoy </div></Link></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Hepatologist</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>+91 123 456 7890</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><div className='flex'><span className=''>12</span><span className='ml-[10px] text-[#E40443] text-[16px] font-normal font-montserrat'>view</span></div></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Rs. 5000</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><button className='rounded-[24px] bg-[#D1EDD6] border-none h-[22px] w-[58px] text-[#3EB655] text-[10px] font-medium fonyt-montserrat text-center'>online</button></td>
                         </tr>
-                        <tr className='table_row'>
-                            <td> <div className='doctor_data_user_prof'><img src={prof5} alt="" className='doctor_user_prof'/>jane Cooper</div></td>
-                            <td>Ophthalmologist</td>
-                            <td>+91 123 456 7890</td>
-                            <td><div className='doctor_td_4'><span className='doctor_td_4_span'>12</span><span className='doctor_td_4_span_1'>view</span></div></td>
-                            <td>Rs. 5000</td>
-                            <td><button className='dha_doctor_table_btn_2'>Online</button></td>
+                        <tr className='border-b-[1px] border-solid border-[#E3E6E8] bg-[white] h-[60px]'>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><Link to={""} className='no-underline text-[#1A1C1F]'><div className='flex text-center items-center'><img src={prof5} alt="" className='mr-[10px] h-[19px] w-[19px] bg-[#D9D9D9] items-center'/>jane Cooper </div></Link></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Ophthalmologist</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>+91 123 456 7890</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><div className='flex'><span className=''>12</span><span className='ml-[10px] text-[#E40443] text-[16px] font-normal font-montserrat'>view</span></div></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Rs. 5000</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><button className='rounded-[24px] bg-[#D1EDD6] border-none h-[22px] w-[58px] text-[#3EB655] text-[10px] font-medium fonyt-montserrat text-center'>Online</button></td>
                         </tr>
-                        <tr>
-                            <td> <div className='doctor_data_user_prof'><img src={prof6} alt="" className='doctor_user_prof'/>Ralph Edwards</div></td>
-                            <td>Psychologist</td>
-                            <td>+91 123 456 7890</td>
-                            <td><div className='doctor_td_4'><span className='doctor_td_4_span'>12</span><span className='doctor_td_4_span_1'>view</span></div></td>
-                            <td>Rs. 5000</td>
-                            <td><button className='dha_doctor_table_btn_1'>Offline</button></td>
+                        <tr className='border-b-[1px] border-solid border-[#E3E6E8] bg-[white] h-[60px]'>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><Link to={""} className='no-underline text-[#1A1C1F]'><div className='flex text-center items-center'><img src={prof6} alt="" className='mr-[10px] h-[19px] w-[19px] bg-[#D9D9D9] items-center'/>Ralph Edwards</div></Link></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Psychologist</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>+91 123 456 7890</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><div className='flex'><span className=''>12</span><span className='ml-[10px] text-[#E40443] text-[16px] font-normal font-montserrat'>view</span></div></td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'>Rs. 5000</td>
+                            <td className='py-[10px] px-[12px] text-[16px] font-normal font-montserrat text-[#1A1C1F]'><button className='rounded-[24px] bg-[#D1EDD6] border-none h-[22px] w-[58px] text-[#3EB655] text-[10px] font-medium fonyt-montserrat text-center'>Online</button></td>
                         </tr>
                     </tbody>
                 </table>
+                <div className='pb-[30px] mt-[20px]'><Pagination/></div>
 
-                <div className='pagination_doctor'>
-                    <a href='' className='anchi'><PiCaretDoubleLeftBold className='less_1'/></a>
-                    <a href='' className='anchi'><PiCaretLeftBold className='less_doctor'/></a>
-                    <a href=''className='anch_active'>1</a>
-                    <a href='' className='anchi'>2</a>
-                    <a href='' className='anchi'>3</a>
-                    <a href='' className='anchi'>...</a>
-                    <a href='' className='anchi'>10</a>
-                    <a href='' className='anchi'><PiCaretRightBold className='less_doctor'/></a>
-                    <a href='' className='anchi'><PiCaretDoubleRightBold className='less_doctor'/></a>
-
-                </div>
+               
             </div>
         </div>
-        <div className='footer_dha_doctor'><Footer/></div>
+        <div className='footer_dha_manage'><Footermanage/></div>
     </>
   )
 }

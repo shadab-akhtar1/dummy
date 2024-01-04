@@ -1,61 +1,60 @@
 import React from 'react';
-import './Addpharma.css';
+import './Blockpharma.css';
 import { Link } from "react-router-dom";
 import {RiUploadCloudLine} from "react-icons/ri";
 
 export const Addpharma = () => {
   return (
     <>
-    <div className='hero_addpharma_main'>
-        <div className='addpharma_add'>
-            <div className='addpharma_header_add'>
-                    <div className='addpharma_progress'>
-                        <span className='addpharma_indicator'></span>
-                    </div>
-                <div className='addpharma_header_bar_add'>
-                
-                    <span className='addpharma_header_bar_1_add'>01</span>
-                    <span className='addpharma_header_bar_2_add'>02</span>
-                    <span className='addpharma_header_bar_3_add'>03</span>
+    <div className='blockpharma_hero_block'>
+    <div className='bg-[#FFFFFF] w-[550px] absolute mt-[20px] left-[28%] rounded-[16px] '>
                     
+                    <div className='w-[496px] ml-[25px]'>
+                            <div className='absolute h-[4px] rounded-[6px] w-[496px] bg-[#EEF0F3] top-[35px]'>
+                                <span className='absolute h-[100%] w-[13%] bg-[#E40443]'></span>
+                            </div>
+                        <div className='w-[100%] flex justify-between items-center mt-[20px] relative'>
+                        
+                            <span className='w-[32px] h-[32px] rounded-[50%] bg-[#E40443] text-[white] text-[10px] font-semibold flex justify-center items-center '>01</span>
+                            <span className='w-[32px] h-[32px] rounded-[50%] bg-[#EEF0F3] text-[black] text-[10px] font-semibold flex justify-center items-center'>02</span>
+                            <span className='w-[32px] h-[32px] rounded-[50%] bg-[#EEF0F3] text-[black] text-[10px] font-semibold flex justify-center items-center'>03</span>
+                            
+                        </div>
+                        
+        
+                    </div>
+                    
+                    <div className='w-[500px] ml-[20px] mt-[10px]'>
+                        <div> <h2 className='text-center text-[25px] font-semibold text-[#1A1C1F] font-montserrat'>Basic Details</h2></div>
+                    <form action="" className='mt-[-15px]'>
+                        <div className='w-[500px] items-center mb-[5px]'>
+                            <label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat'>Name</label>
+                            <input  type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat ' placeholder='Enter Full Name'/>
+                        </div>
+                        <div className='w-[500px] items-center mb-[20px]'>
+                    <div className='mb-[5px]'><label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat'>Pharmacy Photo</label></div>
+                    <input type="file" id="adddha_file"className='hidden' />
+                    <label for="adddha_file" className='h-[88px] w-[500px] rounded-[8px] relative border-[1px] border-solid border-[#EEF0F3] text-[#5B6572] text-[14px] font-medium font-montserrat grid justify-center items-center'><i className='flex justify-center items-center text-[24px] mt-[15px]'><RiUploadCloudLine/></i><p className='flex justify-center items-center text-[14px] font-medium font-montserrat text-[#5B6572] mt-[-5px]'>Upload</p></label>
                 </div>
-                
-
-            </div>
-            
-            <div className='addpharma_mid_add'>
-                <div> <h2>Basic Details</h2></div>
-            <form action="" className='addpharma_form_add'>
-                <div className='addpharma_form_fill_add'>
-                    <label className='addpharma_form_fill_labi_add'>Name</label>
-                    <input  type="text" className='addpharma_form_fill_inp_add' placeholder='Enter Full Name'/>
+                        
+                        <div className='w-[500px] items-center mb-[5px]'>
+                            <label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat'>Pharmacy Name</label>
+                            <input type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat' placeholder='Mobile Number'/>
+                        </div>
+                        <div className='w-[500px] items-center mb-[5px]'>
+                            <label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat'>Address</label>
+                            <input type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat' placeholder='Address Line 1'/><br />
+                            <input type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat'placeholder='Address Line 2'/><br />
+                            <input type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat' placeholder='City'/><br />
+                            <input type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat' placeholder='State'/>
+                        </div>
+                        
+                        <Link to={"/addpharmaupload"} className='adddhaupload_link'> 
+                        <button className='w-[500px] h-[40px] rounded-[8px] bg-[#E40443] text-[white] text-[12px] font-semibold font-montserrat mt-[20px] mb-[20px] border-none'>Next Step</button>
+                        </Link>
+                    </form>
+                    </div>
                 </div>
-                <div className='adddhapharmacy_form_fill'>
-                    <div className='adddhapharmacy_form_fill_div'><label className='adddhapharmacy_form_fill_labi'>Aadhar Card</label></div>
-                    <input type="file" id="adddhapharmacy_file"className='adddhapharmacy_form_fill_inp_3' />
-                    <label for="adddhapharmacy_file" className='adddhapharmacy_file_up'><i><RiUploadCloudLine/></i><p>Upload</p></label>
-                </div>
-                
-                <div className='addpharma_form_fill_add'>
-                    <label className='addpharma_form_fill_labi_add'>Pharmacy Name</label>
-                    <input type="text" className='addpharma_form_fill_inp_add'placeholder='Pharmacy Name' />
-                </div>
-                
-                
-                <div className='addpharma_form_fill_add'>
-                    <label className='addpharma_form_fill_labi_add'>Address</label>
-                    <input type="text" className='addpharma_form_fill_inp_add' placeholder='Address Line 1'/><br />
-                    <input type="text" className='addpharma_form_fill_inp_add' placeholder='Address Line 2'/><br />
-                    <input type="text" className='addpharma_form_fill_inp_add' placeholder='City'/><br />
-                    <input type="text" className='addpharma_form_fill_inp_add' placeholder='State'/>
-                </div>
-                
-                <Link to={"/addpharmaupload"} className='addpharmaupload_link'> 
-                <button className='addpharma_btn_add'>Next Step</button>
-                </Link>
-            </form>
-            </div>
-        </div>
         
     </div>
     

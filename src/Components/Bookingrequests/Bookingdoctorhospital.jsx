@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-import './Bookingdoctorhospital.css';
 import Weblogo from "../Assets/Dooper Logo 1500x1500 2.svg";
 import {FaBell} from 'react-icons/fa';
 import {FaCaretDown} from 'react-icons/fa';
@@ -17,6 +16,7 @@ import Dhaimage from '../Assets/Ellipse 2.jpg';
 import Navbars from '../Dhamanagement/Navbars';
 import { PiCalendarBlankLight } from "react-icons/pi";
 import { CiClock2 } from "react-icons/ci";
+import Pagination from '../Dhamanagement/Pagination';
 
 
 export const Bookingdoctorhospital = () => {
@@ -30,53 +30,56 @@ export const Bookingdoctorhospital = () => {
     <>
     <div><Navbars/></div>
 
-    <div className='bookingrequestdoctor_hospital_pharmacy_management_container'>
-        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_1'>
-            <div className='bookingrequestdoctor_hospital_pharmacy_management_heading_box_1'><h2>Dashboard</h2></div>
-            <div className='bookingrequestdoctor_hospital_pharmacy_management_heading_box_3'>
-                <div className='bookingrequestdoctor_hospital_pharmacy_management_heading_box_2'><p>Availability</p>
+    <div className='bg-[#F4F4F4] w-[100%] '>
+        <div className='flex justify-between items-center ml-[70px] mr-[70px] pt-[20px]  '>
+            <div className='flex justify-start items-center '><h2 className='text-[#1A1C1F] text-[22px] font-bold font-montserrat'>Dashboard</h2></div>
+            <div className='flex justify-end items-center'>
+                <div className='flex items-center mr-[10px]'><p className='text-[#1A1C1F] text-[14px] font-semibold font-montserrat mr-[10px] '>Availability</p>
             
                 </div>
-                <div className='doctortoggle_hospital_booking_div'>
-                    <div  className='doctortoggle_hospital_booking'>
-                    {toggleButton?<div onClick={handleClick} className='doctortoggle_hospital_booking_left'></div>:
-                    <div onClick={handleClick}className='doctortoggle_hospital_booking_right'></div>}
+                <div className='flex justify-center items-center '>
+                    <div  className='bg-[#DCFAEB] h-[10px] w-[28px] rounded-[30px] flex absolute '>
+                    {toggleButton?<div onClick={handleClick} className='h-[15px] w-[15px] bg-[#41B079] rounded-[20px] relative bottom-[3px] '></div>:
+                    <div onClick={handleClick}className='h-[15px] w-[15px] bg-[#41B079] rounded-[20px] relative bottom-[3px] ml-[15px]'></div>}
                     </div>
                 </div>
             </div>
         </div>
-        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_2'>
-            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_2_1'>
-            <Link to={"/bookingrequestdha"} className='bookingrequestdoctor_hospital_medicine_link'>
-            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_2_p_1'>DHA</div>
+        <div className='flex justify-between items-center ml-[70px] mr-[70px] border-b-[1px] border-b-solid border-b-[#E1E5E8] mt-[20px]'>
+            <div className='flex justify-start items-center '>
+
+            <Link to={"/bookingrequestdha"} className='bookingrequest_medicine_link'>
+            <div className='text-[16px] text-[#8D98A4] font-medium font-montserrat '>DHA</div>
             </Link>
-            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_2_p_3'>Doctor</div>
-            <Link to={"/bookingrequestpharmacy"} className='bookingrequestdoctor_hospital_medicine_link'>
-            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_2_p_2'>Pharmacy</div>
+            
+            <div className='ml-[20px] text-[#1A1C1F] text-[16px] font-medium font-montserrat border-b-[2px] border-b-solid border-b-[#E40443]'>Doctor</div>
+            
+            <Link to={"/bookingrequestpharmacy"} className='bookingrequest_medicine_link'>
+            <div className='ml-[20px] text-[#8D98A4] text-[16px] font-medium font-montserrat '>Pharmacy</div>
             </Link>
-            <Link to={"/bookingrequestlab"} className='bookingrequestdoctor_hospital_medicine_link'>
-            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_2_p_2'>Lab</div>
+            <Link to={"/bookingrequestlab"} className='bookingrequest_medicine_link'>
+            <div className='ml-[20px] text-[#8D98A4] text-[16px] font-medium font-montserrat '>Lab</div>
             </Link>
             </div>
-            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_2_2' onClick={(e)=> setHisActive(!hisActive)}>
-                Sort by <FaCaretDown className='bookingrequestdoctor_hospital_pharmacy_management_icon'/>
+            <div className='flex justify-end items-center ' onClick={(e)=> setHisActive(!hisActive)}>
+                Sort by <FaCaretDown className='ml-[10px] '/>
             </div>
             {hisActive &&(
-              <div className='bookingrequest_dropdown_content_drop'>
-                <Link to={""} className='bookingrequest_dropdown_left_link'>
-                <div className='bookingrequest_dropdown_item_drop'>Sort by</div>
+              <div className='absolute top-[210px] right-[70px] p-[10px] bg-[#EEEFEF] text-[#333]'>
+                <Link to={""} className=''>
+                <div className='p-[5px] cursor-pointer text-[14px] font-medium font-montserrat'>Sort by</div>
                 </Link>
                 
 
               </div>
               )}
         </div>
-        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_4'>
-            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_4_urgent'onClick={(e)=> setIsActive(!isActive)}>Non Urgent Care <FaCaretDown className='bookingrequestdoctor_hospital_pharmacy_management_container_4_icon'/></div>
+        <div className='ml-[90px] mt-[20px] mr-[70px] '>
+            <div className='border-[1px] border-solid border-[#B3B3B3] rounded-3px] h-[28px] w-[169px] flex justify-around items-center bg-[#EEEFEF] text-[#1A1C1F] text-[14px] font-semibold font-montserrat 'onClick={(e)=> setIsActive(!isActive)}> Non Urgent care <FaCaretDown className='ml-[20px] items-center text-[#8D98A4]'/></div>
             {isActive &&(
-              <div className='bookingpending_dropdown_content_drop'>
-                <Link to={"/bookingrequestdoctor"} className='bookingpending_dropdown_link'>
-                <div className='bookingpending_dropdown_item_drop'>Urgent Care</div>
+              <div className='absolute top-[280px]  p-[10px] bg-[#EEEFEF] text-[#333]'>
+                <Link to={"/bookingrequestdoctor"} className='no-underline'>
+                <div className='p-[5px] cursor-pointer text-[14px] font-medium font-montserrat '>Urgent Care</div>
                 </Link>
                 
 
@@ -84,463 +87,465 @@ export const Bookingdoctorhospital = () => {
               )}
         </div>
         
-        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3'>
-            <Link to={"/bookingdoctorcase"} className='bookingrequestdoctor_hospital_pahrma_boking_link'>
-            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1'>
-                <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='bookingreqdoc_calen'/>13 June, 2023</div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='bookingreqdoc_clock'/>09:00AM</div>
+        <div className='ml-[70px] mt-[30px] mr-[70px] flex flex-wrap gap-[38px]'>
+            <Link to={"/bookingdoctorcase"} className='pahrma_boking_link'>
+            <div className='border-[1px] border-solid border-[#D3D3D3] rounded-[12px] bg-[white] w-[380px]'>
+                <div className='border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='flex justify-between items-center mt-[10px]'>
+                        <div className='flex justify-start text-[#E40443] text-[18px] font-semibold font-montserrat ml-[10px]'>#123456</div>
+                        <div className='flex flex-end mr-[10px] '>
+                            <div className='mr-[5px] text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center '><PiCalendarBlankLight className='flex justify-center items-center mr-[10px] text-[#5B6572]'/>13 June, 2023</div>
+                            <div className='text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center'><CiClock2 className='mr-[10px] flex justify-center items-center text-[5B6572]'/>09:00AM</div>
                         </div>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequestdoctor_hospital_phar_vaac_1'>Symptom 1</div></div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequestdoctor_hospital_phar_vaac_2'>Symptom 2 </div></div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequestdoctor_hospital_phar_vaac_3'>Symptom 3</div></div>
+                    <div className='flex justify-between items-center mt-[10px] mb-[10px]'>
+                        <div className='flex justify-between items-center ml-[10px]'>
+                            <div className='border-r-[2px] border-r-solid border-r-[#E40443]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat mr-[5px]'>Symptom 1</div></div>
+                            <div className='border-r-[2px] border-r-solid border-r-[#E40443] ml-[5px] '> <div className='text-[#E40443] text-[12px] font-semibold font-montserrat mr-[5px]'>Symptom 2 </div></div>
+                            <div className='ml-[5px]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat '>Symptom 3</div></div>
                         </div>
+                        
+                            
+                        
                         
                     </div>
                 </div>
-                <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
+                <div className='flex justify-center border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='ml-[10px] flex justify-start mt-[10px] mb-[10px] '>
+                        <img src={pharimg} alt="" className='w-[48px] h-[48px]'/>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_up'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
+                    <div className='w-[284px] mt-[10px] ml-[20px] mb-[10px]'>
+                        <div className='flex justify-between items-center '>
+                            <div className='flex justify-start text-[#1A1C1F] text-[18px] font-semibold font-montserrat '>Patient Name</div>
                             
                         </div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_down_1'>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat  '>
                         Age : 32 | Gender: Male | Blood Group: O+
                         </div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_down_2'>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat '>
                         Height : 6” 3 inches | Weight : 76
                         </div>
                         
 
                     </div>
                 </div>
-                <div className='booking_pendingdoctorhospital_container_card_last'>
-                        <div className='booking_pendingdoctorhospital_container_card_last_up'>Assigned DHA</div>
-                        <div className='booking_pendingdoctorhospital_container_card_last_down'>
-                            <div className='booking_pendingdoctorhospital_container_card_last_down_left'>
-                                <img src={Dhaimage} alt="" />
+
+                <div className='border-b-[1px] border-b-solid border-[#E4E4E4]'>
+                        <div className='text-[#1A1C1F] text-[12px] font-montserrat font-medium flex justify-start -items-center ml-[20px] mt-[10px]'>Assigned DHA</div>
+                        <div className='flex justify-start items-center mt-[10px] ml-[20px] mb-[10px] '>
+                            <div className=''>
+                                <img src={Dhaimage} alt="" className='w-[32px] h-[32px] '/>
                             </div>
-                            <div className='booking_pendingdoctorhospital_container_card_last_down_right'>
-                                <div className='booking_pendingdoctorhospital_container_card_last_down_right_1'>DHA Name</div>
-                                <div className='booking_pendingdoctorhospital_container_card_last_down_right_2'>Degree</div>
+                            <div className='ml-[10px] grid justify-start items-center '>
+                                <div className='text-[#1A1C1F] text-[12px] font-medium font-montserrat '>DHA Name</div>
+                                <div className='text-[#E40443] text-[10px] font-medium font-montserrat  '>Degree</div>
                             </div>
                         </div>
                 </div>
 
-                <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down_left'>
-                        <button>Accept</button>
+                <div className='flex justify-around items-center mt-[10px] mb-[10px] '>
+                    <div className=' '>
+                        <button className='bg-[#E40443] border-none rounded-[8px] w-[153px] h-[30px] text-[white] flex justify-center items-center'>Accept</button>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down_right'>
-                        <button>Reject</button>
-                    </div>
-                </div>
-                
-
-            </div>
-            </Link>
-            <Link to={"/bookingdoctorcase"} className='bookingrequestdoctor_hospital_pahrma_boking_link'>
-            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_2'>
-                <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='bookingreqdoc_calen'/>13 June, 2023</div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='bookingreqdoc_clock'/>09:00AM</div>
-                        </div>
-                    </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequestdoctor_hospital_phar_vaac_1'>Symptom 1</div></div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequestdoctor_hospital_phar_vaac_2'>Symptom 2 </div></div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequestdoctor_hospital_phar_vaac_3'>Symptom 3</div></div>
-                        </div>
-                        
+                    <div className=''>
+                        <button className='border-[1px] border-solid border-[#898989] rounded-[8px] w-[153px] h-[30px] bg-[white] text-[#898989]'>Reject</button>
                     </div>
                 </div>
-                <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
-                    </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_up'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            
-                        </div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_down_1'>
-                        Age : 32 | Gender: Male | Blood Group: O+
-                        </div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_down_2'>
-                        Height : 6” 3 inches | Weight : 76
-                        </div>
-                        
-
-                    </div>
-                    
-                </div>
-                <div className='booking_pendingdoctorhospital_container_card_last'>
-                        <div className='booking_pendingdoctorhospital_container_card_last_up'>Assigned DHA</div>
-                        <div className='booking_pendingdoctorhospital_container_card_last_down'>
-                            <div className='booking_pendingdoctorhospital_container_card_last_down_left'>
-                                <img src={Dhaimage} alt="" />
-                            </div>
-                            <div className='booking_pendingdoctorhospital_container_card_last_down_right'>
-                                <div className='booking_pendingdoctorhospital_container_card_last_down_right_1'>DHA Name</div>
-                                <div className='booking_pendingdoctorhospital_container_card_last_down_right_2'>Degree</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down_left'>
-                        <button>Accept</button>
-                    </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down_right'>
-                        <button>Reject</button>
-                    </div>
-                </div>
-                    
-                
 
             </div>
             </Link>
-            <Link to={"/bookingdoctorcase"} className='bookingrequestdoctor_hospital_pahrma_boking_link'>
-            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_3'>
-                <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='bookingreqdoc_calen'/>13 June, 2023</div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='bookingreqdoc_clock'/>09:00AM</div>
+            <Link to={"/bookingdoctorcase"} className='pahrma_boking_link'>
+            <div className='border-[1px] border-solid border-[#D3D3D3] rounded-[12px] bg-[white] w-[380px]'>
+                <div className='border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='flex justify-between items-center mt-[10px]'>
+                        <div className='flex justify-start text-[#E40443] text-[18px] font-semibold font-montserrat ml-[10px]'>#123456</div>
+                        <div className='flex flex-end mr-[10px] '>
+                            <div className='mr-[5px] text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center '><PiCalendarBlankLight className='flex justify-center items-center mr-[10px] text-[#5B6572]'/>13 June, 2023</div>
+                            <div className='text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center'><CiClock2 className='mr-[10px] flex justify-center items-center text-[5B6572]'/>09:00AM</div>
                         </div>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequestdoctor_hospital_phar_vaac_1'>Symptom 1</div></div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequestdoctor_hospital_phar_vaac_2'>Symptom 2 </div></div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequestdoctor_hospital_phar_vaac_3'>Symptom 3</div></div>
+                    <div className='flex justify-between items-center mt-[10px] mb-[10px]'>
+                        <div className='flex justify-between items-center ml-[10px]'>
+                            <div className='border-r-[2px] border-r-solid border-r-[#E40443]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat mr-[5px]'>Symptom 1</div></div>
+                            <div className='border-r-[2px] border-r-solid border-r-[#E40443] ml-[5px] '> <div className='text-[#E40443] text-[12px] font-semibold font-montserrat mr-[5px]'>Symptom 2 </div></div>
+                            <div className='ml-[5px]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat '>Symptom 3</div></div>
                         </div>
+                        
+                            
+                        
                         
                     </div>
                 </div>
-                <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
+                <div className='flex justify-center border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='ml-[10px] flex justify-start mt-[10px] mb-[10px] '>
+                        <img src={pharimg} alt="" className='w-[48px] h-[48px]'/>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_up'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
+                    <div className='w-[284px] mt-[10px] ml-[20px] mb-[10px]'>
+                        <div className='flex justify-between items-center '>
+                            <div className='flex justify-start text-[#1A1C1F] text-[18px] font-semibold font-montserrat '>Patient Name</div>
                             
                         </div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_down_1'>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat  '>
                         Age : 32 | Gender: Male | Blood Group: O+
                         </div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_down_2'>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat '>
                         Height : 6” 3 inches | Weight : 76
                         </div>
                         
 
                     </div>
                 </div>
-                <div className='booking_pendingdoctorhospital_container_card_last'>
-                        <div className='booking_pendingdoctorhospital_container_card_last_up'>Assigned DHA</div>
-                        <div className='booking_pendingdoctorhospital_container_card_last_down'>
-                            <div className='booking_pendingdoctorhospital_container_card_last_down_left'>
-                                <img src={Dhaimage} alt="" />
+                <div className='border-b-[1px] border-b-solid border-[#E4E4E4]'>
+                        <div className='text-[#1A1C1F] text-[12px] font-montserrat font-medium flex justify-start -items-center ml-[20px] mt-[10px]'>Assigned DHA</div>
+                        <div className='flex justify-start items-center mt-[10px] ml-[20px] mb-[10px] '>
+                            <div className=''>
+                                <img src={Dhaimage} alt="" className='w-[32px] h-[32px] '/>
                             </div>
-                            <div className='booking_pendingdoctorhospital_container_card_last_down_right'>
-                                <div className='booking_pendingdoctorhospital_container_card_last_down_right_1'>DHA Name</div>
-                                <div className='booking_pendingdoctorhospital_container_card_last_down_right_2'>Degree</div>
+                            <div className='ml-[10px] grid justify-start items-center '>
+                                <div className='text-[#1A1C1F] text-[12px] font-medium font-montserrat '>DHA Name</div>
+                                <div className='text-[#E40443] text-[10px] font-medium font-montserrat  '>Degree</div>
                             </div>
                         </div>
+                </div>
+                <div className='flex justify-around items-center mt-[10px] mb-[10px] '>
+                    <div className=' '>
+                        <button className='bg-[#E40443] border-none rounded-[8px] w-[153px] h-[30px] text-[white] flex justify-center items-center'>Accept</button>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down_left'>
-                        <button>Accept</button>
-                    </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down_right'>
-                        <button>Reject</button>
+                    <div className=''>
+                        <button className='border-[1px] border-solid border-[#898989] rounded-[8px] w-[153px] h-[30px] bg-[white] text-[#898989]'>Reject</button>
                     </div>
                 </div>
-                
 
             </div>
             </Link>
-            <Link to={"/bookingdoctorcase"} className='bookingrequestdoctor_hospital_pahrma_boking_link'>
-            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_4'>
-                <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='bookingreqdoc_calen'/>13 June, 2023</div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='bookingreqdoc_clock'/>09:00AM</div>
+            <Link to={"/bookingdoctorcase"} className='pahrma_boking_link'>
+            <div className='border-[1px] border-solid border-[#D3D3D3] rounded-[12px] bg-[white] w-[380px]'>
+                <div className='border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='flex justify-between items-center mt-[10px]'>
+                        <div className='flex justify-start text-[#E40443] text-[18px] font-semibold font-montserrat ml-[10px]'>#123456</div>
+                        <div className='flex flex-end mr-[10px] '>
+                            <div className='mr-[5px] text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center '><PiCalendarBlankLight className='flex justify-center items-center mr-[10px] text-[#5B6572]'/>13 June, 2023</div>
+                            <div className='text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center'><CiClock2 className='mr-[10px] flex justify-center items-center text-[5B6572]'/>09:00AM</div>
                         </div>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequestdoctor_hospital_phar_vaac_1'>Symptom 1</div></div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequestdoctor_hospital_phar_vaac_2'>Symptom 2 </div></div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequestdoctor_hospital_phar_vaac_3'>Symptom 3</div></div>
+                    <div className='flex justify-between items-center mt-[10px] mb-[10px]'>
+                        <div className='flex justify-between items-center ml-[10px]'>
+                            <div className='border-r-[2px] border-r-solid border-r-[#E40443]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat mr-[5px]'>Symptom 1</div></div>
+                            <div className='border-r-[2px] border-r-solid border-r-[#E40443] ml-[5px] '> <div className='text-[#E40443] text-[12px] font-semibold font-montserrat mr-[5px]'>Symptom 2 </div></div>
+                            <div className='ml-[5px]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat '>Symptom 3</div></div>
                         </div>
+                        
+                            
+                        
                         
                     </div>
                 </div>
-                <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
+                <div className='flex justify-center border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='ml-[10px] flex justify-start mt-[10px] mb-[10px] '>
+                        <img src={pharimg} alt="" className='w-[48px] h-[48px]'/>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_up'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
+                    <div className='w-[284px] mt-[10px] ml-[20px] mb-[10px]'>
+                        <div className='flex justify-between items-center '>
+                            <div className='flex justify-start text-[#1A1C1F] text-[18px] font-semibold font-montserrat '>Patient Name</div>
                             
                         </div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_down_1'>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat  '>
                         Age : 32 | Gender: Male | Blood Group: O+
                         </div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_down_2'>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat '>
                         Height : 6” 3 inches | Weight : 76
                         </div>
                         
 
                     </div>
                 </div>
-                <div className='booking_pendingdoctorhospital_container_card_last'>
-                        <div className='booking_pendingdoctorhospital_container_card_last_up'>Assigned DHA</div>
-                        <div className='booking_pendingdoctorhospital_container_card_last_down'>
-                            <div className='booking_pendingdoctorhospital_container_card_last_down_left'>
-                                <img src={Dhaimage} alt="" />
+                <div className='border-b-[1px] border-b-solid border-[#E4E4E4]'>
+                        <div className='text-[#1A1C1F] text-[12px] font-montserrat font-medium flex justify-start -items-center ml-[20px] mt-[10px]'>Assigned DHA</div>
+                        <div className='flex justify-start items-center mt-[10px] ml-[20px] mb-[10px] '>
+                            <div className=''>
+                                <img src={Dhaimage} alt="" className='w-[32px] h-[32px] '/>
                             </div>
-                            <div className='booking_pendingdoctorhospital_container_card_last_down_right'>
-                                <div className='booking_pendingdoctorhospital_container_card_last_down_right_1'>DHA Name</div>
-                                <div className='booking_pendingdoctorhospital_container_card_last_down_right_2'>Degree</div>
+                            <div className='ml-[10px] grid justify-start items-center '>
+                                <div className='text-[#1A1C1F] text-[12px] font-medium font-montserrat '>DHA Name</div>
+                                <div className='text-[#E40443] text-[10px] font-medium font-montserrat  '>Degree</div>
                             </div>
                         </div>
+                </div>
+                <div className='flex justify-around items-center mt-[10px] mb-[10px] '>
+                    <div className=' '>
+                        <button className='bg-[#E40443] border-none rounded-[8px] w-[153px] h-[30px] text-[white] flex justify-center items-center'>Accept</button>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down_left'>
-                        <button>Accept</button>
-                    </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down_right'>
-                        <button>Reject</button>
+                    <div className=''>
+                        <button className='border-[1px] border-solid border-[#898989] rounded-[8px] w-[153px] h-[30px] bg-[white] text-[#898989]'>Reject</button>
                     </div>
                 </div>
-                
 
             </div>
             </Link>
-            <Link to={"/bookingdoctorcase"} className='bookingrequestdoctor_hospital_pahrma_boking_link'>
-            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_4'>
-                <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='bookingreqdoc_calen'/>13 June, 2023</div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='bookingreqdoc_clock'/>09:00AM</div>
+            <Link to={"/bookingdoctorcase"} className='pahrma_boking_link'>
+            <div className='border-[1px] border-solid border-[#D3D3D3] rounded-[12px] bg-[white] w-[380px]'>
+                <div className='border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='flex justify-between items-center mt-[10px]'>
+                        <div className='flex justify-start text-[#E40443] text-[18px] font-semibold font-montserrat ml-[10px]'>#123456</div>
+                        <div className='flex flex-end mr-[10px] '>
+                            <div className='mr-[5px] text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center '><PiCalendarBlankLight className='flex justify-center items-center mr-[10px] text-[#5B6572]'/>13 June, 2023</div>
+                            <div className='text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center'><CiClock2 className='mr-[10px] flex justify-center items-center text-[5B6572]'/>09:00AM</div>
                         </div>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequestdoctor_hospital_phar_vaac_1'>Symptom 1</div></div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequestdoctor_hospital_phar_vaac_2'>Symptom 2 </div></div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequestdoctor_hospital_phar_vaac_3'>Symptom 3</div></div>
+                    <div className='flex justify-between items-center mt-[10px] mb-[10px]'>
+                        <div className='flex justify-between items-center ml-[10px]'>
+                            <div className='border-r-[2px] border-r-solid border-r-[#E40443]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat mr-[5px]'>Symptom 1</div></div>
+                            <div className='border-r-[2px] border-r-solid border-r-[#E40443] ml-[5px] '> <div className='text-[#E40443] text-[12px] font-semibold font-montserrat mr-[5px]'>Symptom 2 </div></div>
+                            <div className='ml-[5px]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat '>Symptom 3</div></div>
                         </div>
+                        
+                            
+                        
                         
                     </div>
                 </div>
-                <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
+                <div className='flex justify-center border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='ml-[10px] flex justify-start mt-[10px] mb-[10px] '>
+                        <img src={pharimg} alt="" className='w-[48px] h-[48px]'/>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_up'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
+                    <div className='w-[284px] mt-[10px] ml-[20px] mb-[10px]'>
+                        <div className='flex justify-between items-center '>
+                            <div className='flex justify-start text-[#1A1C1F] text-[18px] font-semibold font-montserrat '>Patient Name</div>
                             
                         </div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_down_1'>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat  '>
                         Age : 32 | Gender: Male | Blood Group: O+
                         </div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_down_2'>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat '>
                         Height : 6” 3 inches | Weight : 76
                         </div>
                         
 
                     </div>
                 </div>
-                <div className='booking_pendingdoctorhospital_container_card_last'>
-                        <div className='booking_pendingdoctorhospital_container_card_last_up'>Assigned DHA</div>
-                        <div className='booking_pendingdoctorhospital_container_card_last_down'>
-                            <div className='booking_pendingdoctorhospital_container_card_last_down_left'>
-                                <img src={Dhaimage} alt="" />
+                <div className='border-b-[1px] border-b-solid border-[#E4E4E4]'>
+                        <div className='text-[#1A1C1F] text-[12px] font-montserrat font-medium flex justify-start -items-center ml-[20px] mt-[10px]'>Assigned DHA</div>
+                        <div className='flex justify-start items-center mt-[10px] ml-[20px] mb-[10px] '>
+                            <div className=''>
+                                <img src={Dhaimage} alt="" className='w-[32px] h-[32px] '/>
                             </div>
-                            <div className='booking_pendingdoctorhospital_container_card_last_down_right'>
-                                <div className='booking_pendingdoctorhospital_container_card_last_down_right_1'>DHA Name</div>
-                                <div className='booking_pendingdoctorhospital_container_card_last_down_right_2'>Degree</div>
+                            <div className='ml-[10px] grid justify-start items-center '>
+                                <div className='text-[#1A1C1F] text-[12px] font-medium font-montserrat '>DHA Name</div>
+                                <div className='text-[#E40443] text-[10px] font-medium font-montserrat  '>Degree</div>
                             </div>
                         </div>
+                </div>
+                <div className='flex justify-around items-center mt-[10px] mb-[10px] '>
+                    <div className=' '>
+                        <button className='bg-[#E40443] border-none rounded-[8px] w-[153px] h-[30px] text-[white] flex justify-center items-center'>Accept</button>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down_left'>
-                        <button>Accept</button>
-                    </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down_right'>
-                        <button>Reject</button>
+                    <div className=''>
+                        <button className='border-[1px] border-solid border-[#898989] rounded-[8px] w-[153px] h-[30px] bg-[white] text-[#898989]'>Reject</button>
                     </div>
                 </div>
-                
 
             </div>
             </Link>
-            <Link to={"/bookingdoctorcase"} className='bookingrequestdoctor_hospital_pahrma_boking_link'>
-            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_4'>
-                <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='bookingreqdoc_calen'/>13 June, 2023</div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='bookingreqdoc_clock'/>09:00AM</div>
+            <Link to={"/bookingdoctorcase"} className='pahrma_boking_link'>
+            <div className='border-[1px] border-solid border-[#D3D3D3] rounded-[12px] bg-[white] w-[380px]'>
+                <div className='border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='flex justify-between items-center mt-[10px]'>
+                        <div className='flex justify-start text-[#E40443] text-[18px] font-semibold font-montserrat ml-[10px]'>#123456</div>
+                        <div className='flex flex-end mr-[10px] '>
+                            <div className='mr-[5px] text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center '><PiCalendarBlankLight className='flex justify-center items-center mr-[10px] text-[#5B6572]'/>13 June, 2023</div>
+                            <div className='text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center'><CiClock2 className='mr-[10px] flex justify-center items-center text-[5B6572]'/>09:00AM</div>
                         </div>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequestdoctor_hospital_phar_vaac_1'>Symptom 1</div></div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequestdoctor_hospital_phar_vaac_2'>Symptom 2 </div></div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequestdoctor_hospital_phar_vaac_3'>Symptom 3</div></div>
+                    <div className='flex justify-between items-center mt-[10px] mb-[10px]'>
+                        <div className='flex justify-between items-center ml-[10px]'>
+                            <div className='border-r-[2px] border-r-solid border-r-[#E40443]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat mr-[5px]'>Symptom 1</div></div>
+                            <div className='border-r-[2px] border-r-solid border-r-[#E40443] ml-[5px] '> <div className='text-[#E40443] text-[12px] font-semibold font-montserrat mr-[5px]'>Symptom 2 </div></div>
+                            <div className='ml-[5px]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat '>Symptom 3</div></div>
                         </div>
+                        
+                            
+                        
                         
                     </div>
                 </div>
-                <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
+                <div className='flex justify-center border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='ml-[10px] flex justify-start mt-[10px] mb-[10px] '>
+                        <img src={pharimg} alt="" className='w-[48px] h-[48px]'/>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_up'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
+                    <div className='w-[284px] mt-[10px] ml-[20px] mb-[10px]'>
+                        <div className='flex justify-between items-center '>
+                            <div className='flex justify-start text-[#1A1C1F] text-[18px] font-semibold font-montserrat '>Patient Name</div>
                             
                         </div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_down_1'>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat  '>
                         Age : 32 | Gender: Male | Blood Group: O+
                         </div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_down_2'>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat '>
                         Height : 6” 3 inches | Weight : 76
                         </div>
                         
 
                     </div>
                 </div>
-                <div className='booking_pendingdoctorhospital_container_card_last'>
-                        <div className='booking_pendingdoctorhospital_container_card_last_up'>Assigned DHA</div>
-                        <div className='booking_pendingdoctorhospital_container_card_last_down'>
-                            <div className='booking_pendingdoctorhospital_container_card_last_down_left'>
-                                <img src={Dhaimage} alt="" />
+                <div className='border-b-[1px] border-b-solid border-[#E4E4E4]'>
+                        <div className='text-[#1A1C1F] text-[12px] font-montserrat font-medium flex justify-start -items-center ml-[20px] mt-[10px]'>Assigned DHA</div>
+                        <div className='flex justify-start items-center mt-[10px] ml-[20px] mb-[10px] '>
+                            <div className=''>
+                                <img src={Dhaimage} alt="" className='w-[32px] h-[32px] '/>
                             </div>
-                            <div className='booking_pendingdoctorhospital_container_card_last_down_right'>
-                                <div className='booking_pendingdoctorhospital_container_card_last_down_right_1'>DHA Name</div>
-                                <div className='booking_pendingdoctorhospital_container_card_last_down_right_2'>Degree</div>
+                            <div className='ml-[10px] grid justify-start items-center '>
+                                <div className='text-[#1A1C1F] text-[12px] font-medium font-montserrat '>DHA Name</div>
+                                <div className='text-[#E40443] text-[10px] font-medium font-montserrat  '>Degree</div>
                             </div>
                         </div>
+                </div>
+                <div className='flex justify-around items-center mt-[10px] mb-[10px] '>
+                    <div className=' '>
+                        <button className='bg-[#E40443] border-none rounded-[8px] w-[153px] h-[30px] text-[white] flex justify-center items-center'>Accept</button>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down_left'>
-                        <button>Accept</button>
-                    </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down_right'>
-                        <button>Reject</button>
+                    <div className=''>
+                        <button className='border-[1px] border-solid border-[#898989] rounded-[8px] w-[153px] h-[30px] bg-[white] text-[#898989]'>Reject</button>
                     </div>
                 </div>
-                
 
             </div>
             </Link>
-            <Link to={"/bookingdoctorcase"} className='bookingrequestdoctor_hospital_pahrma_boking_link'>
-            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_4'>
-                <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='bookingreqdoc_calen'/>13 June, 2023</div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='bookingreqdoc_clock'/>09:00AM</div>
+            <Link to={"/bookingdoctorcase"} className='pahrma_boking_link'>
+            <div className='border-[1px] border-solid border-[#D3D3D3] rounded-[12px] bg-[white] w-[380px]'>
+                <div className='border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='flex justify-between items-center mt-[10px]'>
+                        <div className='flex justify-start text-[#E40443] text-[18px] font-semibold font-montserrat ml-[10px]'>#123456</div>
+                        <div className='flex flex-end mr-[10px] '>
+                            <div className='mr-[5px] text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center '><PiCalendarBlankLight className='flex justify-center items-center mr-[10px] text-[#5B6572]'/>13 June, 2023</div>
+                            <div className='text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center'><CiClock2 className='mr-[10px] flex justify-center items-center text-[5B6572]'/>09:00AM</div>
                         </div>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_1'><div className='bookingrequestdoctor_hospital_phar_vaac_1'>Symptom 1</div></div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_2'> <div className='bookingrequestdoctor_hospital_phar_vaac_2'>Symptom 2 </div></div>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_up_box2_left_3'><div className='bookingrequestdoctor_hospital_phar_vaac_3'>Symptom 3</div></div>
+                    <div className='flex justify-between items-center mt-[10px] mb-[10px]'>
+                        <div className='flex justify-between items-center ml-[10px]'>
+                            <div className='border-r-[2px] border-r-solid border-r-[#E40443]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat mr-[5px]'>Symptom 1</div></div>
+                            <div className='border-r-[2px] border-r-solid border-r-[#E40443] ml-[5px] '> <div className='text-[#E40443] text-[12px] font-semibold font-montserrat mr-[5px]'>Symptom 2 </div></div>
+                            <div className='ml-[5px]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat '>Symptom 3</div></div>
                         </div>
+                        
+                            
+                        
                         
                     </div>
                 </div>
-                <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
+                <div className='flex justify-center border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='ml-[10px] flex justify-start mt-[10px] mb-[10px] '>
+                        <img src={pharimg} alt="" className='w-[48px] h-[48px]'/>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right'>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_up'>
-                            <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
+                    <div className='w-[284px] mt-[10px] ml-[20px] mb-[10px]'>
+                        <div className='flex justify-between items-center '>
+                            <div className='flex justify-start text-[#1A1C1F] text-[18px] font-semibold font-montserrat '>Patient Name</div>
                             
                         </div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_down_1'>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat  '>
                         Age : 32 | Gender: Male | Blood Group: O+
                         </div>
-                        <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_right_down_2'>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat '>
                         Height : 6” 3 inches | Weight : 76
                         </div>
                         
 
                     </div>
                 </div>
-                <div className='booking_pendingdoctorhospital_container_card_last'>
-                        <div className='booking_pendingdoctorhospital_container_card_last_up'>Assigned DHA</div>
-                        <div className='booking_pendingdoctorhospital_container_card_last_down'>
-                            <div className='booking_pendingdoctorhospital_container_card_last_down_left'>
-                                <img src={Dhaimage} alt="" />
+                <div className='border-b-[1px] border-b-solid border-[#E4E4E4]'>
+                        <div className='text-[#1A1C1F] text-[12px] font-montserrat font-medium flex justify-start -items-center ml-[20px] mt-[10px]'>Assigned DHA</div>
+                        <div className='flex justify-start items-center mt-[10px] ml-[20px] mb-[10px] '>
+                            <div className=''>
+                                <img src={Dhaimage} alt="" className='w-[32px] h-[32px] '/>
                             </div>
-                            <div className='booking_pendingdoctorhospital_container_card_last_down_right'>
-                                <div className='booking_pendingdoctorhospital_container_card_last_down_right_1'>DHA Name</div>
-                                <div className='booking_pendingdoctorhospital_container_card_last_down_right_2'>Degree</div>
+                            <div className='ml-[10px] grid justify-start items-center '>
+                                <div className='text-[#1A1C1F] text-[12px] font-medium font-montserrat '>DHA Name</div>
+                                <div className='text-[#E40443] text-[10px] font-medium font-montserrat  '>Degree</div>
                             </div>
                         </div>
+                </div>
+                <div className='flex justify-around items-center mt-[10px] mb-[10px] '>
+                    <div className=' '>
+                        <button className='bg-[#E40443] border-none rounded-[8px] w-[153px] h-[30px] text-[white] flex justify-center items-center'>Accept</button>
                     </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down'>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down_left'>
-                        <button>Accept</button>
-                    </div>
-                    <div className='bookingrequestdoctor_hospital_pharmacy_management_container_3_1_down_down_right'>
-                        <button>Reject</button>
+                    <div className=''>
+                        <button className='border-[1px] border-solid border-[#898989] rounded-[8px] w-[153px] h-[30px] bg-[white] text-[#898989]'>Reject</button>
                     </div>
                 </div>
-                
 
             </div>
             </Link>
+            <Link to={"/bookingdoctorcase"} className='pahrma_boking_link'>
+            <div className='border-[1px] border-solid border-[#D3D3D3] rounded-[12px] bg-[white] w-[380px]'>
+                <div className='border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='flex justify-between items-center mt-[10px]'>
+                        <div className='flex justify-start text-[#E40443] text-[18px] font-semibold font-montserrat ml-[10px]'>#123456</div>
+                        <div className='flex flex-end mr-[10px] '>
+                            <div className='mr-[5px] text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center '><PiCalendarBlankLight className='flex justify-center items-center mr-[10px] text-[#5B6572]'/>13 June, 2023</div>
+                            <div className='text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center'><CiClock2 className='mr-[10px] flex justify-center items-center text-[5B6572]'/>09:00AM</div>
+                        </div>
+                    </div>
+                    <div className='flex justify-between items-center mt-[10px] mb-[10px]'>
+                        <div className='flex justify-between items-center ml-[10px]'>
+                            <div className='border-r-[2px] border-r-solid border-r-[#E40443]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat mr-[5px]'>Symptom 1</div></div>
+                            <div className='border-r-[2px] border-r-solid border-r-[#E40443] ml-[5px] '> <div className='text-[#E40443] text-[12px] font-semibold font-montserrat mr-[5px]'>Symptom 2 </div></div>
+                            <div className='ml-[5px]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat '>Symptom 3</div></div>
+                        </div>
+                        
+                            
+                        
+                        
+                    </div>
+                </div>
+                <div className='flex justify-center border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='ml-[10px] flex justify-start mt-[10px] mb-[10px] '>
+                        <img src={pharimg} alt="" className='w-[48px] h-[48px]'/>
+                    </div>
+                    <div className='w-[284px] mt-[10px] ml-[20px] mb-[10px]'>
+                        <div className='flex justify-between items-center '>
+                            <div className='flex justify-start text-[#1A1C1F] text-[18px] font-semibold font-montserrat '>Patient Name</div>
+                            
+                        </div>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat  '>
+                        Age : 32 | Gender: Male | Blood Group: O+
+                        </div>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat '>
+                        Height : 6” 3 inches | Weight : 76
+                        </div>
+                        
 
+                    </div>
+                </div>
+                <div className='border-b-[1px] border-b-solid border-[#E4E4E4]'>
+                        <div className='text-[#1A1C1F] text-[12px] font-montserrat font-medium flex justify-start -items-center ml-[20px] mt-[10px]'>Assigned DHA</div>
+                        <div className='flex justify-start items-center mt-[10px] ml-[20px] mb-[10px] '>
+                            <div className=''>
+                                <img src={Dhaimage} alt="" className='w-[32px] h-[32px] '/>
+                            </div>
+                            <div className='ml-[10px] grid justify-start items-center '>
+                                <div className='text-[#1A1C1F] text-[12px] font-medium font-montserrat '>DHA Name</div>
+                                <div className='text-[#E40443] text-[10px] font-medium font-montserrat  '>Degree</div>
+                            </div>
+                        </div>
+                </div>
+                <div className='flex justify-around items-center mt-[10px] mb-[10px] '>
+                    <div className=' '>
+                        <button className='bg-[#E40443] border-none rounded-[8px] w-[153px] h-[30px] text-[white] flex justify-center items-center'>Accept</button>
+                    </div>
+                    <div className=''>
+                        <button className='border-[1px] border-solid border-[#898989] rounded-[8px] w-[153px] h-[30px] bg-[white] text-[#898989]'>Reject</button>
+                    </div>
+                </div>
+
+            </div>
+            </Link>
+        
         </div>
 
 
-        <div className='bookingrequestdoctor_hospital_pharmacy_pagination'>
-                    <a href='' className='bookingrequestdoctor_anchi'><PiCaretDoubleLeftBold className='bookingrequestdoctor_hospital_pharma_less_1'/></a>
-                    <a href='' className='bookingrequestdoctor_anchi'><PiCaretLeftBold className='bookingrequestdoctor_hospital_pharma_less_doctor'/></a>
-                    <a href=''className='bookingrequestdoctor_anch_active'>1</a>
-                    <a href='' className='bookingrequestdoctor_anchi'>2</a>
-                    <a href='' className='bookingrequestdoctor_anchi'>3</a>
-                    <a href='' className='bookingrequestdoctor_anchi'>...</a>
-                    <a href='' className='bookingrequestdoctor_anchi'>10</a>
-                    <a href='' className='bookingrequestdoctor_anchi'><PiCaretRightBold className='bookingrequestdoctor_hospital_pharma_less_doctor'/></a>
-                    <a href='' className='bookingrequestdoctor_anchi'><PiCaretDoubleRightBold className='bookingrequestdoctor_hospital_pharma_less_doctor'/></a>
-
-                </div>
+        <div className='pb-[30px] mt-[20px]'><Pagination/></div>
 
     </div>
-    <div className='bookingrequestdoctor_hospital_footer_pharmacy'><Footer/></div>
+    <div className='bookingrequest_footer_pharmacy'><Footer/></div>
     </>
   )
 }

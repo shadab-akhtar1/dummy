@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-import './Rejectdhahospital1.css';
 import Navbars from '../Dhamanagement/Navbars';
 import {FaCaretDown} from 'react-icons/fa';
 import profile from "../Assets/Rectangle 619 (1).jpg";
@@ -13,6 +12,7 @@ import { PiCaretLeftBold } from "react-icons/pi";
 import {Footer} from '../Dhamanagement/Footer';
 import { PiCalendarBlankLight } from "react-icons/pi";
 import { CiClock2 } from "react-icons/ci";
+import Pagination from '../Dhamanagement/Pagination';
 
 
 export const Rejectdhahospital1 = () => {
@@ -25,55 +25,55 @@ export const Rejectdhahospital1 = () => {
   return (
     <>
     <div><Navbars/></div>
-    <div className='bookingrequest_pharmacy_management_container'>
-        <div className='bookingrequest_pharmacy_management_container_1'>
-            <div className='bookingrequest_pharmacy_management_heading_box_1'><h2>Dashboard</h2></div>
-            <div className='bookingrequest_pharmacy_management_heading_box_3'>
-                <div className='bookingrequest_pharmacy_management_heading_box_2'><p>Availability</p>
+    <div className='bg-[#F4F4F4] w-[100%] '>
+        <div className='flex justify-between items-center ml-[70px] mr-[70px] pt-[20px]  '>
+            <div className='flex justify-start items-center '><h2 className='text-[#1A1C1F] text-[22px] font-bold font-montserrat'>Dashboard</h2></div>
+            <div className='flex justify-end items-center'>
+                <div className='flex items-center mr-[10px]'><p className='text-[#1A1C1F] text-[14px] font-semibold font-montserrat mr-[10px] '>Availability</p>
             
                 </div>
-                <div className='toggle_booking_div'>
-                    <div  className='toggle_booking'>
-                    {toggleButton?<div onClick={handleClick} className='toggle_booking_left'></div>:
-                    <div onClick={handleClick}className='toggle_booking_right'></div>}
+                <div className='flex justify-center items-center '>
+                    <div  className='bg-[#DCFAEB] h-[10px] w-[28px] rounded-[30px] flex absolute '>
+                    {toggleButton?<div onClick={handleClick} className='h-[15px] w-[15px] bg-[#41B079] rounded-[20px] relative bottom-[3px] '></div>:
+                    <div onClick={handleClick}className='h-[15px] w-[15px] bg-[#41B079] rounded-[20px] relative bottom-[3px] ml-[15px]'></div>}
                     </div>
                 </div>
             </div>
         </div>
-        <div className='bookingrequest_pharmacy_management_container_2'>
-            <div className='bookingrequest_pharmacy_management_container_2_1'>
+        <div className='flex justify-between items-center ml-[70px] mr-[70px] border-b-[1px] border-b-solid border-b-[#E1E5E8] mt-[20px]'>
+            <div className='flex justify-start items-center '>
             
-            <div className='bookingrequest_pharmacy_management_container_2_p_1'>DHA</div>
+            <div className='text-[16px] text-[#1A1C1F] font-medium font-montserrat border-b-[2px] border-b-solid border-b-[#E40443]'>DHA</div>
             
             <Link to={"/rejectdoctorhospital"} className='bookingrequest_medicine_link'>
-            <div className='bookingrequest_pharmacy_management_container_2_p_2'>Doctor</div>
+            <div className='ml-[20px] text-[#8D98A4] text-[16px] font-medium font-montserrat '>Doctor</div>
             </Link>
             <Link to={"/rejectpharmacyhospital"} className='bookingrequest_medicine_link'>
-            <div className='bookingrequest_pharmacy_management_container_2_p_2'>Pharmacy</div>
+            <div className='ml-[20px] text-[#8D98A4] text-[16px] font-medium font-montserrat '>Pharmacy</div>
             </Link>
             <Link to={"/rejectlabhospital"} className='bookingrequest_medicine_link'>
-            <div className='bookingrequest_pharmacy_management_container_2_p_2'>Lab</div>
+            <div className='ml-[20px] text-[#8D98A4] text-[16px] font-medium font-montserrat '>Lab</div>
             </Link>
             </div>
-            <div className='bookingrequest_pharmacy_management_container_2_2'onClick={(e)=> setHisActive(!hisActive)}>
-                Sort by <FaCaretDown className='bookingrequest_pharmacy_management_icon'/>
+            <div className='flex justify-end items-center ' onClick={(e)=> setHisActive(!hisActive)}>
+                Sort by <FaCaretDown className='ml-[10px] '/>
             </div>
             {hisActive &&(
-              <div className='bookingrequest_dropdown_content_drop'>
-                <Link to={""} className='bookingrequest_dropdown_left_link'>
-                <div className='bookingrequest_dropdown_item_drop'>Sort by</div>
+              <div className='absolute top-[210px] right-[70px] p-[10px] bg-[#EEEFEF] text-[#333]'>
+                <Link to={""} className=''>
+                <div className='p-[5px] cursor-pointer text-[14px] font-medium font-montserrat'>Sort by</div>
                 </Link>
                 
 
               </div>
               )}
         </div>
-        <div className='bookingrequest_pharmacy_management_container_4'>
-            <div className='bookingrequest_pharmacy_management_container_4_urgent_pendingdha_standalone'onClick={(e)=> setIsActive(!isActive)}>Standalone<FaCaretDown className='bookingrequest_pharmacy_management_container_4_icon'/></div>
+        <div className='ml-[90px] mt-[20px] mr-[70px] '>
+            <div className='border-[1px] border-solid border-[#B3B3B3] rounded-3px] h-[28px] w-[169px] flex justify-around items-center bg-[#EEEFEF] text-[#1A1C1F] text-[14px] font-semibold font-montserrat 'onClick={(e)=> setIsActive(!isActive)}>Standalone <FaCaretDown className='ml-[20px] items-center text-[#8D98A4]'/></div>
             {isActive &&(
-              <div className='bookingpending_dropdown_content_drop'>
-                <Link to={"/rejectdhahospital"} className='bookingpending_dropdown_link'>
-                <div className='bookingpending_dropdown_item_drop'>Non Urgent Care</div>
+              <div className='absolute top-[280px]  p-[10px] bg-[#EEEFEF] text-[#333]'>
+                <Link to={"/rejectdoctorhospital"} className='no-underline'>
+                <div className='p-[5px] cursor-pointer text-[14px] font-medium font-montserrat '> Non Urgent care</div>
                 </Link>
                 
 
@@ -81,167 +81,42 @@ export const Rejectdhahospital1 = () => {
               )}
         </div>
         
-        <div className='bookingrequest_pharmacy_management_container_3'>
-            <Link to={"/rejectrejected"} className='pahrma_boking_link'>
-            <div className='bookingrequest_pharmacy_management_container_3_1'>
-                <div className='bookingrequest_pharmacy_management_container_3_1_up'>
-                    <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='rejectdhahospital1_calen'/>13 June, 2023</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='rejectdhahospital1_clock'/>09:00AM</div>
+        <div className='ml-[70px] mt-[30px] mr-[70px] flex flex-wrap gap-[38px]'>
+            <Link to={""} className='pahrma_boking_link'>
+            <div className='border-[1px] border-solid border-[#D3D3D3] rounded-[12px] bg-[white] w-[380px]'>
+                <div className='border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='flex justify-between items-center mt-[10px]'>
+                        <div className='flex justify-start text-[#E40443] text-[18px] font-semibold font-montserrat ml-[10px]'>#123456</div>
+                        <div className='flex flex-end mr-[10px] '>
+                            <div className='mr-[5px] text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center '><PiCalendarBlankLight className='flex justify-center items-center mr-[10px] text-[#5B6572]'/>13 June, 2023</div>
+                            <div className='text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center'><CiClock2 className='mr-[10px] flex justify-center items-center text-[5B6572]'/>09:00AM</div>
                         </div>
                     </div>
+                    <div className='flex justify-between items-center mt-[10px] mb-[10px] '>
+                        
+                        <div className='text-[#E40443] text-[10px] font-semibold font-montserrat flex justify-start items-center ml-[10px]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat '>Booked For : 18-20 June , 11:00 AM - 2:00 PM </div></div>
+                        <div className='flex justify-end items-center mr-[10px] '><button className='bg-[#E40443] w-[76px] h-[16px] border-none rounded-[2px] text-[white] text-[10px] font-medium font-montserrat flex justify-center items-center '>vaccination</button></div>
                     
-                    <div className='pendingdha_standalone_card_upper_2'>
-                        <div className='pendingdha_standalone_card_upper_2_left'>Booked For : 18-20 June , 11:00 AM - 2:00 PM </div>
-                        <div className='pendingdha_standalone_card_upper_2_right_1'><button>Vaccination</button></div>
-                    </div>
-                </div>
-                <div className='bookingrequest_pharmacy_management_container_3_1_down'>
-                    <div className='bookingrequest_pharmacy_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
-                    </div>
-                    <div className='bookingrequest_pharmacy_management_container_3_1_down_right'>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='pendingdha_card_2_up_standalone_rejectdhahospital1'><button>Rejected</button></div>
-                        </div>
-                        
-                        <div className='pendingdha_bookingrequest_lab_card_2_left_standalone_rejectdhahospital1'>
-                        Age : 32 | Gender: Male | Blood Group: O+
-                        </div>
-                        
-                        <div className='pendingdha_bookingrequest_lab_card_2_right_standalone_rejectdhahospital1'>
-                        Height : 6” 3 inches | Weight : 76
-                        </div>
-                        
-
-                    </div>
-                </div>
-                
-
-            </div>
-            </Link>
-            <Link to={"/rejectrejected"} className='bookingrequest_pahrma_boking_link'>
-            <div className='bookingrequest_pharmacy_management_container_3_2'>
-                <div className='bookingrequest_pharmacy_management_container_3_1_up'>
-                    <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='rejectdhahospital1_calen'/>13 June, 2023</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='rejectdhahospital1_clock'/>09:00AM</div>
-                        </div>
-                    </div>
-                    
-                        <div className='pendingdha_standalone_card_upper_2'>
-                            <div className='pendingdha_standalone_card_upper_2_left'>Booked For : 18-20 June , 11:00 AM - 2:00 PM </div>
-                            <div className='pendingdha_standalone_card_upper_2_right'><button>Nursing</button></div>
-                        </div>
-                        
                     
                 </div>
-                <div className='bookingrequest_pharmacy_management_container_3_1_down'>
-                    <div className='bookingrequest_pharmacy_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
-                    </div>
-                    <div className='bookingrequest_pharmacy_management_container_3_1_down_right'>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='pendingdha_card_2_up_standalone_rejectdhahospital1'><button>Rejected</button></div>
-                        </div>
-                        <div className='pendingdha_bookingrequest_lab_card_2_left_standalone_rejectdhahospital1'>
-                        Age : 32 | Gender: Male | Blood Group: O+
-                        </div>
-                        
-                        <div className='pendingdha_bookingrequest_lab_card_2_right_standalone_rejectdhahospital1'>
-                        Height : 6” 3 inches | Weight : 76
-                        </div>
-
-                    </div>
                 </div>
-                
-
-            </div>
-            </Link>
-            <Link to={"/rejectrejected"} className='bookingrequest_pahrma_boking_link'>
-            <div className='bookingrequest_pharmacy_management_container_3_3'>
-                <div className='bookingrequest_pharmacy_management_container_3_1_up'>
-                    <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='rejectdhahospital1_calen'/>13 June, 2023</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='rejectdhahospital1_clock'/>09:00AM</div>
-                        </div>
+                <div className='flex justify-center border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='ml-[10px] flex justify-start mt-[10px] mb-[10px] '>
+                        <img src={pharimg} alt="" className='w-[48px] h-[48px]'/>
                     </div>
-                    
-                        <div className='pendingdha_standalone_card_upper_2'>
-                            <div className='pendingdha_standalone_card_upper_2_left'>Booked For : 18-20 June , 11:00 AM - 2:00 PM </div>
-                            <div className='pendingdha_standalone_card_upper_2_right_1'><button>Vaccination</button></div>
-                        </div>
-                        
-                    
-                </div>
-                <div className='bookingrequest_pharmacy_management_container_3_1_down'>
-                    <div className='bookingrequest_pharmacy_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
-                    </div>
-                    <div className='bookingrequest_pharmacy_management_container_3_1_down_right'>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='pendingdha_card_2_up_standalone_rejectdhahospital1'><button>Rejected</button></div>
-                        </div>
-                        <div className='pendingdha_bookingrequest_lab_card_2_left_standalone_rejectdhahospital1'>
-                        Age : 32 | Gender: Male | Blood Group: O+
-                        </div>
-                        
-                        <div className='pendingdha_bookingrequest_lab_card_2_right_standalone_rejectdhahospital1'>
-                        Height : 6” 3 inches | Weight : 76
-                        </div>
-
-                    </div>
-                </div>
-                
-
-            </div>
-            </Link>
-            <Link to={"/rejectrejected"} className='bookingrequest_pahrma_boking_link'>
-            <div className='bookingrequest_pharmacy_management_container_3_4'>
-                <div className='bookingrequest_pharmacy_management_container_3_1_up'>
-                    <div className='bookingrequest_pharmacy_management_container_3_1_up_box'>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box_left'>#123456</div>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_1'><PiCalendarBlankLight className='rejectdhahospital1_calen'/>13 June, 2023</div>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_up_box_right_2'><CiClock2 className='rejectdhahospital1_clock'/>09:00AM</div>
-                        </div>
-                    </div>
-                    
-                        
-                        <div className='pendingdha_standalone_card_upper_2'>
-                            <div className='pendingdha_standalone_card_upper_2_left'>Booked For : 18-20 June , 11:00 AM - 2:00 PM </div>
-                            <div className='pendingdha_standalone_card_upper_2_right'><button>Nursing</button></div>
-                        </div>
-                        
-                    
-                </div>
-                <div className='bookingrequest_pharmacy_management_container_3_1_down'>
-                    <div className='bookingrequest_pharmacy_management_container_3_1_down_left'>
-                        <img src={pharimg} alt="" />
-                    </div>
-                    <div className='bookingrequest_pharmacy_management_container_3_1_down_right'>
-                        <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up'>
-                            <div className='bookingrequest_pharmacy_management_container_3_1_down_right_up_text'>Patient Name</div>
-                            <div className='pendingdha_card_2_up_standalone_rejectdhahospital1'><button>Rejected</button></div>
+                    <div className='w-[284px] mt-[10px] ml-[20px] mb-[10px]'>
+                        <div className='flex justify-between items-center '>
+                            <div className='flex justify-start text-[#1A1C1F] text-[18px] font-semibold font-montserrat '>Patient Name</div>
+                            <div className=''><button  className='bg-[#FDC2C2] w-[68px] h-[20px] rounded-[24px] text-[#F50202] text-[10px] font-medium font-montserrat border-none'>Rejected</button></div>
                             
                         </div>
-                        
-                        <div className='pendingdha_bookingrequest_lab_card_2_left_standalone_rejectdhahospital1'>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat  '>
                         Age : 32 | Gender: Male | Blood Group: O+
                         </div>
-                        
-                        <div className='pendingdha_bookingrequest_lab_card_2_right_standalone_rejectdhahospital1'>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat '>
                         Height : 6” 3 inches | Weight : 76
                         </div>
+                        
 
                     </div>
                 </div>
@@ -249,22 +124,139 @@ export const Rejectdhahospital1 = () => {
 
             </div>
             </Link>
+            <Link to={""} className='pahrma_boking_link'>
+            <div className='border-[1px] border-solid border-[#D3D3D3] rounded-[12px] bg-[white] w-[380px]'>
+                <div className='border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='flex justify-between items-center mt-[10px]'>
+                        <div className='flex justify-start text-[#E40443] text-[18px] font-semibold font-montserrat ml-[10px]'>#123456</div>
+                        <div className='flex flex-end mr-[10px] '>
+                            <div className='mr-[5px] text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center '><PiCalendarBlankLight className='flex justify-center items-center mr-[10px] text-[#5B6572]'/>13 June, 2023</div>
+                            <div className='text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center'><CiClock2 className='mr-[10px] flex justify-center items-center text-[5B6572]'/>09:00AM</div>
+                        </div>
+                    </div>
+                    <div className='flex justify-between items-center mt-[10px] mb-[10px] '>
+                        
+                        <div className='text-[#E40443] text-[10px] font-semibold font-montserrat flex justify-start items-center ml-[10px]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat '>Booked For : 18-20 June , 11:00 AM - 2:00 PM </div></div>
+                        <div className='flex justify-end items-center mr-[10px] '><button className='bg-[#E40443] w-[76px] h-[16px] border-none rounded-[2px] text-[white] text-[10px] font-medium font-montserrat flex justify-center items-center '>vaccination</button></div>
+                    
+                    
+                </div>
+                </div>
+                <div className='flex justify-center border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='ml-[10px] flex justify-start mt-[10px] mb-[10px] '>
+                        <img src={pharimg} alt="" className='w-[48px] h-[48px]'/>
+                    </div>
+                    <div className='w-[284px] mt-[10px] ml-[20px] mb-[10px]'>
+                        <div className='flex justify-between items-center '>
+                            <div className='flex justify-start text-[#1A1C1F] text-[18px] font-semibold font-montserrat '>Patient Name</div>
+                            <div className=''><button  className='bg-[#FDC2C2] w-[68px] h-[20px] rounded-[24px] text-[#F50202] text-[10px] font-medium font-montserrat border-none'>Rejected</button></div>
+                            
+                        </div>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat  '>
+                        Age : 32 | Gender: Male | Blood Group: O+
+                        </div>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat '>
+                        Height : 6” 3 inches | Weight : 76
+                        </div>
+                        
 
+                    </div>
+                </div>
+                
+
+            </div>
+            </Link>
+            <Link to={""} className='pahrma_boking_link'>
+            <div className='border-[1px] border-solid border-[#D3D3D3] rounded-[12px] bg-[white] w-[380px]'>
+                <div className='border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='flex justify-between items-center mt-[10px]'>
+                        <div className='flex justify-start text-[#E40443] text-[18px] font-semibold font-montserrat ml-[10px]'>#123456</div>
+                        <div className='flex flex-end mr-[10px] '>
+                            <div className='mr-[5px] text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center '><PiCalendarBlankLight className='flex justify-center items-center mr-[10px] text-[#5B6572]'/>13 June, 2023</div>
+                            <div className='text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center'><CiClock2 className='mr-[10px] flex justify-center items-center text-[5B6572]'/>09:00AM</div>
+                        </div>
+                    </div>
+                    <div className='flex justify-between items-center mt-[10px] mb-[10px] '>
+                        
+                        <div className='text-[#E40443] text-[10px] font-semibold font-montserrat flex justify-start items-center ml-[10px]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat '>Booked For : 18-20 June , 11:00 AM - 2:00 PM </div></div>
+                        <div className='flex justify-end items-center mr-[10px] '><button className='bg-[#E40443] w-[76px] h-[16px] border-none rounded-[2px] text-[white] text-[10px] font-medium font-montserrat flex justify-center items-center '>vaccination</button></div>
+                    
+                    
+                </div>
+                </div>
+                <div className='flex justify-center border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='ml-[10px] flex justify-start mt-[10px] mb-[10px] '>
+                        <img src={pharimg} alt="" className='w-[48px] h-[48px]'/>
+                    </div>
+                    <div className='w-[284px] mt-[10px] ml-[20px] mb-[10px]'>
+                        <div className='flex justify-between items-center '>
+                            <div className='flex justify-start text-[#1A1C1F] text-[18px] font-semibold font-montserrat '>Patient Name</div>
+                            <div className=''><button  className='bg-[#FDC2C2] w-[68px] h-[20px] rounded-[24px] text-[#F50202] text-[10px] font-medium font-montserrat border-none'>Rejected</button></div>
+                            
+                        </div>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat  '>
+                        Age : 32 | Gender: Male | Blood Group: O+
+                        </div>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat '>
+                        Height : 6” 3 inches | Weight : 76
+                        </div>
+                        
+
+                    </div>
+                </div>
+                
+
+            </div>
+            </Link>
+            <Link to={""} className='pahrma_boking_link'>
+            <div className='border-[1px] border-solid border-[#D3D3D3] rounded-[12px] bg-[white] w-[380px]'>
+                <div className='border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='flex justify-between items-center mt-[10px]'>
+                        <div className='flex justify-start text-[#E40443] text-[18px] font-semibold font-montserrat ml-[10px]'>#123456</div>
+                        <div className='flex flex-end mr-[10px] '>
+                            <div className='mr-[5px] text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center '><PiCalendarBlankLight className='flex justify-center items-center mr-[10px] text-[#5B6572]'/>13 June, 2023</div>
+                            <div className='text-[#5B6572] text-[12px] font-medium font-montserrat flex justify-center items-center'><CiClock2 className='mr-[10px] flex justify-center items-center text-[5B6572]'/>09:00AM</div>
+                        </div>
+                    </div>
+                    <div className='flex justify-between items-center mt-[10px] mb-[10px] '>
+                        
+                        <div className='text-[#E40443] text-[10px] font-semibold font-montserrat flex justify-start items-center ml-[10px]'><div className='text-[#E40443] text-[12px] font-semibold font-montserrat '>Booked For : 18-20 June , 11:00 AM - 2:00 PM </div></div>
+                        <div className='flex justify-end items-center mr-[10px] '><button className='bg-[#E40443] w-[76px] h-[16px] border-none rounded-[2px] text-[white] text-[10px] font-medium font-montserrat flex justify-center items-center '>vaccination</button></div>
+                    
+                    
+                </div>
+                </div>
+                <div className='flex justify-center border-b-[1px] border-b-solid border-b-[#E4E4E4]'>
+                    <div className='ml-[10px] flex justify-start mt-[10px] mb-[10px] '>
+                        <img src={pharimg} alt="" className='w-[48px] h-[48px]'/>
+                    </div>
+                    <div className='w-[284px] mt-[10px] ml-[20px] mb-[10px]'>
+                        <div className='flex justify-between items-center '>
+                            <div className='flex justify-start text-[#1A1C1F] text-[18px] font-semibold font-montserrat '>Patient Name</div>
+                            <div className=''><button  className='bg-[#FDC2C2] w-[68px] h-[20px] rounded-[24px] text-[#F50202] text-[10px] font-medium font-montserrat border-none'>Rejected</button></div>
+                            
+                        </div>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat  '>
+                        Age : 32 | Gender: Male | Blood Group: O+
+                        </div>
+                        <div className='text-[#5B6572] text-[10px] font-medium font-montserrat '>
+                        Height : 6” 3 inches | Weight : 76
+                        </div>
+                        
+
+                    </div>
+                </div>
+                
+
+            </div>
+            </Link>
+            
+            
+            
         </div>
 
 
-        <div className='bookingrequest_pharmacy_pagination'>
-                    <a href='' className='bookingrequest_anchi'><PiCaretDoubleLeftBold className='bookingrequest_pharma_less_1'/></a>
-                    <a href='' className='bookingrequest_anchi'><PiCaretLeftBold className='bookingrequest_pharma_less_doctor'/></a>
-                    <a href=''className='bookingrequest_anch_active'>1</a>
-                    <a href='' className='bookingrequest_anchi'>2</a>
-                    <a href='' className='bookingrequest_anchi'>3</a>
-                    <a href='' className='bookingrequest_anchi'>...</a>
-                    <a href='' className='bookingrequest_anchi'>10</a>
-                    <a href='' className='bookingrequest_anchi'><PiCaretRightBold className='bookingrequest_pharma_less_doctor'/></a>
-                    <a href='' className='bookingrequest_anchi'><PiCaretDoubleRightBold className='bookingrequest_pharma_less_doctor'/></a>
-
-                </div>
+        <div className='pb-[30px] mt-[20px]'><Pagination/></div>
 
     </div>
     <div className='bookingrequest_footer_pharmacy'><Footer/></div>

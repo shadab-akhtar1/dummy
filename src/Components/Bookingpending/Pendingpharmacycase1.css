@@ -360,7 +360,6 @@
     max-width: 536px;
     min-width: 300px;
     background: white;
-    height: 560px;
 }
 
 .pharmacy_case_addlab_labupload_pharmaupload_adddha_form_fill {
@@ -396,20 +395,72 @@
     height: 88px;
     width: 500px;
     border-radius: 8px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 200px;
-    padding-right: 200px;
     position: relative;
     border: 1px solid #EEF0F3;
     color: #5B6572;
     font-size: 14px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.pharmacy_case_addlab_labupload_pharmaupload_adddha_file_up i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.pharmacy_case_addlab_labupload_pharmaupload_adddha_file_up p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #5B6572;
+    margin-top: -5px;
 }
 
 .pharmacy_case_addlab_labupload_pharmaupload_adddha_form_fill_div {
     margin-bottom: 5px;
+}
+
+.pharmacy_case_or {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #B8BFC7;
+}
+
+.pharmacy_case_or::before {
+    display: block;
+    width: 230px;
+    background: #B8BFC7;
+    height: 1px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+}
+
+.pharmacy_case_or::after {
+    display: block;
+    width: 230px;
+    background: #B8BFC7;
+    height: 1px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -1;
 }
 
 .popup_pharma_div {

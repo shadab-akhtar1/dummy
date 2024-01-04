@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-import './Earninghistory.css';
 
 import {Link} from 'react-router-dom';
 import {PiArrowLeftFill} from 'react-icons/pi';
@@ -14,6 +13,7 @@ import {PiCaretDoubleRightBold} from 'react-icons/pi';
 import {BiChevronDown} from 'react-icons/bi';
 import { IoCheckmark } from "react-icons/io5";
 import Navbars from '../Dhamanagement/Navbars';
+import Pagination from '../Dhamanagement/Pagination';
 
 export const Earninghistory = () => {
   const [formearn, setFormearn] = useState(false);
@@ -30,50 +30,52 @@ export const Earninghistory = () => {
   return (
     <>
         <div><Navbars/></div>
-    <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_basic'>
-        <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading_basic'><h2><Link to={"/profile"} className='earninghistory_earning_profile_documnet_labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='earninghistory_earning_profile_documnet_labdetailedit_pharma_arrow_edit_basic'/></Link>My Earnings</h2></div>
-        <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_basic_base'>
-            <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_basic_2'>All</div>
-            <Link to={"/earningdha" } className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_document_basic'>
-            <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_document_basic'>DHA</div>
+    <div className='w-[100%] bg-[#F4F4F4] pt-[20px]'>
+        <div className='ml-[70px] pt-[1px] mr-[70px]'><h2 className='flex justify-start font-bold font-montserrat text-[22px]'><Link to={"/profile"} className='earning_profile_documnet_labdetailedit_link_pharma_detailsedit_head_basic'><PiArrowLeftFill className='text-[#1A1C1F] text-center pt=[3px] pr-[10px] text-[30px]'/></Link>My Earnings</h2></div>
+        <div className='flex justify-start ml-[80px]  border-b-[1px] border-b-solid border-b-[#E1E5E8]'>
+            <div className='mt-[20px] mr-[20px] border-b-[2px] border-b-solid border-b-[#E40443] text-[#1A1C1F] text-[16px] font-medium font-montserrat'>All</div>
+            <Link to={"/earningdha" } className='no-underline'>
+            <div className='mt-[20px] mr-[20px]  text-[#8D98A4] text-[16px] font-medium font-montserrat cursor-pointer'>DHA</div>
             </Link>
-            <Link to={"/earningdoctor" } className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_document_basic'>
-            <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic'>Doctor</div>
+            <Link to={"/earningdoctor" } className='no-underline'>
+            <div className='mt-[20px] mr-[20px]   text-[#8D98A4] text-[16px] font-medium font-montserrat cursor-pointer'>Doctor</div>
             </Link>
-            <Link to={"/earningpharmacy" } className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_document_basic'>
-            <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic'>Pharmacy</div>
+            <Link to={"/earningpharmacy" } className='no-underline'>
+            <div className='mt-[20px] mr-[20px]   text-[#8D98A4] text-[16px] font-medium font-montserrat cursor-pointer'>Pharmacy</div>
             </Link>
-            <Link to={"/earninglab" } className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_document_basic'>
-            <div className='earninghistory_earning_profile_documnet_labdetailedit_pharma_edit_heading2_info_basic'>Lab</div>
+            <Link to={"/earninglab" } className='no-underline'>
+            <div className='mt-[20px] mr-[20px]   text-[#8D98A4] text-[16px] font-medium font-montserrat cursor-pointer'>Lab</div>
             </Link>
         </div>
-        <div className='earninghistory_earning_labdetails_pharma_detail2'>
-        <div className='earninghistory_earning_labdetails_pharma_detail2_profile'>
-        
-          <div className='earninghistory_earning_labdetails_pharma_detail2_profile_name'>Doctors </div>
+        <div className='flex justif-between bg-[white] mr-[70px] ml-[70px] items-center rounded-[8px] mt-[20px]'>
+        <div className='flex justify-start items-center w-[500px] p-[10px]'>
+          <img src={profile_logo} alt="profile" />
+          <div className='pl-[10px] text-[16px] font-semibold font-montserrat w-[180px]'>Hospital Name <p className='text-[#E40443] text-[14px] font-medium font-montserrat'>Location</p></div>
           
         </div>
-        <div className='earninghistory_earning_labdetails_pharma_detail2_box'>786544<p>Total Cases</p></div>
-        <div className='earninghistory_earning_labdetails_pharma_detail2_box'>Rs 5000 <p>Total Earnings</p></div>
-        <div className='earninghistory_earning_labdetails_pharma_detail2_boxes'>Rs 3000 <p>This Months Earnings</p></div>
-        <div className='earninghistory_earning_labdetails_pharma_detail2_boxer'>Rs 2000 <p>Total Reedemeed</p></div>
-        
-      </div>
-      <div className='earninghistory_container_4'>
-        <div className='earninghistory_container_4_1'>
-            <input type="text" name="" id=""placeholder='Amount'/>
+        <div className='flex justify-end items-center'>
+        <div className='w-[150px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] h-[60px] text-left text-[#E40443] text-[18px] font-semibold pt-[10px] pl-[12px] font-montserrat ml-[30px]'>786544<p className='text-[#5B6572] text-[12px] font-medium font-montserrat '>Total Cases</p></div>
+        <div className='w-[150px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] h-[60px] text-left text-[#E40443] text-[18px] font-semibold pt-[10px] pl-[12px] font-montserrat ml-[30px]'>Rs 500000 <p className='text-[#5B6572] text-[12px] font-medium font-montserrat '>Total Earnings</p></div>
+        <div className='w-[150px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] h-[60px] text-left text-[#1A1C1F] text-[18px] font-semibold pt-[10px] pl-[12px] font-montserrat ml-[30px]'>Rs 300000 <p className='text-[#5B6572] text-[12px] font-medium font-montserrat '>This Months Earnings</p></div>
+        <div className='w-[150px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] h-[60px] text-left text-[#1A1C1F] text-[18px] font-semibold pt-[10px] pl-[12px] font-montserrat ml-[30px]'>Rs 200000 <p className='text-[#5B6572] text-[12px] font-medium font-montserrat '>Total Reedemeed</p></div>
         </div>
-        <div className='earninghistory_container_4_2' onClick={toggleFormearn}>
-            <button>Withdraw money</button>
+      </div>
+
+      <div className='flex justify-start items-center mt-[20px] ml-[70px]'>
+        <div className='w-[370px] h-[44px] rounded-[8px] bg-[white] flex justify-start items-center'>
+            <input type="text" name="" id=""placeholder='Amount' className='border-none text-[#5B6572] bg-[white] text-[14px] font-medium font-montserrat flex justify-center items-center'/>
+        </div>
+        <div className='ml-[20px] flex justify-center items-center'>
+            <button className='w-[370px] h-[44px] bg-[#E40443] rounded-[8px] border-none text-[white] flex justify-center items-center text-[14px] font-semibold font-montserrat' onClick={toggleFormearn}>Withdraw money</button>
         </div>
         {formearn && (
-                                                <div className="modal_doctor_earn">
-                                                        <div onClick={toggleFormearn} className="overlay_doctor_earn"></div>
-                                                        <div className="modal_content_doctor_test_earn">
-                                                          <div className='modal_earning_text'>
-                                                          <p>Your <span>Withdrawal</span> request have been submitted .</p>
-                                                          <div className='modal_earning_btn'>
-                                                          <button>Done</button>
+                                                <div className="w-[100vw] h-[100vh] fixed top-0 right-0 left-0 bottom-0">
+                                                        <div onClick={toggleFormearn} className="w-[100vw] h-[100vh] fixed top-0 right-0 left-0 bottom-0"></div>
+                                                        <div className="absolute left-[50%] top-[50%] rounded-[16px] -translate-x-1/2 -translate-y-1/2 bg-[#f1f1f1] py-[14px] px-[28px] rounded-[16px] w-[438px] grid -justify-center items-center bg-[white] h-[200px] ">
+                                                          <div className='w-[378px] grid justify-center items-center '>
+                                                          <p className='text-[#000000] font-montserrat text-[18px] font-medium text-center '>Your <span className='text-[#E40443] font-montserrat text-[18px] font-semibold'>Withdrawal</span> request have been submitted .</p>
+                                                          <div className='flex justify-center items-center '>
+                                                          <button className='flex justify-center items-center bg-[#E40443] border-none rounded-[8px] w-[226px] h-[38px] text-[14px] font-semibold font-montserrat text-[white]'>Done</button>
                                                           </div>
                                                           </div>
         
@@ -84,111 +86,102 @@ export const Earninghistory = () => {
                                                             
 
                                                                 
-                                                            <button className="close_modal_doctor_earn" onClick={toggleFormearn}>
+                                                            <button className="absolute top-[10px] right-[10px] py-[5px] px-[7px]" onClick={toggleFormearn}>
                                                                 CLOSE
                                                             </button>
                                                         </div>
                                                 </div>
                                                 )}
       </div>
-      <div className='earninghistory_earning_container_3'>
-        <div className='earninghistory_earning_container_3_1'>
-          <Link to={"/earning"} className='earning_link'>
-            <div className='earninghistory_earning_container_3_1_left'>History</div>
+
+      <div className='flex justify-between items-center ml-[80px] mr-[70px] border-b-[1px] border-b-solid border-b-[#E1E5E8] h-[32px] mt-[20px]'>
+        <div className='flex justify-start items-center mt-[10px]'>
+        <Link to={"/earning"} className='no-underline'>
+            <div className='text-[1A1C1F]  text-[16px] font-medium font-montserrat'>History</div>
             </Link>
-            <div className='earninghistory_earning_container_3_1_right'>Withdrawls</div>
+            <div className='ml-[20px] text-[#8D98A4] text-[16px] font-medium font-montserrat border-b-[2px] border-b-solid border-b-[#E40443] '>Withdrawls</div>
+            
         </div>
-        <div className='earninghistory_earning_container_3_2'>
-            <div className='earninghistory_earning_3_2_first'>sort by <HiChevronUpDown/></div>
-            <div className='earninghistory_earning_3_2_right'>
-                <div className='earninghistory_earning_3_2_second'>page</div>
-                <div className='earninghistory_earning_3_2_third'>1 <MdOutlineKeyboardArrowDown/></div>
-                <div className='earninghistory_earning_3_2_fourth'>of 10</div>
+        <div className='flex justify-end items-center '>
+            <div className='mr-[20px] flex justify-center items-center text-[#E40443] text-[14px] font-medium font-montserrat'>sort by <HiChevronUpDown/></div>
+            <div className='flex justify-around items-center w-[160px]'>
+                <div className='text-[#333333] text-[14px] font-medium font-montserrat'>page</div>
+                <div className='flex justify-center items-center border-[1px] border-solid border-[#DDDDDD] rounded-[8px] bg-[white] w-[60px]'>1 <MdOutlineKeyboardArrowDown/></div>
+                <div className='text-[#333333] text-[14px] font-medium font-montserrat'>of 10</div>
             </div>
 
         </div>
       </div>
 
-      <div className='earninghistory_labdetails_pharma_detail3_last'>
-          <div className='earninghistory_labdetails_pharma_detail3_last_last_last'>
-          <div className='earninghistory_labdetails_pharma_detail3_last_one'>
+      <div className='flex justify-between w-[1240px] ml-[70px] mr-[40px] items-center rounded-[8px] mt-[10px] bg-[#F4F4F4]'>
+          <div className='mb-[20px] w-[500px] h-[606px]'>
+          <div className='flex justify-between items-center '>
             
 
               
           </div>
-          <div className='earninghistory_labdetails_pharma_detail3_last_one_last'>
-            <div className='earninghistory_labdetails_pharma_detail3_last_one_last_1'>
-              <ul>
-                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li'>Transction #1234</li>
+          <div className='bg-[white] rounded-[16px] p-[32px] mt-[20px] '>
+            <div className='flex justify-between items-center bg-[white] rounded-[8px] border-[1px] border-solid border-[#E3E6E8] mt-[10px] mb-[10px] h-[78px]'>
+              <ul className='ml-[20px]'>
+                <li className='list-none mr-[30px] pt-[5px] text-[14px] font-medium font-montserrat text-[#1A1C1F]'>Transction #1234</li>
                 
-                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li_1'>16 june 2023</li>
+                <li className='list-none mr-[30px] pt-[5px] text-[12px] font-normal font-montserrat text-[#38404A]'>16 june 2023</li>
               </ul>
               <ul>
-                <li><button className='earninghistory_labdetails_pharma_detail3_last_one_last_1_button'>RS 500</button></li>
+                <li className='list-none'><button className='bg-[#F5F6F7] rounded-[40px] border-none text-[#F1614B] text-[12px] font-medium font-montserrat w-[75px] h-[30px] flex justify-center items-center mr-[20px]'>RS 500</button></li>
                 <Link to={""}>
                 
                 </Link>
               </ul>
             </div>
-            <div className='earninghistory_labdetails_pharma_detail3_last_one_last_1'>
-            <ul>
-                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li'>Transction #1234</li>
+            <div className='flex justify-between items-center bg-[white] rounded-[8px] border-[1px] border-solid border-[#E3E6E8] mt-[10px] mb-[10px] h-[78px]'>
+            <ul className='ml-[20px]'>
+                <li className='list-none mr-[30px] pt-[5px] text-[14px] font-medium font-montserrat text-[#1A1C1F]'>Transction #1234</li>
             
-                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li_1'>16 june 2023</li>
+                <li className='list-none mr-[30px] pt-[5px] text-[12px] font-normal font-montserrat text-[#38404A]'>16 june 2023</li>
               </ul>
               <ul>
-                <li><button className='earninghistory_labdetails_pharma_detail3_last_one_last_1_button'>RS 500</button></li>
+                <li className='list-none'><button className='bg-[#F5F6F7] rounded-[40px] border-none text-[#F1614B] text-[12px] font-medium font-montserrat w-[75px] h-[30px] flex justify-center items-center mr-[20px]'>RS 500</button></li>
                 
               </ul>
             </div>
-            <div className='earninghistory_labdetails_pharma_detail3_last_one_last_1'>
-            <ul>
-                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li'>Transction #1234</li>
+            <div className='flex justify-between items-center bg-[white] rounded-[8px] border-[1px] border-solid border-[#E3E6E8] mt-[10px] mb-[10px] h-[78px]'>
+            <ul className='ml-[20px]'>
+                <li className='list-none mr-[30px] pt-[5px] text-[14px] font-medium font-montserrat text-[#1A1C1F]'>Transction #1234</li>
                 
-                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li_1'>16 june 2023</li>
+                <li className='list-none mr-[30px] pt-[5px] text-[12px] font-normal font-montserrat text-[#38404A]'>16 june 2023</li>
               </ul>
               <ul>
-                <li><button className='earninghistory_labdetails_pharma_detail3_last_one_last_1_button'>RS 500</button></li>
+                <li className='list-none'><button className='bg-[#F5F6F7] rounded-[40px] border-none text-[#F1614B] text-[12px] font-medium font-montserrat w-[75px] h-[30px] flex justify-center items-center mr-[20px]'>RS 500</button></li>
                 
               </ul>
             </div>
-            <div className='earninghistory_labdetails_pharma_detail3_last_one_last_1'>
-            <ul>
-                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li'>Transction #1234</li>
+            <div className='flex justify-between items-center bg-[white] rounded-[8px] border-[1px] border-solid border-[#E3E6E8] mt-[10px] mb-[10px] h-[78px]'>
+            <ul className='ml-[20px]'>
+                <li className='list-none mr-[30px] pt-[5px] text-[14px] font-medium font-montserrat text-[#1A1C1F]'>Transction #1234</li>
                 
-                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li_1'>16 june 2023</li>
+                <li className='list-none mr-[30px] pt-[5px] text-[12px] font-normal font-montserrat text-[#38404A]'>16 june 2023</li>
               </ul>
               <ul>
-                <li><button className='earninghistory_labdetails_pharma_detail3_last_one_last_1_button'>RS 500</button></li>
+                <li className='list-none'><button className='bg-[#F5F6F7] rounded-[40px] border-none text-[#F1614B] text-[12px] font-medium font-montserrat w-[75px] h-[30px] flex justify-center items-center mr-[20px]'>RS 500</button></li>
                 
               </ul>
             </div>
-            <div className='earninghistory_labdetails_pharma_detail3_last_one_last_1'>
-            <ul>
-                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li'>Transction #1234</li>
+            <div className='flex justify-between items-center bg-[white] rounded-[8px] border-[1px] border-solid border-[#E3E6E8] mt-[10px] mb-[10px] h-[78px]'>
+            <ul className='ml-[20px]'>
+                <li className='list-none mr-[30px] pt-[5px] text-[14px] font-medium font-montserrat text-[#1A1C1F]'>Transction #1234</li>
                 
-                <li className='earninghistory_labdetails_pharma_detail3_last_one_last_1_li_1'>16 june 2023</li>
+                <li className='list-none mr-[30px] pt-[5px] text-[12px] font-normal font-montserrat text-[#38404A]'>16 june 2023</li>
               </ul>
               <ul>
-                <li><button className='earninghistory_labdetails_pharma_detail3_last_one_last_1_button'>RS 500</button></li>
+                <li className='list-none'><button className='bg-[#F5F6F7] rounded-[40px] border-none text-[#F1614B] text-[12px] font-medium font-montserrat w-[75px] h-[30px] flex justify-center items-center mr-[20px]'>RS 500</button></li>
                 
               </ul>
             </div>
 
             
             <div>
-            <div className='earninghistory_labdetails_pharma_detail3_pagination_pag'>
-                    <a href=''>< PiCaretDoubleLeftBold className='earninghistory_labdetails_pharma_detail3_less_pag-1'/></a>
-                    <a href=''><PiCaretLeftBold className='earninghistory_labdetails_pharma_detail3_less_pag'/></a>
-                    <a href=''className='earninghistory_labdetails_pharma_detail3_anchi_pag_active'>1</a>
-                    <a href=''>2</a>
-                    <a href=''>3</a>
-                    <a href='' >...</a>
-                    <a href='' >10</a>
-                    <a href=''>< PiCaretRightBold className='earninghistory_labdetails_pharma_detail3_less_pag'/></a>
-                    <a href=''>< PiCaretDoubleRightBold className='earninghistory_labdetails_pharma_detail3_les_pag'/></a>
-
-                </div>
+            <Pagination/>
                 </div>
           </div>
           
@@ -197,85 +190,78 @@ export const Earninghistory = () => {
           
 
           
-          <div className='earninghistory_labdetails_pharma_detail3_last_last'>
+          <div className='w-[500px] h-[606px]'>
           
           
-          <div className='earninghistory_labdetails_pharma_detail3_last_one_last_right'>
-            <div className='earninghistory_right_lastdiv'>Withdrawal Status</div>
+          <div className='bg-[white] rounded-[16px] p-[32px] rounded-[10px] '>
+            <div className='text-[18px] font-semibold font-montserrat text-[#1A1C1F]'>Withdrawal Status</div>
 
-            <div className='earninghistory_right_lastdiv_2'>
-                <div className='earninghistory_right_lastdiv_2_left'>
-                    <div className='earninghistory_right_lastdiv_2_left_1'>Withdrawal #1234</div>
-                    <div className='earninghistory_right_lastdiv_2_left_2'>RS 5000</div>
-                    <div className='earninghistory_right_lastdiv_2_left_3'>16,June 2023</div>
+            <div className='flex justify-between items-center h-[102px] mt-[20px]'>
+                <div className='grid justify-start items-center '>
+                    <div className='text-[#1A1C1F] text-[14px] font-medium font-montserrat '>Withdrawal #1234</div>
+                    <div className='text-[#1A1C1F] text-[14px] font-medium font-montserrat mt-[10px]'>RS 5000</div>
+                    <div className='text-[#38404A] text-[12px] font-normal font-montserrat mt-[10px]'>16,June 2023</div>
                 </div>
-                <div className='earninghistory_right_lastdiv_2_right'>
-                    <button>Pending</button>
+                <div className='flex justify-end items-center '>
+                    <button className='bg-[#F5F6F7] w-[85px] h-[30px] rounded-[40px] border-none text-[#F1614B] text-[12px] font-medium font-montserrat  '>Pending</button>
                 </div>
             </div>
+
+                        <div className='  flex gap-[20px] mt-[20px]'>
+                            <div className='flex flex-col items-center'>
+                                <div className='w-[32px] h-[32px] bg-[#3EB655] rounded-[40px] p-[12px] gap-[8px] flex justify-center items-center '><div><IoCheckmark className='text-[white]' /></div></div>
+                                
+                                <div className='h-full border border-dashed border-[#3EB655]'></div>
+                            </div>
+                            <div className=' flex justify-center items-center '>
+                                    <div className='grid justify-start mb-[20px]'>
+                                        <h4 className='text-[18px] font-medium font-montserrat text-[#1A1C1F] '>Payment Request Generated</h4>
+                                        <p className='text-[#5B6572] text-[14px] font-medium font-montserrat'>17, June 2023 | 08:00 AM</p>
+
+                                    </div>
+                            </div>
+                        </div>
+                        <div className='  flex gap-[20px] '>
+                            <div className='flex flex-col items-center'>
+                                <div className='w-[32px] h-[32px] bg-[#3EB655] rounded-[40px] p-[12px] gap-[8px] flex justify-center items-center '><div><IoCheckmark className='text-[white]' /></div></div>
+                                <div className='h-full border border-dashed border-[#3EB655]'></div>
+                            </div>
+                            <div className=' flex justify-center items-center '>
+                                    <div className='grid justify-start mb-[20px]'>
+                                        <h4 className='text-[18px] font-medium font-montserrat text-[#1A1C1F] '>Payment Sent</h4>
+                                        <p className='text-[#5B6572] text-[14px] font-medium font-montserrat'>17 june, 2023</p>
+
+                                    </div>
+                            </div>
+                        </div>
+                        <div className='  flex gap-[20px] '>
+                            <div className='flex flex-col items-center'>
+                                <div className='w-[32px] h-[32px] bg-[#3EB655] rounded-[40px] p-[12px] gap-[8px] flex justify-center items-center text-[white]'>03</div>
+                                <div className='h-full border border-dashed border-[#EEF0F3]'></div>
+                            </div>
+                            <div className=' flex justify-center items-center '>
+                                    <div className='grid justify-start mb-[20px]'>
+                                        <h4 className='text-[18px] font-medium font-montserrat text-[#1A1C1F] '>In Process</h4>
+                                        <p className='text-[#5B6572] text-[14px] font-medium font-montserrat'>17 June, 2023</p>
+
+                                    </div>
+                            </div>
+                        </div>
+                        <div className='  flex gap-[20px] '>
+                            <div className='flex flex-col items-center'>
+                                <div className='w-[32px] h-[32px] bg-[#EEF0F3] rounded-[40px] p-[12px] gap-[8px] flex justify-center items-center text-[#5B6572]'>04</div>
+                                <div className=' border border-dashed border-[#EEF0F3]'></div>
+                            </div>
+                            <div className=' flex justify-center items-center '>
+                                    <div className='grid justify-start mb-[20px]'>
+                                        <h4 className='text-[18px] font-medium font-montserrat text-[#1A1C1F] '>Payment Credit</h4>
+                                        <p className='text-[#5B6572] text-[14px] font-medium font-montserrat'>Remaining</p>
+
+                                    </div>
+                            </div>
+                        </div>
 
             
-
-            <div className='earninghistory_right_lastdiv_3'>
-                <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para'>
-                        <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para_left'>
-                            <div className='earninghistory_lab_progress'>
-                              <span className='earninghistory_lab_indicator'></span>
-                            </div>
-                        
-                            <div className='earninghistory_lab_pharmabooking_doctor_case_detail_container_1'><div><IoCheckmark className='earninghistory_lab_pharmabooking_doctor_check_mark' /></div></div>
-                            <div className='earninghistory_lab_pharmabooking_doctor_case_detail_container_4'><div><IoCheckmark className='earninghistory_lab_pharmabooking_doctor_check_mark' /></div></div>
-                            
-                            <div className='earninghistory_lab_pharmabooking_doctor_case_detail_container_2'>04</div>
-                            <div className='earninghistory_lab_pharmabooking_doctor_case_detail_container_3'>03</div>
-                            
-                            
-                    
-                        </div>
-                       
-                    <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para_right'>
-
-                        <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para_right_5'>
-                                <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para_right_2_up'>
-                                    <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para_content_2'>
-                                        <h4>Lab Test Details</h4>
-                                        <p>Assigned</p>
-
-                                    </div>
-                                </div>
-                        </div>
-                        <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para_right_5'>
-                                <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para_right_2_up'>
-                                    <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para_content_2'>
-                                        <h4>Lab Test Details</h4>
-                                        <p>Assigned</p>
-
-                                    </div>
-                                </div>
-                        </div>
-                        <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para_right_5'>
-                                <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para_right_2_up'>
-                                    <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para_content_2'>
-                                        <h4>Service Started</h4>
-                                        <p>18, June 2023</p>
-
-                                    </div>
-                                </div>
-                        </div>
-                        <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para_right_5'>
-                                <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para_right_2_up'>
-                                    <div className='earninghistory_lab_pharmabooking_doctor_case_detail_para_content_2'>
-                                        <h4>Completed</h4>
-                                        <p>18, June 2023</p>
-
-                                    </div>
-                                </div>
-                        </div>
-                        
-                    </div>
-                </div>
-
-            </div>
             
             
             
@@ -288,7 +274,8 @@ export const Earninghistory = () => {
 
           </div>
           </div>
-        </div>
+          </div>
+
     </div>
     </>
   )

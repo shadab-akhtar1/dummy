@@ -17,7 +17,7 @@ const Menu = [
             {
                 name:"Completed",
                 color:"#41B079",
-                colors:"",
+                colors:"#F4F4F4",
             }
         ]
     },
@@ -39,7 +39,7 @@ const Menu = [
             {
                 name:"Completed",
                 color:"#41B079",
-                colors:"",
+                colors:"#F4F4F4",
             }
         ]
     },
@@ -61,7 +61,7 @@ const Menu = [
             {
                 name:"Completed",
                 color:"#41B079",
-                colors:"",
+                colors:"#F4F4F4",
             }
         ]
     },

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Adddha.css';
+import './Blockdha.css';
 import Weblogo from "../Assets/Dooper Logo 1500x1500 2.svg";
 import Footers from './Footer';
 import background from "../Assets/image 219.jpg";
@@ -7,57 +7,57 @@ import { Link } from "react-router-dom";
 
 export const Adddha = () => {
   return (
-    <div className='hero_adddha_main'>
-        <div className='adddha_add'>
+    <div className='hero_block'>
+        <div className='bg-[#FFFFFF] w-[550px] absolute mt-[20px] left-[28%] rounded-[16px]'>
                     
-            <div className='adddha_header_add'>
-                    <div className='progress'>
-                        <span className='indicator'></span>
+            <div className='w-[496px] ml-[25px]'>
+                    <div className='absolute h-[4px] rounded-[6px] w-[496px] bg-[#EEF0F3] top-[35px]'>
+                        <span className='absolute h-[100%] w-[13%] bg-[#E40443]'></span>
                     </div>
-                <div className='adddha_header_bar_add'>
+                <div className='w-[100%] flex justify-between items-center mt-[20px] relative'>
                 
-                    <span className='adddha_header_bar_1_add'>01</span>
-                    <span className='adddha_header_bar_2_add'>02</span>
-                    <span className='adddha_header_bar_3_add'>03</span>
+                    <span className='w-[32px] h-[32px] rounded-[50%] bg-[#E40443] text-[white] text-[10px] font-semibold flex justify-center items-center '>01</span>
+                    <span className='w-[32px] h-[32px] rounded-[50%] bg-[#EEF0F3] text-[black] text-[10px] font-semibold flex justify-center items-center'>02</span>
+                    <span className='w-[32px] h-[32px] rounded-[50%] bg-[#EEF0F3] text-[black] text-[10px] font-semibold flex justify-center items-center'>03</span>
                     
                 </div>
                 
 
             </div>
             
-            <div className='adddha_mid_add'>
-                <div> <h2>Basic Details</h2></div>
-            <form action="" className='adddha_form_add'>
-                <div className='adddha_form_fill_add'>
-                    <label className='adddha_form_fill_labi_add'>Name</label>
-                    <input  type="text" className='adddha_form_fill_inp_add' placeholder='Enter Full Name'/>
+            <div className='w-[500px] ml-[20px] mt-[10px]'>
+                <div> <h2 className='text-center text-[25px] font-semibold text-[#1A1C1F] font-montserrat'>Basic Details</h2></div>
+            <form action="" className='mt-[-15px]'>
+                <div className='w-[500px] items-center mb-[5px]'>
+                    <label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat'>Name</label>
+                    <input  type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat ' placeholder='Enter Full Name'/>
                 </div>
-                <div className='adddha_form_fill_add'>
-                    <label className='adddha_form_fill_labi_add'>Gender</label>
+                <div className='w-[500px] items-center mb-[5px]'>
+                    <label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat'>Gender</label>
                     
-                    <select name="" id="" className='adddha_form_fill_inp_add' placeholder='Male'>
+                    <select name="" id="" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat' placeholder='Male'>
                         <option value="">Male</option>
                     </select>
                 </div>
-                <div className='adddha_form_fill_add'>
-                    <label className='adddha_form_fill_labi_add'>Mobile</label>
-                    <input type="text" className='adddha_form_fill_inp_add' placeholder='Mobile Number'/>
+                <div className='w-[500px] items-center mb-[5px]'>
+                    <label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat'>Mobile</label>
+                    <input type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat' placeholder='Mobile Number'/>
                 </div>
-                <div className='adddha_form_fill_add'>
-                    <label className='adddha_form_fill_labi_add'>Address</label>
-                    <input type="text" className='adddha_form_fill_inp_add' placeholder='Address Line 1'/><br />
-                    <input type="text" className='adddha_form_fill_inp_add'placeholder='Address Line 2'/><br />
-                    <input type="text" className='adddha_form_fill_inp_add' placeholder='City'/><br />
-                    <input type="text" className='adddha_form_fill_inp_add' placeholder='State'/>
+                <div className='w-[500px] items-center mb-[5px]'>
+                    <label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat'>Address</label>
+                    <input type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat' placeholder='Address Line 1'/><br />
+                    <input type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat'placeholder='Address Line 2'/><br />
+                    <input type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat' placeholder='City'/><br />
+                    <input type="text" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat' placeholder='State'/>
                 </div>
-                <div className='adddha_form_fill_add'>
-                    <label className='adddha_form_fill_labi_add'>Qualification</label>
-                    <select name="" id="" className='adddha_form_fill_inp_add' placeholder='Select'>
+                <div className='w-[500px] items-center mb-[5px]'>
+                    <label className='w-[500px] h-[14px] text-[#8D98A4] text-[12px] font-medium font-montserrat'>Qualification</label>
+                    <select name="" id="" className='w-[500px] h-[40px] rounded-[8px] border-[1px] border-solid border-[#EEF0F3] mb-[2px] text-[#5B6572] text-[14px] font-medium font-montserrat' placeholder='Select'>
                         <option value="">Select</option>
                     </select>
                 </div>
                 <Link to={"/adddhaupload"} className='adddhaupload_link'> 
-                <button className='adddha_btn_add'>Next Step</button>
+                <button className='w-[500px] h-[40px] rounded-[8px] bg-[#E40443] text-[white] text-[12px] font-semibold font-montserrat mt-[20px] mb-[20px] border-none'>Next Step</button>
                 </Link>
             </form>
             </div>

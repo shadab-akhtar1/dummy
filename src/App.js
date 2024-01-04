@@ -13,14 +13,10 @@ import Adddhabank from './Components/Dhamanagement/Adddhabank.jsx';
 import Adddhasuccess from './Components/Dhamanagement/Adddhasuccess.jsx';
 import Blockdha from './Components/Dhamanagement/Blockdha.jsx';
 import Blockdhasuccess from './Components/Dhamanagement/Blockdhasuccess.jsx';
-import Dhadocumentedit from './Components/Dhamanagement/Dhadocumentedit.jsx';
-import Dhabankinfoedit from './Components/Dhamanagement/Dhabankinfoedit.jsx';
 import Doctormanagement from './Components/Doctormanagement/Doctormanagement.jsx';
 import Doctorrequests from './Components/Doctormanagement/Doctorrequests.jsx';
 import Doctordetails from './Components/Doctormanagement/Doctordetails.jsx';
 import Doctordetailsbasic from './Components/Doctormanagement/Doctordetailsbasic.jsx';
-import Doctordocument from './Components/Doctormanagement/Doctordocument.jsx';
-import Doctorbank from './Components/Doctormanagement/Doctorbank.jsx';
 import Adddoctor from './Components/Doctormanagement/Adddoctor.jsx';
 import Adddoctorupload from './Components/Doctormanagement/Adddoctorupload.jsx';
 import Adddoctorbank from './Components/Doctormanagement/Adddoctorbank.jsx';
@@ -34,10 +30,7 @@ import Doctorpending from './Components/Doctormanagement/Doctorpending.jsx';
 import Pharmacymanagement from './Components/Pharmacy/Pharmacymanagement.jsx';
 import Pharmacymanagementmain from './Components/Pharmacy/Pharmacymanagementmain.jsx';
 import Pharmacyrequest from './Components/Pharmacy/Pharmacyrequest.jsx';
-import Pharmamedicine from './Components/Pharmacy/Pharmamedicine.jsx';
 import Pharmabasicedit from './Components/Pharmacy/Pharmabasicedit.jsx';
-import Pharmadocument from './Components/Pharmacy/Pharmadocument.jsx';
-import Pharmabankinfo from './Components/Pharmacy/Pharmabankinfo.jsx';
 import Pharmadetail from './Components/Pharmacy/Pharmadetail.jsx';
 import Addpharma from './Components/Pharmacy/Addpharma.jsx';
 import Addpharmaupload from './Components/Pharmacy/Addpharmaupload.jsx';
@@ -52,8 +45,6 @@ import Pharmabookingvaccinedone from './Components/Pharmacy/Pharmabookingvaccine
 import Labmanagement from './Components/Labsmanagement/Labmanagement.jsx';
 import Labdetails from './Components/Labsmanagement/Labdetails.jsx';
 import Labdetailedit from './Components/Labsmanagement/Labdetailedit.jsx';
-import Labdetaildocument from './Components/Labsmanagement/Labdetaildocument.jsx';
-import Labdetailbank from './Components/Labsmanagement/Labdetailbank.jsx';
 import Addlab from './Components/Labsmanagement/Addlab.jsx';
 import Addlabupload from './Components/Labsmanagement/Addlabupload.jsx';
 import Addlabuploads from './Components/Labsmanagement/Addlabuploads.jsx';
@@ -79,8 +70,6 @@ import Notification from './Components/Notification/Notification.jsx';
 import Notificationcomplete from './Components/Notification/Notificationcomplete.jsx';
 import Profile from './Components/Profile/Profile.jsx';
 import Profilebasic from './Components/Profile/Profilebasic.jsx';
-import Profiledocument from './Components/Profile/Profiledocument.jsx';
-import Profilebank from './Components/Profile/Profilebank.jsx';
 import Earning from './Components/Earnings/Earning.jsx';
 import Earninghistory from './Components/Earnings/Earninghistory.jsx';
 import Earningdha from './Components/Earnings/Earningdha.jsx';
@@ -162,14 +151,10 @@ function App() {
       <Route path='/adddhasuccess' element={<Adddhasuccess/>} />
        <Route path='/blockdha' element={<Blockdha/>} />
        <Route path='/blockdhasuccess' element={<Blockdhasuccess/>} />
-       <Route path='/dhadocumentedit' element={<Dhadocumentedit/>} />
-       <Route path='/dhabankinfoedit' element={<Dhabankinfoedit/>} />
        <Route path='/doctormanagement' element={<Doctormanagement/>}/>
         <Route path='/doctorrequests' element={<Doctorrequests/>}/>
         <Route path='/doctordetails' element={<Doctordetails/>}/>
         <Route path='/doctordetailsbasic' element={<Doctordetailsbasic/>}/>
-         <Route path='/doctordocument' element={<Doctordocument/>}/>
-         <Route path='/doctorbank' element={<Doctorbank/>}/>
          <Route path='/adddoctor' element={<Adddoctor/>}/>
          <Route path='/adddoctor1' element={<Adddoctor1/>}/>
          <Route path='/adddoctorupload' element={<Adddoctorupload/>}/>
@@ -183,10 +168,8 @@ function App() {
         <Route path='/pharmacymanagement' element={<Pharmacymanagement/>}/>
         <Route path='/pharmacymanagementmain' element={<Pharmacymanagementmain/>}/>
         <Route path='/pharmacyrequest' element={<Pharmacyrequest/>}/>
-        <Route path='/pharmamedicine' element={<Pharmamedicine/>}/>
+        
         <Route path='/pharmabasicedit' element={<Pharmabasicedit/>}/>
-        <Route path='/pharmadocument' element={<Pharmadocument/>}/>
-        <Route path='/pharmabankinfo' element={<Pharmabankinfo/>}/>
         <Route path='/pharmadetail' element={<Pharmadetail/>}/>
         <Route path='/addpharma' element={<Addpharma/>}/>
         <Route path='/addpharmaupload' element={<Addpharmaupload/>}/>
@@ -201,8 +184,6 @@ function App() {
         <Route path='/labmanagement' element={<Labmanagement/>}/>
         <Route path='/labdetails' element={<Labdetails/>}/>
         <Route path='/labdetailedit' element={<Labdetailedit/>}/>
-        <Route path='/labdetaildocument' element={<Labdetaildocument/>}/>
-        <Route path='/labdetailbank' element={<Labdetailbank/>}/>
         <Route path='/addlab' element={<Addlab/>}/>
         <Route path='/addlabupload' element={<Addlabupload/>}/>
         <Route path='/addlabuploads' element={<Addlabuploads/>}/>
@@ -228,8 +209,6 @@ function App() {
         <Route path='/notificationcomplete' element={<Notificationcomplete/>}/>
         <Route path='/profile' element={<Profile/>}/>
         <Route path='/profilebasic' element={<Profilebasic/>}/>
-        <Route path='/profiledocument' element={<Profiledocument/>}/>
-        <Route path='/profilebank' element={<Profilebank/>}/>
         <Route path='/earning' element={<Earning/>}/>
         <Route path='/earningdha' element={<Earningdha/>}/>
         <Route path='/earningdoctor' element={<Earningdoctor/>}/>

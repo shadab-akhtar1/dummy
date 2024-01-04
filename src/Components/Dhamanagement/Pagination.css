@@ -1,0 +1,41 @@
+.pagination_manage {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination_manage a {
+    background-color: white;
+    color: linear-gradient(0deg, #F1F1F1, #F1F1F1), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    text-decoration: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: inline-block;
+    border-radius: 32px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #8D98A4;
+    border: 1px solid #F1F1F1;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.pagination_manage a.anchi_active {
+    background-color: #E40443;
+    font-weight: 400;
+    color: white;
+}
+
+.Link {
+    color: #E40443;
+}
+
+.less {
+    margin-right: 3px;
+    margin-left: 3px;
+    color: black;
+}
